@@ -1,4 +1,14 @@
 {
   "components": {
+    "f0e28a8e-c995-43a7-8859-a1084b68f051": {
+      "name": "Logo",
+      "path": "components/Logo/Logo.figma.json",
+      "version": 1
+    },
+    "9c0333e7-9fd9-4ffb-b6da-3ce4ebb49bee": {
+      "name": "UI kit components",
+      "path": "components/UI_kit_components/UI_kit_components.figma.json",
+      "version": 1
+    }
   }
 }
