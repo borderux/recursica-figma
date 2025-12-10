@@ -5,6 +5,28 @@
       "path": "components/Icons/Icons.figma.json",
       "version": 1,
       "publishDate": "2025-12-10T06:26:33.208Z"
+    },
+    "f2e98aa8-aef2-4433-8fe5-773f0262ddab": {
+      "name": "✅ Accordion",
+      "path": "components/Accordion/Accordion.figma.json",
+      "version": 1,
+      "publishDate": "2025-12-10T18:26:42.025Z"
+    },
+    "2fb7e88b-4932-4e6a-9399-5e17cd3572ba": {
+      "name": "UI kit components",
+      "path": "components/UI_kit_components/UI_kit_components.figma.json",
+      "version": 1,
+      "publishDate": "2025-12-10T18:26:42.026Z"
+    },
+    "2df95ba7-e7a2-4748-9b65-5e2762cb176b": {
+      "name": "Logo",
+      "path": "components/Logo/Logo.figma.json",
+      "version": 1
+    },
+    "60e10658-76c7-44c1-87de-eacb2d68e930": {
+      "name": "✹ Icons",
+      "path": "components/Icons/Icons.figma.json",
+      "version": 1
     }
   }
 }
