@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-11T15:15:11.604Z",
+    "publishDate": "2025-12-15T22:38:23.897Z",
     "history": {
       "1": {
-        "message": "First relase",
-        "date": "2025-12-11T15:15:11.604Z"
+        "message": "New version",
+        "date": "2025-12-15T22:38:23.897Z"
       }
     }
   },
@@ -711,7 +711,7 @@
       ],
       "cPage": "Logo",
       "compG": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-      "cVers": 0
+      "cVers": 1
     },
     "1": {
       "instT": "normal",

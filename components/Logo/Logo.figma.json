@@ -1,12 +1,18 @@
 {
   "metadata": {
-    "exportedAt": "2025-12-11T15:14:48.663Z",
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 0,
+    "version": 1,
     "name": "Logo",
-    "pluginVersion": "1.0.0"
+    "pluginVersion": "1.0.0",
+    "publishDate": "2025-12-15T22:38:23.897Z",
+    "history": {
+      "1": {
+        "message": "Updated with newest JSON version",
+        "date": "2025-12-15T22:38:23.897Z"
+      }
+    }
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -477,7 +483,7 @@
       "cProp": {
         "Has link#3042:2": {
           "type": 25,
-          "value": false
+          "value": true
         },
         "Component name#3041:0": {
           "type": 2,
@@ -487,7 +493,7 @@
       "path": [],
       "cPage": "UI kit components",
       "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-      "cVers": 0
+      "cVers": 1
     }
   },
   "pageData": {
@@ -518,8 +524,8 @@
         "name": "Logo",
         "x": 233,
         "y": -199,
-        "w": 184,
-        "h": 411,
+        "w": 243,
+        "h": 439,
         "fills": [
           {
             "type": 15,
@@ -578,8 +584,8 @@
             "name": ".UI kit / Page header",
             "x": 40,
             "y": 40,
-            "w": 102,
-            "h": 82,
+            "w": 163,
+            "h": 110,
             "stkAl": "INSIDE",
             "bndVar": {
               "itmSp": {
@@ -596,7 +602,7 @@
             "id": "2476:2480",
             "name": "Logo",
             "x": 40,
-            "y": 162,
+            "y": 190,
             "w": 104,
             "h": 209,
             "strks": [
