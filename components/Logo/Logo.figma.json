@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-15T22:38:23.897Z",
+    "publishDate": "2025-12-16T04:26:07.441Z",
     "history": {
       "1": {
-        "message": "Updated with newest JSON version",
-        "date": "2025-12-15T22:38:23.897Z"
+        "message": "Latest version",
+        "date": "2025-12-16T04:26:07.441Z"
       }
     }
   },
@@ -94,7 +94,9 @@
     "rotat": "rotation",
     "h": "height",
     "w": "width",
-    "libNm": "libraryName"
+    "libNm": "libraryName",
+    "cnsHr": "constraintHorizontal",
+    "cnsVr": "constraintVertical"
   },
   "collections": {
     "0": {
@@ -646,6 +648,8 @@
                     "name": "Subtract",
                     "w": 64.04314422607422,
                     "h": 43.026859283447266,
+                    "cnsHr": "SCALE",
+                    "cnsVr": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -703,6 +707,8 @@
                     "name": "Subtract",
                     "w": 64.04314422607422,
                     "h": 43.026859283447266,
+                    "cnsHr": "SCALE",
+                    "cnsVr": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -760,6 +766,8 @@
                     "name": "Subtract",
                     "w": 64.04314422607422,
                     "h": 43.026859283447266,
+                    "cnsHr": "SCALE",
+                    "cnsVr": "SCALE",
                     "fills": [
                       {
                         "type": 15,
