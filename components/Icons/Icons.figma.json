@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-12T23:12:40.371Z",
+    "publishDate": "2025-12-16T04:21:26.456Z",
     "history": {
       "1": {
-        "message": "Update version with new publishing code",
-        "date": "2025-12-12T23:12:40.371Z"
+        "message": "Latest version",
+        "date": "2025-12-16T04:21:26.456Z"
       }
     }
   },
@@ -241,6 +241,8 @@
                     "y": 2.25,
                     "w": 16.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -314,6 +316,8 @@
                     "y": 2.25,
                     "w": 16.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -416,6 +420,8 @@
                     "y": 2.997802734375,
                     "w": 19.53122329711914,
                     "h": 18.004465103149414,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -493,6 +499,8 @@
                     "y": 2.997802734375,
                     "w": 19.53122329711914,
                     "h": 18.004465103149414,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -599,6 +607,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -676,6 +686,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -782,6 +794,8 @@
                     "y": 2.25,
                     "w": 16.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -855,6 +869,8 @@
                     "y": 2.25,
                     "w": 16.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -957,6 +973,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1034,6 +1052,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1113,6 +1133,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1159,6 +1181,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1232,6 +1256,8 @@
                     "y": 4.4998779296875,
                     "w": 16.500080108642578,
                     "h": 15.000083923339844,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1278,6 +1304,8 @@
                     "y": 4.4998779296875,
                     "w": 16.500080108642578,
                     "h": 15.000083923339844,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1380,6 +1408,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1457,6 +1487,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1530,6 +1562,8 @@
                     "y": 7.5,
                     "w": 16.5,
                     "h": 9,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1576,6 +1610,8 @@
                     "y": 7.5,
                     "w": 16.5,
                     "h": 9,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1651,6 +1687,8 @@
                     "y": 3.749882936477661,
                     "w": 15.00006103515625,
                     "h": 16.500232696533203,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1725,6 +1763,8 @@
                     "y": 3.7687082290649414,
                     "w": 15.018047332763672,
                     "h": 16.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1802,6 +1842,8 @@
                     "y": 3.749882936477661,
                     "w": 15.000234603881836,
                     "h": 16.500059127807617,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1876,6 +1918,8 @@
                     "y": 3.7687082290649414,
                     "w": 14.980631828308105,
                     "h": 16.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1953,6 +1997,8 @@
                     "y": 3.75,
                     "w": 9,
                     "h": 16.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -1999,6 +2045,8 @@
                     "y": 3.75,
                     "w": 9,
                     "h": 16.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2074,6 +2122,8 @@
                     "y": 3.75,
                     "w": 9,
                     "h": 16.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2120,6 +2170,8 @@
                     "y": 3.75,
                     "w": 9,
                     "h": 16.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2195,6 +2247,8 @@
                     "y": 7.5,
                     "w": 16.5,
                     "h": 9,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2241,6 +2295,8 @@
                     "y": 7.5,
                     "w": 16.5,
                     "h": 9,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2316,6 +2372,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2366,6 +2424,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2447,6 +2507,8 @@
                     "y": 10.5,
                     "w": 15,
                     "h": 3,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2501,6 +2563,8 @@
                     "y": 10.5,
                     "w": 15,
                     "h": 3,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2584,6 +2648,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2638,6 +2704,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2711,6 +2779,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2755,6 +2825,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2842,6 +2914,8 @@
                     "y": 3,
                     "w": 21,
                     "h": 18,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2888,6 +2962,8 @@
                     "y": 3,
                     "w": 21,
                     "h": 18,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -2965,6 +3041,8 @@
                     "y": 3,
                     "w": 19.5,
                     "h": 17.99972915649414,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3010,6 +3088,8 @@
                     "y": 3,
                     "w": 19.5,
                     "h": 17.999866485595703,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3089,6 +3169,8 @@
                     "y": 1.9659425020217896,
                     "w": 21,
                     "h": 19.78400993347168,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3135,6 +3217,8 @@
                     "y": 2.1213226318359375,
                     "w": 21,
                     "h": 19.628677368164062,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3214,6 +3298,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3268,6 +3354,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3341,6 +3429,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3387,6 +3477,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3462,6 +3554,8 @@
                     "y": 11.25,
                     "w": 15.5,
                     "h": 1.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3508,6 +3602,8 @@
                     "y": 11.25,
                     "w": 15.5,
                     "h": 1.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3583,6 +3679,8 @@
                     "y": 1.5,
                     "w": 20.250001907348633,
                     "h": 20.24999237060547,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3633,6 +3731,8 @@
                     "y": 1.5,
                     "w": 20.25,
                     "h": 20.2499942779541,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3716,6 +3816,8 @@
                     "y": 3.75,
                     "w": 16.5,
                     "h": 16.500001907348633,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3762,6 +3864,8 @@
                     "y": 3.75,
                     "w": 16.5,
                     "h": 16.500001907348633,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3837,6 +3941,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3891,6 +3997,8 @@
                     "y": 2.25,
                     "w": 19.5,
                     "h": 19.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -3964,6 +4072,8 @@
                     "y": 5.25,
                     "w": 13.5,
                     "h": 13.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
@@ -4010,6 +4120,8 @@
                     "y": 5.25,
                     "w": 13.5,
                     "h": 13.5,
+                    "constraintHorizontal": "SCALE",
+                    "constraintVertical": "SCALE",
                     "fills": [
                       {
                         "type": 15,
