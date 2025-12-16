@@ -1,0 +1,2810 @@
+{
+  "metadata": {
+    "exportFormatVersion": "1.0.0",
+    "figmaApiVersion": "1.0.0",
+    "guid": "a87634d1-5c9b-440e-ab77-fa40f093325e",
+    "version": 1,
+    "name": "✅ Badge ",
+    "pluginVersion": "1.0.0",
+    "publishDate": "2025-12-16T22:15:31.600Z",
+    "history": {
+      "1": {
+        "message": "New version",
+        "date": "2025-12-16T22:15:31.600Z"
+      }
+    }
+  },
+  "stringTable": {
+    "colNm": "collectionName",
+    "colId": "collectionId",
+    "colGu": "collectionGuid",
+    "modes": "modes",
+    "varNm": "variableName",
+    "varTy": "variableType",
+    "vByMd": "valuesByMode",
+    "_colRef": "_colRef",
+    "_varRef": "_varRef",
+    "_insRef": "_instanceRef",
+    "instT": "instanceType",
+    "compN": "componentName",
+    "cSetN": "componentSetName",
+    "cNode": "componentNodeId",
+    "compG": "componentGuid",
+    "cVers": "componentVersion",
+    "cPage": "componentPageName",
+    "varPr": "variantProperties",
+    "cProp": "componentProperties",
+    "rLibN": "remoteLibraryName",
+    "rLibK": "remoteLibraryKey",
+    "path": "path",
+    "struc": "structure",
+    "bndVar": "boundVariables",
+    "stkAl": "strokeAlign",
+    "stkWt": "strokeWeight",
+    "stkCp": "strokeCap",
+    "stkJn": "strokeJoin",
+    "fillG": "fillGeometry",
+    "strkG": "strokeGeometry",
+    "windR": "windingRule",
+    "layMd": "layoutMode",
+    "padL": "paddingLeft",
+    "padR": "paddingRight",
+    "padT": "paddingTop",
+    "padB": "paddingBottom",
+    "itmSp": "itemSpacing",
+    "clipC": "clipsContent",
+    "corR": "cornerRadius",
+    "pAxSz": "primaryAxisSizingMode",
+    "cAxSz": "counterAxisSizingMode",
+    "pAxAl": "primaryAxisAlignItems",
+    "cAxAl": "counterAxisAlignItems",
+    "cAxSp": "counterAxisSpacing",
+    "txtAr": "textAutoResize",
+    "letSp": "letterSpacing",
+    "linHt": "lineHeight",
+    "txtAh": "textAlignHorizontal",
+    "txtAv": "textAlignVertical",
+    "txtDc": "textDecoration",
+    "fontN": "fontName",
+    "fontS": "fontSize",
+    "fontW": "fontWeight",
+    "fontF": "fontFamily",
+    "prefV": "preferredValues",
+    "shwSh": "showShadowBehindNode",
+    "botLR": "bottomLeftRadius",
+    "botRR": "bottomRightRadius",
+    "topLR": "topLeftRadius",
+    "layGr": "layoutGrow",
+    "offX": "offsetX",
+    "offY": "offsetY",
+    "maxW": "maxWidth",
+    "minW": "minWidth",
+    "parSp": "paragraphSpacing",
+    "parIn": "paragraphIndent",
+    "lstOp": "listOptions",
+    "dashP": "dashPattern",
+    "blnMd": "blendMode",
+    "chars": "characters",
+    "child": "children",
+    "effct": "effects",
+    "fills": "fills",
+    "strks": "strokes",
+    "visbl": "visible",
+    "opcty": "opacity",
+    "rotat": "rotation",
+    "h": "height",
+    "w": "width",
+    "libNm": "libraryName",
+    "cnsHr": "constraintHorizontal",
+    "cnsVr": "constraintVertical"
+  },
+  "collections": {
+    "0": {
+      "colNm": "Layer",
+      "modes": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000001"
+    },
+    "1": {
+      "colNm": "Theme",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000003"
+    },
+    "2": {
+      "colNm": "Tokens",
+      "modes": [
+        "Mode 1"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000002"
+    }
+  },
+  "variables": {
+    "0": {
+      "varNm": "color/gray/000",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9882352948188782,
+          "g": 0.9882352948188782,
+          "b": 0.9882352948188782,
+          "a": 1
+        }
+      }
+    },
+    "1": {
+      "varNm": "palette/white",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 0
+        },
+        "Dark": {
+          "_varRef": 0
+        }
+      }
+    },
+    "2": {
+      "varNm": "color/gray/1000",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.03921568766236305,
+          "g": 0.03921568766236305,
+          "b": 0.03921568766236305,
+          "a": 1
+        }
+      }
+    },
+    "3": {
+      "varNm": "palette/black",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 2
+        },
+        "Dark": {
+          "_varRef": 2
+        }
+      }
+    },
+    "4": {
+      "varNm": "layer/layer-0/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 1
+        },
+        "Dark": {
+          "_varRef": 3
+        }
+      }
+    },
+    "5": {
+      "varNm": "color/gray/050",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9755661487579346,
+          "g": 0.9751049876213074,
+          "b": 0.9751049876213074,
+          "a": 1
+        }
+      }
+    },
+    "6": {
+      "varNm": "color/gray/900",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1349721997976303,
+          "g": 0.1349721997976303,
+          "b": 0.1349721997976303,
+          "a": 1
+        }
+      }
+    },
+    "7": {
+      "varNm": "palette/neutral/050/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 5
+        },
+        "Dark": {
+          "_varRef": 6
+        }
+      }
+    },
+    "8": {
+      "varNm": "global/form/field/color/background",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 4
+        },
+        "1": {
+          "_varRef": 7
+        },
+        "2": {
+          "_varRef": 7
+        },
+        "3": {
+          "_varRef": 7
+        }
+      }
+    },
+    "9": {
+      "varNm": "size/default",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 8
+      }
+    },
+    "10": {
+      "varNm": "dimension/default",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 9
+        },
+        "Dark": {
+          "_varRef": 9
+        }
+      }
+    },
+    "11": {
+      "varNm": "color/salmon/400",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.8666666746139526,
+          "g": 0.1725490242242813,
+          "b": 0.33725491166114807,
+          "a": 1
+        }
+      }
+    },
+    "12": {
+      "varNm": "color/salmon/500",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.8235294222831726,
+          "g": 0.11764705926179886,
+          "b": 0.2862745225429535,
+          "a": 1
+        }
+      }
+    },
+    "13": {
+      "varNm": "palette/palette-1/400/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 11
+        },
+        "Dark": {
+          "_varRef": 12
+        }
+      }
+    },
+    "14": {
+      "varNm": "palette/palette-1/500/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 12
+        },
+        "Dark": {
+          "_varRef": 11
+        }
+      }
+    },
+    "15": {
+      "varNm": "palette/palette-1/default/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 13
+        },
+        "Dark": {
+          "_varRef": 14
+        }
+      }
+    },
+    "16": {
+      "varNm": "layer/layer-alternative/primary-color/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 15
+        },
+        "Dark": {
+          "_varRef": 15
+        }
+      }
+    },
+    "17": {
+      "varNm": "badge/color/background-primary",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 16
+        },
+        "1": {
+          "_varRef": 16
+        },
+        "2": {
+          "_varRef": 16
+        },
+        "3": {
+          "_varRef": 16
+        }
+      }
+    },
+    "18": {
+      "varNm": "badge/size/default-height",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": 16,
+        "1": 16,
+        "2": 16,
+        "3": 16
+      }
+    },
+    "19": {
+      "varNm": "size/2x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 16
+      }
+    },
+    "20": {
+      "varNm": "dimension/border-radius/lg",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 19
+        },
+        "Dark": {
+          "_varRef": 19
+        }
+      }
+    },
+    "21": {
+      "varNm": "badge/size/border-radius",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 20
+        },
+        "1": {
+          "_varRef": 20
+        },
+        "2": {
+          "_varRef": 20
+        },
+        "3": {
+          "_varRef": 20
+        }
+      }
+    },
+    "22": {
+      "varNm": "badge/size/default-min-width",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": 16,
+        "1": 16,
+        "2": 16,
+        "3": 16
+      }
+    },
+    "23": {
+      "varNm": "badge/size/horizontal-padding",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 10
+        },
+        "1": {
+          "_varRef": 10
+        },
+        "2": {
+          "_varRef": 10
+        },
+        "3": {
+          "_varRef": 10
+        }
+      }
+    },
+    "24": {
+      "varNm": "layer/layer-alternative/primary-color/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 1
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "25": {
+      "varNm": "badge/color/label-primary",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 24
+        },
+        "1": {
+          "_varRef": 24
+        },
+        "2": {
+          "_varRef": 24
+        },
+        "3": {
+          "_varRef": 24
+        }
+      }
+    },
+    "26": {
+      "varNm": "font/letter-spacing/wide",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 0.25
+      }
+    },
+    "27": {
+      "varNm": "font/caption/letter-spacing",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 26
+        },
+        "Dark": {
+          "_varRef": 26
+        }
+      }
+    },
+    "28": {
+      "varNm": "font/size/xs",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 12
+      }
+    },
+    "29": {
+      "varNm": "font/caption/size",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 28
+        },
+        "Dark": {
+          "_varRef": 28
+        }
+      }
+    },
+    "30": {
+      "varNm": "font/family/lexend",
+      "varTy": 3,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": "Lexend"
+      }
+    },
+    "31": {
+      "varNm": "font/caption/font-family",
+      "varTy": 3,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 30
+        },
+        "Dark": {
+          "_varRef": 30
+        }
+      }
+    },
+    "32": {
+      "varNm": "font/weight/regular",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 400
+      }
+    },
+    "33": {
+      "varNm": "font/caption/weight",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 32
+        },
+        "Dark": {
+          "_varRef": 32
+        }
+      }
+    },
+    "34": {
+      "varNm": "badge/size/large-height",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": 24,
+        "1": 24,
+        "2": 24,
+        "3": 24
+      }
+    },
+    "35": {
+      "varNm": "badge/size/large-min-width",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": 24,
+        "1": 24,
+        "2": 24,
+        "3": 24
+      }
+    },
+    "36": {
+      "varNm": "layer/layer-1/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "37": {
+      "varNm": "color/gray/100",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9137254953384399,
+          "g": 0.9137254953384399,
+          "b": 0.9137254953384399,
+          "a": 1
+        }
+      }
+    },
+    "38": {
+      "varNm": "color/gray/800",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1725490242242813,
+          "g": 0.1725490242242813,
+          "b": 0.1725490242242813,
+          "a": 1
+        }
+      }
+    },
+    "39": {
+      "varNm": "palette/neutral/100/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 37
+        },
+        "Dark": {
+          "_varRef": 38
+        }
+      }
+    },
+    "40": {
+      "varNm": "layer/layer-2/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 39
+        },
+        "Dark": {
+          "_varRef": 39
+        }
+      }
+    },
+    "41": {
+      "varNm": "layer/layer-3/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "42": {
+      "varNm": "badge/color/background-default",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 4
+        },
+        "1": {
+          "_varRef": 36
+        },
+        "2": {
+          "_varRef": 40
+        },
+        "3": {
+          "_varRef": 41
+        }
+      }
+    },
+    "43": {
+      "varNm": "layer/layer-0/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "44": {
+      "varNm": "palette/neutral/050/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "45": {
+      "varNm": "layer/layer-1/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 44
+        },
+        "Dark": {
+          "_varRef": 44
+        }
+      }
+    },
+    "46": {
+      "varNm": "palette/neutral/100/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "47": {
+      "varNm": "layer/layer-2/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 44
+        },
+        "Dark": {
+          "_varRef": 46
+        }
+      }
+    },
+    "48": {
+      "varNm": "palette/neutral/200/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "49": {
+      "varNm": "layer/layer-3/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 48
+        }
+      }
+    },
+    "50": {
+      "varNm": "badge/color/label-default",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 43
+        },
+        "1": {
+          "_varRef": 45
+        },
+        "2": {
+          "_varRef": 47
+        },
+        "3": {
+          "_varRef": 49
+        }
+      }
+    },
+    "51": {
+      "varNm": "color/mandy/600",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.7411764860153198,
+          "g": 0.04313725605607033,
+          "b": 0.04313725605607033,
+          "a": 1
+        }
+      }
+    },
+    "52": {
+      "varNm": "color/mandy/300",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9411764740943909,
+          "g": 0.24313725531101227,
+          "b": 0.24313725531101227,
+          "a": 1
+        }
+      }
+    },
+    "53": {
+      "varNm": "palette/alert",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 51
+        },
+        "Dark": {
+          "_varRef": 52
+        }
+      }
+    },
+    "54": {
+      "varNm": "layer/layer-alternative/alert/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 53
+        },
+        "Dark": {
+          "_varRef": 53
+        }
+      }
+    },
+    "55": {
+      "varNm": "badge/color/background-alert",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 54
+        },
+        "1": {
+          "_varRef": 54
+        },
+        "2": {
+          "_varRef": 54
+        },
+        "3": {
+          "_varRef": 54
+        }
+      }
+    },
+    "56": {
+      "varNm": "layer/layer-alternative/alert/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 1
+        },
+        "Dark": {
+          "_varRef": 3
+        }
+      }
+    },
+    "57": {
+      "varNm": "badge/color/label-alert",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 56
+        },
+        "1": {
+          "_varRef": 56
+        },
+        "2": {
+          "_varRef": 56
+        },
+        "3": {
+          "_varRef": 56
+        }
+      }
+    },
+    "58": {
+      "varNm": "color/greensheen/600",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0,
+          "g": 0.42352941632270813,
+          "b": 0.1725490242242813,
+          "a": 1
+        }
+      }
+    },
+    "59": {
+      "varNm": "color/greensheen/100",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.48235294222831726,
+          "g": 0.8941176533699036,
+          "b": 0.6470588445663452,
+          "a": 1
+        }
+      }
+    },
+    "60": {
+      "varNm": "palette/success",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 58
+        },
+        "Dark": {
+          "_varRef": 59
+        }
+      }
+    },
+    "61": {
+      "varNm": "layer/layer-alternative/success/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 60
+        },
+        "Dark": {
+          "_varRef": 60
+        }
+      }
+    },
+    "62": {
+      "varNm": "badge/color/background-success",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 61
+        },
+        "1": {
+          "_varRef": 61
+        },
+        "2": {
+          "_varRef": 61
+        },
+        "3": {
+          "_varRef": 61
+        }
+      }
+    },
+    "63": {
+      "varNm": "layer/layer-alternative/success/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 1
+        },
+        "Dark": {
+          "_varRef": 3
+        }
+      }
+    },
+    "64": {
+      "varNm": "badge/color/label-success",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 63
+        },
+        "1": {
+          "_varRef": 63
+        },
+        "2": {
+          "_varRef": 63
+        },
+        "3": {
+          "_varRef": 63
+        }
+      }
+    }
+  },
+  "instances": {
+    "0": {
+      "instT": "normal",
+      "compN": ".UI kit / Page header",
+      "cProp": {
+        "Has link#3042:2": {
+          "type": 25,
+          "value": true
+        },
+        "Component name#3041:0": {
+          "type": 2,
+          "value": "Badge"
+        }
+      },
+      "path": [],
+      "cPage": "UI kit components",
+      "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
+      "cVers": 1
+    },
+    "1": {
+      "instT": "internal",
+      "compN": "Padding=True",
+      "cSetN": ".base / Bage / Content",
+      "varPr": {
+        "Padding": "True"
+      },
+      "cProp": {
+        "Value#2356:10": {
+          "type": 2,
+          "value": "Text"
+        },
+        "Padding": {
+          "value": "True",
+          "type": 26,
+          "bndVar": {}
+        }
+      },
+      "path": [
+        "Badge",
+        "Content",
+        "Base components",
+        ".base / Bage / Content"
+      ],
+      "cNode": "2356:7418"
+    }
+  },
+  "pageData": {
+    "type": 13,
+    "id": "77:854",
+    "name": "✅ Badge ",
+    "backgrounds": [
+      {
+        "type": 15,
+        "visbl": true,
+        "opcty": 1,
+        "blnMd": "NORMAL",
+        "color": {
+          "r": 0.7193278670310974,
+          "g": 0.7265506982803345,
+          "b": 0.7644693851470947
+        },
+        "bndVar": {}
+      }
+    ],
+    "_unhandledKeys": [
+      "_unknownType"
+    ],
+    "child": [
+      {
+        "type": 1,
+        "id": "124:1101",
+        "name": "Badge",
+        "x": 59,
+        "y": -369,
+        "w": 243,
+        "h": 520,
+        "fills": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0.9882352948188782,
+              "g": 0.9882352948188782,
+              "b": 0.9882352948188782
+            },
+            "bndVar": {
+              "color": {
+                "_varRef": 8
+              }
+            }
+          }
+        ],
+        "stkAl": "INSIDE",
+        "bndVar": {
+          "fills": [
+            {
+              "_varRef": 8
+            }
+          ]
+        },
+        "backgrounds": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0.9882352948188782,
+              "g": 0.9882352948188782,
+              "b": 0.9882352948188782
+            },
+            "bndVar": {
+              "color": {
+                "_varRef": 8
+              }
+            }
+          }
+        ],
+        "layMd": "VERTICAL",
+        "padL": 40,
+        "padR": 40,
+        "padT": 40,
+        "padB": 40,
+        "itmSp": 40,
+        "clipC": true,
+        "child": [
+          {
+            "type": 3,
+            "id": "3042:1581",
+            "name": ".UI kit / Page header",
+            "x": 40,
+            "y": 40,
+            "w": 163,
+            "h": 110,
+            "stkAl": "INSIDE",
+            "bndVar": {
+              "itmSp": {
+                "_varRef": 10
+              }
+            },
+            "_isInstance": true,
+            "_insRef": 0,
+            "layMd": "VERTICAL",
+            "itmSp": 8
+          },
+          {
+            "type": 1,
+            "id": "3042:1590",
+            "name": "Content",
+            "x": 40,
+            "y": 190,
+            "w": 130,
+            "h": 290,
+            "stkAl": "INSIDE",
+            "layMd": "VERTICAL",
+            "itmSp": 20,
+            "child": [
+              {
+                "type": 14,
+                "id": "377:78",
+                "name": "Badge",
+                "w": 130,
+                "h": 160,
+                "strks": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 1,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0.5921568870544434,
+                      "g": 0.27843138575553894,
+                      "b": 1
+                    },
+                    "bndVar": {}
+                  }
+                ],
+                "stkAl": "INSIDE",
+                "_unhandledKeys": [
+                  "_unknownType"
+                ],
+                "child": [
+                  {
+                    "type": 4,
+                    "id": "453:3612",
+                    "name": "Size=Default, Style=Primary",
+                    "x": 20,
+                    "y": 24,
+                    "w": 41,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.8666666746139526,
+                          "g": 0.1725490242242813,
+                          "b": 0.33725491166114807
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 17
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 18
+                      },
+                      "topLR": {
+                        "_varRef": 21
+                      },
+                      "topRightRadius": {
+                        "_varRef": 21
+                      },
+                      "botLR": {
+                        "_varRef": 21
+                      },
+                      "botRR": {
+                        "_varRef": 21
+                      },
+                      "minW": {
+                        "_varRef": 22
+                      },
+                      "fills": [
+                        {
+                          "_varRef": 17
+                        }
+                      ]
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.8666666746139526,
+                          "g": 0.1725490242242813,
+                          "b": 0.33725491166114807
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 17
+                          }
+                        }
+                      }
+                    ],
+                    "layMd": "VERTICAL",
+                    "pAxSz": "FIXED",
+                    "pAxAl": "CENTER",
+                    "cAxAl": "CENTER",
+                    "corR": 16,
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "2356:7422",
+                        "name": "Content",
+                        "y": 0.5,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "_isInstance": true,
+                        "_insRef": 1,
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "I2356:7422;2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.9882352948188782,
+                                  "g": 0.9882352948188782,
+                                  "b": 0.9882352948188782
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 25
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 25
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "453:3614",
+                    "name": "Size=Large, Style=Primary",
+                    "x": 69,
+                    "y": 20,
+                    "w": 41,
+                    "h": 24,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.8666666746139526,
+                          "g": 0.1725490242242813,
+                          "b": 0.33725491166114807
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 17
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 34
+                      },
+                      "topLR": {
+                        "_varRef": 21
+                      },
+                      "topRightRadius": {
+                        "_varRef": 21
+                      },
+                      "botLR": {
+                        "_varRef": 21
+                      },
+                      "botRR": {
+                        "_varRef": 21
+                      },
+                      "minW": {
+                        "_varRef": 35
+                      },
+                      "fills": [
+                        {
+                          "_varRef": 17
+                        }
+                      ]
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.8666666746139526,
+                          "g": 0.1725490242242813,
+                          "b": 0.33725491166114807
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 17
+                          }
+                        }
+                      }
+                    ],
+                    "layMd": "VERTICAL",
+                    "pAxSz": "FIXED",
+                    "pAxAl": "CENTER",
+                    "cAxAl": "CENTER",
+                    "corR": 16,
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "2356:7425",
+                        "name": "Content",
+                        "y": 4.5,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "_isInstance": true,
+                        "_insRef": 1,
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "I2356:7425;2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.9882352948188782,
+                                  "g": 0.9882352948188782,
+                                  "b": 0.9882352948188782
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 25
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 25
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "453:3608",
+                    "name": "Size=Default, Style=Background",
+                    "x": 20,
+                    "y": 56,
+                    "w": 41,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.9882352948188782,
+                          "g": 0.9882352948188782,
+                          "b": 0.9882352948188782
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 42
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 18
+                      },
+                      "topLR": {
+                        "_varRef": 21
+                      },
+                      "topRightRadius": {
+                        "_varRef": 21
+                      },
+                      "botLR": {
+                        "_varRef": 21
+                      },
+                      "botRR": {
+                        "_varRef": 21
+                      },
+                      "minW": {
+                        "_varRef": 22
+                      },
+                      "fills": [
+                        {
+                          "_varRef": 42
+                        }
+                      ]
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.9882352948188782,
+                          "g": 0.9882352948188782,
+                          "b": 0.9882352948188782
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 42
+                          }
+                        }
+                      }
+                    ],
+                    "layMd": "VERTICAL",
+                    "pAxSz": "FIXED",
+                    "pAxAl": "CENTER",
+                    "cAxAl": "CENTER",
+                    "corR": 16,
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "2356:7503",
+                        "name": "Content",
+                        "y": 0.5,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "_isInstance": true,
+                        "_insRef": 1,
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "I2356:7503;2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.03921568766236305,
+                                  "g": 0.03921568766236305,
+                                  "b": 0.03921568766236305
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 50
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 50
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "453:3610",
+                    "name": "Size=Large, Style=Background",
+                    "x": 69,
+                    "y": 52,
+                    "w": 41,
+                    "h": 24,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.9882352948188782,
+                          "g": 0.9882352948188782,
+                          "b": 0.9882352948188782
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 42
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 34
+                      },
+                      "topLR": {
+                        "_varRef": 21
+                      },
+                      "topRightRadius": {
+                        "_varRef": 21
+                      },
+                      "botLR": {
+                        "_varRef": 21
+                      },
+                      "botRR": {
+                        "_varRef": 21
+                      },
+                      "minW": {
+                        "_varRef": 35
+                      },
+                      "fills": [
+                        {
+                          "_varRef": 42
+                        }
+                      ]
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.9882352948188782,
+                          "g": 0.9882352948188782,
+                          "b": 0.9882352948188782
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 42
+                          }
+                        }
+                      }
+                    ],
+                    "layMd": "VERTICAL",
+                    "pAxSz": "FIXED",
+                    "pAxAl": "CENTER",
+                    "cAxAl": "CENTER",
+                    "corR": 16,
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "2356:7506",
+                        "name": "Content",
+                        "y": 4.5,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "_isInstance": true,
+                        "_insRef": 1,
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "I2356:7506;2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.03921568766236305,
+                                  "g": 0.03921568766236305,
+                                  "b": 0.03921568766236305
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 50
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 50
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "453:3618",
+                    "name": "Size=Default, Style=Alert",
+                    "x": 20,
+                    "y": 88,
+                    "w": 41,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7411764860153198,
+                          "g": 0.04313725605607033,
+                          "b": 0.04313725605607033
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 55
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 18
+                      },
+                      "topLR": {
+                        "_varRef": 21
+                      },
+                      "topRightRadius": {
+                        "_varRef": 21
+                      },
+                      "botLR": {
+                        "_varRef": 21
+                      },
+                      "botRR": {
+                        "_varRef": 21
+                      },
+                      "minW": {
+                        "_varRef": 22
+                      },
+                      "fills": [
+                        {
+                          "_varRef": 55
+                        }
+                      ]
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7411764860153198,
+                          "g": 0.04313725605607033,
+                          "b": 0.04313725605607033
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 55
+                          }
+                        }
+                      }
+                    ],
+                    "layMd": "VERTICAL",
+                    "pAxSz": "FIXED",
+                    "pAxAl": "CENTER",
+                    "cAxAl": "CENTER",
+                    "corR": 16,
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "2356:7431",
+                        "name": "Content",
+                        "y": 0.5,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "_isInstance": true,
+                        "_insRef": 1,
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "I2356:7431;2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.9882352948188782,
+                                  "g": 0.9882352948188782,
+                                  "b": 0.9882352948188782
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 57
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 57
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "453:3616",
+                    "name": "Size=Large, Style=Alert",
+                    "x": 69,
+                    "y": 84,
+                    "w": 41,
+                    "h": 24,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7411764860153198,
+                          "g": 0.04313725605607033,
+                          "b": 0.04313725605607033
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 55
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 34
+                      },
+                      "topLR": {
+                        "_varRef": 21
+                      },
+                      "topRightRadius": {
+                        "_varRef": 21
+                      },
+                      "botLR": {
+                        "_varRef": 21
+                      },
+                      "botRR": {
+                        "_varRef": 21
+                      },
+                      "minW": {
+                        "_varRef": 35
+                      },
+                      "fills": [
+                        {
+                          "_varRef": 55
+                        }
+                      ]
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7411764860153198,
+                          "g": 0.04313725605607033,
+                          "b": 0.04313725605607033
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 55
+                          }
+                        }
+                      }
+                    ],
+                    "layMd": "VERTICAL",
+                    "pAxSz": "FIXED",
+                    "pAxAl": "CENTER",
+                    "cAxAl": "CENTER",
+                    "corR": 16,
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "2356:7434",
+                        "name": "Content",
+                        "y": 4.5,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "_isInstance": true,
+                        "_insRef": 1,
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "I2356:7434;2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.9882352948188782,
+                                  "g": 0.9882352948188782,
+                                  "b": 0.9882352948188782
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 57
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 57
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "453:3622",
+                    "name": "Size=Default, Style=Success",
+                    "x": 20,
+                    "y": 120,
+                    "w": 41,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0,
+                          "g": 0.42352941632270813,
+                          "b": 0.1725490242242813
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 62
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 18
+                      },
+                      "topLR": {
+                        "_varRef": 21
+                      },
+                      "topRightRadius": {
+                        "_varRef": 21
+                      },
+                      "botLR": {
+                        "_varRef": 21
+                      },
+                      "botRR": {
+                        "_varRef": 21
+                      },
+                      "minW": {
+                        "_varRef": 22
+                      },
+                      "fills": [
+                        {
+                          "_varRef": 62
+                        }
+                      ]
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0,
+                          "g": 0.42352941632270813,
+                          "b": 0.1725490242242813
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 62
+                          }
+                        }
+                      }
+                    ],
+                    "layMd": "VERTICAL",
+                    "pAxSz": "FIXED",
+                    "pAxAl": "CENTER",
+                    "cAxAl": "CENTER",
+                    "corR": 16,
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "2356:7437",
+                        "name": "Content",
+                        "y": 0.5,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "_isInstance": true,
+                        "_insRef": 1,
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "I2356:7437;2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.9882352948188782,
+                                  "g": 0.9882352948188782,
+                                  "b": 0.9882352948188782
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 64
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 64
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "453:3626",
+                    "name": "Size=Large, Style=Success",
+                    "x": 69,
+                    "y": 116,
+                    "w": 41,
+                    "h": 24,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0,
+                          "g": 0.42352941632270813,
+                          "b": 0.1725490242242813
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 62
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 34
+                      },
+                      "topLR": {
+                        "_varRef": 21
+                      },
+                      "topRightRadius": {
+                        "_varRef": 21
+                      },
+                      "botLR": {
+                        "_varRef": 21
+                      },
+                      "botRR": {
+                        "_varRef": 21
+                      },
+                      "minW": {
+                        "_varRef": 35
+                      },
+                      "fills": [
+                        {
+                          "_varRef": 62
+                        }
+                      ]
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0,
+                          "g": 0.42352941632270813,
+                          "b": 0.1725490242242813
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 62
+                          }
+                        }
+                      }
+                    ],
+                    "layMd": "VERTICAL",
+                    "pAxSz": "FIXED",
+                    "pAxAl": "CENTER",
+                    "cAxAl": "CENTER",
+                    "corR": 16,
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "2356:7460",
+                        "name": "Content",
+                        "y": 4.5,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "_isInstance": true,
+                        "_insRef": 1,
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "I2356:7460;2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.9882352948188782,
+                                  "g": 0.9882352948188782,
+                                  "b": 0.9882352948188782
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 64
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 64
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "id": "2356:7530",
+                "name": "Base components",
+                "y": 180,
+                "w": 101,
+                "h": 110,
+                "fills": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 0.10000000149011612,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0.7411764860153198,
+                      "g": 0.04313725605607033,
+                      "b": 0.04313725605607033
+                    },
+                    "bndVar": {}
+                  }
+                ],
+                "stkAl": "INSIDE",
+                "backgrounds": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 0.10000000149011612,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0.7411764860153198,
+                      "g": 0.04313725605607033,
+                      "b": 0.04313725605607033
+                    },
+                    "bndVar": {}
+                  }
+                ],
+                "layMd": "VERTICAL",
+                "padL": 10,
+                "padR": 10,
+                "padT": 10,
+                "padB": 10,
+                "itmSp": 10,
+                "child": [
+                  {
+                    "type": 14,
+                    "id": "2356:7419",
+                    "name": ".base / Bage / Content",
+                    "x": 10,
+                    "y": 10,
+                    "w": 81,
+                    "h": 90,
+                    "strks": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.5411764979362488,
+                          "g": 0.21960784494876862,
+                          "b": 0.9607843160629272
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "_unhandledKeys": [
+                      "_unknownType"
+                    ],
+                    "child": [
+                      {
+                        "type": 4,
+                        "id": "2356:7418",
+                        "name": "Padding=True",
+                        "x": 20,
+                        "y": 20,
+                        "w": 41,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "padL": {
+                            "_varRef": 23
+                          },
+                          "padR": {
+                            "_varRef": 23
+                          }
+                        },
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "padL": 8,
+                        "padR": 8,
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "2356:7416",
+                            "name": "Text",
+                            "x": 8,
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.9882352948188782,
+                                  "g": 0.9882352948188782,
+                                  "b": 0.9882352948188782
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 25
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 25
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 4,
+                        "id": "2356:7420",
+                        "name": "Padding=False",
+                        "x": 28,
+                        "y": 55,
+                        "w": 25,
+                        "h": 15,
+                        "stkAl": "INSIDE",
+                        "layMd": "HORIZONTAL",
+                        "pAxAl": "CENTER",
+                        "cAxAl": "CENTER",
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "2356:7421",
+                            "name": "Text",
+                            "w": 25,
+                            "h": 15,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.9882352948188782,
+                                  "g": 0.9882352948188782,
+                                  "b": 0.9882352948188782
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 25
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 25
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 27
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 29
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 31
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 33
+                                }
+                              ]
+                            },
+                            "chars": "Text",
+                            "fontN": {
+                              "family": "Lexend",
+                              "style": "Regular"
+                            },
+                            "fontS": 12,
+                            "txtAh": "CENTER",
+                            "txtAv": "CENTER",
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
