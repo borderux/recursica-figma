@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-17T18:07:51.143Z",
+    "publishDate": "2025-12-18T23:44:45.233Z",
     "history": {
       "1": {
-        "message": "Latest version with instance overrides support",
-        "date": "2025-12-17T18:07:51.143Z"
+        "message": "Export with styles table added",
+        "date": "2025-12-18T23:44:45.233Z"
       }
     }
   },
@@ -96,7 +96,9 @@
     "w": "width",
     "libNm": "libraryName",
     "cnsHr": "constraintHorizontal",
-    "cnsVr": "constraintVertical"
+    "cnsVr": "constraintVertical",
+    "stlKy": "styleKey",
+    "_stlRef": "_styleRef"
   },
   "collections": {
     "0": {
@@ -879,6 +881,32 @@
       "cVers": 1
     }
   },
+  "styles": {
+    "0": {
+      "type": 2,
+      "name": "body/normal",
+      "textStyle": {
+        "name": "body/normal",
+        "fontS": 16,
+        "fontN": {
+          "family": "Bellota Text",
+          "style": "Regular"
+        }
+      }
+    },
+    "1": {
+      "type": 2,
+      "name": "h1",
+      "textStyle": {
+        "name": "h1",
+        "fontS": 36,
+        "fontN": {
+          "family": "Lexend",
+          "style": "Bold"
+        }
+      }
+    }
+  },
   "pageData": {
     "type": 13,
     "id": "390:1323",
@@ -990,6 +1018,7 @@
                 }
               ]
             },
+            "_stlRef": 0,
             "chars": "Replace slot with content (component instance)",
             "fontN": {
               "family": "Bellota Text",
@@ -1135,6 +1164,7 @@
                 }
               ]
             },
+            "_stlRef": 1,
             "chars": "Component title",
             "fontN": {
               "family": "Lexend",
@@ -1212,6 +1242,7 @@
                     }
                   ]
                 },
+                "_stlRef": 0,
                 "chars": "View documentation",
                 "fontN": {
                   "family": "Bellota Text",
