@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-17T18:07:51.145Z",
+    "publishDate": "2025-12-18T23:44:45.235Z",
     "history": {
       "1": {
-        "message": "Latest version with instance overrides support",
-        "date": "2025-12-17T18:07:51.145Z"
+        "message": "Export with styles table added",
+        "date": "2025-12-18T23:44:45.235Z"
       }
     }
   },
@@ -96,11 +96,14 @@
     "w": "width",
     "libNm": "libraryName",
     "cnsHr": "constraintHorizontal",
-    "cnsVr": "constraintVertical"
+    "cnsVr": "constraintVertical",
+    "stlKy": "styleKey",
+    "_stlRef": "_styleRef"
   },
   "collections": {},
   "variables": {},
   "instances": {},
+  "styles": {},
   "pageData": {
     "type": 13,
     "id": "5746:11132",
