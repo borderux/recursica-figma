@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-18T23:44:45.235Z",
+    "publishDate": "2025-12-19T18:12:47.161Z",
     "history": {
       "1": {
-        "message": "Export with styles table added",
-        "date": "2025-12-18T23:44:45.235Z"
+        "message": "Added styles bound to variables",
+        "date": "2025-12-19T18:12:47.161Z"
       }
     }
   },
