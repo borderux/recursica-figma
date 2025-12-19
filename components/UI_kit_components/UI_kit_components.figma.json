@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-19T18:12:47.159Z",
+    "publishDate": "2025-12-19T19:46:26.100Z",
     "history": {
       "1": {
-        "message": "Added styles bound to variables",
-        "date": "2025-12-19T18:12:47.159Z"
+        "message": "Fix bound variables",
+        "date": "2025-12-19T19:46:26.100Z"
       }
     }
   },
@@ -1045,10 +1045,6 @@
             },
             "_stlRef": 0,
             "chars": "Replace slot with content (component instance)",
-            "fontN": {
-              "family": "Bellota Text",
-              "style": "Regular"
-            },
             "fontS": 16,
             "txtAh": "CENTER",
             "txtAr": "HEIGHT"
@@ -1191,11 +1187,6 @@
             },
             "_stlRef": 1,
             "chars": "Component title",
-            "fontN": {
-              "family": "Lexend",
-              "style": "Bold"
-            },
-            "fontS": 36,
             "txtAr": "WIDTH_AND_HEIGHT"
           },
           {
@@ -1269,10 +1260,6 @@
                 },
                 "_stlRef": 0,
                 "chars": "View documentation",
-                "fontN": {
-                  "family": "Bellota Text",
-                  "style": "Regular"
-                },
                 "fontS": 16,
                 "txtAr": "WIDTH_AND_HEIGHT"
               },
