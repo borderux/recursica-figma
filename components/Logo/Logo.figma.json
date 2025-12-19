@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-18T23:44:45.232Z",
+    "publishDate": "2025-12-19T18:12:47.158Z",
     "history": {
       "1": {
-        "message": "Export with styles table added",
-        "date": "2025-12-18T23:44:45.232Z"
+        "message": "Added styles bound to variables",
+        "date": "2025-12-19T18:12:47.158Z"
       }
     }
   },
@@ -1018,6 +1018,20 @@
         "fontN": {
           "family": "Lexend",
           "style": "Bold"
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 27
+          },
+          "fontS": {
+            "_varRef": 29
+          },
+          "fontF": {
+            "_varRef": 31
+          },
+          "fontW": {
+            "_varRef": 33
+          }
         }
       }
     },
@@ -1030,6 +1044,20 @@
         "fontN": {
           "family": "Bellota Text",
           "style": "Regular"
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 47
+          },
+          "fontS": {
+            "_varRef": 49
+          },
+          "fontF": {
+            "_varRef": 51
+          },
+          "fontW": {
+            "_varRef": 53
+          }
         }
       }
     }
