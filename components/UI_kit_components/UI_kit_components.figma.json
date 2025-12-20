@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-19T23:27:30.431Z",
+    "publishDate": "2025-12-20T18:59:06.177Z",
     "history": {
       "1": {
-        "message": "Proper export of size of text styles",
-        "date": "2025-12-19T23:27:30.431Z"
+        "message": "Checking style creation",
+        "date": "2025-12-20T18:59:06.177Z"
       }
     }
   },
@@ -96,9 +96,7 @@
     "w": "width",
     "libNm": "libraryName",
     "cnsHr": "constraintHorizontal",
-    "cnsVr": "constraintVertical",
-    "stlKy": "styleKey",
-    "_stlRef": "_styleRef"
+    "cnsVr": "constraintVertical"
   },
   "collections": {
     "0": {
@@ -886,24 +884,14 @@
       "type": 2,
       "name": "body/normal",
       "textStyle": {
-        "name": "body/normal",
+        "fontS": 16,
         "fontN": {
           "family": "Bellota Text",
           "style": "Regular"
         },
-        "bndVar": {
-          "letSp": {
-            "_varRef": 1
-          },
-          "fontS": {
-            "_varRef": 3
-          },
-          "fontF": {
-            "_varRef": 5
-          },
-          "fontW": {
-            "_varRef": 7
-          }
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
         }
       }
     },
@@ -911,22 +899,14 @@
       "type": 2,
       "name": "h1",
       "textStyle": {
-        "name": "h1",
         "fontS": 36,
         "fontN": {
           "family": "Lexend",
           "style": "Bold"
         },
-        "bndVar": {
-          "letSp": {
-            "_varRef": 29
-          },
-          "fontF": {
-            "_varRef": 31
-          },
-          "fontW": {
-            "_varRef": 33
-          }
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
         }
       }
     }
@@ -1042,8 +1022,12 @@
                 }
               ]
             },
-            "_stlRef": 0,
+            "_styleRef": 0,
             "chars": "Replace slot with content (component instance)",
+            "fontN": {
+              "family": "Bellota Text",
+              "style": "Regular"
+            },
             "fontS": 16,
             "txtAh": "CENTER",
             "txtAr": "HEIGHT"
@@ -1184,8 +1168,13 @@
                 }
               ]
             },
-            "_stlRef": 1,
+            "_styleRef": 1,
             "chars": "Component title",
+            "fontN": {
+              "family": "Lexend",
+              "style": "Bold"
+            },
+            "fontS": 36,
             "txtAr": "WIDTH_AND_HEIGHT"
           },
           {
@@ -1257,8 +1246,12 @@
                     }
                   ]
                 },
-                "_stlRef": 0,
+                "_styleRef": 0,
                 "chars": "View documentation",
+                "fontN": {
+                  "family": "Bellota Text",
+                  "style": "Regular"
+                },
                 "fontS": 16,
                 "txtAr": "WIDTH_AND_HEIGHT"
               },
