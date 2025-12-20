@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-19T23:27:30.432Z",
+    "publishDate": "2025-12-20T19:29:15.614Z",
     "history": {
       "1": {
-        "message": "Proper export of size of text styles",
-        "date": "2025-12-19T23:27:30.432Z"
+        "message": "Latest",
+        "date": "2025-12-20T19:29:15.614Z"
       }
     }
   },
@@ -25,6 +25,7 @@
     "_colRef": "_colRef",
     "_varRef": "_varRef",
     "_insRef": "_instanceRef",
+    "_stlRef": "_styleRef",
     "instT": "instanceType",
     "compN": "componentName",
     "cSetN": "componentSetName",
@@ -97,8 +98,11 @@
     "libNm": "libraryName",
     "cnsHr": "constraintHorizontal",
     "cnsVr": "constraintVertical",
-    "stlKy": "styleKey",
-    "_stlRef": "_styleRef"
+    "txtSt": "textStyle",
+    "pntSt": "paintStyle",
+    "effSt": "effectStyle",
+    "grdSt": "gridStyle",
+    "stlKy": "styleKey"
   },
   "collections": {},
   "variables": {},
