@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-19T23:27:30.430Z",
+    "publishDate": "2025-12-20T18:59:06.176Z",
     "history": {
       "1": {
-        "message": "Proper export of size of text styles",
-        "date": "2025-12-19T23:27:30.430Z"
+        "message": "Checking style creation",
+        "date": "2025-12-20T18:59:06.176Z"
       }
     }
   },
@@ -96,9 +96,7 @@
     "w": "width",
     "libNm": "libraryName",
     "cnsHr": "constraintHorizontal",
-    "cnsVr": "constraintVertical",
-    "stlKy": "styleKey",
-    "_stlRef": "_styleRef"
+    "cnsVr": "constraintVertical"
   },
   "collections": {
     "0": {
@@ -1013,24 +1011,14 @@
       "type": 2,
       "name": "h1",
       "textStyle": {
-        "name": "h1",
+        "fontS": 40,
         "fontN": {
           "family": "Lexend",
           "style": "Bold"
         },
-        "bndVar": {
-          "letSp": {
-            "_varRef": 27
-          },
-          "fontS": {
-            "_varRef": 29
-          },
-          "fontF": {
-            "_varRef": 31
-          },
-          "fontW": {
-            "_varRef": 33
-          }
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
         }
       }
     },
@@ -1038,24 +1026,14 @@
       "type": 2,
       "name": "body/normal",
       "textStyle": {
-        "name": "body/normal",
+        "fontS": 16,
         "fontN": {
           "family": "Bellota Text",
           "style": "Regular"
         },
-        "bndVar": {
-          "letSp": {
-            "_varRef": 47
-          },
-          "fontS": {
-            "_varRef": 49
-          },
-          "fontF": {
-            "_varRef": 51
-          },
-          "fontW": {
-            "_varRef": 53
-          }
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
         }
       }
     }
@@ -1273,8 +1251,12 @@
                     }
                   ]
                 },
-                "_stlRef": 0,
+                "_styleRef": 0,
                 "chars": "Logo",
+                "fontN": {
+                  "family": "Lexend",
+                  "style": "Bold"
+                },
                 "fontS": 40,
                 "txtAr": "WIDTH_AND_HEIGHT"
               },
@@ -1347,8 +1329,12 @@
                         }
                       ]
                     },
-                    "_stlRef": 1,
+                    "_styleRef": 1,
                     "chars": "View documentation",
+                    "fontN": {
+                      "family": "Bellota Text",
+                      "style": "Regular"
+                    },
                     "fontS": 16,
                     "txtAr": "WIDTH_AND_HEIGHT"
                   },
