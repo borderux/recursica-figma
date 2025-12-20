@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-19T23:27:30.430Z",
+    "publishDate": "2025-12-20T19:29:15.607Z",
     "history": {
       "1": {
-        "message": "Proper export of size of text styles",
-        "date": "2025-12-19T23:27:30.430Z"
+        "message": "Latest",
+        "date": "2025-12-20T19:29:15.609Z"
       }
     }
   },
@@ -25,6 +25,7 @@
     "_colRef": "_colRef",
     "_varRef": "_varRef",
     "_insRef": "_instanceRef",
+    "_stlRef": "_styleRef",
     "instT": "instanceType",
     "compN": "componentName",
     "cSetN": "componentSetName",
@@ -97,8 +98,11 @@
     "libNm": "libraryName",
     "cnsHr": "constraintHorizontal",
     "cnsVr": "constraintVertical",
-    "stlKy": "styleKey",
-    "_stlRef": "_styleRef"
+    "txtSt": "textStyle",
+    "pntSt": "paintStyle",
+    "effSt": "effectStyle",
+    "grdSt": "gridStyle",
+    "stlKy": "styleKey"
   },
   "collections": {
     "0": {
@@ -1012,11 +1016,15 @@
     "0": {
       "type": 2,
       "name": "h1",
-      "textStyle": {
-        "name": "h1",
+      "txtSt": {
+        "fontS": 40,
         "fontN": {
           "family": "Lexend",
           "style": "Bold"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
         },
         "bndVar": {
           "letSp": {
@@ -1032,16 +1040,34 @@
             "_varRef": 33
           }
         }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 27
+        },
+        "fontS": {
+          "_varRef": 29
+        },
+        "fontF": {
+          "_varRef": 31
+        },
+        "fontW": {
+          "_varRef": 33
+        }
       }
     },
     "1": {
       "type": 2,
       "name": "body/normal",
-      "textStyle": {
-        "name": "body/normal",
+      "txtSt": {
+        "fontS": 16,
         "fontN": {
           "family": "Bellota Text",
           "style": "Regular"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
         },
         "bndVar": {
           "letSp": {
@@ -1056,6 +1082,20 @@
           "fontW": {
             "_varRef": 53
           }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 47
+        },
+        "fontS": {
+          "_varRef": 49
+        },
+        "fontF": {
+          "_varRef": 51
+        },
+        "fontW": {
+          "_varRef": 53
         }
       }
     }
@@ -1275,6 +1315,10 @@
                 },
                 "_stlRef": 0,
                 "chars": "Logo",
+                "fontN": {
+                  "family": "Lexend",
+                  "style": "Bold"
+                },
                 "fontS": 40,
                 "txtAr": "WIDTH_AND_HEIGHT"
               },
@@ -1349,6 +1393,10 @@
                     },
                     "_stlRef": 1,
                     "chars": "View documentation",
+                    "fontN": {
+                      "family": "Bellota Text",
+                      "style": "Regular"
+                    },
                     "fontS": 16,
                     "txtAr": "WIDTH_AND_HEIGHT"
                   },
