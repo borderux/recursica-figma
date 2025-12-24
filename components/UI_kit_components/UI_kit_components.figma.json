@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2025-12-24T19:44:05.868Z",
+    "publishDate": "2025-12-24T20:23:22.982Z",
     "history": {
       "1": {
-        "message": "Added correct instance property exports",
-        "date": "2025-12-24T19:44:05.868Z"
+        "message": "Proper export of component properties",
+        "date": "2025-12-24T20:23:22.982Z"
       }
     }
   },
@@ -102,7 +102,8 @@
     "pntSt": "paintStyle",
     "effSt": "effectStyle",
     "grdSt": "gridStyle",
-    "stlKy": "styleKey"
+    "stlKy": "styleKey",
+    "cPropR": "componentPropertyReferences"
   },
   "collections": {
     "0": {
@@ -1026,6 +1027,7 @@
             "bndVar": {}
           }
         ],
+        "cPropR": {},
         "componentPropertyDefinitions": {},
         "layMd": "HORIZONTAL",
         "pAxSz": "FIXED",
@@ -1078,6 +1080,7 @@
                 }
               ]
             },
+            "cPropR": {},
             "_stlRef": 0,
             "chars": "Replace slot with content (component instance)",
             "fontN": {
@@ -1104,6 +1107,7 @@
             "_varRef": 9
           }
         },
+        "cPropR": {},
         "componentPropertyDefinitions": {
           "Component name#3041:0": {
             "type": 2,
@@ -1124,6 +1128,7 @@
             "w": 36,
             "h": 24,
             "stkAl": "INSIDE",
+            "cPropR": {},
             "_isInstance": true,
             "_insRef": 0,
             "padL": 15,
@@ -1167,6 +1172,7 @@
                     }
                   ]
                 },
+                "cPropR": {},
                 "fillG": [
                   {
                     "data": "M 1.5395 0 C 0.689257 0 0 0.689224 0 1.53942 L 0 22.4756 C 0 23.3258 0.689257 24.015 1.5395 24.015 L 34.4848 24.015 C 35.335 24.015 36.0243 23.3258 36.0243 22.4756 L 36.0243 1.53942 C 36.0243 0.689223 35.335 0 34.4848 0 L 1.5395 0 Z M 2.30925 21.6909 C 2.30925 11.2361 10.581 2.71325 20.9372 2.30913 L 20.9372 21.6909 L 2.30925 21.6909 Z M 25.5557 21.6909 C 23.8552 21.6909 22.4767 20.3124 22.4767 18.612 L 25.5557 18.612 L 25.5557 21.6909 Z M 33.6907 13.5319 L 22.4767 13.5319 L 22.4767 2.31842 C 28.4954 2.69916 33.31 7.51354 33.6907 13.5319 Z M 33.6754 15.0714 C 33.3166 18.5376 30.5616 21.2925 27.0952 21.6513 L 27.0952 15.0714 L 33.6754 15.0714 Z M 24.478 15.0863 C 23.3727 15.0863 22.4767 15.9823 22.4767 17.0876 L 24.478 17.0876 L 24.478 15.0863 Z",
@@ -1224,6 +1230,9 @@
                 }
               ]
             },
+            "cPropR": {
+              "chars": "Component name#3041:0"
+            },
             "_stlRef": 1,
             "chars": "Component title",
             "fontN": {
@@ -1245,6 +1254,9 @@
               "itmSp": {
                 "_varRef": 35
               }
+            },
+            "cPropR": {
+              "visbl": "Has link#3042:2"
             },
             "layMd": "HORIZONTAL",
             "cAxAl": "CENTER",
@@ -1302,6 +1314,7 @@
                     }
                   ]
                 },
+                "cPropR": {},
                 "_stlRef": 0,
                 "chars": "View documentation",
                 "fontN": {
@@ -1328,6 +1341,7 @@
                     "_varRef": 47
                   }
                 },
+                "cPropR": {},
                 "_isInstance": true,
                 "_insRef": 1,
                 "cAxSz": "FIXED",
@@ -1368,6 +1382,7 @@
                         }
                       ]
                     },
+                    "cPropR": {},
                     "fillG": [
                       {
                         "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
