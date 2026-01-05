@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-05T22:30:30.513Z",
+    "publishDate": "2026-01-05T23:47:19.726Z",
     "history": {
       "1": {
         "message": "Next",
-        "date": "2026-01-05T22:30:30.513Z"
+        "date": "2026-01-05T23:47:19.726Z"
       }
     }
   },
@@ -250,6 +250,7 @@
                   }
                 ],
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "child": [
                   {
@@ -327,6 +328,7 @@
                   }
                 ],
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "child": [
                   {
@@ -1005,6 +1007,7 @@
                   }
                 ],
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "child": [
                   {
@@ -1086,6 +1089,7 @@
                   }
                 ],
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "child": [
                   {
@@ -1175,6 +1179,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -1225,6 +1230,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -1309,6 +1315,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -1359,6 +1366,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -1473,6 +1481,7 @@
                   }
                 ],
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "child": [
                   {
@@ -1554,6 +1563,7 @@
                   }
                 ],
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "child": [
                   {
@@ -2483,6 +2493,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -2537,6 +2548,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -2774,6 +2786,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -2832,6 +2845,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3055,6 +3069,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3105,6 +3120,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3325,6 +3341,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3375,6 +3392,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3465,6 +3483,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3523,6 +3542,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3736,6 +3756,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3786,6 +3807,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3872,6 +3894,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -3926,6 +3949,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -4149,6 +4173,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
@@ -4207,6 +4232,7 @@
                 "h": 24,
                 "stkAl": "INSIDE",
                 "cPropR": {},
+                "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "child": [
