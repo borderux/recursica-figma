@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-05T22:22:31.149Z",
+    "publishDate": "2026-01-05T22:30:30.511Z",
     "history": {
       "1": {
         "message": "Next",
-        "date": "2026-01-05T22:22:31.149Z"
+        "date": "2026-01-05T22:30:30.511Z"
       }
     }
   },
@@ -1511,9 +1511,15 @@
               }
             ],
             "stkAl": "INSIDE",
-            "_unhandledKeys": [
-              "_unknownType"
-            ],
+            "layMd": "VERTICAL",
+            "cAxSz": "FIXED",
+            "padL": 20,
+            "padR": 20,
+            "padT": 20,
+            "padB": 20,
+            "itmSp": 20,
+            "corR": 5,
+            "clipC": true,
             "child": [
               {
                 "type": 4,

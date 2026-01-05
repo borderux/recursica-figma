@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✅ Accordion",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-05T22:22:31.146Z",
+    "publishDate": "2026-01-05T22:30:30.508Z",
     "history": {
       "1": {
         "message": "Next",
-        "date": "2026-01-05T22:22:31.146Z"
+        "date": "2026-01-05T22:30:30.508Z"
       }
     }
   },
@@ -2060,9 +2060,15 @@
               }
             ],
             "stkAl": "INSIDE",
-            "_unhandledKeys": [
-              "_unknownType"
-            ],
+            "layMd": "VERTICAL",
+            "cAxSz": "FIXED",
+            "padL": 8,
+            "padR": 8,
+            "padT": 8,
+            "padB": 8,
+            "itmSp": 8,
+            "corR": 5,
+            "clipC": true,
             "child": [
               {
                 "type": 4,
