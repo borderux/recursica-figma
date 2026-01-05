@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✅ Accordion",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-05T22:14:56.183Z",
+    "publishDate": "2026-01-05T22:22:31.146Z",
     "history": {
       "1": {
         "message": "Next",
-        "date": "2026-01-05T22:14:56.183Z"
+        "date": "2026-01-05T22:22:31.146Z"
       }
     }
   },
@@ -1456,6 +1456,67 @@
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
       "cVers": 1
+    },
+    "3": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cSetN": "chevron-down",
+      "varPr": {
+        "Style": "outline"
+      },
+      "cProp": {
+        "Style": {
+          "value": "outline",
+          "type": 26,
+          "bndVar": {
+            "value": {
+              "type": 29,
+              "id": "VariableID:2156:2528"
+            }
+          }
+        }
+      },
+      "path": [
+        "chevron-down"
+      ],
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 1
+    },
+    "4": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cSetN": "chevron-up",
+      "varPr": {
+        "Style": "outline"
+      },
+      "cProp": {
+        "Style": {
+          "value": "outline",
+          "type": 26,
+          "bndVar": {
+            "value": {
+              "type": 29,
+              "id": "VariableID:2156:2528"
+            }
+          }
+        }
+      },
+      "path": [
+        "chevron-up"
+      ],
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 1
+    },
+    "5": {
+      "instT": "normal",
+      "compN": ".UI kit / Slot",
+      "cProp": {},
+      "path": [],
+      "cPage": "UI kit components",
+      "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
+      "cVers": 1
     }
   },
   "styles": {
@@ -2165,7 +2226,7 @@
                     },
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 2,
+                    "_insRef": 3,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "child": [
@@ -2357,7 +2418,7 @@
                     },
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 2,
+                    "_insRef": 3,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "child": [
@@ -2593,7 +2654,7 @@
                         },
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 2,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "child": [
@@ -2688,7 +2749,7 @@
                       "mainComponent": "Slot#390:39"
                     },
                     "_isInstance": true,
-                    "_insRef": 0,
+                    "_insRef": 5,
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "pAxAl": "CENTER",
@@ -2910,7 +2971,7 @@
                         },
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 2,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "child": [
@@ -3005,7 +3066,7 @@
                       "mainComponent": "Slot#390:39"
                     },
                     "_isInstance": true,
-                    "_insRef": 0,
+                    "_insRef": 5,
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "pAxAl": "CENTER",
