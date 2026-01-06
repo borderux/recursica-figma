@@ -1,18 +1,12 @@
 {
   "metadata": {
+    "exportedAt": "2026-01-06T18:06:04.919Z",
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 1,
+    "version": 0,
     "name": "Logo",
-    "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-06T00:30:33.223Z",
-    "history": {
-      "1": {
-        "message": "Next",
-        "date": "2026-01-06T00:30:33.223Z"
-      }
-    }
+    "pluginVersion": "1.0.0"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -971,7 +965,7 @@
       "path": [],
       "cPage": "UI kit components",
       "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-      "cVers": 1
+      "cVers": 0
     },
     "1": {
       "instT": "internal",
@@ -1012,7 +1006,7 @@
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     }
   },
   "styles": {
