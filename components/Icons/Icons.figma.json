@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-06T00:04:46.098Z",
+    "publishDate": "2026-01-06T00:30:33.225Z",
     "history": {
       "1": {
         "message": "Next",
-        "date": "2026-01-06T00:04:46.098Z"
+        "date": "2026-01-06T00:30:33.225Z"
       }
     }
   },
@@ -76,6 +76,8 @@
     "botRR": "bottomRightRadius",
     "topLR": "topLeftRadius",
     "layGr": "layoutGrow",
+    "laySzH": "layoutSizingHorizontal",
+    "laySzV": "layoutSizingVertical",
     "offX": "offsetX",
     "offY": "offsetY",
     "maxW": "maxWidth",
@@ -176,6 +178,8 @@
         "cAxSp": 16,
         "clipC": true,
         "layoutWrap": "WRAP",
+        "laySzH": "FIXED",
+        "laySzV": "HUG",
         "child": [
           {
             "type": 14,
@@ -211,6 +215,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -252,6 +258,8 @@
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -330,6 +338,8 @@
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -396,6 +406,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -436,6 +448,8 @@
                 ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -517,6 +531,8 @@
                 ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -587,6 +603,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -627,6 +645,8 @@
                 ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -708,6 +728,8 @@
                 ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -778,6 +800,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -818,6 +842,8 @@
                 ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -895,6 +921,8 @@
                 ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -968,6 +996,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -1009,6 +1039,8 @@
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1091,6 +1123,8 @@
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1168,6 +1202,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -1182,6 +1218,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1233,6 +1271,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1304,6 +1344,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -1318,6 +1360,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1369,6 +1413,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1442,6 +1488,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -1483,6 +1531,8 @@
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1565,6 +1615,8 @@
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1629,6 +1681,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -1642,6 +1696,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1692,6 +1748,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1764,6 +1822,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
             "child": [
               {
                 "type": 4,
@@ -1777,6 +1837,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1855,6 +1917,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1929,6 +1993,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
             "child": [
               {
                 "type": 4,
@@ -1942,6 +2008,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2020,6 +2088,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2088,6 +2158,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -2101,6 +2173,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2151,6 +2225,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2217,6 +2293,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -2230,6 +2308,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2280,6 +2360,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2346,6 +2428,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -2359,6 +2443,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2409,6 +2495,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2482,6 +2570,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -2496,6 +2586,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2551,6 +2643,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2623,6 +2717,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -2636,6 +2732,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2694,6 +2792,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2775,6 +2875,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -2789,6 +2891,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2848,6 +2952,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2912,6 +3018,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -2925,6 +3033,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -2973,6 +3083,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3058,6 +3170,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -3072,6 +3186,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3123,6 +3239,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3191,6 +3309,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -3204,6 +3324,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3253,6 +3375,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3330,6 +3454,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -3344,6 +3470,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3395,6 +3523,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3472,6 +3602,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -3486,6 +3618,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3545,6 +3679,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3609,6 +3745,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -3622,6 +3760,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3672,6 +3812,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3745,6 +3887,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -3759,6 +3903,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3810,6 +3956,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3883,6 +4031,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -3897,6 +4047,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -3952,6 +4104,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -4026,6 +4180,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -4039,6 +4195,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -4089,6 +4247,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -4162,6 +4322,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -4176,6 +4338,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -4235,6 +4399,8 @@
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -4299,6 +4465,8 @@
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
             "child": [
               {
                 "type": 4,
@@ -4312,6 +4480,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -4362,6 +4532,8 @@
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "clipC": true,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -4419,6 +4591,8 @@
             "padT": 10,
             "padB": 10,
             "itmSp": 10,
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
             "child": [
               {
                 "type": 2,
