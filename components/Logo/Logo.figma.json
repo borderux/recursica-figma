@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-06T00:04:46.096Z",
+    "publishDate": "2026-01-06T00:30:33.223Z",
     "history": {
       "1": {
         "message": "Next",
-        "date": "2026-01-06T00:04:46.096Z"
+        "date": "2026-01-06T00:30:33.223Z"
       }
     }
   },
@@ -76,6 +76,8 @@
     "botRR": "bottomRightRadius",
     "topLR": "topLeftRadius",
     "layGr": "layoutGrow",
+    "laySzH": "layoutSizingHorizontal",
+    "laySzV": "layoutSizingVertical",
     "offX": "offsetX",
     "offY": "offsetY",
     "maxW": "maxWidth",
@@ -1182,6 +1184,8 @@
         "padB": 40,
         "itmSp": 40,
         "clipC": true,
+        "laySzH": "HUG",
+        "laySzV": "HUG",
         "child": [
           {
             "type": 3,
@@ -1201,6 +1205,8 @@
             "_insRef": 0,
             "layMd": "VERTICAL",
             "itmSp": 8,
+            "laySzH": "HUG",
+            "laySzV": "HUG",
             "child": [
               {
                 "type": 3,
@@ -1218,6 +1224,8 @@
                 "padB": 15,
                 "itmSp": 10,
                 "corR": 10,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1347,6 +1355,8 @@
                 "layMd": "HORIZONTAL",
                 "cAxAl": "CENTER",
                 "itmSp": 4,
+                "laySzH": "HUG",
+                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 2,
@@ -1431,6 +1441,8 @@
                     "_isInstance": true,
                     "_insRef": 2,
                     "cAxSz": "FIXED",
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
@@ -1520,6 +1532,8 @@
             "itmSp": 20,
             "corR": 5,
             "clipC": true,
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
             "child": [
               {
                 "type": 4,
@@ -1537,6 +1551,8 @@
                 "padB": 15,
                 "itmSp": 10,
                 "corR": 10,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1598,6 +1614,8 @@
                 "padB": 15,
                 "itmSp": 10,
                 "corR": 10,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
@@ -1659,6 +1677,8 @@
                 "padB": 15,
                 "itmSp": 10,
                 "corR": 10,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
