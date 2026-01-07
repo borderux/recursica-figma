@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-07T20:22:08.102Z",
+    "publishDate": "2026-01-07T21:00:44.403Z",
     "history": {
       "1": {
-        "message": "Added image table",
-        "date": "2026-01-07T20:22:08.102Z"
+        "message": "Exporting Badge",
+        "date": "2026-01-07T21:00:44.403Z"
       }
     }
   },
