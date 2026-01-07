@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-06T18:58:35.166Z",
+    "publishDate": "2026-01-07T20:22:08.102Z",
     "history": {
       "1": {
-        "message": "First release",
-        "date": "2026-01-06T18:58:35.166Z"
+        "message": "Added image table",
+        "date": "2026-01-07T20:22:08.102Z"
       }
     }
   },
@@ -970,6 +970,7 @@
       }
     }
   },
+  "images": {},
   "pageData": {
     "type": 13,
     "id": "390:1323",
