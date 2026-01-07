@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-07T21:00:44.403Z",
+    "publishDate": "2026-01-07T21:36:05.684Z",
     "history": {
       "1": {
-        "message": "Exporting Badge",
-        "date": "2026-01-07T21:00:44.403Z"
+        "message": "Next",
+        "date": "2026-01-07T21:36:05.684Z"
       }
     }
   },
@@ -1169,7 +1169,9 @@
                     "bndVar": {
                       "color": {
                         "_varRef": 16
-                      }
+                      },
+                      "type": 29,
+                      "id": "VariableID:453:3554"
                     }
                   }
                 ],
@@ -1212,7 +1214,9 @@
                 "bndVar": {
                   "color": {
                     "_varRef": 28
-                  }
+                  },
+                  "type": 29,
+                  "id": "VariableID:3033:3307"
                 }
               }
             ],
@@ -1293,7 +1297,9 @@
                     "bndVar": {
                       "color": {
                         "_varRef": 46
-                      }
+                      },
+                      "type": 29,
+                      "id": "VariableID:2529:12626"
                     }
                   }
                 ],
@@ -1383,7 +1389,9 @@
                         "bndVar": {
                           "color": {
                             "_varRef": 55
-                          }
+                          },
+                          "type": 29,
+                          "id": "VariableID:3288:3292"
                         }
                       }
                     ],
