@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-07T21:00:44.405Z",
+    "publishDate": "2026-01-07T21:36:05.685Z",
     "history": {
       "1": {
-        "message": "Exporting Badge",
-        "date": "2026-01-07T21:00:44.405Z"
+        "message": "Next",
+        "date": "2026-01-07T21:36:05.685Z"
       }
     }
   },
@@ -1148,7 +1148,9 @@
             "bndVar": {
               "color": {
                 "_varRef": 8
-              }
+              },
+              "type": 29,
+              "id": "VariableID:3221:469"
             }
           }
         ],
@@ -1250,7 +1252,9 @@
                         "bndVar": {
                           "color": {
                             "_varRef": 17
-                          }
+                          },
+                          "type": 29,
+                          "id": "VariableID:453:3554"
                         }
                       }
                     ],
@@ -1293,7 +1297,9 @@
                     "bndVar": {
                       "color": {
                         "_varRef": 25
-                      }
+                      },
+                      "type": 29,
+                      "id": "VariableID:3033:3307"
                     }
                   }
                 ],
@@ -1379,7 +1385,9 @@
                         "bndVar": {
                           "color": {
                             "_varRef": 46
-                          }
+                          },
+                          "type": 29,
+                          "id": "VariableID:2529:12626"
                         }
                       }
                     ],
@@ -1469,7 +1477,9 @@
                             "bndVar": {
                               "color": {
                                 "_varRef": 62
-                              }
+                              },
+                              "type": 29,
+                              "id": "VariableID:3288:3292"
                             }
                           }
                         ],
@@ -1577,7 +1587,9 @@
                         "bndVar": {
                           "color": {
                             "_varRef": 17
-                          }
+                          },
+                          "type": 29,
+                          "id": "VariableID:453:3554"
                         }
                       }
                     ],
@@ -1640,7 +1652,9 @@
                         "bndVar": {
                           "color": {
                             "_varRef": 63
-                          }
+                          },
+                          "type": 29,
+                          "id": "VariableID:3269:9086"
                         }
                       }
                     ],
@@ -1703,7 +1717,9 @@
                         "bndVar": {
                           "color": {
                             "_varRef": 8
-                          }
+                          },
+                          "type": 29,
+                          "id": "VariableID:3221:469"
                         }
                       }
                     ],
