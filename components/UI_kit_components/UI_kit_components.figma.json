@@ -6,11 +6,11 @@
     "version": 1,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-07T22:06:09.013Z",
+    "publishDate": "2026-01-07T22:12:17.931Z",
     "history": {
       "1": {
-        "message": "Export Button",
-        "date": "2026-01-07T22:06:09.013Z"
+        "message": "Export Card",
+        "date": "2026-01-07T22:12:17.931Z"
       }
     }
   },
