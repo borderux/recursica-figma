@@ -4,7 +4,7 @@
       "name": "✹ Icons",
       "path": "components/Icons/Icons.figma.json",
       "version": 1,
-      "publishDate": "2026-01-07T21:00:44.407Z"
+      "publishDate": "2026-01-07T22:01:15.458Z"
     },
     "f2e98aa8-aef2-4433-8fe5-773f0262ddab": {
       "name": "✅ Accordion",
@@ -16,13 +16,13 @@
       "name": "UI kit components",
       "path": "components/UI_kit_components/UI_kit_components.figma.json",
       "version": 1,
-      "publishDate": "2026-01-07T21:00:44.403Z"
+      "publishDate": "2026-01-07T22:01:15.456Z"
     },
     "2df95ba7-e7a2-4748-9b65-5e2762cb176b": {
       "name": "Logo",
       "path": "components/Logo/Logo.figma.json",
       "version": 1,
-      "publishDate": "2026-01-07T21:00:44.405Z"
+      "publishDate": "2026-01-07T22:01:15.457Z"
     },
     "8bb3c910-b8c1-4b42-8a2f-6707ecb88226": {
       "name": "✅ Avatar ",
@@ -35,6 +35,12 @@
       "path": "components/Badge/Badge.figma.json",
       "version": 1,
       "publishDate": "2026-01-07T21:00:44.403Z"
+    },
+    "4d17a5f9-9a1b-41e9-927e-4e7310901808": {
+      "name": "✅ Breadcrumb",
+      "path": "components/Breadcrumb/Breadcrumb.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-07T22:01:15.455Z"
     }
   }
 }
