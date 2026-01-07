@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-06T18:58:35.168Z",
+    "publishDate": "2026-01-07T19:01:08.012Z",
     "history": {
       "1": {
-        "message": "First release",
-        "date": "2026-01-06T18:58:35.168Z"
+        "message": "Added image table",
+        "date": "2026-01-07T19:01:08.012Z"
       }
     }
   },
@@ -111,6 +111,7 @@
   "variables": {},
   "instances": {},
   "styles": {},
+  "images": {},
   "pageData": {
     "type": 13,
     "id": "5746:11132",
