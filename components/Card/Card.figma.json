@@ -6,11 +6,11 @@
     "version": 1,
     "name": "✅ Card",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-07T22:12:17.929Z",
+    "publishDate": "2026-01-08T18:36:38.470Z",
     "history": {
       "1": {
-        "message": "Export Card",
-        "date": "2026-01-07T22:12:17.929Z"
+        "message": "Export nodePath",
+        "date": "2026-01-08T18:36:38.470Z"
       }
     }
   },
@@ -1951,6 +1951,7 @@
         }
       },
       "path": [],
+      "nodePath": [],
       "cPage": "UI kit components",
       "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
       "cVers": 1
@@ -1973,6 +1974,10 @@
         "Logo",
         "Logo"
       ],
+      "nodePath": [
+        "2992:9675",
+        "2476:2480"
+      ],
       "cPage": "Logo",
       "compG": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
       "cVers": 1
@@ -1993,6 +1998,9 @@
       },
       "path": [
         "arrow-top-right-on-square"
+      ],
+      "nodePath": [
+        "5746:12971"
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
@@ -2023,6 +2031,11 @@
         "Content",
         "Badge"
       ],
+      "nodePath": [
+        "124:1101",
+        "3042:1590",
+        "377:78"
+      ],
       "cPage": "✅ Badge ",
       "compG": "a87634d1-5c9b-440e-ab77-fa40f093325e",
       "cVers": 1
@@ -2050,6 +2063,12 @@
         "Content",
         "Base components",
         ".base / Bage / Content"
+      ],
+      "nodePath": [
+        "124:1101",
+        "3042:1590",
+        "2356:7530",
+        "2356:7419"
       ],
       "cPage": "✅ Badge ",
       "compG": "a87634d1-5c9b-440e-ab77-fa40f093325e",
@@ -2120,6 +2139,10 @@
         "Button ",
         "Button"
       ],
+      "nodePath": [
+        "4:151",
+        "5:190"
+      ],
       "cPage": "✅ Button",
       "compG": "3a9a8897-2e4d-4458-83d0-d21ef429fb47",
       "cVers": 1
@@ -2145,6 +2168,9 @@
       },
       "path": [
         "ellipsis-horizontal"
+      ],
+      "nodePath": [
+        "5746:13215"
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
@@ -2215,6 +2241,10 @@
         "Button ",
         "Button"
       ],
+      "nodePath": [
+        "4:151",
+        "5:190"
+      ],
       "cPage": "✅ Button",
       "compG": "3a9a8897-2e4d-4458-83d0-d21ef429fb47",
       "cVers": 1
@@ -2241,6 +2271,9 @@
       "path": [
         "plus"
       ],
+      "nodePath": [
+        "5746:12799"
+      ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
       "cVers": 1
@@ -2250,6 +2283,7 @@
       "compN": ".UI kit / Slot",
       "cProp": {},
       "path": [],
+      "nodePath": [],
       "cPage": "UI kit components",
       "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
       "cVers": 1
@@ -2307,6 +2341,10 @@
       "path": [
         "Card",
         "Card"
+      ],
+      "nodePath": [
+        "2550:5724",
+        "2550:5788"
       ],
       "cNode": "3237:2556"
     }
