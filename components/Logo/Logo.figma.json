@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-07T22:12:17.935Z",
+    "publishDate": "2026-01-08T18:36:38.474Z",
     "history": {
       "1": {
-        "message": "Export Card",
-        "date": "2026-01-07T22:12:17.935Z"
+        "message": "Export nodePath",
+        "date": "2026-01-08T18:36:38.474Z"
       }
     }
   },
@@ -969,6 +969,7 @@
         }
       },
       "path": [],
+      "nodePath": [],
       "cPage": "UI kit components",
       "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
       "cVers": 1
@@ -991,6 +992,10 @@
         "Logo",
         "Logo"
       ],
+      "nodePath": [
+        "2992:9675",
+        "2476:2480"
+      ],
       "cNode": "2476:2483"
     },
     "2": {
@@ -1009,6 +1014,9 @@
       },
       "path": [
         "arrow-top-right-on-square"
+      ],
+      "nodePath": [
+        "5746:12971"
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
