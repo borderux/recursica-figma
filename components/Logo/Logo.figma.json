@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-08T21:44:25.924Z",
+    "publishDate": "2026-01-08T22:07:12.876Z",
     "history": {
       "1": {
-        "message": "Next",
-        "date": "2026-01-08T21:44:25.924Z"
+        "message": "Latest",
+        "date": "2026-01-08T22:07:12.876Z"
       }
     }
   },
@@ -149,7 +149,7 @@
       }
     },
     "1": {
-      "varNm": "palette/white",
+      "varNm": "palette/white/tone",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
@@ -175,7 +175,7 @@
       }
     },
     "3": {
-      "varNm": "palette/black",
+      "varNm": "palette/black/tone",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
@@ -240,6 +240,84 @@
       }
     },
     "8": {
+      "varNm": "layer/layer-1/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "9": {
+      "varNm": "color/gray/100",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9137254953384399,
+          "g": 0.9137254953384399,
+          "b": 0.9137254953384399,
+          "a": 1
+        }
+      }
+    },
+    "10": {
+      "varNm": "color/gray/800",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1725490242242813,
+          "g": 0.1725490242242813,
+          "b": 0.1725490242242813,
+          "a": 1
+        }
+      }
+    },
+    "11": {
+      "varNm": "palette/neutral/100/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 9
+        },
+        "Dark": {
+          "_varRef": 10
+        }
+      }
+    },
+    "12": {
+      "varNm": "layer/layer-2/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 11
+        },
+        "Dark": {
+          "_varRef": 11
+        }
+      }
+    },
+    "13": {
+      "varNm": "layer/layer-3/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "14": {
       "varNm": "global/form/field/color/background",
       "varTy": 1,
       "_colRef": 0,
@@ -248,17 +326,17 @@
           "_varRef": 4
         },
         "1": {
-          "_varRef": 7
+          "_varRef": 8
         },
         "2": {
-          "_varRef": 7
+          "_varRef": 12
         },
         "3": {
-          "_varRef": 7
+          "_varRef": 13
         }
       }
     },
-    "9": {
+    "15": {
       "varNm": "size/default",
       "varTy": 2,
       "_colRef": 2,
@@ -266,20 +344,20 @@
         "Mode 1": 8
       }
     },
-    "10": {
+    "16": {
       "varNm": "dimension/default",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 9
+          "_varRef": 15
         },
         "Dark": {
-          "_varRef": 9
+          "_varRef": 15
         }
       }
     },
-    "11": {
+    "17": {
       "varNm": "color/salmon/400",
       "varTy": 1,
       "_colRef": 2,
@@ -292,7 +370,7 @@
         }
       }
     },
-    "12": {
+    "18": {
       "varNm": "color/salmon/500",
       "varTy": 1,
       "_colRef": 2,
@@ -305,78 +383,65 @@
         }
       }
     },
-    "13": {
+    "19": {
       "varNm": "palette/palette-1/400/tone",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 11
+          "_varRef": 17
         },
         "Dark": {
-          "_varRef": 12
+          "_varRef": 18
         }
       }
     },
-    "14": {
+    "20": {
       "varNm": "palette/palette-1/500/tone",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 12
+          "_varRef": 18
         },
         "Dark": {
-          "_varRef": 11
+          "_varRef": 17
         }
       }
     },
-    "15": {
+    "21": {
       "varNm": "palette/palette-1/default/tone",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 13
+          "_varRef": 19
         },
         "Dark": {
-          "_varRef": 14
+          "_varRef": 20
         }
       }
     },
-    "16": {
-      "varNm": "layer/layer-alternative/primary-color/property/surface",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 15
-        },
-        "Dark": {
-          "_varRef": 15
-        }
-      }
-    },
-    "17": {
+    "22": {
       "varNm": "avatar/color/background-primary",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "0": {
-          "_varRef": 16
+          "_varRef": 21
         },
         "1": {
-          "_varRef": 16
+          "_varRef": 21
         },
         "2": {
-          "_varRef": 16
+          "_varRef": 21
         },
         "3": {
-          "_varRef": 16
+          "_varRef": 21
         }
       }
     },
-    "18": {
+    "23": {
       "varNm": "layer/layer-0/element/text/color",
       "varTy": 1,
       "_colRef": 1,
@@ -389,7 +454,7 @@
         }
       }
     },
-    "19": {
+    "24": {
       "varNm": "palette/neutral/050/on-tone",
       "varTy": 1,
       "_colRef": 1,
@@ -402,20 +467,20 @@
         }
       }
     },
-    "20": {
+    "25": {
       "varNm": "layer/layer-1/element/text/color",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 19
+          "_varRef": 24
         },
         "Dark": {
-          "_varRef": 19
+          "_varRef": 24
         }
       }
     },
-    "21": {
+    "26": {
       "varNm": "palette/neutral/100/on-tone",
       "varTy": 1,
       "_colRef": 1,
@@ -428,20 +493,20 @@
         }
       }
     },
-    "22": {
+    "27": {
       "varNm": "layer/layer-2/element/text/color",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 19
+          "_varRef": 24
         },
         "Dark": {
-          "_varRef": 21
+          "_varRef": 26
         }
       }
     },
-    "23": {
+    "28": {
       "varNm": "palette/neutral/200/on-tone",
       "varTy": 1,
       "_colRef": 1,
@@ -454,7 +519,7 @@
         }
       }
     },
-    "24": {
+    "29": {
       "varNm": "layer/layer-3/element/text/color",
       "varTy": 1,
       "_colRef": 1,
@@ -463,30 +528,30 @@
           "_varRef": 3
         },
         "Dark": {
-          "_varRef": 23
+          "_varRef": 28
         }
       }
     },
-    "25": {
+    "30": {
       "varNm": "global/form/label/color/default",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "0": {
-          "_varRef": 18
+          "_varRef": 23
         },
         "1": {
-          "_varRef": 20
+          "_varRef": 25
         },
         "2": {
-          "_varRef": 22
+          "_varRef": 27
         },
         "3": {
-          "_varRef": 24
+          "_varRef": 29
         }
       }
     },
-    "26": {
+    "31": {
       "varNm": "font/letter-spacing/default",
       "varTy": 2,
       "_colRef": 2,
@@ -494,41 +559,20 @@
         "Mode 1": 0
       }
     },
-    "27": {
+    "32": {
       "varNm": "font/h1/letter-spacing",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 26
+          "_varRef": 31
         },
         "Dark": {
-          "_varRef": 26
+          "_varRef": 31
         }
       }
     },
-    "28": {
-      "varNm": "font/size/6xl",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "Mode 1": 40
-      }
-    },
-    "29": {
-      "varNm": "font/h1/size",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 28
-        },
-        "Dark": {
-          "_varRef": 28
-        }
-      }
-    },
-    "30": {
+    "33": {
       "varNm": "font/family/lexend",
       "varTy": 3,
       "_colRef": 2,
@@ -536,20 +580,20 @@
         "Mode 1": "Lexend"
       }
     },
-    "31": {
+    "34": {
       "varNm": "font/h1/font-family",
       "varTy": 3,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 30
+          "_varRef": 33
         },
         "Dark": {
-          "_varRef": 30
+          "_varRef": 33
         }
       }
     },
-    "32": {
+    "35": {
       "varNm": "font/weight/bold",
       "varTy": 2,
       "_colRef": 2,
@@ -557,20 +601,20 @@
         "Mode 1": 700
       }
     },
-    "33": {
+    "36": {
       "varNm": "font/h1/weight",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 32
+          "_varRef": 35
         },
         "Dark": {
-          "_varRef": 32
+          "_varRef": 35
         }
       }
     },
-    "34": {
+    "37": {
       "varNm": "size/0-5x",
       "varTy": 2,
       "_colRef": 2,
@@ -578,52 +622,13 @@
         "Mode 1": 4
       }
     },
-    "35": {
+    "38": {
       "varNm": "dimension/sm",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 34
-        },
-        "Dark": {
-          "_varRef": 34
-        }
-      }
-    },
-    "36": {
-      "varNm": "color/salmon/600",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.6941176652908325,
-          "g": 0.09019608050584793,
-          "b": 0.23137255012989044,
-          "a": 1
-        }
-      }
-    },
-    "37": {
-      "varNm": "color/salmon/300",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.8980392217636108,
-          "g": 0.364705890417099,
-          "b": 0.47058823704719543,
-          "a": 1
-        }
-      }
-    },
-    "38": {
-      "varNm": "palette/palette-1/600/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 36
+          "_varRef": 37
         },
         "Dark": {
           "_varRef": 37
@@ -631,32 +636,6 @@
       }
     },
     "39": {
-      "varNm": "layer/layer-0/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 15
-        },
-        "Dark": {
-          "_varRef": 38
-        }
-      }
-    },
-    "40": {
-      "varNm": "layer/layer-1/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 15
-        },
-        "Dark": {
-          "_varRef": 38
-        }
-      }
-    },
-    "41": {
       "varNm": "color/salmon/700",
       "varTy": 1,
       "_colRef": 2,
@@ -669,7 +648,7 @@
         }
       }
     },
-    "42": {
+    "40": {
       "varNm": "color/salmon/200",
       "varTy": 1,
       "_colRef": 2,
@@ -682,13 +661,39 @@
         }
       }
     },
-    "43": {
+    "41": {
       "varNm": "palette/palette-1/700/tone",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
+          "_varRef": 39
+        },
+        "Dark": {
+          "_varRef": 40
+        }
+      }
+    },
+    "42": {
+      "varNm": "palette/actionable/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 19
+        },
+        "Dark": {
           "_varRef": 41
+        }
+      }
+    },
+    "43": {
+      "varNm": "layer/layer-0/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
         },
         "Dark": {
           "_varRef": 42
@@ -696,64 +701,77 @@
       }
     },
     "44": {
+      "varNm": "layer/layer-1/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "45": {
       "varNm": "layer/layer-2/element/interactive/color",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 14
+          "_varRef": 42
         },
         "Dark": {
-          "_varRef": 43
+          "_varRef": 42
         }
       }
     },
-    "45": {
+    "46": {
       "varNm": "layer/layer-3/element/interactive/color",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 13
+          "_varRef": 42
         },
         "Dark": {
-          "_varRef": 38
+          "_varRef": 42
         }
       }
     },
-    "46": {
+    "47": {
       "varNm": "link/color/text-default",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "0": {
-          "_varRef": 39
+          "_varRef": 43
         },
         "1": {
-          "_varRef": 40
-        },
-        "2": {
           "_varRef": 44
         },
-        "3": {
+        "2": {
           "_varRef": 45
+        },
+        "3": {
+          "_varRef": 46
         }
       }
     },
-    "47": {
+    "48": {
       "varNm": "font/body/letter-spacing",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 26
+          "_varRef": 31
         },
         "Dark": {
-          "_varRef": 26
+          "_varRef": 31
         }
       }
     },
-    "48": {
+    "49": {
       "varNm": "font/size/md",
       "varTy": 2,
       "_colRef": 2,
@@ -761,20 +779,20 @@
         "Mode 1": 16
       }
     },
-    "49": {
+    "50": {
       "varNm": "font/body/size",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 48
+          "_varRef": 49
         },
         "Dark": {
-          "_varRef": 48
+          "_varRef": 49
         }
       }
     },
-    "50": {
+    "51": {
       "varNm": "font/family/bellota",
       "varTy": 3,
       "_colRef": 2,
@@ -782,20 +800,20 @@
         "Mode 1": "Bellota Text"
       }
     },
-    "51": {
+    "52": {
       "varNm": "font/body/font-family",
       "varTy": 3,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 50
+          "_varRef": 51
         },
         "Dark": {
-          "_varRef": 50
+          "_varRef": 51
         }
       }
     },
-    "52": {
+    "53": {
       "varNm": "font/weight/regular",
       "varTy": 2,
       "_colRef": 2,
@@ -803,20 +821,20 @@
         "Mode 1": 400
       }
     },
-    "53": {
+    "54": {
       "varNm": "font/body/weight-normal",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 52
+          "_varRef": 53
         },
         "Dark": {
-          "_varRef": 52
+          "_varRef": 53
         }
       }
     },
-    "54": {
+    "55": {
       "varNm": "size/2x",
       "varTy": 2,
       "_colRef": 2,
@@ -824,132 +842,22 @@
         "Mode 1": 16
       }
     },
-    "55": {
-      "varNm": "layer/layer-0/element/interactive/hover-color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 38
-        },
-        "Dark": {
-          "_varRef": 43
-        }
-      }
-    },
     "56": {
-      "varNm": "layer/layer-1/element/interactive/hover-color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 38
-        },
-        "Dark": {
-          "_varRef": 43
-        }
-      }
-    },
-    "57": {
-      "varNm": "color/salmon/800",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.3686274588108063,
-          "g": 0.0117647061124444,
-          "b": 0.07058823853731155,
-          "a": 1
-        }
-      }
-    },
-    "58": {
-      "varNm": "color/salmon/100",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.9725490212440491,
-          "g": 0.7254902124404907,
-          "b": 0.7490196228027344,
-          "a": 1
-        }
-      }
-    },
-    "59": {
-      "varNm": "palette/palette-1/800/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 57
-        },
-        "Dark": {
-          "_varRef": 58
-        }
-      }
-    },
-    "60": {
-      "varNm": "layer/layer-2/element/interactive/hover-color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 38
-        },
-        "Dark": {
-          "_varRef": 59
-        }
-      }
-    },
-    "61": {
-      "varNm": "layer/layer-3/element/interactive/hover-color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 14
-        },
-        "Dark": {
-          "_varRef": 43
-        }
-      }
-    },
-    "62": {
-      "varNm": "link/color/text-hover",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 55
-        },
-        "1": {
-          "_varRef": 56
-        },
-        "2": {
-          "_varRef": 60
-        },
-        "3": {
-          "_varRef": 61
-        }
-      }
-    },
-    "63": {
       "varNm": "global/form/field/color/icon",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "0": {
-          "_varRef": 18
+          "_varRef": 23
         },
         "1": {
-          "_varRef": 20
+          "_varRef": 25
         },
         "2": {
-          "_varRef": 22
+          "_varRef": 27
         },
         "3": {
-          "_varRef": 24
+          "_varRef": 29
         }
       }
     }
@@ -1028,7 +936,7 @@
       "type": 2,
       "name": "h1",
       "txtSt": {
-        "fontS": 40,
+        "fontS": 36,
         "fontN": {
           "family": "Lexend",
           "style": "Bold"
@@ -1039,31 +947,25 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 27
-          },
-          "fontS": {
-            "_varRef": 29
+            "_varRef": 32
           },
           "fontF": {
-            "_varRef": 31
+            "_varRef": 34
           },
           "fontW": {
-            "_varRef": 33
+            "_varRef": 36
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 27
-        },
-        "fontS": {
-          "_varRef": 29
+          "_varRef": 32
         },
         "fontF": {
-          "_varRef": 31
+          "_varRef": 34
         },
         "fontW": {
-          "_varRef": 33
+          "_varRef": 36
         }
       }
     },
@@ -1082,31 +984,31 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 47
+            "_varRef": 48
           },
           "fontS": {
-            "_varRef": 49
+            "_varRef": 50
           },
           "fontF": {
-            "_varRef": 51
+            "_varRef": 52
           },
           "fontW": {
-            "_varRef": 53
+            "_varRef": 54
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 47
+          "_varRef": 48
         },
         "fontS": {
-          "_varRef": 49
+          "_varRef": 50
         },
         "fontF": {
-          "_varRef": 51
+          "_varRef": 52
         },
         "fontW": {
-          "_varRef": 53
+          "_varRef": 54
         }
       }
     }
@@ -1141,7 +1043,7 @@
         "x": 233,
         "y": -199,
         "w": 243,
-        "h": 439,
+        "h": 434,
         "fills": [
           {
             "type": 15,
@@ -1155,7 +1057,7 @@
             },
             "bndVar": {
               "color": {
-                "_varRef": 8
+                "_varRef": 14
               }
             }
           }
@@ -1164,7 +1066,7 @@
         "bndVar": {
           "fills": [
             {
-              "_varRef": 8
+              "_varRef": 14
             }
           ]
         },
@@ -1181,7 +1083,7 @@
             },
             "bndVar": {
               "color": {
-                "_varRef": 8
+                "_varRef": 14
               }
             }
           }
@@ -1203,11 +1105,11 @@
             "x": 40,
             "y": 40,
             "w": 163,
-            "h": 110,
+            "h": 105,
             "stkAl": "INSIDE",
             "bndVar": {
               "itmSp": {
-                "_varRef": 10
+                "_varRef": 16
               }
             },
             "_isInstance": true,
@@ -1257,7 +1159,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 17
+                            "_varRef": 22
                           }
                         }
                       }
@@ -1266,7 +1168,7 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 17
+                          "_varRef": 22
                         }
                       ]
                     },
@@ -1285,8 +1187,8 @@
                 "id": "I3042:3823;3041:63",
                 "name": "Title",
                 "y": 32,
-                "w": 102,
-                "h": 50,
+                "w": 92,
+                "h": 45,
                 "fills": [
                   {
                     "type": 15,
@@ -1300,7 +1202,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 25
+                        "_varRef": 30
                       }
                     }
                   }
@@ -1309,27 +1211,22 @@
                 "bndVar": {
                   "fills": [
                     {
-                      "_varRef": 25
+                      "_varRef": 30
                     }
                   ],
                   "letSp": [
                     {
-                      "_varRef": 27
-                    }
-                  ],
-                  "fontS": [
-                    {
-                      "_varRef": 29
+                      "_varRef": 32
                     }
                   ],
                   "fontF": [
                     {
-                      "_varRef": 31
+                      "_varRef": 34
                     }
                   ],
                   "fontW": [
                     {
-                      "_varRef": 33
+                      "_varRef": 36
                     }
                   ]
                 },
@@ -1342,20 +1239,20 @@
                   "family": "Lexend",
                   "style": "Bold"
                 },
-                "fontS": 40,
+                "fontS": 36,
                 "txtAr": "WIDTH_AND_HEIGHT"
               },
               {
                 "type": 1,
                 "id": "I3042:3823;3041:361",
                 "name": "Link",
-                "y": 90,
+                "y": 85,
                 "w": 163,
                 "h": 20,
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 35
+                    "_varRef": 38
                   }
                 },
                 "cPropR": {
@@ -1386,7 +1283,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 46
+                            "_varRef": 47
                           }
                         }
                       }
@@ -1395,27 +1292,27 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 46
+                          "_varRef": 47
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 47
+                          "_varRef": 48
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 49
+                          "_varRef": 50
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 51
+                          "_varRef": 52
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 53
+                          "_varRef": 54
                         }
                       ]
                     },
@@ -1440,10 +1337,10 @@
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
-                        "_varRef": 54
+                        "_varRef": 55
                       },
                       "h": {
-                        "_varRef": 54
+                        "_varRef": 55
                       }
                     },
                     "cPropR": {},
@@ -1470,13 +1367,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.6941176652908325,
-                              "g": 0.09019608050584793,
-                              "b": 0.23137255012989044
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 62
+                                "_varRef": 47
                               }
                             }
                           }
@@ -1485,7 +1382,7 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 62
+                              "_varRef": 47
                             }
                           ]
                         },
@@ -1514,7 +1411,7 @@
             "id": "2476:2480",
             "name": "Logo",
             "x": 40,
-            "y": 190,
+            "y": 185,
             "w": 104,
             "h": 209,
             "strks": [
@@ -1584,7 +1481,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 17
+                            "_varRef": 22
                           }
                         }
                       }
@@ -1593,7 +1490,7 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 17
+                          "_varRef": 22
                         }
                       ]
                     },
@@ -1647,7 +1544,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 63
+                            "_varRef": 56
                           }
                         }
                       }
@@ -1656,7 +1553,7 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 63
+                          "_varRef": 56
                         }
                       ]
                     },
@@ -1710,7 +1607,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 8
+                            "_varRef": 14
                           }
                         }
                       }
@@ -1719,7 +1616,7 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 8
+                          "_varRef": 14
                         }
                       ]
                     },
