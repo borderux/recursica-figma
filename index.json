@@ -4,7 +4,7 @@
       "name": "✹ Icons",
       "path": "components/Icons/Icons.figma.json",
       "version": 1,
-      "publishDate": "2026-01-08T21:44:25.925Z"
+      "publishDate": "2026-01-08T22:07:12.878Z"
     },
     "f2e98aa8-aef2-4433-8fe5-773f0262ddab": {
       "name": "✅ Accordion",
@@ -16,13 +16,13 @@
       "name": "UI kit components",
       "path": "components/UI_kit_components/UI_kit_components.figma.json",
       "version": 1,
-      "publishDate": "2026-01-08T21:44:25.921Z"
+      "publishDate": "2026-01-08T22:07:12.876Z"
     },
     "2df95ba7-e7a2-4748-9b65-5e2762cb176b": {
       "name": "Logo",
       "path": "components/Logo/Logo.figma.json",
       "version": 1,
-      "publishDate": "2026-01-08T21:44:25.924Z"
+      "publishDate": "2026-01-08T22:07:12.876Z"
     },
     "8bb3c910-b8c1-4b42-8a2f-6707ecb88226": {
       "name": "✅ Avatar ",
@@ -53,6 +53,18 @@
       "path": "components/Card/Card.figma.json",
       "version": 1,
       "publishDate": "2026-01-08T21:44:25.920Z"
+    },
+    "2bc8d255-78b9-49d5-8068-6a942278f724": {
+      "name": "✅  Checkbox",
+      "path": "components/Checkbox/Checkbox.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-08T22:07:12.875Z"
+    },
+    "ab4360c3-3d5d-4791-bf23-0a8795d5c21e": {
+      "name": "Form base components",
+      "path": "components/Form_base_components/Form_base_components.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-08T22:07:12.879Z"
     }
   }
 }
