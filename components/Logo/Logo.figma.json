@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-08T22:07:12.876Z",
+    "publishDate": "2026-01-09T00:38:25.008Z",
     "history": {
       "1": {
         "message": "Latest",
-        "date": "2026-01-08T22:07:12.876Z"
+        "date": "2026-01-09T00:38:25.008Z"
       }
     }
   },
@@ -1635,5 +1635,6 @@
         ]
       }
     ]
-  }
+  },
+  "additionalPages": []
 }

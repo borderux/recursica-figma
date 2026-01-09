@@ -6,11 +6,11 @@
     "version": 1,
     "name": "Form base components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-08T22:07:12.879Z",
+    "publishDate": "2026-01-09T00:38:25.011Z",
     "history": {
       "1": {
         "message": "Latest",
-        "date": "2026-01-08T22:07:12.879Z"
+        "date": "2026-01-09T00:38:25.011Z"
       }
     }
   },
@@ -5556,5 +5556,6 @@
         ]
       }
     ]
-  }
+  },
+  "additionalPages": []
 }
