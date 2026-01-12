@@ -4,7 +4,7 @@
       "name": "✹ Icons",
       "path": "components/Icons/Icons.figma.json",
       "version": 1,
-      "publishDate": "2026-01-09T17:34:08.020Z"
+      "publishDate": "2026-01-12T18:22:33.082Z"
     },
     "f2e98aa8-aef2-4433-8fe5-773f0262ddab": {
       "name": "✅ Accordion",
@@ -16,13 +16,13 @@
       "name": "UI kit components",
       "path": "components/UI_kit_components/UI_kit_components.figma.json",
       "version": 1,
-      "publishDate": "2026-01-09T17:34:08.018Z"
+      "publishDate": "2026-01-12T18:22:33.078Z"
     },
     "2df95ba7-e7a2-4748-9b65-5e2762cb176b": {
       "name": "Logo",
       "path": "components/Logo/Logo.figma.json",
       "version": 1,
-      "publishDate": "2026-01-09T17:34:08.019Z"
+      "publishDate": "2026-01-12T18:22:33.078Z"
     },
     "8bb3c910-b8c1-4b42-8a2f-6707ecb88226": {
       "name": "✅ Avatar ",
@@ -64,13 +64,31 @@
       "name": "Form base components",
       "path": "components/Form_base_components/Form_base_components.figma.json",
       "version": 1,
-      "publishDate": "2026-01-09T01:12:10.387Z"
+      "publishDate": "2026-01-12T18:22:33.086Z"
     },
     "bc7409bf-9b73-46fe-abb9-c7722427093c": {
       "name": "✅ Chip",
       "path": "components/Chip/Chip.figma.json",
       "version": 1,
       "publishDate": "2026-01-09T17:34:08.017Z"
+    },
+    "8a1483bd-c5ff-487f-9cbd-8ea168323764": {
+      "name": "✅ Date picker",
+      "path": "components/Date_picker/Date_picker.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-12T18:22:33.076Z"
+    },
+    "5920adc9-6429-4596-8474-2f9be277d0f8": {
+      "name": "✅ Text field",
+      "path": "components/Text_field/Text_field.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-12T18:22:33.084Z"
+    },
+    "cf01fe4f-1ac3-4ecf-b75a-784bc5fda3f8": {
+      "name": "✅ Button",
+      "path": "components/Button/Button.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-12T18:22:33.088Z"
     }
   }
 }
