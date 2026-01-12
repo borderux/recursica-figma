@@ -67,10 +67,10 @@
       "publishDate": "2026-01-12T18:55:54.789Z"
     },
     "bc7409bf-9b73-46fe-abb9-c7722427093c": {
-      "name": "✅ Chip",
-      "path": "components/Chip/Chip.figma.json",
+      "name": "✅ Chip (VERSION: 1)",
+      "path": "components/Chip_VERSION_1/Chip_VERSION_1.figma.json",
       "version": 1,
-      "publishDate": "2026-01-12T18:55:54.789Z"
+      "publishDate": "2026-01-12T19:46:41.503Z"
     },
     "8a1483bd-c5ff-487f-9cbd-8ea168323764": {
       "name": "✅ Date picker",
