@@ -102,12 +102,6 @@
       "version": 2,
       "publishDate": "2026-01-13T22:05:12.873Z"
     },
-    "ab4360c3-3d5d-4791-bf23-0a8795d5c21e": {
-      "name": "Form base components",
-      "path": "components/Form_base_components/Form_base_components.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-13T22:05:12.873Z"
-    },
     "0f1cfe7c-a8ce-4d7f-bd61-f098811ba50e": {
       "name": "✅ Menu",
       "path": "components/Menu/Menu.figma.json",
@@ -125,12 +119,6 @@
       "path": "components/Divider/Divider.figma.json",
       "version": 1,
       "publishDate": "2026-01-13T22:05:12.873Z"
-    },
-    "bc7409bf-9b73-46fe-abb9-c7722427093c": {
-      "name": "✅ Chip",
-      "path": "components/Chip/Chip.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-13T22:05:12.874Z"
     }
   }
 }
