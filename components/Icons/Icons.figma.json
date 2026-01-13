@@ -1,18 +1,12 @@
 {
   "metadata": {
+    "exportedAt": "2026-01-13T20:03:52.894Z",
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "60e10658-76c7-44c1-87de-eacb2d68e930",
-    "version": 1,
+    "version": 2,
     "name": "✹ Icons",
-    "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-12T18:55:54.787Z",
-    "history": {
-      "1": {
-        "message": "Next",
-        "date": "2026-01-12T18:55:54.787Z"
-      }
-    }
+    "pluginVersion": "1.0.0"
   },
   "stringTable": {
     "colNm": "collectionName",
