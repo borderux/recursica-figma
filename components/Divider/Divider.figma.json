@@ -1,0 +1,2179 @@
+{
+  "metadata": {
+    "exportFormatVersion": "1.0.0",
+    "figmaApiVersion": "1.0.0",
+    "guid": "14fb4d98-f40c-4dd9-bf4e-0ca05322991f",
+    "version": 1,
+    "name": "Divider",
+    "pluginVersion": "1.0.0",
+    "publishDate": "2026-01-13T21:34:11.856Z",
+    "history": {
+      "1": {
+        "message": "Latest",
+        "date": "2026-01-13T21:34:11.856Z"
+      }
+    }
+  },
+  "stringTable": {
+    "colNm": "collectionName",
+    "colId": "collectionId",
+    "colGu": "collectionGuid",
+    "modes": "modes",
+    "varNm": "variableName",
+    "varTy": "variableType",
+    "vByMd": "valuesByMode",
+    "_colRef": "_colRef",
+    "_varRef": "_varRef",
+    "_insRef": "_instanceRef",
+    "_stlRef": "_styleRef",
+    "instT": "instanceType",
+    "compN": "componentName",
+    "cSetN": "componentSetName",
+    "cNode": "componentNodeId",
+    "compG": "componentGuid",
+    "cVers": "componentVersion",
+    "cPage": "componentPageName",
+    "varPr": "variantProperties",
+    "cProp": "componentProperties",
+    "rLibN": "remoteLibraryName",
+    "rLibK": "remoteLibraryKey",
+    "path": "path",
+    "struc": "structure",
+    "bndVar": "boundVariables",
+    "stkAl": "strokeAlign",
+    "stkWt": "strokeWeight",
+    "stkCp": "strokeCap",
+    "stkJn": "strokeJoin",
+    "fillG": "fillGeometry",
+    "strkG": "strokeGeometry",
+    "windR": "windingRule",
+    "layMd": "layoutMode",
+    "padL": "paddingLeft",
+    "padR": "paddingRight",
+    "padT": "paddingTop",
+    "padB": "paddingBottom",
+    "itmSp": "itemSpacing",
+    "clipC": "clipsContent",
+    "corR": "cornerRadius",
+    "pAxSz": "primaryAxisSizingMode",
+    "cAxSz": "counterAxisSizingMode",
+    "pAxAl": "primaryAxisAlignItems",
+    "cAxAl": "counterAxisAlignItems",
+    "cAxSp": "counterAxisSpacing",
+    "txtAr": "textAutoResize",
+    "letSp": "letterSpacing",
+    "linHt": "lineHeight",
+    "txtAh": "textAlignHorizontal",
+    "txtAv": "textAlignVertical",
+    "txtDc": "textDecoration",
+    "fontN": "fontName",
+    "fontS": "fontSize",
+    "fontW": "fontWeight",
+    "fontF": "fontFamily",
+    "prefV": "preferredValues",
+    "shwSh": "showShadowBehindNode",
+    "botLR": "bottomLeftRadius",
+    "botRR": "bottomRightRadius",
+    "topLR": "topLeftRadius",
+    "layGr": "layoutGrow",
+    "laySzH": "layoutSizingHorizontal",
+    "laySzV": "layoutSizingVertical",
+    "offX": "offsetX",
+    "offY": "offsetY",
+    "maxW": "maxWidth",
+    "minW": "minWidth",
+    "parSp": "paragraphSpacing",
+    "parIn": "paragraphIndent",
+    "lstOp": "listOptions",
+    "dashP": "dashPattern",
+    "blnMd": "blendMode",
+    "chars": "characters",
+    "child": "children",
+    "effct": "effects",
+    "fills": "fills",
+    "strks": "strokes",
+    "visbl": "visible",
+    "opcty": "opacity",
+    "rotat": "rotation",
+    "h": "height",
+    "w": "width",
+    "libNm": "libraryName",
+    "cnsHr": "constraintHorizontal",
+    "cnsVr": "constraintVertical",
+    "txtSt": "textStyle",
+    "pntSt": "paintStyle",
+    "effSt": "effectStyle",
+    "grdSt": "gridStyle",
+    "stlKy": "styleKey",
+    "cPropR": "componentPropertyReferences"
+  },
+  "collections": {
+    "0": {
+      "colNm": "Layer",
+      "modes": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000001"
+    },
+    "1": {
+      "colNm": "Theme",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000003"
+    },
+    "2": {
+      "colNm": "Tokens",
+      "modes": [
+        "Mode 1"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000002"
+    }
+  },
+  "variables": {
+    "0": {
+      "varNm": "color/gray/000",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9882352948188782,
+          "g": 0.9882352948188782,
+          "b": 0.9882352948188782,
+          "a": 1
+        }
+      }
+    },
+    "1": {
+      "varNm": "palette/white/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 0
+        },
+        "Dark": {
+          "_varRef": 0
+        }
+      }
+    },
+    "2": {
+      "varNm": "color/gray/1000",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.03921568766236305,
+          "g": 0.03921568766236305,
+          "b": 0.03921568766236305,
+          "a": 1
+        }
+      }
+    },
+    "3": {
+      "varNm": "palette/black/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 2
+        },
+        "Dark": {
+          "_varRef": 2
+        }
+      }
+    },
+    "4": {
+      "varNm": "layer/layer-0/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 1
+        },
+        "Dark": {
+          "_varRef": 3
+        }
+      }
+    },
+    "5": {
+      "varNm": "color/gray/050",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9755661487579346,
+          "g": 0.9751049876213074,
+          "b": 0.9751049876213074,
+          "a": 1
+        }
+      }
+    },
+    "6": {
+      "varNm": "color/gray/900",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1349721997976303,
+          "g": 0.1349721997976303,
+          "b": 0.1349721997976303,
+          "a": 1
+        }
+      }
+    },
+    "7": {
+      "varNm": "palette/neutral/050/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 5
+        },
+        "Dark": {
+          "_varRef": 6
+        }
+      }
+    },
+    "8": {
+      "varNm": "layer/layer-1/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "9": {
+      "varNm": "color/gray/100",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9137254953384399,
+          "g": 0.9137254953384399,
+          "b": 0.9137254953384399,
+          "a": 1
+        }
+      }
+    },
+    "10": {
+      "varNm": "color/gray/800",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1725490242242813,
+          "g": 0.1725490242242813,
+          "b": 0.1725490242242813,
+          "a": 1
+        }
+      }
+    },
+    "11": {
+      "varNm": "palette/neutral/100/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 9
+        },
+        "Dark": {
+          "_varRef": 10
+        }
+      }
+    },
+    "12": {
+      "varNm": "layer/layer-2/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 11
+        },
+        "Dark": {
+          "_varRef": 11
+        }
+      }
+    },
+    "13": {
+      "varNm": "layer/layer-3/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "14": {
+      "varNm": "global/form/field/color/background",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 4
+        },
+        "1": {
+          "_varRef": 8
+        },
+        "2": {
+          "_varRef": 12
+        },
+        "3": {
+          "_varRef": 13
+        }
+      }
+    },
+    "15": {
+      "varNm": "size/default",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 8
+      }
+    },
+    "16": {
+      "varNm": "dimension/default",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 15
+        },
+        "Dark": {
+          "_varRef": 15
+        }
+      }
+    },
+    "17": {
+      "varNm": "color/salmon/400",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.8666666746139526,
+          "g": 0.1725490242242813,
+          "b": 0.33725491166114807,
+          "a": 1
+        }
+      }
+    },
+    "18": {
+      "varNm": "color/salmon/500",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.8235294222831726,
+          "g": 0.11764705926179886,
+          "b": 0.2862745225429535,
+          "a": 1
+        }
+      }
+    },
+    "19": {
+      "varNm": "palette/palette-1/400/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 17
+        },
+        "Dark": {
+          "_varRef": 18
+        }
+      }
+    },
+    "20": {
+      "varNm": "palette/palette-1/500/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 18
+        },
+        "Dark": {
+          "_varRef": 17
+        }
+      }
+    },
+    "21": {
+      "varNm": "palette/palette-1/default/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 19
+        },
+        "Dark": {
+          "_varRef": 20
+        }
+      }
+    },
+    "22": {
+      "varNm": "avatar/color/background-primary",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 21
+        },
+        "1": {
+          "_varRef": 21
+        },
+        "2": {
+          "_varRef": 21
+        },
+        "3": {
+          "_varRef": 21
+        }
+      }
+    },
+    "23": {
+      "varNm": "layer/layer-0/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "24": {
+      "varNm": "palette/neutral/050/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "25": {
+      "varNm": "layer/layer-1/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 24
+        },
+        "Dark": {
+          "_varRef": 24
+        }
+      }
+    },
+    "26": {
+      "varNm": "palette/neutral/100/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "27": {
+      "varNm": "layer/layer-2/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 24
+        },
+        "Dark": {
+          "_varRef": 26
+        }
+      }
+    },
+    "28": {
+      "varNm": "palette/neutral/200/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "29": {
+      "varNm": "layer/layer-3/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 28
+        }
+      }
+    },
+    "30": {
+      "varNm": "global/form/label/color/default",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 23
+        },
+        "1": {
+          "_varRef": 25
+        },
+        "2": {
+          "_varRef": 27
+        },
+        "3": {
+          "_varRef": 29
+        }
+      }
+    },
+    "31": {
+      "varNm": "font/letter-spacing/default",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 0
+      }
+    },
+    "32": {
+      "varNm": "font/h1/letter-spacing",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 31
+        },
+        "Dark": {
+          "_varRef": 31
+        }
+      }
+    },
+    "33": {
+      "varNm": "font/family/lexend",
+      "varTy": 3,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": "Lexend"
+      }
+    },
+    "34": {
+      "varNm": "font/h1/font-family",
+      "varTy": 3,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 33
+        },
+        "Dark": {
+          "_varRef": 33
+        }
+      }
+    },
+    "35": {
+      "varNm": "font/weight/bold",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 700
+      }
+    },
+    "36": {
+      "varNm": "font/h1/weight",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 35
+        },
+        "Dark": {
+          "_varRef": 35
+        }
+      }
+    },
+    "37": {
+      "varNm": "size/0-5x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 4
+      }
+    },
+    "38": {
+      "varNm": "dimension/sm",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 37
+        },
+        "Dark": {
+          "_varRef": 37
+        }
+      }
+    },
+    "39": {
+      "varNm": "color/salmon/700",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.5215686559677124,
+          "g": 0.10196078568696976,
+          "b": 0.20392157137393951,
+          "a": 1
+        }
+      }
+    },
+    "40": {
+      "varNm": "color/salmon/200",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9725490212440491,
+          "g": 0.5686274766921997,
+          "b": 0.6039215922355652,
+          "a": 1
+        }
+      }
+    },
+    "41": {
+      "varNm": "palette/palette-1/700/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 39
+        },
+        "Dark": {
+          "_varRef": 40
+        }
+      }
+    },
+    "42": {
+      "varNm": "palette/actionable/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 19
+        },
+        "Dark": {
+          "_varRef": 41
+        }
+      }
+    },
+    "43": {
+      "varNm": "layer/layer-0/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "44": {
+      "varNm": "layer/layer-1/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "45": {
+      "varNm": "layer/layer-2/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "46": {
+      "varNm": "layer/layer-3/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "47": {
+      "varNm": "link/color/text-default",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 43
+        },
+        "1": {
+          "_varRef": 44
+        },
+        "2": {
+          "_varRef": 45
+        },
+        "3": {
+          "_varRef": 46
+        }
+      }
+    },
+    "48": {
+      "varNm": "font/body/letter-spacing",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 31
+        },
+        "Dark": {
+          "_varRef": 31
+        }
+      }
+    },
+    "49": {
+      "varNm": "font/size/md",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 16
+      }
+    },
+    "50": {
+      "varNm": "font/body/size",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 49
+        },
+        "Dark": {
+          "_varRef": 49
+        }
+      }
+    },
+    "51": {
+      "varNm": "font/family/bellota",
+      "varTy": 3,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": "Bellota Text"
+      }
+    },
+    "52": {
+      "varNm": "font/body/font-family",
+      "varTy": 3,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 51
+        },
+        "Dark": {
+          "_varRef": 51
+        }
+      }
+    },
+    "53": {
+      "varNm": "font/weight/regular",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 400
+      }
+    },
+    "54": {
+      "varNm": "font/body/weight-normal",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 53
+        },
+        "Dark": {
+          "_varRef": 53
+        }
+      }
+    },
+    "55": {
+      "varNm": "size/2x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 16
+      }
+    },
+    "56": {
+      "varNm": "link/size/text-icon-gap",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 38
+        },
+        "1": {
+          "_varRef": 38
+        },
+        "2": {
+          "_varRef": 38
+        },
+        "3": {
+          "_varRef": 38
+        }
+      }
+    },
+    "57": {
+      "varNm": "size/2x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 16
+      }
+    },
+    "58": {
+      "varNm": "dimension/icon/sm",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 57
+        },
+        "Dark": {
+          "_varRef": 57
+        }
+      }
+    },
+    "59": {
+      "varNm": "link/size/icon-body",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 58
+        },
+        "1": {
+          "_varRef": 58
+        },
+        "2": {
+          "_varRef": 58
+        },
+        "3": {
+          "_varRef": 58
+        }
+      }
+    },
+    "60": {
+      "varNm": "global/icon/style",
+      "varTy": 3,
+      "_colRef": 0,
+      "vByMd": {
+        "0": "outline",
+        "1": "outline",
+        "2": "outline",
+        "3": "outline"
+      }
+    },
+    "61": {
+      "varNm": "table/color/link",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 43
+        },
+        "1": {
+          "_varRef": 44
+        },
+        "2": {
+          "_varRef": 45
+        },
+        "3": {
+          "_varRef": 46
+        }
+      }
+    },
+    "62": {
+      "varNm": "color/gray/200",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.8392156958580017,
+          "g": 0.8392156958580017,
+          "b": 0.8392156958580017,
+          "a": 1
+        }
+      }
+    },
+    "63": {
+      "varNm": "color/gray/700",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.2705882489681244,
+          "g": 0.2705882489681244,
+          "b": 0.2705882489681244,
+          "a": 1
+        }
+      }
+    },
+    "64": {
+      "varNm": "palette/neutral/200/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 62
+        },
+        "Dark": {
+          "_varRef": 63
+        }
+      }
+    },
+    "65": {
+      "varNm": "palette/neutral/700/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 63
+        },
+        "Dark": {
+          "_varRef": 62
+        }
+      }
+    },
+    "66": {
+      "varNm": "palette/neutral/default/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 64
+        },
+        "Dark": {
+          "_varRef": 65
+        }
+      }
+    },
+    "67": {
+      "varNm": "layer/layer-1/property/border-color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 64
+        },
+        "Dark": {
+          "_varRef": 64
+        }
+      }
+    },
+    "68": {
+      "varNm": "color/gray/300",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.7529411911964417,
+          "g": 0.7529411911964417,
+          "b": 0.7529411911964417,
+          "a": 1
+        }
+      }
+    },
+    "69": {
+      "varNm": "color/gray/600",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.37254902720451355,
+          "g": 0.37254902720451355,
+          "b": 0.37254902720451355,
+          "a": 1
+        }
+      }
+    },
+    "70": {
+      "varNm": "palette/neutral/300/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 68
+        },
+        "Dark": {
+          "_varRef": 69
+        }
+      }
+    },
+    "71": {
+      "varNm": "layer/layer-2/property/border-color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 70
+        },
+        "Dark": {
+          "_varRef": 70
+        }
+      }
+    },
+    "72": {
+      "varNm": "color/gray/400",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.6000000238418579,
+          "g": 0.6000000238418579,
+          "b": 0.6000000238418579,
+          "a": 1
+        }
+      }
+    },
+    "73": {
+      "varNm": "color/gray/500",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.4901960790157318,
+          "g": 0.4901960790157318,
+          "b": 0.4901960790157318,
+          "a": 1
+        }
+      }
+    },
+    "74": {
+      "varNm": "palette/neutral/400/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 72
+        },
+        "Dark": {
+          "_varRef": 73
+        }
+      }
+    },
+    "75": {
+      "varNm": "layer/layer-3/property/border-color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 64
+        },
+        "Dark": {
+          "_varRef": 74
+        }
+      }
+    },
+    "76": {
+      "varNm": "divider/color/default",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 66
+        },
+        "1": {
+          "_varRef": 67
+        },
+        "2": {
+          "_varRef": 71
+        },
+        "3": {
+          "_varRef": 75
+        }
+      }
+    }
+  },
+  "instances": {
+    "0": {
+      "instT": "normal",
+      "compN": ".UI kit / Page header",
+      "cProp": {
+        "Has link#3042:2": {
+          "type": 25,
+          "value": false
+        },
+        "Component name#3041:0": {
+          "type": 2,
+          "value": "Divider"
+        }
+      },
+      "path": [],
+      "nodePath": [],
+      "cPage": "UI kit components",
+      "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
+      "cVers": 0
+    },
+    "1": {
+      "instT": "normal",
+      "compN": "Style=Primary",
+      "cSetN": "Logo",
+      "varPr": {
+        "Style": "Primary"
+      },
+      "cProp": {
+        "Style": {
+          "value": "Primary",
+          "type": 26,
+          "bndVar": {}
+        }
+      },
+      "path": [
+        "Logo",
+        "Logo"
+      ],
+      "nodePath": [
+        "2992:9675",
+        "2476:2480"
+      ],
+      "cPage": "Logo",
+      "compG": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
+      "cVers": 0
+    },
+    "2": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cSetN": "arrow-top-right-on-square",
+      "varPr": {
+        "Style": "outline"
+      },
+      "cProp": {
+        "Style": {
+          "value": "outline",
+          "type": 26,
+          "bndVar": {}
+        }
+      },
+      "path": [
+        "arrow-top-right-on-square"
+      ],
+      "nodePath": [
+        "5746:12971"
+      ],
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0
+    },
+    "3": {
+      "instT": "normal",
+      "compN": "Size=Body, State=Default",
+      "cSetN": "Inline anchor",
+      "varPr": {
+        "Size": "Body",
+        "State": "Default"
+      },
+      "cProp": {
+        "Lead icon#3288:20": {
+          "type": 27,
+          "value": "5746:12972",
+          "prefV": []
+        },
+        "Value#3288:50": {
+          "type": 2,
+          "value": "Learn more about the <HR> element"
+        },
+        "Trail icon#3288:25": {
+          "type": 27,
+          "value": "5746:12972",
+          "prefV": []
+        },
+        "Trailing icon#3288:10": {
+          "type": 25,
+          "value": true
+        },
+        "Leading icon#3288:5": {
+          "type": 25,
+          "value": false
+        },
+        "Size": {
+          "value": "Body",
+          "type": 26,
+          "bndVar": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": 26,
+          "bndVar": {}
+        }
+      },
+      "path": [
+        "Link",
+        "Content",
+        "Inline anchor"
+      ],
+      "nodePath": [
+        "2529:12574",
+        "3288:3318",
+        "3288:3464"
+      ],
+      "cPage": "✅ Link",
+      "compG": "ac1c3ed9-a805-44eb-b92c-dc7fbfd714cf",
+      "cVers": 1
+    }
+  },
+  "styles": {
+    "0": {
+      "type": 2,
+      "name": "h1",
+      "txtSt": {
+        "fontS": 36,
+        "fontN": {
+          "family": "Lexend",
+          "style": "Bold"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 32
+          },
+          "fontF": {
+            "_varRef": 34
+          },
+          "fontW": {
+            "_varRef": 36
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 32
+        },
+        "fontF": {
+          "_varRef": 34
+        },
+        "fontW": {
+          "_varRef": 36
+        }
+      }
+    },
+    "1": {
+      "type": 2,
+      "name": "body/normal",
+      "txtSt": {
+        "fontS": 16,
+        "fontN": {
+          "family": "Bellota Text",
+          "style": "Regular"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 48
+          },
+          "fontS": {
+            "_varRef": 50
+          },
+          "fontF": {
+            "_varRef": 52
+          },
+          "fontW": {
+            "_varRef": 54
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 48
+        },
+        "fontS": {
+          "_varRef": 50
+        },
+        "fontF": {
+          "_varRef": 52
+        },
+        "fontW": {
+          "_varRef": 54
+        }
+      }
+    }
+  },
+  "images": {},
+  "pageData": {
+    "type": 13,
+    "id": "3888:881",
+    "name": "Divider",
+    "backgrounds": [
+      {
+        "type": 15,
+        "visbl": true,
+        "opcty": 1,
+        "blnMd": "NORMAL",
+        "color": {
+          "r": 0.7193278670310974,
+          "g": 0.7265506982803345,
+          "b": 0.7644693851470947
+        },
+        "bndVar": {}
+      }
+    ],
+    "_unhandledKeys": [
+      "_unknownType"
+    ],
+    "child": [
+      {
+        "type": 1,
+        "id": "3887:4635",
+        "name": "Divider",
+        "x": -864,
+        "y": 172,
+        "w": 645,
+        "h": 253,
+        "fills": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0.9882352948188782,
+              "g": 0.9882352948188782,
+              "b": 0.9882352948188782
+            },
+            "bndVar": {
+              "color": {
+                "_varRef": 14
+              }
+            }
+          }
+        ],
+        "stkAl": "INSIDE",
+        "bndVar": {
+          "fills": [
+            {
+              "_varRef": 14
+            }
+          ]
+        },
+        "backgrounds": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0.9882352948188782,
+              "g": 0.9882352948188782,
+              "b": 0.9882352948188782
+            },
+            "bndVar": {
+              "color": {
+                "_varRef": 14
+              }
+            }
+          }
+        ],
+        "layMd": "VERTICAL",
+        "padL": 40,
+        "padR": 40,
+        "padT": 40,
+        "padB": 40,
+        "itmSp": 40,
+        "laySzH": "HUG",
+        "laySzV": "HUG",
+        "child": [
+          {
+            "type": 1,
+            "id": "4040:10377",
+            "name": "Content",
+            "x": 40,
+            "y": 40,
+            "w": 565,
+            "h": 133,
+            "stkAl": "INSIDE",
+            "layMd": "VERTICAL",
+            "itmSp": 8,
+            "laySzH": "HUG",
+            "laySzV": "HUG",
+            "child": [
+              {
+                "type": 3,
+                "id": "3887:4636",
+                "name": "Page header",
+                "w": 134,
+                "h": 77,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 16
+                  }
+                },
+                "_isInstance": true,
+                "_insRef": 0,
+                "layMd": "VERTICAL",
+                "itmSp": 8,
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "child": [
+                  {
+                    "type": 3,
+                    "id": "I3887:4636;3041:62",
+                    "name": "Logo",
+                    "w": 36,
+                    "h": 24,
+                    "stkAl": "INSIDE",
+                    "cPropR": {},
+                    "_isInstance": true,
+                    "_insRef": 1,
+                    "padL": 15,
+                    "padR": 15,
+                    "padT": 15,
+                    "padB": 15,
+                    "itmSp": 10,
+                    "corR": 10,
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I3887:4636;3041:62;2476:2484",
+                        "name": "Subtract",
+                        "w": 36.024269104003906,
+                        "h": 24.014991760253906,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 22
+                              }
+                            }
+                          }
+                        ],
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 22
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "fillG": [
+                          {
+                            "data": "M 1.5395 0 C 0.689257 0 0 0.689224 0 1.53942 L 0 22.4756 C 0 23.3258 0.689257 24.015 1.5395 24.015 L 34.4848 24.015 C 35.335 24.015 36.0243 23.3258 36.0243 22.4756 L 36.0243 1.53942 C 36.0243 0.689223 35.335 0 34.4848 0 L 1.5395 0 Z M 2.30925 21.6909 C 2.30925 11.2361 10.581 2.71325 20.9372 2.30913 L 20.9372 21.6909 L 2.30925 21.6909 Z M 25.5557 21.6909 C 23.8552 21.6909 22.4767 20.3124 22.4767 18.612 L 25.5557 18.612 L 25.5557 21.6909 Z M 33.6907 13.5319 L 22.4767 13.5319 L 22.4767 2.31842 C 28.4954 2.69916 33.31 7.51354 33.6907 13.5319 Z M 33.6754 15.0714 C 33.3166 18.5376 30.5616 21.2925 27.0952 21.6513 L 27.0952 15.0714 L 33.6754 15.0714 Z M 24.478 15.0863 C 23.3727 15.0863 22.4767 15.9823 22.4767 17.0876 L 24.478 17.0876 L 24.478 15.0863 Z",
+                            "windRule": "EVENODD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 2,
+                    "id": "I3887:4636;3041:63",
+                    "name": "Title",
+                    "y": 32,
+                    "w": 134,
+                    "h": 45,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.03921568766236305,
+                          "g": 0.03921568766236305,
+                          "b": 0.03921568766236305
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 30
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 30
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 32
+                        }
+                      ],
+                      "fontF": [
+                        {
+                          "_varRef": 34
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 36
+                        }
+                      ]
+                    },
+                    "cPropR": {
+                      "chars": "Component name#3041:0"
+                    },
+                    "_stlRef": 0,
+                    "chars": "Divider",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Bold"
+                    },
+                    "fontS": 36,
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  },
+                  {
+                    "type": 1,
+                    "id": "I3887:4636;3041:361",
+                    "name": "Link",
+                    "y": 85,
+                    "w": 163,
+                    "h": 20,
+                    "visbl": false,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 38
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Has link#3042:2"
+                    },
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 2,
+                        "id": "I3887:4636;3041:67",
+                        "name": "Title",
+                        "w": 171,
+                        "h": 20,
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 47
+                              }
+                            }
+                          }
+                        ],
+                        "stkAl": "OUTSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 47
+                            }
+                          ],
+                          "letSp": [
+                            {
+                              "_varRef": 48
+                            }
+                          ],
+                          "fontS": [
+                            {
+                              "_varRef": 50
+                            }
+                          ],
+                          "fontF": [
+                            {
+                              "_varRef": 52
+                            }
+                          ],
+                          "fontW": [
+                            {
+                              "_varRef": 54
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "_stlRef": 1,
+                        "chars": "View our documentation",
+                        "fontN": {
+                          "family": "Bellota Text",
+                          "style": "Regular"
+                        },
+                        "fontS": 16,
+                        "txtAr": "WIDTH_AND_HEIGHT"
+                      },
+                      {
+                        "type": 3,
+                        "id": "I3887:4636;3041:358",
+                        "name": "arrow-top-right-on-square",
+                        "x": 147,
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 55
+                          },
+                          "h": {
+                            "_varRef": 55
+                          }
+                        },
+                        "cPropR": {},
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3887:4636;3041:358;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 2,
+                "id": "4040:10373",
+                "name": "Helps provide the CSS styling to the default HTML <HR> (Horizontal Ruler / Line).",
+                "y": 85,
+                "w": 565,
+                "h": 20,
+                "fills": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 1,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "bndVar": {}
+                  }
+                ],
+                "stkAl": "OUTSIDE",
+                "bndVar": {
+                  "letSp": [
+                    {
+                      "_varRef": 48
+                    }
+                  ],
+                  "fontS": [
+                    {
+                      "_varRef": 50
+                    }
+                  ],
+                  "fontF": [
+                    {
+                      "_varRef": 52
+                    }
+                  ],
+                  "fontW": [
+                    {
+                      "_varRef": 54
+                    }
+                  ]
+                },
+                "_stlRef": 1,
+                "chars": "Helps provide the CSS styling to the default HTML <HR> (Horizontal Ruler / Line).",
+                "fontN": {
+                  "family": "Bellota Text",
+                  "style": "Regular"
+                },
+                "fontS": 16,
+                "txtAv": "CENTER",
+                "txtAr": "WIDTH_AND_HEIGHT"
+              },
+              {
+                "type": 3,
+                "id": "4040:10379",
+                "name": "Inline anchor",
+                "y": 113,
+                "w": 272,
+                "h": 20,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 56
+                  }
+                },
+                "_isInstance": true,
+                "_insRef": 3,
+                "layMd": "HORIZONTAL",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "child": [
+                  {
+                    "type": 3,
+                    "id": "I4040:10379;3288:3470",
+                    "name": "arrow-top-right-on-square",
+                    "y": 2,
+                    "w": 16,
+                    "h": 16,
+                    "visbl": false,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 59
+                      },
+                      "h": {
+                        "_varRef": 59
+                      },
+                      "cProp": {
+                        "Style": {
+                          "_varRef": 60
+                        }
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Leading icon#3288:5",
+                      "mainComponent": "Lead icon#3288:20"
+                    },
+                    "_isInstance": true,
+                    "_insRef": 2,
+                    "cAxSz": "FIXED",
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I4040:10379;3288:3470;5746:11266",
+                        "name": "Icon",
+                        "x": 1.5,
+                        "y": 1.5,
+                        "w": 13,
+                        "h": 13,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 47
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 47
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "fillG": [
+                          {
+                            "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                            "windRule": "NONZERO"
+                          },
+                          {
+                            "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "id": "I4040:10379;3288:3471",
+                    "name": "Link",
+                    "w": 252,
+                    "h": 20,
+                    "stkAl": "INSIDE",
+                    "cPropR": {},
+                    "layMd": "VERTICAL",
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 2,
+                        "id": "I4040:10379;3288:3472",
+                        "name": "Link text",
+                        "w": 252,
+                        "h": 20,
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 61
+                              }
+                            }
+                          }
+                        ],
+                        "stkAl": "OUTSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 61
+                            }
+                          ],
+                          "letSp": [
+                            {
+                              "_varRef": 48
+                            }
+                          ],
+                          "fontS": [
+                            {
+                              "_varRef": 50
+                            }
+                          ],
+                          "fontF": [
+                            {
+                              "_varRef": 52
+                            }
+                          ],
+                          "fontW": [
+                            {
+                              "_varRef": 54
+                            }
+                          ]
+                        },
+                        "cPropR": {
+                          "chars": "Value#3288:50"
+                        },
+                        "_stlRef": 1,
+                        "chars": "Learn more about the <HR> element",
+                        "fontN": {
+                          "family": "Bellota Text",
+                          "style": "Regular"
+                        },
+                        "fontS": 16,
+                        "txtAr": "WIDTH_AND_HEIGHT"
+                      },
+                      {
+                        "type": 9,
+                        "id": "I4040:10379;3288:3473",
+                        "name": "Underline",
+                        "y": 20,
+                        "w": 252,
+                        "h": 0,
+                        "strks": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "type": 29,
+                                "id": "VariableID:2529:12626"
+                              }
+                            }
+                          }
+                        ],
+                        "bndVar": {
+                          "strks": [
+                            {
+                              "_varRef": 47
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "strkG": [
+                          {
+                            "data": "M 0 -0.5 L 0 0 L 252 0 L 252 -0.5 L 252 -1 L 0 -1 L 0 -0.5 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 3,
+                    "id": "I4040:10379;3288:3474",
+                    "name": "arrow-top-right-on-square",
+                    "x": 256,
+                    "y": 2,
+                    "w": 16,
+                    "h": 16,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 59
+                      },
+                      "h": {
+                        "_varRef": 59
+                      },
+                      "cProp": {
+                        "Style": {
+                          "_varRef": 60
+                        }
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Trailing icon#3288:10",
+                      "mainComponent": "Trail icon#3288:25"
+                    },
+                    "_isInstance": true,
+                    "_insRef": 2,
+                    "cAxSz": "FIXED",
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I4040:10379;3288:3474;5746:11266",
+                        "name": "Icon",
+                        "x": 1.5,
+                        "y": 1.5,
+                        "w": 13,
+                        "h": 13,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 47
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 47
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "fillG": [
+                          {
+                            "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                            "windRule": "NONZERO"
+                          },
+                          {
+                            "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": 4,
+            "id": "3887:5381",
+            "name": "Divider",
+            "x": 40,
+            "y": 213,
+            "w": 392,
+            "h": 0,
+            "stkAl": "INSIDE",
+            "cPropR": {},
+            "componentPropertyDefinitions": {},
+            "cAxSz": "FIXED",
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
+            "child": [
+              {
+                "type": 9,
+                "id": "3887:5379",
+                "name": "Line 1",
+                "w": 392,
+                "h": 0,
+                "cnsHr": "SCALE",
+                "cnsVr": "SCALE",
+                "strks": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 1,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0.8392156958580017,
+                      "g": 0.8392156958580017,
+                      "b": 0.8392156958580017
+                    },
+                    "bndVar": {
+                      "color": {
+                        "type": 29,
+                        "id": "VariableID:895:3909"
+                      }
+                    }
+                  }
+                ],
+                "bndVar": {
+                  "strks": [
+                    {
+                      "_varRef": 76
+                    }
+                  ]
+                },
+                "cPropR": {},
+                "strkG": [
+                  {
+                    "data": "M 0 -0.5 L 0 -0 L 392 -0 L 392 -0.5 L 392 -1 L 0 -1 L 0 -0.5 Z",
+                    "windRule": "NONZERO"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
