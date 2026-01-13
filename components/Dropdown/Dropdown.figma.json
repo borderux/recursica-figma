@@ -1,12 +1,18 @@
 {
   "metadata": {
-    "exportedAt": "2026-01-13T18:23:02.843Z",
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "9ae98ada-7af5-4b95-bc87-72e0fcd964fa",
-    "version": 1,
+    "version": 2,
     "name": "✅ Dropdown",
-    "pluginVersion": "1.0.0"
+    "pluginVersion": "1.0.0",
+    "publishDate": "2026-01-13T22:05:12.873Z",
+    "history": {
+      "2": {
+        "message": "Latest",
+        "date": "2026-01-13T22:05:12.873Z"
+      }
+    }
   },
   "stringTable": {
     "colNm": "collectionName",
