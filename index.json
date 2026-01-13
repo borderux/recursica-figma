@@ -95,6 +95,11 @@
       "path": "components/File_input/File_input.figma.json",
       "version": 1,
       "publishDate": "2026-01-12T18:55:54.785Z"
+    },
+    "9ae98ada-7af5-4b95-bc87-72e0fcd964fa": {
+      "name": "✅ Dropdown",
+      "path": "components/Dropdown/Dropdown.figma.json",
+      "version": 1
     }
   }
 }
