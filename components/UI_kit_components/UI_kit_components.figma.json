@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-    "version": 1,
+    "version": 2,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-12T18:55:54.786Z",
+    "publishDate": "2026-01-13T21:34:11.855Z",
     "history": {
-      "1": {
-        "message": "Next",
-        "date": "2026-01-12T18:55:54.786Z"
+      "2": {
+        "message": "Latest",
+        "date": "2026-01-13T21:34:11.855Z"
       }
     }
   },
@@ -719,7 +719,7 @@
       ],
       "cPage": "Logo",
       "compG": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-      "cVers": 1
+      "cVers": 0
     },
     "1": {
       "instT": "normal",
@@ -743,7 +743,7 @@
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     }
   },
   "styles": {
