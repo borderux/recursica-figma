@@ -3,8 +3,8 @@
     "60e10658-76c7-44c1-87de-eacb2d68e930": {
       "name": "✹ Icons",
       "path": "components/Icons/Icons.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-12T18:55:54.787Z"
+      "version": 2,
+      "publishDate": "2026-01-13T22:05:12.873Z"
     },
     "f2e98aa8-aef2-4433-8fe5-773f0262ddab": {
       "name": "✅ Accordion",
@@ -15,14 +15,14 @@
     "2fb7e88b-4932-4e6a-9399-5e17cd3572ba": {
       "name": "UI kit components",
       "path": "components/UI_kit_components/UI_kit_components.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-12T18:55:54.786Z"
+      "version": 2,
+      "publishDate": "2026-01-13T22:05:12.873Z"
     },
     "2df95ba7-e7a2-4748-9b65-5e2762cb176b": {
       "name": "Logo",
       "path": "components/Logo/Logo.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-12T18:55:54.787Z"
+      "version": 2,
+      "publishDate": "2026-01-13T22:05:12.873Z"
     },
     "8bb3c910-b8c1-4b42-8a2f-6707ecb88226": {
       "name": "✅ Avatar ",
@@ -99,7 +99,38 @@
     "9ae98ada-7af5-4b95-bc87-72e0fcd964fa": {
       "name": "✅ Dropdown",
       "path": "components/Dropdown/Dropdown.figma.json",
-      "version": 1
+      "version": 2,
+      "publishDate": "2026-01-13T22:05:12.873Z"
+    },
+    "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15": {
+      "name": "Form base components",
+      "path": "components/Form_base_components/Form_base_components.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-13T22:05:12.873Z"
+    },
+    "0f1cfe7c-a8ce-4d7f-bd61-f098811ba50e": {
+      "name": "✅ Menu",
+      "path": "components/Menu/Menu.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-13T22:05:12.873Z"
+    },
+    "002090c8-0d92-4979-b66e-277d47d04733": {
+      "name": "Menu item",
+      "path": "components/Menu_item/Menu_item.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-13T22:05:12.873Z"
+    },
+    "14fb4d98-f40c-4dd9-bf4e-0ca05322991f": {
+      "name": "Divider",
+      "path": "components/Divider/Divider.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-13T22:05:12.873Z"
+    },
+    "cc7218cf-8b23-4b21-8fb5-492bc10f1aaf": {
+      "name": "✅ Chip",
+      "path": "components/Chip/Chip.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-13T22:05:12.874Z"
     }
   }
 }
