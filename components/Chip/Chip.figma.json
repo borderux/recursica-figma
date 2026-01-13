@@ -2,15 +2,15 @@
   "metadata": {
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
-    "guid": "bc7409bf-9b73-46fe-abb9-c7722427093c",
-    "version": 2,
+    "guid": "cc7218cf-8b23-4b21-8fb5-492bc10f1aaf",
+    "version": 1,
     "name": "✅ Chip",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-12T20:11:37.082Z",
+    "publishDate": "2026-01-13T21:34:11.856Z",
     "history": {
-      "2": {
-        "message": "Next version",
-        "date": "2026-01-12T20:11:37.082Z"
+      "1": {
+        "message": "Latest",
+        "date": "2026-01-13T21:34:11.856Z"
       }
     }
   },
@@ -109,21 +109,6 @@
   },
   "collections": {
     "0": {
-      "colNm": "Theme",
-      "modes": [
-        "Light",
-        "Dark"
-      ],
-      "colGu": "00000000-0000-0000-0000-000000000003"
-    },
-    "1": {
-      "colNm": "Tokens",
-      "modes": [
-        "Mode 1"
-      ],
-      "colGu": "00000000-0000-0000-0000-000000000002"
-    },
-    "2": {
       "colNm": "Layer",
       "modes": [
         "0",
@@ -132,157 +117,28 @@
         "3"
       ],
       "colGu": "00000000-0000-0000-0000-000000000001"
+    },
+    "1": {
+      "colNm": "Theme",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000003"
+    },
+    "2": {
+      "colNm": "Tokens",
+      "modes": [
+        "Mode 1"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000002"
     }
   },
   "variables": {
     "0": {
-      "varNm": "size/default",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Mode 1": 8
-      }
-    },
-    "1": {
-      "varNm": "dimension/default",
-      "varTy": 2,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 0
-        },
-        "Dark": {
-          "_varRef": 0
-        }
-      }
-    },
-    "2": {
-      "varNm": "color/salmon/400",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.8666666746139526,
-          "g": 0.1725490242242813,
-          "b": 0.33725491166114807,
-          "a": 1
-        }
-      }
-    },
-    "3": {
-      "varNm": "color/salmon/500",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.8235294222831726,
-          "g": 0.11764705926179886,
-          "b": 0.2862745225429535,
-          "a": 1
-        }
-      }
-    },
-    "4": {
-      "varNm": "palette/palette-1/400/tone",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 2
-        },
-        "Dark": {
-          "_varRef": 3
-        }
-      }
-    },
-    "5": {
-      "varNm": "palette/palette-1/500/tone",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 3
-        },
-        "Dark": {
-          "_varRef": 2
-        }
-      }
-    },
-    "6": {
-      "varNm": "palette/palette-1/default/tone",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 4
-        },
-        "Dark": {
-          "_varRef": 5
-        }
-      }
-    },
-    "7": {
-      "varNm": "layer/layer-alternative/primary-color/property/surface",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 6
-        },
-        "Dark": {
-          "_varRef": 6
-        }
-      }
-    },
-    "8": {
-      "varNm": "avatar/color/background-primary",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "0": {
-          "_varRef": 7
-        },
-        "1": {
-          "_varRef": 7
-        },
-        "2": {
-          "_varRef": 7
-        },
-        "3": {
-          "_varRef": 7
-        }
-      }
-    },
-    "9": {
-      "varNm": "color/gray/1000",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.03921568766236305,
-          "g": 0.03921568766236305,
-          "b": 0.03921568766236305,
-          "a": 1
-        }
-      }
-    },
-    "10": {
-      "varNm": "palette/black",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 9
-        },
-        "Dark": {
-          "_varRef": 9
-        }
-      }
-    },
-    "11": {
       "varNm": "color/gray/000",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 2,
       "vByMd": {
         "Mode 1": {
           "r": 0.9882352948188782,
@@ -292,10 +148,153 @@
         }
       }
     },
-    "12": {
-      "varNm": "palette/white",
+    "1": {
+      "varNm": "palette/white/tone",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 0
+        },
+        "Dark": {
+          "_varRef": 0
+        }
+      }
+    },
+    "2": {
+      "varNm": "color/gray/1000",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.03921568766236305,
+          "g": 0.03921568766236305,
+          "b": 0.03921568766236305,
+          "a": 1
+        }
+      }
+    },
+    "3": {
+      "varNm": "palette/black/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 2
+        },
+        "Dark": {
+          "_varRef": 2
+        }
+      }
+    },
+    "4": {
+      "varNm": "layer/layer-0/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 1
+        },
+        "Dark": {
+          "_varRef": 3
+        }
+      }
+    },
+    "5": {
+      "varNm": "color/gray/050",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9755661487579346,
+          "g": 0.9751049876213074,
+          "b": 0.9751049876213074,
+          "a": 1
+        }
+      }
+    },
+    "6": {
+      "varNm": "color/gray/900",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1349721997976303,
+          "g": 0.1349721997976303,
+          "b": 0.1349721997976303,
+          "a": 1
+        }
+      }
+    },
+    "7": {
+      "varNm": "palette/neutral/050/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 5
+        },
+        "Dark": {
+          "_varRef": 6
+        }
+      }
+    },
+    "8": {
+      "varNm": "layer/layer-1/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "9": {
+      "varNm": "color/gray/100",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9137254953384399,
+          "g": 0.9137254953384399,
+          "b": 0.9137254953384399,
+          "a": 1
+        }
+      }
+    },
+    "10": {
+      "varNm": "color/gray/800",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1725490242242813,
+          "g": 0.1725490242242813,
+          "b": 0.1725490242242813,
+          "a": 1
+        }
+      }
+    },
+    "11": {
+      "varNm": "palette/neutral/100/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 9
+        },
+        "Dark": {
+          "_varRef": 10
+        }
+      }
+    },
+    "12": {
+      "varNm": "layer/layer-2/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
           "_varRef": 11
@@ -306,90 +305,91 @@
       }
     },
     "13": {
-      "varNm": "layer/layer-0/element/text/color",
+      "varNm": "layer/layer-3/property/surface",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 10
+          "_varRef": 7
         },
         "Dark": {
-          "_varRef": 12
+          "_varRef": 7
         }
       }
     },
     "14": {
-      "varNm": "palette/neutral/050/on-tone",
+      "varNm": "global/form/field/color/background",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
-        "Light": {
-          "_varRef": 10
+        "0": {
+          "_varRef": 4
         },
-        "Dark": {
+        "1": {
+          "_varRef": 8
+        },
+        "2": {
           "_varRef": 12
+        },
+        "3": {
+          "_varRef": 13
         }
       }
     },
     "15": {
-      "varNm": "layer/layer-1/element/text/color",
-      "varTy": 1,
-      "_colRef": 0,
+      "varNm": "size/default",
+      "varTy": 2,
+      "_colRef": 2,
       "vByMd": {
-        "Light": {
-          "_varRef": 14
-        },
-        "Dark": {
-          "_varRef": 14
-        }
+        "Mode 1": 8
       }
     },
     "16": {
-      "varNm": "palette/neutral/100/on-tone",
-      "varTy": 1,
-      "_colRef": 0,
+      "varNm": "dimension/default",
+      "varTy": 2,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 10
+          "_varRef": 15
         },
         "Dark": {
-          "_varRef": 12
+          "_varRef": 15
         }
       }
     },
     "17": {
-      "varNm": "layer/layer-2/element/text/color",
+      "varNm": "color/salmon/400",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 2,
       "vByMd": {
-        "Light": {
-          "_varRef": 14
-        },
-        "Dark": {
-          "_varRef": 16
+        "Mode 1": {
+          "r": 0.8666666746139526,
+          "g": 0.1725490242242813,
+          "b": 0.33725491166114807,
+          "a": 1
         }
       }
     },
     "18": {
-      "varNm": "palette/neutral/200/on-tone",
+      "varNm": "color/salmon/500",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 2,
       "vByMd": {
-        "Light": {
-          "_varRef": 10
-        },
-        "Dark": {
-          "_varRef": 12
+        "Mode 1": {
+          "r": 0.8235294222831726,
+          "g": 0.11764705926179886,
+          "b": 0.2862745225429535,
+          "a": 1
         }
       }
     },
     "19": {
-      "varNm": "layer/layer-3/element/text/color",
+      "varNm": "palette/palette-1/400/tone",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 10
+          "_varRef": 17
         },
         "Dark": {
           "_varRef": 18
@@ -397,175 +397,196 @@
       }
     },
     "20": {
-      "varNm": "global/form/label/color/default",
+      "varNm": "palette/palette-1/500/tone",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
-        "0": {
-          "_varRef": 13
+        "Light": {
+          "_varRef": 18
         },
-        "1": {
-          "_varRef": 15
-        },
-        "2": {
+        "Dark": {
           "_varRef": 17
-        },
-        "3": {
-          "_varRef": 19
         }
       }
     },
     "21": {
-      "varNm": "font/letter-spacing/default",
-      "varTy": 2,
+      "varNm": "palette/palette-1/default/tone",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 0
+        "Light": {
+          "_varRef": 19
+        },
+        "Dark": {
+          "_varRef": 20
+        }
       }
     },
     "22": {
-      "varNm": "font/h1/letter-spacing",
-      "varTy": 2,
+      "varNm": "avatar/color/background-primary",
+      "varTy": 1,
       "_colRef": 0,
       "vByMd": {
-        "Light": {
+        "0": {
           "_varRef": 21
         },
-        "Dark": {
+        "1": {
+          "_varRef": 21
+        },
+        "2": {
+          "_varRef": 21
+        },
+        "3": {
           "_varRef": 21
         }
       }
     },
     "23": {
-      "varNm": "font/size/6xl",
-      "varTy": 2,
+      "varNm": "layer/layer-0/element/text/color",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 40
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
       }
     },
     "24": {
-      "varNm": "font/h1/size",
-      "varTy": 2,
-      "_colRef": 0,
+      "varNm": "palette/neutral/050/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 23
+          "_varRef": 3
         },
         "Dark": {
-          "_varRef": 23
+          "_varRef": 1
         }
       }
     },
     "25": {
-      "varNm": "font/family/lexend",
-      "varTy": 3,
+      "varNm": "layer/layer-1/element/text/color",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": "Lexend"
+        "Light": {
+          "_varRef": 24
+        },
+        "Dark": {
+          "_varRef": 24
+        }
       }
     },
     "26": {
-      "varNm": "font/h1/font-family",
-      "varTy": 3,
-      "_colRef": 0,
+      "varNm": "palette/neutral/100/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 25
+          "_varRef": 3
         },
         "Dark": {
-          "_varRef": 25
+          "_varRef": 1
         }
       }
     },
     "27": {
-      "varNm": "font/weight/bold",
-      "varTy": 2,
+      "varNm": "layer/layer-2/element/text/color",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 700
+        "Light": {
+          "_varRef": 24
+        },
+        "Dark": {
+          "_varRef": 26
+        }
       }
     },
     "28": {
-      "varNm": "font/h1/weight",
-      "varTy": 2,
-      "_colRef": 0,
+      "varNm": "palette/neutral/200/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 27
+          "_varRef": 3
         },
         "Dark": {
-          "_varRef": 27
+          "_varRef": 1
         }
       }
     },
     "29": {
-      "varNm": "size/0-5x",
-      "varTy": 2,
+      "varNm": "layer/layer-3/element/text/color",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 4
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 28
+        }
       }
     },
     "30": {
-      "varNm": "dimension/sm",
-      "varTy": 2,
+      "varNm": "global/form/label/color/default",
+      "varTy": 1,
       "_colRef": 0,
       "vByMd": {
-        "Light": {
-          "_varRef": 29
+        "0": {
+          "_varRef": 23
         },
-        "Dark": {
+        "1": {
+          "_varRef": 25
+        },
+        "2": {
+          "_varRef": 27
+        },
+        "3": {
           "_varRef": 29
         }
       }
     },
     "31": {
-      "varNm": "color/salmon/600",
-      "varTy": 1,
-      "_colRef": 1,
+      "varNm": "font/letter-spacing/default",
+      "varTy": 2,
+      "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
-          "r": 0.6941176652908325,
-          "g": 0.09019608050584793,
-          "b": 0.23137255012989044,
-          "a": 1
-        }
+        "Mode 1": 0
       }
     },
     "32": {
-      "varNm": "color/salmon/300",
-      "varTy": 1,
+      "varNm": "font/h1/letter-spacing",
+      "varTy": 2,
       "_colRef": 1,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.8980392217636108,
-          "g": 0.364705890417099,
-          "b": 0.47058823704719543,
-          "a": 1
-        }
-      }
-    },
-    "33": {
-      "varNm": "palette/palette-1/600/tone",
-      "varTy": 1,
-      "_colRef": 0,
       "vByMd": {
         "Light": {
           "_varRef": 31
         },
         "Dark": {
-          "_varRef": 32
+          "_varRef": 31
         }
       }
     },
+    "33": {
+      "varNm": "font/family/lexend",
+      "varTy": 3,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": "Lexend"
+      }
+    },
     "34": {
-      "varNm": "layer/layer-0/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 0,
+      "varNm": "font/h1/font-family",
+      "varTy": 3,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 6
+          "_varRef": 33
         },
         "Dark": {
           "_varRef": 33
@@ -573,22 +594,51 @@
       }
     },
     "35": {
-      "varNm": "layer/layer-1/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 0,
+      "varNm": "font/weight/bold",
+      "varTy": 2,
+      "_colRef": 2,
       "vByMd": {
-        "Light": {
-          "_varRef": 6
-        },
-        "Dark": {
-          "_varRef": 33
-        }
+        "Mode 1": 700
       }
     },
     "36": {
+      "varNm": "font/h1/weight",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 35
+        },
+        "Dark": {
+          "_varRef": 35
+        }
+      }
+    },
+    "37": {
+      "varNm": "size/0-5x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 4
+      }
+    },
+    "38": {
+      "varNm": "dimension/sm",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 37
+        },
+        "Dark": {
+          "_varRef": 37
+        }
+      }
+    },
+    "39": {
       "varNm": "color/salmon/700",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 2,
       "vByMd": {
         "Mode 1": {
           "r": 0.5215686559677124,
@@ -598,10 +648,10 @@
         }
       }
     },
-    "37": {
+    "40": {
       "varNm": "color/salmon/200",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 2,
       "vByMd": {
         "Mode 1": {
           "r": 0.9725490212440491,
@@ -611,225 +661,170 @@
         }
       }
     },
-    "38": {
+    "41": {
       "varNm": "palette/palette-1/700/tone",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 36
-        },
-        "Dark": {
-          "_varRef": 37
-        }
-      }
-    },
-    "39": {
-      "varNm": "layer/layer-2/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 5
-        },
-        "Dark": {
-          "_varRef": 38
-        }
-      }
-    },
-    "40": {
-      "varNm": "layer/layer-3/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 4
-        },
-        "Dark": {
-          "_varRef": 33
-        }
-      }
-    },
-    "41": {
-      "varNm": "link/color/text-default",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "0": {
-          "_varRef": 34
-        },
-        "1": {
-          "_varRef": 35
-        },
-        "2": {
           "_varRef": 39
         },
-        "3": {
+        "Dark": {
           "_varRef": 40
         }
       }
     },
     "42": {
-      "varNm": "font/body/letter-spacing",
-      "varTy": 2,
-      "_colRef": 0,
+      "varNm": "palette/actionable/tone",
+      "varTy": 1,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 21
+          "_varRef": 19
         },
         "Dark": {
-          "_varRef": 21
+          "_varRef": 41
         }
       }
     },
     "43": {
-      "varNm": "font/size/md",
-      "varTy": 2,
+      "varNm": "layer/layer-0/element/interactive/color",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 16
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
       }
     },
     "44": {
-      "varNm": "font/body/size",
-      "varTy": 2,
-      "_colRef": 0,
+      "varNm": "layer/layer-1/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 43
+          "_varRef": 42
         },
         "Dark": {
-          "_varRef": 43
+          "_varRef": 42
         }
       }
     },
     "45": {
-      "varNm": "font/family/bellota",
-      "varTy": 3,
+      "varNm": "layer/layer-2/element/interactive/color",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": "Bellota Text"
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
       }
     },
     "46": {
-      "varNm": "font/body/font-family",
-      "varTy": 3,
-      "_colRef": 0,
+      "varNm": "layer/layer-3/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 45
+          "_varRef": 42
         },
         "Dark": {
-          "_varRef": 45
+          "_varRef": 42
         }
       }
     },
     "47": {
-      "varNm": "font/weight/regular",
-      "varTy": 2,
-      "_colRef": 1,
+      "varNm": "link/color/text-default",
+      "varTy": 1,
+      "_colRef": 0,
       "vByMd": {
-        "Mode 1": 400
+        "0": {
+          "_varRef": 43
+        },
+        "1": {
+          "_varRef": 44
+        },
+        "2": {
+          "_varRef": 45
+        },
+        "3": {
+          "_varRef": 46
+        }
       }
     },
     "48": {
-      "varNm": "font/body/weight-normal",
+      "varNm": "font/body/letter-spacing",
       "varTy": 2,
-      "_colRef": 0,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 47
+          "_varRef": 31
         },
         "Dark": {
-          "_varRef": 47
+          "_varRef": 31
         }
       }
     },
     "49": {
-      "varNm": "chip/size/icon-text-gap",
+      "varNm": "font/size/md",
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "0": {
-          "_varRef": 30
-        },
-        "1": {
-          "_varRef": 30
-        },
-        "2": {
-          "_varRef": 30
-        },
-        "3": {
-          "_varRef": 30
-        }
+        "Mode 1": 16
       }
     },
     "50": {
-      "varNm": "chip/size/horizontal-padding",
+      "varNm": "font/body/size",
       "varTy": 2,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
-        "0": {
-          "_varRef": 1
+        "Light": {
+          "_varRef": 49
         },
-        "1": {
-          "_varRef": 1
-        },
-        "2": {
-          "_varRef": 1
-        },
-        "3": {
-          "_varRef": 1
+        "Dark": {
+          "_varRef": 49
         }
       }
     },
     "51": {
-      "varNm": "chip/size/vertical-padding",
-      "varTy": 2,
+      "varNm": "font/family/bellota",
+      "varTy": 3,
       "_colRef": 2,
       "vByMd": {
-        "0": {
-          "_varRef": 30
-        },
-        "1": {
-          "_varRef": 30
-        },
-        "2": {
-          "_varRef": 30
-        },
-        "3": {
-          "_varRef": 30
-        }
+        "Mode 1": "Bellota Text"
       }
     },
     "52": {
-      "varNm": "chip/size/max-width",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "0": 200,
-        "1": 200,
-        "2": 200,
-        "3": 200
-      }
-    },
-    "53": {
-      "varNm": "palette/black/tone",
-      "varTy": 1,
-      "_colRef": 0,
+      "varNm": "font/body/font-family",
+      "varTy": 3,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 9
+          "_varRef": 51
         },
         "Dark": {
-          "_varRef": 9
+          "_varRef": 51
         }
       }
     },
+    "53": {
+      "varNm": "font/weight/regular",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 400
+      }
+    },
     "54": {
-      "varNm": "palette/white/on-tone",
-      "varTy": 1,
-      "_colRef": 0,
+      "varNm": "font/body/weight-normal",
+      "varTy": 2,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
           "_varRef": 53
@@ -840,154 +835,136 @@
       }
     },
     "55": {
-      "varNm": "chip/color/unselected/text",
-      "varTy": 1,
+      "varNm": "size/2x",
+      "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "0": {
-          "_varRef": 54
-        },
-        "1": {
-          "_varRef": 54
-        },
-        "2": {
-          "_varRef": 54
-        },
-        "3": {
-          "_varRef": 54
-        }
+        "Mode 1": 16
       }
     },
     "56": {
-      "varNm": "font/letter-spacing/wide",
-      "varTy": 2,
-      "_colRef": 1,
+      "varNm": "chip/color/unselected/background",
+      "varTy": 1,
+      "_colRef": 0,
       "vByMd": {
-        "Mode 1": 0.25
+        "0": {
+          "_varRef": 1
+        },
+        "1": {
+          "_varRef": 1
+        },
+        "2": {
+          "_varRef": 1
+        },
+        "3": {
+          "_varRef": 1
+        }
       }
     },
     "57": {
-      "varNm": "font/caption/letter-spacing",
+      "varNm": "chip/size/icon-text-gap",
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
-        "Light": {
-          "_varRef": 56
+        "0": {
+          "_varRef": 38
         },
-        "Dark": {
-          "_varRef": 56
+        "1": {
+          "_varRef": 38
+        },
+        "2": {
+          "_varRef": 38
+        },
+        "3": {
+          "_varRef": 38
         }
       }
     },
     "58": {
-      "varNm": "font/size/xs",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Mode 1": 12
-      }
-    },
-    "59": {
-      "varNm": "font/caption/size",
+      "varNm": "chip/size/horizontal-padding",
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
-        "Light": {
-          "_varRef": 58
+        "0": {
+          "_varRef": 16
         },
-        "Dark": {
-          "_varRef": 58
+        "1": {
+          "_varRef": 16
+        },
+        "2": {
+          "_varRef": 16
+        },
+        "3": {
+          "_varRef": 16
+        }
+      }
+    },
+    "59": {
+      "varNm": "chip/size/vertical-padding",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 38
+        },
+        "1": {
+          "_varRef": 38
+        },
+        "2": {
+          "_varRef": 38
+        },
+        "3": {
+          "_varRef": 38
         }
       }
     },
     "60": {
-      "varNm": "font/caption/font-family",
-      "varTy": 3,
-      "_colRef": 0,
+      "varNm": "dimension/border-radius/sm",
+      "varTy": 2,
+      "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 25
+          "_varRef": 37
         },
         "Dark": {
-          "_varRef": 25
+          "_varRef": 37
         }
       }
     },
     "61": {
-      "varNm": "font/caption/weight",
+      "varNm": "chip/size/border-radius",
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
-        "Light": {
-          "_varRef": 47
+        "0": {
+          "_varRef": 60
         },
-        "Dark": {
-          "_varRef": 47
+        "1": {
+          "_varRef": 60
+        },
+        "2": {
+          "_varRef": 60
+        },
+        "3": {
+          "_varRef": 60
         }
       }
     },
     "62": {
-      "varNm": "color/mandy/600",
-      "varTy": 1,
-      "_colRef": 1,
+      "varNm": "chip/size/max-width",
+      "varTy": 2,
+      "_colRef": 0,
       "vByMd": {
-        "Mode 1": {
-          "r": 0.7411764860153198,
-          "g": 0.04313725605607033,
-          "b": 0.04313725605607033,
-          "a": 1
-        }
+        "0": 200,
+        "1": 200,
+        "2": 200,
+        "3": 200
       }
     },
     "63": {
-      "varNm": "color/mandy/300",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Mode 1": {
-          "r": 0.9411764740943909,
-          "g": 0.24313725531101227,
-          "b": 0.24313725531101227,
-          "a": 1
-        }
-      }
-    },
-    "64": {
-      "varNm": "palette/alert/tone",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 62
-        },
-        "Dark": {
-          "_varRef": 63
-        }
-      }
-    },
-    "65": {
-      "varNm": "chip/color/error",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "0": {
-          "_varRef": 64
-        },
-        "1": {
-          "_varRef": 64
-        },
-        "2": {
-          "_varRef": 64
-        },
-        "3": {
-          "_varRef": 64
-        }
-      }
-    },
-    "66": {
       "varNm": "color/gray/200",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 2,
       "vByMd": {
         "Mode 1": {
           "r": 0.8392156958580017,
@@ -997,10 +974,10 @@
         }
       }
     },
-    "67": {
+    "64": {
       "varNm": "color/gray/700",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 2,
       "vByMd": {
         "Mode 1": {
           "r": 0.2705882489681244,
@@ -1010,35 +987,316 @@
         }
       }
     },
-    "68": {
+    "65": {
       "varNm": "palette/neutral/200/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 63
+        },
+        "Dark": {
+          "_varRef": 64
+        }
+      }
+    },
+    "66": {
+      "varNm": "palette/neutral/700/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 64
+        },
+        "Dark": {
+          "_varRef": 63
+        }
+      }
+    },
+    "67": {
+      "varNm": "palette/neutral/default/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 65
+        },
+        "Dark": {
+          "_varRef": 66
+        }
+      }
+    },
+    "68": {
+      "varNm": "chip/color/unselected/border",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
-        "Light": {
-          "_varRef": 66
+        "0": {
+          "_varRef": 67
         },
-        "Dark": {
+        "1": {
+          "_varRef": 67
+        },
+        "2": {
+          "_varRef": 67
+        },
+        "3": {
           "_varRef": 67
         }
       }
     },
     "69": {
-      "varNm": "chip/color/selected/text",
+      "varNm": "palette/white/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 3
+        }
+      }
+    },
+    "70": {
+      "varNm": "chip/color/unselected/text",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 69
+        },
+        "1": {
+          "_varRef": 69
+        },
+        "2": {
+          "_varRef": 69
+        },
+        "3": {
+          "_varRef": 69
+        }
+      }
+    },
+    "71": {
+      "varNm": "font/letter-spacing/wide",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 0.25
+      }
+    },
+    "72": {
+      "varNm": "font/caption/letter-spacing",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 71
+        },
+        "Dark": {
+          "_varRef": 71
+        }
+      }
+    },
+    "73": {
+      "varNm": "font/size/xs",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 12
+      }
+    },
+    "74": {
+      "varNm": "font/caption/size",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 73
+        },
+        "Dark": {
+          "_varRef": 73
+        }
+      }
+    },
+    "75": {
+      "varNm": "font/caption/font-family",
+      "varTy": 3,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 33
+        },
+        "Dark": {
+          "_varRef": 33
+        }
+      }
+    },
+    "76": {
+      "varNm": "font/caption/weight",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 53
+        },
+        "Dark": {
+          "_varRef": 53
+        }
+      }
+    },
+    "77": {
+      "varNm": "size/2x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 16
+      }
+    },
+    "78": {
+      "varNm": "dimension/icon/sm",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 77
+        },
+        "Dark": {
+          "_varRef": 77
+        }
+      }
+    },
+    "79": {
+      "varNm": "chip/size/icon",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 78
+        },
+        "1": {
+          "_varRef": 78
+        },
+        "2": {
+          "_varRef": 78
+        },
+        "3": {
+          "_varRef": 78
+        }
+      }
+    },
+    "80": {
+      "varNm": "color/mandy/600",
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
+        "Mode 1": {
+          "r": 0.7411764860153198,
+          "g": 0.04313725605607033,
+          "b": 0.04313725605607033,
+          "a": 1
+        }
+      }
+    },
+    "81": {
+      "varNm": "color/mandy/300",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9411764740943909,
+          "g": 0.24313725531101227,
+          "b": 0.24313725531101227,
+          "a": 1
+        }
+      }
+    },
+    "82": {
+      "varNm": "palette/alert/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 80
+        },
+        "Dark": {
+          "_varRef": 81
+        }
+      }
+    },
+    "83": {
+      "varNm": "chip/color/error",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
         "0": {
-          "_varRef": 16
+          "_varRef": 82
         },
         "1": {
-          "_varRef": 16
+          "_varRef": 82
         },
         "2": {
-          "_varRef": 18
+          "_varRef": 82
         },
         "3": {
-          "_varRef": 16
+          "_varRef": 82
+        }
+      }
+    },
+    "84": {
+      "varNm": "chip/color/selected/background",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 11
+        },
+        "1": {
+          "_varRef": 11
+        },
+        "2": {
+          "_varRef": 11
+        },
+        "3": {
+          "_varRef": 11
+        }
+      }
+    },
+    "85": {
+      "varNm": "chip/color/selected/border",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 21
+        },
+        "1": {
+          "_varRef": 21
+        },
+        "2": {
+          "_varRef": 21
+        },
+        "3": {
+          "_varRef": 21
+        }
+      }
+    },
+    "86": {
+      "varNm": "chip/color/selected/text",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 26
+        },
+        "1": {
+          "_varRef": 26
+        },
+        "2": {
+          "_varRef": 28
+        },
+        "3": {
+          "_varRef": 26
         }
       }
     }
@@ -1048,20 +1306,20 @@
       "instT": "normal",
       "compN": ".UI kit / Page header",
       "cProp": {
-        "Has link#221:23": {
+        "Has link#3042:2": {
           "type": 25,
           "value": true
         },
-        "Component name#221:22": {
+        "Component name#3041:0": {
           "type": 2,
           "value": "Chip"
         }
       },
       "path": [],
       "nodePath": [],
-      "cPage": "UI kit components (VERSION: 1)",
+      "cPage": "UI kit components",
       "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-      "cVers": 1
+      "cVers": 0
     },
     "1": {
       "instT": "normal",
@@ -1082,12 +1340,12 @@
         "Logo"
       ],
       "nodePath": [
-        "221:11853",
-        "221:11868"
+        "2992:9675",
+        "2476:2480"
       ],
-      "cPage": "Logo (VERSION: 1)",
+      "cPage": "Logo",
       "compG": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-      "cVers": 1
+      "cVers": 0
     },
     "2": {
       "instT": "normal",
@@ -1104,16 +1362,14 @@
         }
       },
       "path": [
-        "Icons",
         "arrow-top-right-on-square"
       ],
       "nodePath": [
-        "221:11675",
-        "221:11745"
+        "5746:12971"
       ],
-      "cPage": "✹ Icons (VERSION: 1)",
+      "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     },
     "3": {
       "instT": "normal",
@@ -1130,16 +1386,14 @@
         }
       },
       "path": [
-        "Icons",
         "x-mark"
       ],
       "nodePath": [
-        "221:11675",
-        "221:11845"
+        "5746:12847"
       ],
-      "cPage": "✹ Icons (VERSION: 1)",
+      "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     },
     "4": {
       "instT": "normal",
@@ -1156,16 +1410,14 @@
         }
       },
       "path": [
-        "Icons",
         "heart"
       ],
       "nodePath": [
-        "221:11675",
-        "221:11813"
+        "5746:12244"
       ],
-      "cPage": "✹ Icons (VERSION: 1)",
+      "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     },
     "5": {
       "instT": "normal",
@@ -1182,16 +1434,14 @@
         }
       },
       "path": [
-        "Icons",
         "check"
       ],
       "nodePath": [
-        "221:11675",
-        "221:11761"
+        "5746:12976"
       ],
-      "cPage": "✹ Icons (VERSION: 1)",
+      "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     }
   },
   "styles": {
@@ -1199,7 +1449,7 @@
       "type": 2,
       "name": "h1",
       "txtSt": {
-        "fontS": 40,
+        "fontS": 36,
         "fontN": {
           "family": "Lexend",
           "style": "Bold"
@@ -1210,31 +1460,25 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 22
-          },
-          "fontS": {
-            "_varRef": 24
+            "_varRef": 32
           },
           "fontF": {
-            "_varRef": 26
+            "_varRef": 34
           },
           "fontW": {
-            "_varRef": 28
+            "_varRef": 36
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 22
-        },
-        "fontS": {
-          "_varRef": 24
+          "_varRef": 32
         },
         "fontF": {
-          "_varRef": 26
+          "_varRef": 34
         },
         "fontW": {
-          "_varRef": 28
+          "_varRef": 36
         }
       }
     },
@@ -1253,31 +1497,31 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 42
+            "_varRef": 48
           },
           "fontS": {
-            "_varRef": 44
+            "_varRef": 50
           },
           "fontF": {
-            "_varRef": 46
+            "_varRef": 52
           },
           "fontW": {
-            "_varRef": 48
+            "_varRef": 54
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 42
+          "_varRef": 48
         },
         "fontS": {
-          "_varRef": 44
+          "_varRef": 50
         },
         "fontF": {
-          "_varRef": 46
+          "_varRef": 52
         },
         "fontW": {
-          "_varRef": 48
+          "_varRef": 54
         }
       }
     },
@@ -1295,31 +1539,31 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 57
+            "_varRef": 72
           },
           "fontS": {
-            "_varRef": 59
+            "_varRef": 74
           },
           "fontF": {
-            "_varRef": 60
+            "_varRef": 75
           },
           "fontW": {
-            "_varRef": 61
+            "_varRef": 76
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 57
+          "_varRef": 72
         },
         "fontS": {
-          "_varRef": 59
+          "_varRef": 74
         },
         "fontF": {
-          "_varRef": 60
+          "_varRef": 75
         },
         "fontW": {
-          "_varRef": 61
+          "_varRef": 76
         }
       }
     }
@@ -1327,8 +1571,8 @@
   "images": {},
   "pageData": {
     "type": 13,
-    "id": "221:11985",
-    "name": "✅ Chip (VERSION: 1)",
+    "id": "388:16",
+    "name": "✅ Chip",
     "backgrounds": [
       {
         "type": 15,
@@ -1349,7 +1593,7 @@
     "child": [
       {
         "type": 1,
-        "id": "221:11986",
+        "id": "388:17",
         "name": "Chips",
         "x": -413,
         "y": -140,
@@ -1366,10 +1610,21 @@
               "g": 0.9882352948188782,
               "b": 0.9882352948188782
             },
-            "bndVar": {}
+            "bndVar": {
+              "color": {
+                "_varRef": 14
+              }
+            }
           }
         ],
         "stkAl": "INSIDE",
+        "bndVar": {
+          "fills": [
+            {
+              "_varRef": 14
+            }
+          ]
+        },
         "backgrounds": [
           {
             "type": 15,
@@ -1381,24 +1636,26 @@
               "g": 0.9882352948188782,
               "b": 0.9882352948188782
             },
-            "bndVar": {}
+            "bndVar": {
+              "color": {
+                "_varRef": 14
+              }
+            }
           }
         ],
         "layMd": "VERTICAL",
-        "pAxSz": "FIXED",
-        "cAxSz": "FIXED",
         "padL": 40,
         "padR": 40,
         "padT": 40,
         "padB": 40,
         "itmSp": 40,
         "clipC": true,
-        "laySzH": "FIXED",
-        "laySzV": "FIXED",
+        "laySzH": "HUG",
+        "laySzV": "HUG",
         "child": [
           {
             "type": 3,
-            "id": "221:11995",
+            "id": "3042:2084",
             "name": ".UI kit / Page header",
             "x": 40,
             "y": 40,
@@ -1407,20 +1664,19 @@
             "stkAl": "INSIDE",
             "bndVar": {
               "itmSp": {
-                "_varRef": 1
+                "_varRef": 16
               }
             },
             "_isInstance": true,
             "_insRef": 0,
             "layMd": "VERTICAL",
-            "pAxSz": "FIXED",
             "itmSp": 8,
             "laySzH": "HUG",
-            "laySzV": "FIXED",
+            "laySzV": "HUG",
             "child": [
               {
                 "type": 3,
-                "id": "I221:11995;221:11874",
+                "id": "I3042:2084;3041:62",
                 "name": "Logo",
                 "w": 36,
                 "h": 24,
@@ -1428,21 +1684,21 @@
                 "cPropR": {},
                 "_isInstance": true,
                 "_insRef": 1,
-                "cAxSz": "FIXED",
                 "padL": 15,
                 "padR": 15,
                 "padT": 15,
                 "padB": 15,
+                "itmSp": 10,
                 "corR": 10,
                 "laySzH": "FIXED",
                 "laySzV": "FIXED",
                 "child": [
                   {
                     "type": 5,
-                    "id": "I221:11995;221:11874;221:11865",
+                    "id": "I3042:2084;3041:62;2476:2484",
                     "name": "Subtract",
-                    "w": 36.02424240112305,
-                    "h": 24.0150146484375,
+                    "w": 36.024269104003906,
+                    "h": 24.014991760253906,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
                     "fills": [
@@ -1458,24 +1714,23 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 8
+                            "_varRef": 22
                           }
                         }
                       }
                     ],
-                    "stkWt": 0,
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 8
+                          "_varRef": 22
                         }
                       ]
                     },
                     "cPropR": {},
                     "fillG": [
                       {
-                        "data": "M 1.5395 0 C 0.689259 0 0 0.689224 0 1.53942 L 0 22.4756 C 0 23.3258 0.689259 24.015 1.5395 24.015 L 34.4848 24.015 C 35.335 24.015 36.0242 23.3258 36.0242 22.4756 L 36.0242 1.53942 C 36.0242 0.689224 35.335 0 34.4848 0 L 1.5395 0 Z M 2.30925 21.6909 C 2.30925 11.2361 10.581 2.71325 20.9372 2.30913 L 20.9372 21.6909 L 2.30925 21.6909 Z M 25.5557 21.6909 C 23.8552 21.6909 22.4767 20.3124 22.4767 18.612 L 25.5557 18.612 L 25.5557 21.6909 Z M 33.6908 13.5319 L 22.4767 13.5319 L 22.4767 2.31842 C 28.4953 2.69916 33.31 7.51356 33.6908 13.5319 Z M 33.6754 15.0713 C 33.3167 18.5376 30.5616 21.2925 27.0952 21.6512 L 27.0952 15.0713 L 33.6754 15.0713 Z M 24.478 15.0863 C 23.3727 15.0863 22.4767 15.9823 22.4767 17.0876 L 24.478 17.0876 L 24.478 15.0863 Z",
+                        "data": "M 1.5395 0 C 0.689257 0 0 0.689224 0 1.53942 L 0 22.4756 C 0 23.3258 0.689257 24.015 1.5395 24.015 L 34.4848 24.015 C 35.335 24.015 36.0243 23.3258 36.0243 22.4756 L 36.0243 1.53942 C 36.0243 0.689223 35.335 0 34.4848 0 L 1.5395 0 Z M 2.30925 21.6909 C 2.30925 11.2361 10.581 2.71325 20.9372 2.30913 L 20.9372 21.6909 L 2.30925 21.6909 Z M 25.5557 21.6909 C 23.8552 21.6909 22.4767 20.3124 22.4767 18.612 L 25.5557 18.612 L 25.5557 21.6909 Z M 33.6907 13.5319 L 22.4767 13.5319 L 22.4767 2.31842 C 28.4954 2.69916 33.31 7.51354 33.6907 13.5319 Z M 33.6754 15.0714 C 33.3166 18.5376 30.5616 21.2925 27.0952 21.6513 L 27.0952 15.0714 L 33.6754 15.0714 Z M 24.478 15.0863 C 23.3727 15.0863 22.4767 15.9823 22.4767 17.0876 L 24.478 17.0876 L 24.478 15.0863 Z",
                         "windRule": "EVENODD"
                       }
                     ]
@@ -1484,11 +1739,11 @@
               },
               {
                 "type": 2,
-                "id": "I221:11995;221:11876",
+                "id": "I3042:2084;3041:63",
                 "name": "Title",
                 "y": 32,
-                "w": 93,
-                "h": 50,
+                "w": 84,
+                "h": 45,
                 "fills": [
                   {
                     "type": 15,
@@ -1502,7 +1757,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 20
+                        "_varRef": 30
                       }
                     }
                   }
@@ -1511,32 +1766,27 @@
                 "bndVar": {
                   "fills": [
                     {
-                      "_varRef": 20
+                      "_varRef": 30
                     }
                   ],
                   "letSp": [
                     {
-                      "_varRef": 22
-                    }
-                  ],
-                  "fontS": [
-                    {
-                      "_varRef": 24
+                      "_varRef": 32
                     }
                   ],
                   "fontF": [
                     {
-                      "_varRef": 26
+                      "_varRef": 34
                     }
                   ],
                   "fontW": [
                     {
-                      "_varRef": 28
+                      "_varRef": 36
                     }
                   ]
                 },
                 "cPropR": {
-                  "chars": "Component name#221:22"
+                  "chars": "Component name#3041:0"
                 },
                 "_stlRef": 0,
                 "chars": "Chip",
@@ -1544,37 +1794,34 @@
                   "family": "Lexend",
                   "style": "Bold"
                 },
-                "fontS": 40,
+                "fontS": 36,
                 "txtAr": "WIDTH_AND_HEIGHT"
               },
               {
                 "type": 1,
-                "id": "I221:11995;221:11877",
+                "id": "I3042:2084;3041:361",
                 "name": "Link",
-                "y": 90,
+                "y": 85,
                 "w": 163,
                 "h": 20,
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 30
+                    "_varRef": 38
                   }
                 },
                 "cPropR": {
-                  "visbl": "Has link#221:23"
+                  "visbl": "Has link#3042:2"
                 },
                 "layMd": "HORIZONTAL",
-                "pAxSz": "FIXED",
-                "cAxSz": "FIXED",
                 "cAxAl": "CENTER",
                 "itmSp": 4,
-                "clipC": true,
-                "laySzH": "FIXED",
-                "laySzV": "FIXED",
+                "laySzH": "HUG",
+                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 2,
-                    "id": "I221:11995;221:11878",
+                    "id": "I3042:2084;3041:67",
                     "name": "Title",
                     "w": 143,
                     "h": 20,
@@ -1591,7 +1838,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 41
+                            "_varRef": 47
                           }
                         }
                       }
@@ -1600,27 +1847,27 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 41
+                          "_varRef": 47
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 42
+                          "_varRef": 48
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 44
+                          "_varRef": 50
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 46
+                          "_varRef": 52
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 48
+                          "_varRef": 54
                         }
                       ]
                     },
@@ -1632,45 +1879,26 @@
                       "style": "Regular"
                     },
                     "fontS": 16,
+                    "txtDc": "UNDERLINE",
                     "txtAr": "WIDTH_AND_HEIGHT"
                   },
                   {
                     "type": 3,
-                    "id": "I221:11995;221:12684",
+                    "id": "I3042:2084;3041:358",
                     "name": "arrow-top-right-on-square",
                     "x": 147,
                     "y": 2,
                     "w": 16,
                     "h": 16,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 55
+                      },
+                      "h": {
+                        "_varRef": 55
                       }
-                    ],
+                    },
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 2,
@@ -1680,7 +1908,7 @@
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:11995;221:12684;221:11743",
+                        "id": "I3042:2084;3041:358;5746:11266",
                         "name": "Icon",
                         "x": 1.5,
                         "y": 1.5,
@@ -1701,7 +1929,7 @@
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 34
+                                "_varRef": 47
                               }
                             }
                           }
@@ -1710,21 +1938,23 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 34
+                              "_varRef": 47
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052679 12.8535 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85353 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85353 C 2.95119 9.65827 2.95119 9.34173 3.14645 9.14647 L 11.2929 1 L 9 1 C 8.72387 1 8.5 0.77614 8.5 0.5 C 8.5 0.223858 8.72387 0 9 0 Z",
+                            "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
                             "windRule": "NONZERO"
                           },
                           {
-                            "data": "M 2 3 C 1.44771 3 1 3.44771 1 4 L 1 11 C 1 11.5523 1.44771 12 2 12 L 9 12 C 9.55227 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.895433 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895433 2 2 2 L 7.5 2 C 7.77613 2 8 2.22386 8 2.5 C 8 2.77614 7.77613 3 7.5 3 L 2 3 Z",
+                            "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
@@ -1734,7 +1964,7 @@
           },
           {
             "type": 14,
-            "id": "221:12044",
+            "id": "3874:1875",
             "name": "Chip",
             "x": 40,
             "y": 185,
@@ -1757,7 +1987,6 @@
             "stkAl": "INSIDE",
             "layMd": "HORIZONTAL",
             "pAxSz": "FIXED",
-            "cAxSz": "FIXED",
             "pAxAl": "CENTER",
             "padL": 8,
             "padR": 8,
@@ -1769,11 +1998,11 @@
             "clipC": true,
             "layoutWrap": "WRAP",
             "laySzH": "FIXED",
-            "laySzV": "FIXED",
+            "laySzV": "HUG",
             "child": [
               {
                 "type": 4,
-                "id": "221:11987",
+                "id": "3874:1876",
                 "name": "Selected=False, Icon=False, Error=False",
                 "x": 28,
                 "y": 8,
@@ -1790,7 +2019,11 @@
                       "g": 0.9882352948188782,
                       "b": 0.9882352948188782
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 56
+                      }
+                    }
                   }
                 ],
                 "strks": [
@@ -1815,27 +2048,43 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 49
+                    "_varRef": 57
                   },
                   "padL": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padT": {
-                    "_varRef": 51
+                    "_varRef": 59
                   },
                   "padR": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padB": {
-                    "_varRef": 51
+                    "_varRef": 59
+                  },
+                  "topLR": {
+                    "_varRef": 61
+                  },
+                  "topRightRadius": {
+                    "_varRef": 61
+                  },
+                  "botLR": {
+                    "_varRef": 61
+                  },
+                  "botRR": {
+                    "_varRef": 61
                   },
                   "maxW": {
-                    "_varRef": 52
+                    "_varRef": 62
                   },
+                  "fills": [
+                    {
+                      "_varRef": 56
+                    }
+                  ],
                   "strks": [
                     {
-                      "type": 29,
-                      "id": "VariableID:124:564"
+                      "_varRef": 68
                     }
                   ]
                 },
@@ -1850,7 +2099,11 @@
                       "g": 0.9882352948188782,
                       "b": 0.9882352948188782
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 56
+                      }
+                    }
                   }
                 ],
                 "cPropR": {},
@@ -1870,7 +2123,7 @@
                 "child": [
                   {
                     "type": 2,
-                    "id": "221:12004",
+                    "id": "3874:1878",
                     "name": "Label",
                     "x": 8,
                     "y": 4.5,
@@ -1889,7 +2142,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 55
+                            "_varRef": 70
                           }
                         }
                       }
@@ -1898,31 +2151,33 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 55
+                          "_varRef": 70
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 57
+                          "_varRef": 72
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 59
+                          "_varRef": 74
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 60
+                          "_varRef": 75
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 61
+                          "_varRef": 76
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Label#124:6"
+                    },
                     "_stlRef": 2,
                     "chars": "Label",
                     "fontN": {
@@ -1939,28 +2194,36 @@
                   },
                   {
                     "type": 3,
-                    "id": "221:12690",
+                    "id": "5482:17012",
                     "name": "x-mark",
                     "x": 46,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Removable#3874:0"
+                    },
                     "_isInstance": true,
                     "_insRef": 3,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12690;221:11843",
+                        "id": "I5482:17012;5746:11782",
                         "name": "Icon",
-                        "x": 3.500000238418579,
-                        "y": 3.500000238418579,
-                        "w": 8.999983787536621,
-                        "h": 8.999983787536621,
+                        "x": 3.5,
+                        "y": 3.5,
+                        "w": 9,
+                        "h": 9,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -1974,17 +2237,30 @@
                               "g": 0.03921568766236305,
                               "b": 0.03921568766236305
                             },
-                            "bndVar": {}
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 70
+                              }
+                            }
                           }
                         ],
                         "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 70
+                            }
+                          ]
+                        },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 0.146446 0.146446 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146446 L 4.5 3.79289 L 8.14647 0.146447 C 8.34173 -0.048815 8.65827 -0.048815 8.85353 0.146447 C 9.0488 0.341709 9.0488 0.658292 8.85353 0.853553 L 5.20711 4.5 L 8.85353 8.14647 C 9.0488 8.34173 9.0488 8.65827 8.85353 8.85353 C 8.65827 9.0488 8.34173 9.0488 8.14647 8.85353 L 4.5 5.20711 L 0.853553 8.85353 C 0.658291 9.0488 0.341709 9.0488 0.146446 8.85353 C -0.048815 8.65827 -0.048815 8.34173 0.146446 8.14647 L 3.79289 4.5 L 0.146446 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146446 0.146446 Z",
+                            "data": "M 0.146447 0.146447 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146447 L 4.5 3.79289 L 8.14645 0.146447 C 8.34171 -0.048815 8.65829 -0.048815 8.85355 0.146447 C 9.04882 0.341709 9.04882 0.658292 8.85355 0.853554 L 5.20711 4.5 L 8.85355 8.14645 C 9.04882 8.34171 9.04882 8.65829 8.85355 8.85355 C 8.65829 9.04882 8.34171 9.04882 8.14645 8.85355 L 4.5 5.20711 L 0.853553 8.85355 C 0.658291 9.04882 0.341709 9.04882 0.146447 8.85355 C -0.048815 8.65829 -0.048815 8.34171 0.146447 8.14645 L 3.79289 4.5 L 0.146447 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146447 0.146447 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
@@ -1992,7 +2268,7 @@
               },
               {
                 "type": 4,
-                "id": "221:11988",
+                "id": "3874:1924",
                 "name": "Selected=False, Icon=False, Error=True",
                 "x": 106,
                 "y": 8,
@@ -2009,7 +2285,11 @@
                       "g": 0.9882352948188782,
                       "b": 0.9882352948188782
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 56
+                      }
+                    }
                   }
                 ],
                 "strks": [
@@ -2034,27 +2314,43 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 49
+                    "_varRef": 57
                   },
                   "padL": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padT": {
-                    "_varRef": 51
+                    "_varRef": 59
                   },
                   "padR": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padB": {
-                    "_varRef": 51
+                    "_varRef": 59
+                  },
+                  "topLR": {
+                    "_varRef": 61
+                  },
+                  "topRightRadius": {
+                    "_varRef": 61
+                  },
+                  "botLR": {
+                    "_varRef": 61
+                  },
+                  "botRR": {
+                    "_varRef": 61
                   },
                   "maxW": {
-                    "_varRef": 52
+                    "_varRef": 62
                   },
+                  "fills": [
+                    {
+                      "_varRef": 56
+                    }
+                  ],
                   "strks": [
                     {
-                      "type": 29,
-                      "id": "VariableID:453:2678"
+                      "_varRef": 83
                     }
                   ]
                 },
@@ -2069,7 +2365,11 @@
                       "g": 0.9882352948188782,
                       "b": 0.9882352948188782
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 56
+                      }
+                    }
                   }
                 ],
                 "cPropR": {},
@@ -2089,7 +2389,7 @@
                 "child": [
                   {
                     "type": 2,
-                    "id": "221:12007",
+                    "id": "3874:1926",
                     "name": "Label",
                     "x": 8,
                     "y": 4.5,
@@ -2108,7 +2408,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 65
+                            "_varRef": 83
                           }
                         }
                       }
@@ -2117,31 +2417,33 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 65
+                          "_varRef": 83
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 57
+                          "_varRef": 72
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 59
+                          "_varRef": 74
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 60
+                          "_varRef": 75
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 61
+                          "_varRef": 76
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Label#124:6"
+                    },
                     "_stlRef": 2,
                     "chars": "Label",
                     "fontN": {
@@ -2158,28 +2460,36 @@
                   },
                   {
                     "type": 3,
-                    "id": "221:12692",
+                    "id": "5482:17291",
                     "name": "x-mark",
                     "x": 46,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Removable#3874:0"
+                    },
                     "_isInstance": true,
                     "_insRef": 3,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12692;221:11843",
+                        "id": "I5482:17291;5746:11782",
                         "name": "Icon",
-                        "x": 3.500000238418579,
-                        "y": 3.500000238418579,
-                        "w": 8.999983787536621,
-                        "h": 8.999983787536621,
+                        "x": 3.5,
+                        "y": 3.5,
+                        "w": 9,
+                        "h": 9,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -2189,21 +2499,34 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.03921568766236305,
-                              "g": 0.03921568766236305,
-                              "b": 0.03921568766236305
+                              "r": 0.7411764860153198,
+                              "g": 0.04313725605607033,
+                              "b": 0.04313725605607033
                             },
-                            "bndVar": {}
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 83
+                              }
+                            }
                           }
                         ],
                         "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 83
+                            }
+                          ]
+                        },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 0.146446 0.146446 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146446 L 4.5 3.79289 L 8.14647 0.146447 C 8.34173 -0.048815 8.65827 -0.048815 8.85353 0.146447 C 9.0488 0.341709 9.0488 0.658292 8.85353 0.853553 L 5.20711 4.5 L 8.85353 8.14647 C 9.0488 8.34173 9.0488 8.65827 8.85353 8.85353 C 8.65827 9.0488 8.34173 9.0488 8.14647 8.85353 L 4.5 5.20711 L 0.853553 8.85353 C 0.658291 9.0488 0.341709 9.0488 0.146446 8.85353 C -0.048815 8.65827 -0.048815 8.34173 0.146446 8.14647 L 3.79289 4.5 L 0.146446 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146446 0.146446 Z",
+                            "data": "M 0.146447 0.146447 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146447 L 4.5 3.79289 L 8.14645 0.146447 C 8.34171 -0.048815 8.65829 -0.048815 8.85355 0.146447 C 9.04882 0.341709 9.04882 0.658292 8.85355 0.853554 L 5.20711 4.5 L 8.85355 8.14645 C 9.04882 8.34171 9.04882 8.65829 8.85355 8.85355 C 8.65829 9.04882 8.34171 9.04882 8.14645 8.85355 L 4.5 5.20711 L 0.853553 8.85355 C 0.658291 9.04882 0.341709 9.04882 0.146447 8.85355 C -0.048815 8.65829 -0.048815 8.34171 0.146447 8.14645 L 3.79289 4.5 L 0.146447 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146447 0.146447 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
@@ -2211,7 +2534,7 @@
               },
               {
                 "type": 4,
-                "id": "221:11989",
+                "id": "3874:1918",
                 "name": "Selected=False, Icon=True, Error=False",
                 "x": 8,
                 "y": 40,
@@ -2228,7 +2551,11 @@
                       "g": 0.9882352948188782,
                       "b": 0.9882352948188782
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 56
+                      }
+                    }
                   }
                 ],
                 "strks": [
@@ -2253,27 +2580,43 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 49
+                    "_varRef": 57
                   },
                   "padL": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padT": {
-                    "_varRef": 51
+                    "_varRef": 59
                   },
                   "padR": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padB": {
-                    "_varRef": 51
+                    "_varRef": 59
+                  },
+                  "topLR": {
+                    "_varRef": 61
+                  },
+                  "topRightRadius": {
+                    "_varRef": 61
+                  },
+                  "botLR": {
+                    "_varRef": 61
+                  },
+                  "botRR": {
+                    "_varRef": 61
                   },
                   "maxW": {
-                    "_varRef": 52
+                    "_varRef": 62
                   },
+                  "fills": [
+                    {
+                      "_varRef": 56
+                    }
+                  ],
                   "strks": [
                     {
-                      "type": 29,
-                      "id": "VariableID:124:564"
+                      "_varRef": 68
                     }
                   ]
                 },
@@ -2288,7 +2631,11 @@
                       "g": 0.9882352948188782,
                       "b": 0.9882352948188782
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 56
+                      }
+                    }
                   }
                 ],
                 "cPropR": {},
@@ -2308,28 +2655,36 @@
                 "child": [
                   {
                     "type": 3,
-                    "id": "221:12694",
+                    "id": "5482:16839",
                     "name": "Icon",
                     "x": 8,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "mainComponent": "Leading icon#5482:9"
+                    },
                     "_isInstance": true,
                     "_insRef": 4,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12694;221:11812",
+                        "id": "I5482:16839;5746:11624",
                         "name": "Icon",
                         "x": 1.5,
                         "y": 2,
                         "w": 13,
-                        "h": 11.999899864196777,
+                        "h": 11.999911308288574,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -2343,27 +2698,40 @@
                               "g": 0.03921568766236305,
                               "b": 0.03921568766236305
                             },
-                            "bndVar": {}
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 70
+                              }
+                            }
                           }
                         ],
                         "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 70
+                            }
+                          ]
+                        },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 6.5 11.5 C 6.26549 11.9416 6.26533 11.9415 6.26515 11.9414 L 6.26331 11.9405 L 6.25896 11.9381 L 6.24386 11.9299 C 6.231 11.9229 6.21261 11.9129 6.18905 11.8997 C 6.14195 11.8734 6.07416 11.8349 5.98864 11.7846 C 5.81767 11.6841 5.57545 11.5359 5.2857 11.3433 C 4.70716 10.9587 3.93415 10.3934 3.15907 9.67087 C 1.62521 8.241 0 6.11673 0 3.5 C 0 1.54796 1.6424 0 3.625 0 C 4.79092 0 5.83488 0.532725 6.5 1.36773 C 7.16513 0.532725 8.20907 0 9.375 0 C 11.3576 0 13 1.54796 13 3.5 C 13 6.11673 11.3748 8.241 9.84093 9.67087 C 9.06587 10.3934 8.29287 10.9587 7.71433 11.3433 C 7.42453 11.5359 7.18233 11.6841 7.01133 11.7846 C 6.92587 11.8349 6.85807 11.8734 6.81093 11.8997 C 6.7874 11.9129 6.769 11.9229 6.75613 11.9299 L 6.74107 11.9381 L 6.73667 11.9405 L 6.73533 11.9411 C 6.73513 11.9413 6.73453 11.9416 6.5 11.5 Z M 3.625 1 C 2.15582 1 1 2.13833 1 3.5 C 1 5.69697 2.37479 7.57267 3.84093 8.9394 C 4.56585 9.6152 5.29284 10.1473 5.8393 10.5105 C 6.11205 10.6919 6.33859 10.8303 6.49573 10.9227 C 6.49716 10.9236 6.49859 10.9244 6.5 10.9253 C 6.50141 10.9244 6.50284 10.9236 6.50427 10.9227 C 6.66141 10.8303 6.88793 10.6919 7.16067 10.5105 C 7.70713 10.1473 8.43413 9.6152 9.15907 8.9394 C 10.6252 7.57267 12 5.69697 12 3.5 C 12 2.13833 10.8442 1 9.375 1 C 8.28013 1 7.3526 1.63635 6.9568 2.52559 C 6.87647 2.70602 6.69753 2.82228 6.5 2.82228 C 6.3025 2.82228 6.12351 2.70602 6.0432 2.52559 C 5.64743 1.63635 4.71984 1 3.625 1 Z",
+                            "data": "M 6.5 11.5 C 6.26549 11.9416 6.26533 11.9415 6.26515 11.9414 L 6.26331 11.9404 L 6.25896 11.9381 L 6.24386 11.9299 C 6.231 11.9229 6.21261 11.9128 6.18905 11.8997 C 6.14195 11.8734 6.07416 11.8349 5.98864 11.7846 C 5.81767 11.684 5.57545 11.5359 5.2857 11.3433 C 4.70716 10.9587 3.93414 10.3934 3.15906 9.67088 C 1.62521 8.24103 0 6.11673 0 3.5 C 0 1.54796 1.6424 0 3.625 0 C 4.79092 0 5.83488 0.532725 6.5 1.36773 C 7.16512 0.532725 8.20908 0 9.375 0 C 11.3576 0 13 1.54796 13 3.5 C 13 6.11673 11.3748 8.24103 9.84094 9.67088 C 9.06586 10.3934 8.29284 10.9587 7.7143 11.3433 C 7.42455 11.5359 7.18233 11.684 7.01136 11.7846 C 6.92584 11.8349 6.85805 11.8734 6.81095 11.8997 C 6.7874 11.9128 6.769 11.9229 6.75614 11.9299 L 6.74104 11.9381 L 6.73669 11.9404 L 6.73532 11.9412 C 6.73514 11.9413 6.73451 11.9416 6.5 11.5 Z M 3.625 1 C 2.15582 1 1 2.13833 1 3.5 C 1 5.69697 2.37479 7.57268 3.84094 8.93941 C 4.56586 9.61517 5.29284 10.1473 5.8393 10.5105 C 6.11205 10.6919 6.33858 10.8303 6.49574 10.9227 C 6.49716 10.9236 6.49858 10.9244 6.5 10.9253 C 6.50141 10.9244 6.50284 10.9236 6.50426 10.9227 C 6.66142 10.8303 6.88795 10.6919 7.1607 10.5105 C 7.70716 10.1473 8.43414 9.61517 9.15906 8.93941 C 10.6252 7.57268 12 5.69697 12 3.5 C 12 2.13833 10.8442 1 9.375 1 C 8.28016 1 7.35257 1.63635 6.9568 2.52559 C 6.87649 2.70602 6.6975 2.82228 6.5 2.82228 C 6.3025 2.82228 6.12351 2.70602 6.0432 2.52559 C 5.64743 1.63635 4.71984 1 3.625 1 Z",
                             "windRule": "EVENODD"
                           },
                           {
-                            "data": "M 6.5 11.5 L 6.73453 11.9416 C 6.58787 12.0195 6.41179 12.0193 6.26515 11.9414 L 6.5 11.5 Z",
+                            "data": "M 6.5 11.5 L 6.73451 11.9416 C 6.58787 12.0195 6.41179 12.0193 6.26515 11.9414 L 6.5 11.5 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   },
                   {
                     "type": 2,
-                    "id": "221:12012",
+                    "id": "3874:1920",
                     "name": "Label",
                     "x": 28,
                     "y": 4.5,
@@ -2382,7 +2750,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 55
+                            "_varRef": 70
                           }
                         }
                       }
@@ -2391,31 +2759,33 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 55
+                          "_varRef": 70
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 57
+                          "_varRef": 72
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 59
+                          "_varRef": 74
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 60
+                          "_varRef": 75
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 61
+                          "_varRef": 76
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Label#124:6"
+                    },
                     "_stlRef": 2,
                     "chars": "Label",
                     "fontN": {
@@ -2432,28 +2802,36 @@
                   },
                   {
                     "type": 3,
-                    "id": "221:12696",
+                    "id": "5482:17178",
                     "name": "x-mark",
                     "x": 66,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Removable#3874:0"
+                    },
                     "_isInstance": true,
                     "_insRef": 3,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12696;221:11843",
+                        "id": "I5482:17178;5746:11782",
                         "name": "Icon",
-                        "x": 3.500000238418579,
-                        "y": 3.500000238418579,
-                        "w": 8.999983787536621,
-                        "h": 8.999983787536621,
+                        "x": 3.5,
+                        "y": 3.5,
+                        "w": 9,
+                        "h": 9,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -2467,17 +2845,30 @@
                               "g": 0.03921568766236305,
                               "b": 0.03921568766236305
                             },
-                            "bndVar": {}
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 70
+                              }
+                            }
                           }
                         ],
                         "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 70
+                            }
+                          ]
+                        },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 0.146446 0.146446 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146446 L 4.5 3.79289 L 8.14647 0.146447 C 8.34173 -0.048815 8.65827 -0.048815 8.85353 0.146447 C 9.0488 0.341709 9.0488 0.658292 8.85353 0.853553 L 5.20711 4.5 L 8.85353 8.14647 C 9.0488 8.34173 9.0488 8.65827 8.85353 8.85353 C 8.65827 9.0488 8.34173 9.0488 8.14647 8.85353 L 4.5 5.20711 L 0.853553 8.85353 C 0.658291 9.0488 0.341709 9.0488 0.146446 8.85353 C -0.048815 8.65827 -0.048815 8.34173 0.146446 8.14647 L 3.79289 4.5 L 0.146446 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146446 0.146446 Z",
+                            "data": "M 0.146447 0.146447 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146447 L 4.5 3.79289 L 8.14645 0.146447 C 8.34171 -0.048815 8.65829 -0.048815 8.85355 0.146447 C 9.04882 0.341709 9.04882 0.658292 8.85355 0.853554 L 5.20711 4.5 L 8.85355 8.14645 C 9.04882 8.34171 9.04882 8.65829 8.85355 8.85355 C 8.65829 9.04882 8.34171 9.04882 8.14645 8.85355 L 4.5 5.20711 L 0.853553 8.85355 C 0.658291 9.04882 0.341709 9.04882 0.146447 8.85355 C -0.048815 8.65829 -0.048815 8.34171 0.146447 8.14645 L 3.79289 4.5 L 0.146447 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146447 0.146447 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
@@ -2485,7 +2876,7 @@
               },
               {
                 "type": 4,
-                "id": "221:11990",
+                "id": "3874:1880",
                 "name": "Selected=False, Icon=True, Error=True",
                 "x": 106,
                 "y": 40,
@@ -2502,7 +2893,11 @@
                       "g": 0.9882352948188782,
                       "b": 0.9882352948188782
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 56
+                      }
+                    }
                   }
                 ],
                 "strks": [
@@ -2527,27 +2922,43 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 49
+                    "_varRef": 57
                   },
                   "padL": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padT": {
-                    "_varRef": 51
+                    "_varRef": 59
                   },
                   "padR": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padB": {
-                    "_varRef": 51
+                    "_varRef": 59
+                  },
+                  "topLR": {
+                    "_varRef": 61
+                  },
+                  "topRightRadius": {
+                    "_varRef": 61
+                  },
+                  "botLR": {
+                    "_varRef": 61
+                  },
+                  "botRR": {
+                    "_varRef": 61
                   },
                   "maxW": {
-                    "_varRef": 52
+                    "_varRef": 62
                   },
+                  "fills": [
+                    {
+                      "_varRef": 56
+                    }
+                  ],
                   "strks": [
                     {
-                      "type": 29,
-                      "id": "VariableID:453:2678"
+                      "_varRef": 83
                     }
                   ]
                 },
@@ -2562,7 +2973,11 @@
                       "g": 0.9882352948188782,
                       "b": 0.9882352948188782
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 56
+                      }
+                    }
                   }
                 ],
                 "cPropR": {},
@@ -2582,28 +2997,36 @@
                 "child": [
                   {
                     "type": 3,
-                    "id": "221:12698",
+                    "id": "5482:16861",
                     "name": "Icon",
                     "x": 8,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "mainComponent": "Leading icon#5482:9"
+                    },
                     "_isInstance": true,
                     "_insRef": 4,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12698;221:11812",
+                        "id": "I5482:16861;5746:11624",
                         "name": "Icon",
                         "x": 1.5,
                         "y": 2,
                         "w": 13,
-                        "h": 11.999899864196777,
+                        "h": 11.999911308288574,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -2613,31 +3036,44 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.03921568766236305,
-                              "g": 0.03921568766236305,
-                              "b": 0.03921568766236305
+                              "r": 0.7411764860153198,
+                              "g": 0.04313725605607033,
+                              "b": 0.04313725605607033
                             },
-                            "bndVar": {}
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 83
+                              }
+                            }
                           }
                         ],
                         "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 83
+                            }
+                          ]
+                        },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 6.5 11.5 C 6.26549 11.9416 6.26533 11.9415 6.26515 11.9414 L 6.26331 11.9405 L 6.25896 11.9381 L 6.24386 11.9299 C 6.231 11.9229 6.21261 11.9129 6.18905 11.8997 C 6.14195 11.8734 6.07416 11.8349 5.98864 11.7846 C 5.81767 11.6841 5.57545 11.5359 5.2857 11.3433 C 4.70716 10.9587 3.93415 10.3934 3.15907 9.67087 C 1.62521 8.241 0 6.11673 0 3.5 C 0 1.54796 1.6424 0 3.625 0 C 4.79092 0 5.83488 0.532725 6.5 1.36773 C 7.16513 0.532725 8.20907 0 9.375 0 C 11.3576 0 13 1.54796 13 3.5 C 13 6.11673 11.3748 8.241 9.84093 9.67087 C 9.06587 10.3934 8.29287 10.9587 7.71433 11.3433 C 7.42453 11.5359 7.18233 11.6841 7.01133 11.7846 C 6.92587 11.8349 6.85807 11.8734 6.81093 11.8997 C 6.7874 11.9129 6.769 11.9229 6.75613 11.9299 L 6.74107 11.9381 L 6.73667 11.9405 L 6.73533 11.9411 C 6.73513 11.9413 6.73453 11.9416 6.5 11.5 Z M 3.625 1 C 2.15582 1 1 2.13833 1 3.5 C 1 5.69697 2.37479 7.57267 3.84093 8.9394 C 4.56585 9.6152 5.29284 10.1473 5.8393 10.5105 C 6.11205 10.6919 6.33859 10.8303 6.49573 10.9227 C 6.49716 10.9236 6.49859 10.9244 6.5 10.9253 C 6.50141 10.9244 6.50284 10.9236 6.50427 10.9227 C 6.66141 10.8303 6.88793 10.6919 7.16067 10.5105 C 7.70713 10.1473 8.43413 9.6152 9.15907 8.9394 C 10.6252 7.57267 12 5.69697 12 3.5 C 12 2.13833 10.8442 1 9.375 1 C 8.28013 1 7.3526 1.63635 6.9568 2.52559 C 6.87647 2.70602 6.69753 2.82228 6.5 2.82228 C 6.3025 2.82228 6.12351 2.70602 6.0432 2.52559 C 5.64743 1.63635 4.71984 1 3.625 1 Z",
+                            "data": "M 6.5 11.5 C 6.26549 11.9416 6.26533 11.9415 6.26515 11.9414 L 6.26331 11.9404 L 6.25896 11.9381 L 6.24386 11.9299 C 6.231 11.9229 6.21261 11.9128 6.18905 11.8997 C 6.14195 11.8734 6.07416 11.8349 5.98864 11.7846 C 5.81767 11.684 5.57545 11.5359 5.2857 11.3433 C 4.70716 10.9587 3.93414 10.3934 3.15906 9.67088 C 1.62521 8.24103 0 6.11673 0 3.5 C 0 1.54796 1.6424 0 3.625 0 C 4.79092 0 5.83488 0.532725 6.5 1.36773 C 7.16512 0.532725 8.20908 0 9.375 0 C 11.3576 0 13 1.54796 13 3.5 C 13 6.11673 11.3748 8.24103 9.84094 9.67088 C 9.06586 10.3934 8.29284 10.9587 7.7143 11.3433 C 7.42455 11.5359 7.18233 11.684 7.01136 11.7846 C 6.92584 11.8349 6.85805 11.8734 6.81095 11.8997 C 6.7874 11.9128 6.769 11.9229 6.75614 11.9299 L 6.74104 11.9381 L 6.73669 11.9404 L 6.73532 11.9412 C 6.73514 11.9413 6.73451 11.9416 6.5 11.5 Z M 3.625 1 C 2.15582 1 1 2.13833 1 3.5 C 1 5.69697 2.37479 7.57268 3.84094 8.93941 C 4.56586 9.61517 5.29284 10.1473 5.8393 10.5105 C 6.11205 10.6919 6.33858 10.8303 6.49574 10.9227 C 6.49716 10.9236 6.49858 10.9244 6.5 10.9253 C 6.50141 10.9244 6.50284 10.9236 6.50426 10.9227 C 6.66142 10.8303 6.88795 10.6919 7.1607 10.5105 C 7.70716 10.1473 8.43414 9.61517 9.15906 8.93941 C 10.6252 7.57268 12 5.69697 12 3.5 C 12 2.13833 10.8442 1 9.375 1 C 8.28016 1 7.35257 1.63635 6.9568 2.52559 C 6.87649 2.70602 6.6975 2.82228 6.5 2.82228 C 6.3025 2.82228 6.12351 2.70602 6.0432 2.52559 C 5.64743 1.63635 4.71984 1 3.625 1 Z",
                             "windRule": "EVENODD"
                           },
                           {
-                            "data": "M 6.5 11.5 L 6.73453 11.9416 C 6.58787 12.0195 6.41179 12.0193 6.26515 11.9414 L 6.5 11.5 Z",
+                            "data": "M 6.5 11.5 L 6.73451 11.9416 C 6.58787 12.0195 6.41179 12.0193 6.26515 11.9414 L 6.5 11.5 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   },
                   {
                     "type": 2,
-                    "id": "221:12017",
+                    "id": "3874:1882",
                     "name": "Label",
                     "x": 28,
                     "y": 4.5,
@@ -2656,7 +3092,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 65
+                            "_varRef": 83
                           }
                         }
                       }
@@ -2665,31 +3101,33 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 65
+                          "_varRef": 83
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 57
+                          "_varRef": 72
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 59
+                          "_varRef": 74
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 60
+                          "_varRef": 75
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 61
+                          "_varRef": 76
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Label#124:6"
+                    },
                     "_stlRef": 2,
                     "chars": "Label",
                     "fontN": {
@@ -2706,28 +3144,36 @@
                   },
                   {
                     "type": 3,
-                    "id": "221:12700",
+                    "id": "5482:17288",
                     "name": "x-mark",
                     "x": 66,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Removable#3874:0"
+                    },
                     "_isInstance": true,
                     "_insRef": 3,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12700;221:11843",
+                        "id": "I5482:17288;5746:11782",
                         "name": "Icon",
-                        "x": 3.500000238418579,
-                        "y": 3.500000238418579,
-                        "w": 8.999983787536621,
-                        "h": 8.999983787536621,
+                        "x": 3.5,
+                        "y": 3.5,
+                        "w": 9,
+                        "h": 9,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -2737,21 +3183,34 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.03921568766236305,
-                              "g": 0.03921568766236305,
-                              "b": 0.03921568766236305
+                              "r": 0.7411764860153198,
+                              "g": 0.04313725605607033,
+                              "b": 0.04313725605607033
                             },
-                            "bndVar": {}
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 83
+                              }
+                            }
                           }
                         ],
                         "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 83
+                            }
+                          ]
+                        },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 0.146446 0.146446 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146446 L 4.5 3.79289 L 8.14647 0.146447 C 8.34173 -0.048815 8.65827 -0.048815 8.85353 0.146447 C 9.0488 0.341709 9.0488 0.658292 8.85353 0.853553 L 5.20711 4.5 L 8.85353 8.14647 C 9.0488 8.34173 9.0488 8.65827 8.85353 8.85353 C 8.65827 9.0488 8.34173 9.0488 8.14647 8.85353 L 4.5 5.20711 L 0.853553 8.85353 C 0.658291 9.0488 0.341709 9.0488 0.146446 8.85353 C -0.048815 8.65827 -0.048815 8.34173 0.146446 8.14647 L 3.79289 4.5 L 0.146446 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146446 0.146446 Z",
+                            "data": "M 0.146447 0.146447 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146447 L 4.5 3.79289 L 8.14645 0.146447 C 8.34171 -0.048815 8.65829 -0.048815 8.85355 0.146447 C 9.04882 0.341709 9.04882 0.658292 8.85355 0.853554 L 5.20711 4.5 L 8.85355 8.14645 C 9.04882 8.34171 9.04882 8.65829 8.85355 8.85355 C 8.65829 9.04882 8.34171 9.04882 8.14645 8.85355 L 4.5 5.20711 L 0.853553 8.85355 C 0.658291 9.04882 0.341709 9.04882 0.146447 8.85355 C -0.048815 8.65829 -0.048815 8.34171 0.146447 8.14645 L 3.79289 4.5 L 0.146447 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146447 0.146447 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
@@ -2759,7 +3218,7 @@
               },
               {
                 "type": 4,
-                "id": "221:11991",
+                "id": "3874:1930",
                 "name": "Selected=True, Icon=False, Error=False",
                 "x": 8,
                 "y": 72,
@@ -2776,7 +3235,11 @@
                       "g": 0.9137254953384399,
                       "b": 0.9137254953384399
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 84
+                      }
+                    }
                   }
                 ],
                 "strks": [
@@ -2801,27 +3264,43 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 49
+                    "_varRef": 57
                   },
                   "padL": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padT": {
-                    "_varRef": 51
+                    "_varRef": 59
                   },
                   "padR": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padB": {
-                    "_varRef": 51
+                    "_varRef": 59
+                  },
+                  "topLR": {
+                    "_varRef": 61
+                  },
+                  "topRightRadius": {
+                    "_varRef": 61
+                  },
+                  "botLR": {
+                    "_varRef": 61
+                  },
+                  "botRR": {
+                    "_varRef": 61
                   },
                   "maxW": {
-                    "_varRef": 52
+                    "_varRef": 62
                   },
+                  "fills": [
+                    {
+                      "_varRef": 84
+                    }
+                  ],
                   "strks": [
                     {
-                      "type": 29,
-                      "id": "VariableID:334:3559"
+                      "_varRef": 85
                     }
                   ]
                 },
@@ -2836,7 +3315,11 @@
                       "g": 0.9137254953384399,
                       "b": 0.9137254953384399
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 84
+                      }
+                    }
                   }
                 ],
                 "cPropR": {},
@@ -2856,29 +3339,34 @@
                 "child": [
                   {
                     "type": 3,
-                    "id": "221:12702",
+                    "id": "5482:17310",
                     "name": "check",
                     "x": 8,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 79
+                      }
+                    },
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 5,
-                    "pAxSz": "FIXED",
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12702;221:11759",
+                        "id": "I5482:17310;5746:11477",
                         "name": "Icon",
-                        "x": 2.500000238418579,
+                        "x": 2.5,
                         "y": 2.9999186992645264,
-                        "w": 11.000049591064453,
-                        "h": 10.000046730041504,
+                        "w": 11.000053405761719,
+                        "h": 10.000056266784668,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -2888,13 +3376,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8392156958580017,
-                              "g": 0.8392156958580017,
-                              "b": 0.8392156958580017
+                              "r": 0.03921568766236305,
+                              "g": 0.03921568766236305,
+                              "b": 0.03921568766236305
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 68
+                                "_varRef": 86
                               }
                             }
                           }
@@ -2903,23 +3391,25 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 68
+                              "_varRef": 86
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 10.7773 0.084028 C 11.0071 0.237204 11.0692 0.547638 10.916 0.7774 L 4.91603 9.7774 C 4.83293 9.90207 4.69833 9.98287 4.54927 9.9976 C 4.4002 10.0124 4.25237 9.95953 4.14645 9.8536 L 0.146446 5.85361 C -0.048815 5.65835 -0.048815 5.34176 0.146446 5.1465 C 0.341709 4.95124 0.658291 4.95124 0.853553 5.1465 L 4.42229 8.71527 L 10.084 0.222703 C 10.2371 -0.007061 10.5476 -0.069148 10.7773 0.084028 Z",
+                            "data": "M 10.7774 0.084028 C 11.0071 0.237204 11.0692 0.547639 10.916 0.777403 L 4.91603 9.7774 C 4.83293 9.90204 4.69834 9.98286 4.54927 9.99762 C 4.4002 10.0124 4.25237 9.95953 4.14645 9.85361 L 0.146447 5.85361 C -0.048815 5.65834 -0.048815 5.34176 0.146447 5.1465 C 0.341709 4.95124 0.658291 4.95124 0.853553 5.1465 L 4.42229 8.71523 L 10.084 0.222703 C 10.2372 -0.007061 10.5476 -0.069148 10.7774 0.084028 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   },
                   {
                     "type": 2,
-                    "id": "221:12022",
+                    "id": "3874:1932",
                     "name": "Label",
                     "x": 28,
                     "y": 4.5,
@@ -2938,7 +3428,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 69
+                            "_varRef": 86
                           }
                         }
                       }
@@ -2947,31 +3437,33 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 69
+                          "_varRef": 86
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 57
+                          "_varRef": 72
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 59
+                          "_varRef": 74
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 60
+                          "_varRef": 75
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 61
+                          "_varRef": 76
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Label#124:6"
+                    },
                     "_stlRef": 2,
                     "chars": "Label",
                     "fontN": {
@@ -2988,28 +3480,36 @@
                   },
                   {
                     "type": 3,
-                    "id": "221:12704",
+                    "id": "5482:17226",
                     "name": "x-mark",
                     "x": 66,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Removable#3874:0"
+                    },
                     "_isInstance": true,
                     "_insRef": 3,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12704;221:11843",
+                        "id": "I5482:17226;5746:11782",
                         "name": "Icon",
-                        "x": 3.500000238418579,
-                        "y": 3.500000238418579,
-                        "w": 8.999983787536621,
-                        "h": 8.999983787536621,
+                        "x": 3.5,
+                        "y": 3.5,
+                        "w": 9,
+                        "h": 9,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -3019,13 +3519,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8392156958580017,
-                              "g": 0.8392156958580017,
-                              "b": 0.8392156958580017
+                              "r": 0.03921568766236305,
+                              "g": 0.03921568766236305,
+                              "b": 0.03921568766236305
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 68
+                                "_varRef": 86
                               }
                             }
                           }
@@ -3034,17 +3534,19 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 68
+                              "_varRef": 86
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 0.146446 0.146446 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146446 L 4.5 3.79289 L 8.14647 0.146447 C 8.34173 -0.048815 8.65827 -0.048815 8.85353 0.146447 C 9.0488 0.341709 9.0488 0.658292 8.85353 0.853553 L 5.20711 4.5 L 8.85353 8.14647 C 9.0488 8.34173 9.0488 8.65827 8.85353 8.85353 C 8.65827 9.0488 8.34173 9.0488 8.14647 8.85353 L 4.5 5.20711 L 0.853553 8.85353 C 0.658291 9.0488 0.341709 9.0488 0.146446 8.85353 C -0.048815 8.65827 -0.048815 8.34173 0.146446 8.14647 L 3.79289 4.5 L 0.146446 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146446 0.146446 Z",
+                            "data": "M 0.146447 0.146447 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146447 L 4.5 3.79289 L 8.14645 0.146447 C 8.34171 -0.048815 8.65829 -0.048815 8.85355 0.146447 C 9.04882 0.341709 9.04882 0.658292 8.85355 0.853554 L 5.20711 4.5 L 8.85355 8.14645 C 9.04882 8.34171 9.04882 8.65829 8.85355 8.85355 C 8.65829 9.04882 8.34171 9.04882 8.14645 8.85355 L 4.5 5.20711 L 0.853553 8.85355 C 0.658291 9.04882 0.341709 9.04882 0.146447 8.85355 C -0.048815 8.65829 -0.048815 8.34171 0.146447 8.14645 L 3.79289 4.5 L 0.146447 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146447 0.146447 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
@@ -3052,7 +3554,7 @@
               },
               {
                 "type": 4,
-                "id": "221:11992",
+                "id": "3874:1938",
                 "name": "Selected=True, Icon=False, Error=True",
                 "x": 106,
                 "y": 72,
@@ -3069,7 +3571,11 @@
                       "g": 0.9137254953384399,
                       "b": 0.9137254953384399
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 84
+                      }
+                    }
                   }
                 ],
                 "strks": [
@@ -3094,27 +3600,43 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 49
+                    "_varRef": 57
                   },
                   "padL": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padT": {
-                    "_varRef": 51
+                    "_varRef": 59
                   },
                   "padR": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padB": {
-                    "_varRef": 51
+                    "_varRef": 59
+                  },
+                  "topLR": {
+                    "_varRef": 61
+                  },
+                  "topRightRadius": {
+                    "_varRef": 61
+                  },
+                  "botLR": {
+                    "_varRef": 61
+                  },
+                  "botRR": {
+                    "_varRef": 61
                   },
                   "maxW": {
-                    "_varRef": 52
+                    "_varRef": 62
                   },
+                  "fills": [
+                    {
+                      "_varRef": 84
+                    }
+                  ],
                   "strks": [
                     {
-                      "type": 29,
-                      "id": "VariableID:453:2678"
+                      "_varRef": 83
                     }
                   ]
                 },
@@ -3129,7 +3651,11 @@
                       "g": 0.9137254953384399,
                       "b": 0.9137254953384399
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 84
+                      }
+                    }
                   }
                 ],
                 "cPropR": {},
@@ -3149,29 +3675,34 @@
                 "child": [
                   {
                     "type": 3,
-                    "id": "221:12706",
+                    "id": "5482:17336",
                     "name": "check",
                     "x": 8,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 79
+                      }
+                    },
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 5,
-                    "pAxSz": "FIXED",
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12706;221:11759",
+                        "id": "I5482:17336;5746:11477",
                         "name": "Icon",
-                        "x": 2.500000238418579,
+                        "x": 2.5,
                         "y": 2.9999186992645264,
-                        "w": 11.000049591064453,
-                        "h": 10.000046730041504,
+                        "w": 11.000053405761719,
+                        "h": 10.000056266784668,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -3181,13 +3712,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8392156958580017,
-                              "g": 0.8392156958580017,
-                              "b": 0.8392156958580017
+                              "r": 0.03921568766236305,
+                              "g": 0.03921568766236305,
+                              "b": 0.03921568766236305
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 68
+                                "_varRef": 86
                               }
                             }
                           }
@@ -3196,23 +3727,25 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 68
+                              "_varRef": 86
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 10.7773 0.084028 C 11.0071 0.237204 11.0692 0.547638 10.916 0.7774 L 4.91603 9.7774 C 4.83293 9.90207 4.69833 9.98287 4.54927 9.9976 C 4.4002 10.0124 4.25237 9.95953 4.14645 9.8536 L 0.146446 5.85361 C -0.048815 5.65835 -0.048815 5.34176 0.146446 5.1465 C 0.341709 4.95124 0.658291 4.95124 0.853553 5.1465 L 4.42229 8.71527 L 10.084 0.222703 C 10.2371 -0.007061 10.5476 -0.069148 10.7773 0.084028 Z",
+                            "data": "M 10.7774 0.084028 C 11.0071 0.237204 11.0692 0.547639 10.916 0.777403 L 4.91603 9.7774 C 4.83293 9.90204 4.69834 9.98286 4.54927 9.99762 C 4.4002 10.0124 4.25237 9.95953 4.14645 9.85361 L 0.146447 5.85361 C -0.048815 5.65834 -0.048815 5.34176 0.146447 5.1465 C 0.341709 4.95124 0.658291 4.95124 0.853553 5.1465 L 4.42229 8.71523 L 10.084 0.222703 C 10.2372 -0.007061 10.5476 -0.069148 10.7774 0.084028 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   },
                   {
                     "type": 2,
-                    "id": "221:12027",
+                    "id": "3874:1940",
                     "name": "Label",
                     "x": 28,
                     "y": 4.5,
@@ -3231,7 +3764,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 69
+                            "_varRef": 86
                           }
                         }
                       }
@@ -3240,31 +3773,33 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 69
+                          "_varRef": 86
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 57
+                          "_varRef": 72
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 59
+                          "_varRef": 74
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 60
+                          "_varRef": 75
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 61
+                          "_varRef": 76
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Label#124:6"
+                    },
                     "_stlRef": 2,
                     "chars": "Label",
                     "fontN": {
@@ -3281,28 +3816,36 @@
                   },
                   {
                     "type": 3,
-                    "id": "221:12708",
+                    "id": "5482:17282",
                     "name": "x-mark",
                     "x": 66,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Removable#3874:0"
+                    },
                     "_isInstance": true,
                     "_insRef": 3,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12708;221:11843",
+                        "id": "I5482:17282;5746:11782",
                         "name": "Icon",
-                        "x": 3.500000238418579,
-                        "y": 3.500000238418579,
-                        "w": 8.999983787536621,
-                        "h": 8.999983787536621,
+                        "x": 3.5,
+                        "y": 3.5,
+                        "w": 9,
+                        "h": 9,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -3312,13 +3855,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8392156958580017,
-                              "g": 0.8392156958580017,
-                              "b": 0.8392156958580017
+                              "r": 0.03921568766236305,
+                              "g": 0.03921568766236305,
+                              "b": 0.03921568766236305
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 68
+                                "_varRef": 86
                               }
                             }
                           }
@@ -3327,17 +3870,19 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 68
+                              "_varRef": 86
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 0.146446 0.146446 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146446 L 4.5 3.79289 L 8.14647 0.146447 C 8.34173 -0.048815 8.65827 -0.048815 8.85353 0.146447 C 9.0488 0.341709 9.0488 0.658292 8.85353 0.853553 L 5.20711 4.5 L 8.85353 8.14647 C 9.0488 8.34173 9.0488 8.65827 8.85353 8.85353 C 8.65827 9.0488 8.34173 9.0488 8.14647 8.85353 L 4.5 5.20711 L 0.853553 8.85353 C 0.658291 9.0488 0.341709 9.0488 0.146446 8.85353 C -0.048815 8.65827 -0.048815 8.34173 0.146446 8.14647 L 3.79289 4.5 L 0.146446 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146446 0.146446 Z",
+                            "data": "M 0.146447 0.146447 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146447 L 4.5 3.79289 L 8.14645 0.146447 C 8.34171 -0.048815 8.65829 -0.048815 8.85355 0.146447 C 9.04882 0.341709 9.04882 0.658292 8.85355 0.853554 L 5.20711 4.5 L 8.85355 8.14645 C 9.04882 8.34171 9.04882 8.65829 8.85355 8.85355 C 8.65829 9.04882 8.34171 9.04882 8.14645 8.85355 L 4.5 5.20711 L 0.853553 8.85355 C 0.658291 9.04882 0.341709 9.04882 0.146447 8.85355 C -0.048815 8.65829 -0.048815 8.34171 0.146447 8.14645 L 3.79289 4.5 L 0.146447 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146447 0.146447 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
@@ -3345,11 +3890,11 @@
               },
               {
                 "type": 4,
-                "id": "221:11993",
+                "id": "3874:1893",
                 "name": "Selected=True, Icon=True, Error=False",
-                "x": 47,
+                "x": 8,
                 "y": 104,
-                "w": 110,
+                "w": 90,
                 "h": 24,
                 "fills": [
                   {
@@ -3362,7 +3907,11 @@
                       "g": 0.9137254953384399,
                       "b": 0.9137254953384399
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 84
+                      }
+                    }
                   }
                 ],
                 "strks": [
@@ -3387,27 +3936,43 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 49
+                    "_varRef": 57
                   },
                   "padL": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padT": {
-                    "_varRef": 51
+                    "_varRef": 59
                   },
                   "padR": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padB": {
-                    "_varRef": 51
+                    "_varRef": 59
+                  },
+                  "topLR": {
+                    "_varRef": 61
+                  },
+                  "topRightRadius": {
+                    "_varRef": 61
+                  },
+                  "botLR": {
+                    "_varRef": 61
+                  },
+                  "botRR": {
+                    "_varRef": 61
                   },
                   "maxW": {
-                    "_varRef": 52
+                    "_varRef": 62
                   },
+                  "fills": [
+                    {
+                      "_varRef": 84
+                    }
+                  ],
                   "strks": [
                     {
-                      "type": 29,
-                      "id": "VariableID:334:3559"
+                      "_varRef": 85
                     }
                   ]
                 },
@@ -3422,7 +3987,11 @@
                       "g": 0.9137254953384399,
                       "b": 0.9137254953384399
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 84
+                      }
+                    }
                   }
                 ],
                 "cPropR": {},
@@ -3442,28 +4011,37 @@
                 "child": [
                   {
                     "type": 3,
-                    "id": "221:12710",
+                    "id": "5482:16885",
                     "name": "Icon",
                     "x": 8,
                     "y": 4,
                     "w": 16,
                     "h": 16,
+                    "opcty": 0.30000001192092896,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "mainComponent": "Leading icon#5482:9"
+                    },
                     "_isInstance": true,
                     "_insRef": 4,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12710;221:11812",
+                        "id": "I5482:16885;5746:11624",
                         "name": "Icon",
                         "x": 1.5,
                         "y": 2,
                         "w": 13,
-                        "h": 11.999899864196777,
+                        "h": 11.999911308288574,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -3477,27 +4055,40 @@
                               "g": 0.03921568766236305,
                               "b": 0.03921568766236305
                             },
-                            "bndVar": {}
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 70
+                              }
+                            }
                           }
                         ],
                         "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 70
+                            }
+                          ]
+                        },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 6.5 11.5 C 6.26549 11.9416 6.26533 11.9415 6.26515 11.9414 L 6.26331 11.9405 L 6.25896 11.9381 L 6.24386 11.9299 C 6.231 11.9229 6.21261 11.9129 6.18905 11.8997 C 6.14195 11.8734 6.07416 11.8349 5.98864 11.7846 C 5.81767 11.6841 5.57545 11.5359 5.2857 11.3433 C 4.70716 10.9587 3.93415 10.3934 3.15907 9.67087 C 1.62521 8.241 0 6.11673 0 3.5 C 0 1.54796 1.6424 0 3.625 0 C 4.79092 0 5.83488 0.532725 6.5 1.36773 C 7.16513 0.532725 8.20907 0 9.375 0 C 11.3576 0 13 1.54796 13 3.5 C 13 6.11673 11.3748 8.241 9.84093 9.67087 C 9.06587 10.3934 8.29287 10.9587 7.71433 11.3433 C 7.42453 11.5359 7.18233 11.6841 7.01133 11.7846 C 6.92587 11.8349 6.85807 11.8734 6.81093 11.8997 C 6.7874 11.9129 6.769 11.9229 6.75613 11.9299 L 6.74107 11.9381 L 6.73667 11.9405 L 6.73533 11.9411 C 6.73513 11.9413 6.73453 11.9416 6.5 11.5 Z M 3.625 1 C 2.15582 1 1 2.13833 1 3.5 C 1 5.69697 2.37479 7.57267 3.84093 8.9394 C 4.56585 9.6152 5.29284 10.1473 5.8393 10.5105 C 6.11205 10.6919 6.33859 10.8303 6.49573 10.9227 C 6.49716 10.9236 6.49859 10.9244 6.5 10.9253 C 6.50141 10.9244 6.50284 10.9236 6.50427 10.9227 C 6.66141 10.8303 6.88793 10.6919 7.16067 10.5105 C 7.70713 10.1473 8.43413 9.6152 9.15907 8.9394 C 10.6252 7.57267 12 5.69697 12 3.5 C 12 2.13833 10.8442 1 9.375 1 C 8.28013 1 7.3526 1.63635 6.9568 2.52559 C 6.87647 2.70602 6.69753 2.82228 6.5 2.82228 C 6.3025 2.82228 6.12351 2.70602 6.0432 2.52559 C 5.64743 1.63635 4.71984 1 3.625 1 Z",
+                            "data": "M 6.5 11.5 C 6.26549 11.9416 6.26533 11.9415 6.26515 11.9414 L 6.26331 11.9404 L 6.25896 11.9381 L 6.24386 11.9299 C 6.231 11.9229 6.21261 11.9128 6.18905 11.8997 C 6.14195 11.8734 6.07416 11.8349 5.98864 11.7846 C 5.81767 11.684 5.57545 11.5359 5.2857 11.3433 C 4.70716 10.9587 3.93414 10.3934 3.15906 9.67088 C 1.62521 8.24103 0 6.11673 0 3.5 C 0 1.54796 1.6424 0 3.625 0 C 4.79092 0 5.83488 0.532725 6.5 1.36773 C 7.16512 0.532725 8.20908 0 9.375 0 C 11.3576 0 13 1.54796 13 3.5 C 13 6.11673 11.3748 8.24103 9.84094 9.67088 C 9.06586 10.3934 8.29284 10.9587 7.7143 11.3433 C 7.42455 11.5359 7.18233 11.684 7.01136 11.7846 C 6.92584 11.8349 6.85805 11.8734 6.81095 11.8997 C 6.7874 11.9128 6.769 11.9229 6.75614 11.9299 L 6.74104 11.9381 L 6.73669 11.9404 L 6.73532 11.9412 C 6.73514 11.9413 6.73451 11.9416 6.5 11.5 Z M 3.625 1 C 2.15582 1 1 2.13833 1 3.5 C 1 5.69697 2.37479 7.57268 3.84094 8.93941 C 4.56586 9.61517 5.29284 10.1473 5.8393 10.5105 C 6.11205 10.6919 6.33858 10.8303 6.49574 10.9227 C 6.49716 10.9236 6.49858 10.9244 6.5 10.9253 C 6.50141 10.9244 6.50284 10.9236 6.50426 10.9227 C 6.66142 10.8303 6.88795 10.6919 7.1607 10.5105 C 7.70716 10.1473 8.43414 9.61517 9.15906 8.93941 C 10.6252 7.57268 12 5.69697 12 3.5 C 12 2.13833 10.8442 1 9.375 1 C 8.28016 1 7.35257 1.63635 6.9568 2.52559 C 6.87649 2.70602 6.6975 2.82228 6.5 2.82228 C 6.3025 2.82228 6.12351 2.70602 6.0432 2.52559 C 5.64743 1.63635 4.71984 1 3.625 1 Z",
                             "windRule": "EVENODD"
                           },
                           {
-                            "data": "M 6.5 11.5 L 6.73453 11.9416 C 6.58787 12.0195 6.41179 12.0193 6.26515 11.9414 L 6.5 11.5 Z",
+                            "data": "M 6.5 11.5 L 6.73451 11.9416 C 6.58787 12.0195 6.41179 12.0193 6.26515 11.9414 L 6.5 11.5 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   },
                   {
                     "type": 2,
-                    "id": "221:12032",
+                    "id": "3874:1895",
                     "name": "Label",
                     "x": 28,
                     "y": 4.5,
@@ -3516,7 +4107,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 69
+                            "_varRef": 86
                           }
                         }
                       }
@@ -3525,31 +4116,33 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 69
+                          "_varRef": 86
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 57
+                          "_varRef": 72
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 59
+                          "_varRef": 74
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 60
+                          "_varRef": 75
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 61
+                          "_varRef": 76
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Label#124:6"
+                    },
                     "_stlRef": 2,
                     "chars": "Label",
                     "fontN": {
@@ -3566,28 +4159,36 @@
                   },
                   {
                     "type": 3,
-                    "id": "221:12712",
+                    "id": "5482:17253",
                     "name": "x-mark",
                     "x": 66,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Removable#3874:0"
+                    },
                     "_isInstance": true,
                     "_insRef": 3,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12712;221:11843",
+                        "id": "I5482:17253;5746:11782",
                         "name": "Icon",
-                        "x": 3.500000238418579,
-                        "y": 3.500000238418579,
-                        "w": 8.999983787536621,
-                        "h": 8.999983787536621,
+                        "x": 3.5,
+                        "y": 3.5,
+                        "w": 9,
+                        "h": 9,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -3597,13 +4198,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8392156958580017,
-                              "g": 0.8392156958580017,
-                              "b": 0.8392156958580017
+                              "r": 0.03921568766236305,
+                              "g": 0.03921568766236305,
+                              "b": 0.03921568766236305
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 68
+                                "_varRef": 86
                               }
                             }
                           }
@@ -3612,45 +4213,52 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 68
+                              "_varRef": 86
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 0.146446 0.146446 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146446 L 4.5 3.79289 L 8.14647 0.146447 C 8.34173 -0.048815 8.65827 -0.048815 8.85353 0.146447 C 9.0488 0.341709 9.0488 0.658292 8.85353 0.853553 L 5.20711 4.5 L 8.85353 8.14647 C 9.0488 8.34173 9.0488 8.65827 8.85353 8.85353 C 8.65827 9.0488 8.34173 9.0488 8.14647 8.85353 L 4.5 5.20711 L 0.853553 8.85353 C 0.658291 9.0488 0.341709 9.0488 0.146446 8.85353 C -0.048815 8.65827 -0.048815 8.34173 0.146446 8.14647 L 3.79289 4.5 L 0.146446 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146446 0.146446 Z",
+                            "data": "M 0.146447 0.146447 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146447 L 4.5 3.79289 L 8.14645 0.146447 C 8.34171 -0.048815 8.65829 -0.048815 8.85355 0.146447 C 9.04882 0.341709 9.04882 0.658292 8.85355 0.853554 L 5.20711 4.5 L 8.85355 8.14645 C 9.04882 8.34171 9.04882 8.65829 8.85355 8.85355 C 8.65829 9.04882 8.34171 9.04882 8.14645 8.85355 L 4.5 5.20711 L 0.853553 8.85355 C 0.658291 9.04882 0.341709 9.04882 0.146447 8.85355 C -0.048815 8.65829 -0.048815 8.34171 0.146447 8.14645 L 3.79289 4.5 L 0.146447 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146447 0.146447 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   },
                   {
                     "type": 3,
-                    "id": "221:12714",
+                    "id": "5482:17381",
                     "name": "check",
-                    "x": 86,
+                    "x": 8,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 79
+                      }
+                    },
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 5,
-                    "pAxSz": "FIXED",
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12714;221:11759",
+                        "id": "I5482:17381;5746:11477",
                         "name": "Icon",
-                        "x": 2.500000238418579,
+                        "x": 2.5,
                         "y": 2.9999186992645264,
-                        "w": 11.000049591064453,
-                        "h": 10.000046730041504,
+                        "w": 11.000053405761719,
+                        "h": 10.000056266784668,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -3660,13 +4268,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8392156958580017,
-                              "g": 0.8392156958580017,
-                              "b": 0.8392156958580017
+                              "r": 0.03921568766236305,
+                              "g": 0.03921568766236305,
+                              "b": 0.03921568766236305
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 68
+                                "_varRef": 86
                               }
                             }
                           }
@@ -3675,17 +4283,19 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 68
+                              "_varRef": 86
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 10.7773 0.084028 C 11.0071 0.237204 11.0692 0.547638 10.916 0.7774 L 4.91603 9.7774 C 4.83293 9.90207 4.69833 9.98287 4.54927 9.9976 C 4.4002 10.0124 4.25237 9.95953 4.14645 9.8536 L 0.146446 5.85361 C -0.048815 5.65835 -0.048815 5.34176 0.146446 5.1465 C 0.341709 4.95124 0.658291 4.95124 0.853553 5.1465 L 4.42229 8.71527 L 10.084 0.222703 C 10.2371 -0.007061 10.5476 -0.069148 10.7773 0.084028 Z",
+                            "data": "M 10.7774 0.084028 C 11.0071 0.237204 11.0692 0.547639 10.916 0.777403 L 4.91603 9.7774 C 4.83293 9.90204 4.69834 9.98286 4.54927 9.99762 C 4.4002 10.0124 4.25237 9.95953 4.14645 9.85361 L 0.146447 5.85361 C -0.048815 5.65834 -0.048815 5.34176 0.146447 5.1465 C 0.341709 4.95124 0.658291 4.95124 0.853553 5.1465 L 4.42229 8.71523 L 10.084 0.222703 C 10.2372 -0.007061 10.5476 -0.069148 10.7774 0.084028 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
@@ -3693,11 +4303,11 @@
               },
               {
                 "type": 4,
-                "id": "221:11994",
+                "id": "3874:1958",
                 "name": "Selected=True, Icon=True, Error=True",
-                "x": 47,
-                "y": 136,
-                "w": 110,
+                "x": 106,
+                "y": 104,
+                "w": 90,
                 "h": 24,
                 "fills": [
                   {
@@ -3710,7 +4320,11 @@
                       "g": 0.9137254953384399,
                       "b": 0.9137254953384399
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 84
+                      }
+                    }
                   }
                 ],
                 "strks": [
@@ -3735,27 +4349,43 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 49
+                    "_varRef": 57
                   },
                   "padL": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padT": {
-                    "_varRef": 51
+                    "_varRef": 59
                   },
                   "padR": {
-                    "_varRef": 50
+                    "_varRef": 58
                   },
                   "padB": {
-                    "_varRef": 51
+                    "_varRef": 59
+                  },
+                  "topLR": {
+                    "_varRef": 61
+                  },
+                  "topRightRadius": {
+                    "_varRef": 61
+                  },
+                  "botLR": {
+                    "_varRef": 61
+                  },
+                  "botRR": {
+                    "_varRef": 61
                   },
                   "maxW": {
-                    "_varRef": 52
+                    "_varRef": 62
                   },
+                  "fills": [
+                    {
+                      "_varRef": 84
+                    }
+                  ],
                   "strks": [
                     {
-                      "type": 29,
-                      "id": "VariableID:453:2678"
+                      "_varRef": 83
                     }
                   ]
                 },
@@ -3770,7 +4400,11 @@
                       "g": 0.9137254953384399,
                       "b": 0.9137254953384399
                     },
-                    "bndVar": {}
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 84
+                      }
+                    }
                   }
                 ],
                 "cPropR": {},
@@ -3790,28 +4424,37 @@
                 "child": [
                   {
                     "type": 3,
-                    "id": "221:12716",
+                    "id": "5482:16988",
                     "name": "Icon",
                     "x": 8,
                     "y": 4,
                     "w": 16,
                     "h": 16,
+                    "opcty": 0.30000001192092896,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "mainComponent": "Leading icon#5482:9"
+                    },
                     "_isInstance": true,
                     "_insRef": 4,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12716;221:11812",
+                        "id": "I5482:16988;5746:11624",
                         "name": "Icon",
                         "x": 1.5,
                         "y": 2,
                         "w": 13,
-                        "h": 11.999899864196777,
+                        "h": 11.999911308288574,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -3825,27 +4468,40 @@
                               "g": 0.03921568766236305,
                               "b": 0.03921568766236305
                             },
-                            "bndVar": {}
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 70
+                              }
+                            }
                           }
                         ],
                         "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 70
+                            }
+                          ]
+                        },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 6.5 11.5 C 6.26549 11.9416 6.26533 11.9415 6.26515 11.9414 L 6.26331 11.9405 L 6.25896 11.9381 L 6.24386 11.9299 C 6.231 11.9229 6.21261 11.9129 6.18905 11.8997 C 6.14195 11.8734 6.07416 11.8349 5.98864 11.7846 C 5.81767 11.6841 5.57545 11.5359 5.2857 11.3433 C 4.70716 10.9587 3.93415 10.3934 3.15907 9.67087 C 1.62521 8.241 0 6.11673 0 3.5 C 0 1.54796 1.6424 0 3.625 0 C 4.79092 0 5.83488 0.532725 6.5 1.36773 C 7.16513 0.532725 8.20907 0 9.375 0 C 11.3576 0 13 1.54796 13 3.5 C 13 6.11673 11.3748 8.241 9.84093 9.67087 C 9.06587 10.3934 8.29287 10.9587 7.71433 11.3433 C 7.42453 11.5359 7.18233 11.6841 7.01133 11.7846 C 6.92587 11.8349 6.85807 11.8734 6.81093 11.8997 C 6.7874 11.9129 6.769 11.9229 6.75613 11.9299 L 6.74107 11.9381 L 6.73667 11.9405 L 6.73533 11.9411 C 6.73513 11.9413 6.73453 11.9416 6.5 11.5 Z M 3.625 1 C 2.15582 1 1 2.13833 1 3.5 C 1 5.69697 2.37479 7.57267 3.84093 8.9394 C 4.56585 9.6152 5.29284 10.1473 5.8393 10.5105 C 6.11205 10.6919 6.33859 10.8303 6.49573 10.9227 C 6.49716 10.9236 6.49859 10.9244 6.5 10.9253 C 6.50141 10.9244 6.50284 10.9236 6.50427 10.9227 C 6.66141 10.8303 6.88793 10.6919 7.16067 10.5105 C 7.70713 10.1473 8.43413 9.6152 9.15907 8.9394 C 10.6252 7.57267 12 5.69697 12 3.5 C 12 2.13833 10.8442 1 9.375 1 C 8.28013 1 7.3526 1.63635 6.9568 2.52559 C 6.87647 2.70602 6.69753 2.82228 6.5 2.82228 C 6.3025 2.82228 6.12351 2.70602 6.0432 2.52559 C 5.64743 1.63635 4.71984 1 3.625 1 Z",
+                            "data": "M 6.5 11.5 C 6.26549 11.9416 6.26533 11.9415 6.26515 11.9414 L 6.26331 11.9404 L 6.25896 11.9381 L 6.24386 11.9299 C 6.231 11.9229 6.21261 11.9128 6.18905 11.8997 C 6.14195 11.8734 6.07416 11.8349 5.98864 11.7846 C 5.81767 11.684 5.57545 11.5359 5.2857 11.3433 C 4.70716 10.9587 3.93414 10.3934 3.15906 9.67088 C 1.62521 8.24103 0 6.11673 0 3.5 C 0 1.54796 1.6424 0 3.625 0 C 4.79092 0 5.83488 0.532725 6.5 1.36773 C 7.16512 0.532725 8.20908 0 9.375 0 C 11.3576 0 13 1.54796 13 3.5 C 13 6.11673 11.3748 8.24103 9.84094 9.67088 C 9.06586 10.3934 8.29284 10.9587 7.7143 11.3433 C 7.42455 11.5359 7.18233 11.684 7.01136 11.7846 C 6.92584 11.8349 6.85805 11.8734 6.81095 11.8997 C 6.7874 11.9128 6.769 11.9229 6.75614 11.9299 L 6.74104 11.9381 L 6.73669 11.9404 L 6.73532 11.9412 C 6.73514 11.9413 6.73451 11.9416 6.5 11.5 Z M 3.625 1 C 2.15582 1 1 2.13833 1 3.5 C 1 5.69697 2.37479 7.57268 3.84094 8.93941 C 4.56586 9.61517 5.29284 10.1473 5.8393 10.5105 C 6.11205 10.6919 6.33858 10.8303 6.49574 10.9227 C 6.49716 10.9236 6.49858 10.9244 6.5 10.9253 C 6.50141 10.9244 6.50284 10.9236 6.50426 10.9227 C 6.66142 10.8303 6.88795 10.6919 7.1607 10.5105 C 7.70716 10.1473 8.43414 9.61517 9.15906 8.93941 C 10.6252 7.57268 12 5.69697 12 3.5 C 12 2.13833 10.8442 1 9.375 1 C 8.28016 1 7.35257 1.63635 6.9568 2.52559 C 6.87649 2.70602 6.6975 2.82228 6.5 2.82228 C 6.3025 2.82228 6.12351 2.70602 6.0432 2.52559 C 5.64743 1.63635 4.71984 1 3.625 1 Z",
                             "windRule": "EVENODD"
                           },
                           {
-                            "data": "M 6.5 11.5 L 6.73453 11.9416 C 6.58787 12.0195 6.41179 12.0193 6.26515 11.9414 L 6.5 11.5 Z",
+                            "data": "M 6.5 11.5 L 6.73451 11.9416 C 6.58787 12.0195 6.41179 12.0193 6.26515 11.9414 L 6.5 11.5 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   },
                   {
                     "type": 2,
-                    "id": "221:12039",
+                    "id": "3874:1960",
                     "name": "Label",
                     "x": 28,
                     "y": 4.5,
@@ -3864,7 +4520,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 69
+                            "_varRef": 86
                           }
                         }
                       }
@@ -3873,31 +4529,33 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 69
+                          "_varRef": 86
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 57
+                          "_varRef": 72
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 59
+                          "_varRef": 74
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 60
+                          "_varRef": 75
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 61
+                          "_varRef": 76
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Label#124:6"
+                    },
                     "_stlRef": 2,
                     "chars": "Label",
                     "fontN": {
@@ -3914,28 +4572,36 @@
                   },
                   {
                     "type": 3,
-                    "id": "221:12718",
+                    "id": "5482:17285",
                     "name": "x-mark",
                     "x": 66,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
-                    "cPropR": {},
+                    "bndVar": {
+                      "h": {
+                        "_varRef": 79
+                      }
+                    },
+                    "cPropR": {
+                      "visbl": "Removable#3874:0"
+                    },
                     "_isInstance": true,
                     "_insRef": 3,
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12718;221:11843",
+                        "id": "I5482:17285;5746:11782",
                         "name": "Icon",
-                        "x": 3.500000238418579,
-                        "y": 3.500000238418579,
-                        "w": 8.999983787536621,
-                        "h": 8.999983787536621,
+                        "x": 3.5,
+                        "y": 3.5,
+                        "w": 9,
+                        "h": 9,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -3945,13 +4611,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8392156958580017,
-                              "g": 0.8392156958580017,
-                              "b": 0.8392156958580017
+                              "r": 0.03921568766236305,
+                              "g": 0.03921568766236305,
+                              "b": 0.03921568766236305
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 68
+                                "_varRef": 86
                               }
                             }
                           }
@@ -3960,45 +4626,52 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 68
+                              "_varRef": 86
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 0.146446 0.146446 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146446 L 4.5 3.79289 L 8.14647 0.146447 C 8.34173 -0.048815 8.65827 -0.048815 8.85353 0.146447 C 9.0488 0.341709 9.0488 0.658292 8.85353 0.853553 L 5.20711 4.5 L 8.85353 8.14647 C 9.0488 8.34173 9.0488 8.65827 8.85353 8.85353 C 8.65827 9.0488 8.34173 9.0488 8.14647 8.85353 L 4.5 5.20711 L 0.853553 8.85353 C 0.658291 9.0488 0.341709 9.0488 0.146446 8.85353 C -0.048815 8.65827 -0.048815 8.34173 0.146446 8.14647 L 3.79289 4.5 L 0.146446 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146446 0.146446 Z",
+                            "data": "M 0.146447 0.146447 C 0.341709 -0.048815 0.658291 -0.048815 0.853553 0.146447 L 4.5 3.79289 L 8.14645 0.146447 C 8.34171 -0.048815 8.65829 -0.048815 8.85355 0.146447 C 9.04882 0.341709 9.04882 0.658292 8.85355 0.853554 L 5.20711 4.5 L 8.85355 8.14645 C 9.04882 8.34171 9.04882 8.65829 8.85355 8.85355 C 8.65829 9.04882 8.34171 9.04882 8.14645 8.85355 L 4.5 5.20711 L 0.853553 8.85355 C 0.658291 9.04882 0.341709 9.04882 0.146447 8.85355 C -0.048815 8.65829 -0.048815 8.34171 0.146447 8.14645 L 3.79289 4.5 L 0.146447 0.853553 C -0.048815 0.658291 -0.048815 0.341709 0.146447 0.146447 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   },
                   {
                     "type": 3,
-                    "id": "221:12720",
+                    "id": "5482:17339",
                     "name": "check",
-                    "x": 86,
+                    "x": 8,
                     "y": 4,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 79
+                      }
+                    },
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 5,
-                    "pAxSz": "FIXED",
                     "cAxSz": "FIXED",
+                    "clipC": true,
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
                     "child": [
                       {
                         "type": 5,
-                        "id": "I221:12720;221:11759",
+                        "id": "I5482:17339;5746:11477",
                         "name": "Icon",
-                        "x": 2.500000238418579,
+                        "x": 2.5,
                         "y": 2.9999186992645264,
-                        "w": 11.000049591064453,
-                        "h": 10.000046730041504,
+                        "w": 11.000053405761719,
+                        "h": 10.000056266784668,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -4008,13 +4681,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8392156958580017,
-                              "g": 0.8392156958580017,
-                              "b": 0.8392156958580017
+                              "r": 0.03921568766236305,
+                              "g": 0.03921568766236305,
+                              "b": 0.03921568766236305
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 68
+                                "_varRef": 86
                               }
                             }
                           }
@@ -4023,17 +4696,19 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 68
+                              "_varRef": 86
                             }
                           ]
                         },
                         "cPropR": {},
                         "fillG": [
                           {
-                            "data": "M 10.7773 0.084028 C 11.0071 0.237204 11.0692 0.547638 10.916 0.7774 L 4.91603 9.7774 C 4.83293 9.90207 4.69833 9.98287 4.54927 9.9976 C 4.4002 10.0124 4.25237 9.95953 4.14645 9.8536 L 0.146446 5.85361 C -0.048815 5.65835 -0.048815 5.34176 0.146446 5.1465 C 0.341709 4.95124 0.658291 4.95124 0.853553 5.1465 L 4.42229 8.71527 L 10.084 0.222703 C 10.2371 -0.007061 10.5476 -0.069148 10.7773 0.084028 Z",
+                            "data": "M 10.7774 0.084028 C 11.0071 0.237204 11.0692 0.547639 10.916 0.777403 L 4.91603 9.7774 C 4.83293 9.90204 4.69834 9.98286 4.54927 9.99762 C 4.4002 10.0124 4.25237 9.95953 4.14645 9.85361 L 0.146447 5.85361 C -0.048815 5.65834 -0.048815 5.34176 0.146447 5.1465 C 0.341709 4.95124 0.658291 4.95124 0.853553 5.1465 L 4.42229 8.71523 L 10.084 0.222703 C 10.2372 -0.007061 10.5476 -0.069148 10.7774 0.084028 Z",
                             "windRule": "NONZERO"
                           }
-                        ]
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
                       }
                     ]
                   }
