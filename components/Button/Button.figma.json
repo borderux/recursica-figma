@@ -2,15 +2,15 @@
   "metadata": {
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
-    "guid": "cf01fe4f-1ac3-4ecf-b75a-784bc5fda3f8",
-    "version": 1,
+    "guid": "3a9a8897-2e4d-4458-83d0-d21ef429fb47",
+    "version": 2,
     "name": "✅ Button",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-12T18:22:33.088Z",
+    "publishDate": "2026-01-14T18:32:52.423Z",
     "history": {
-      "1": {
-        "message": "Next",
-        "date": "2026-01-12T18:22:33.088Z"
+      "2": {
+        "message": "Latest",
+        "date": "2026-01-14T18:32:52.423Z"
       }
     }
   },
@@ -35,6 +35,7 @@
     "cPage": "componentPageName",
     "varPr": "variantProperties",
     "cProp": "componentProperties",
+    "cPropD": "componentPropertyDefinitions",
     "rLibN": "remoteLibraryName",
     "rLibK": "remoteLibraryKey",
     "path": "path",
@@ -1311,7 +1312,7 @@
       "nodePath": [],
       "cPage": "UI kit components",
       "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-      "cVers": 1
+      "cVers": 0
     },
     "1": {
       "instT": "normal",
@@ -1337,7 +1338,7 @@
       ],
       "cPage": "Logo",
       "compG": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-      "cVers": 1
+      "cVers": 0
     },
     "2": {
       "instT": "normal",
@@ -1361,9 +1362,25 @@
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     },
     "3": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cSetN": "plus",
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0,
+      "path": [
+        "Icons",
+        "plus"
+      ],
+      "nodePath": [
+        "5746:11133",
+        "5746:11695"
+      ]
+    },
+    "4": {
       "instT": "normal",
       "compN": "Style=outline",
       "cSetN": "plus",
@@ -1390,9 +1407,9 @@
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     },
-    "4": {
+    "5": {
       "instT": "normal",
       "compN": "Style=outline",
       "cSetN": "arrow-path",
@@ -1419,7 +1436,7 @@
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     }
   },
   "styles": {
@@ -1964,6 +1981,79 @@
               }
             ],
             "stkAl": "INSIDE",
+            "cPropD": {
+              "Trail icon#77:0": {
+                "type": 25,
+                "defaultValue": false
+              },
+              "Label#2174:25": {
+                "type": 2,
+                "defaultValue": "Button"
+              },
+              "Leading icon#2176:117": {
+                "type": 27,
+                "defaultValue": {
+                  "_insRef": 3
+                },
+                "prefV": []
+              },
+              "Trailing icon#2176:172": {
+                "type": 27,
+                "defaultValue": {
+                  "_insRef": 3
+                },
+                "prefV": []
+              },
+              "Icon#2179:227": {
+                "type": 27,
+                "defaultValue": {
+                  "_insRef": 3
+                },
+                "prefV": []
+              },
+              "Style": {
+                "type": 26,
+                "defaultValue": "Solid",
+                "variantOptions": [
+                  "Solid",
+                  "Outline",
+                  "Ghost"
+                ]
+              },
+              "Content": {
+                "type": 26,
+                "defaultValue": "Text",
+                "variantOptions": [
+                  "Text",
+                  "Icon + Text",
+                  "Icon"
+                ]
+              },
+              "Size": {
+                "type": 26,
+                "defaultValue": "Default",
+                "variantOptions": [
+                  "Default",
+                  "Small"
+                ]
+              },
+              "Disabled": {
+                "type": 26,
+                "defaultValue": "False",
+                "variantOptions": [
+                  "False",
+                  "True"
+                ]
+              },
+              "Loading": {
+                "type": 26,
+                "defaultValue": "False",
+                "variantOptions": [
+                  "False",
+                  "True"
+                ]
+              }
+            },
             "layMd": "HORIZONTAL",
             "pAxSz": "FIXED",
             "pAxAl": "CENTER",
@@ -2190,7 +2280,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -2387,7 +2477,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -2539,7 +2629,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -2705,7 +2795,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -2980,7 +3070,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -3184,7 +3274,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -3336,7 +3426,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -3509,7 +3599,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -3745,7 +3835,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -4057,7 +4147,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -4330,7 +4420,7 @@
                     ],
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -4583,7 +4673,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -4762,7 +4852,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -4915,7 +5005,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -5063,7 +5153,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -5318,7 +5408,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -5501,7 +5591,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -5654,7 +5744,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -5806,7 +5896,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -6014,7 +6104,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -6297,7 +6387,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -6549,7 +6639,7 @@
                     ],
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -6778,7 +6868,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -6934,7 +7024,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -7087,7 +7177,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -7212,7 +7302,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -7443,7 +7533,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -7602,7 +7692,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -7755,7 +7845,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -7883,7 +7973,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -8070,7 +8160,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -8332,7 +8422,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -8560,7 +8650,7 @@
                     ],
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -8835,7 +8925,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -9036,7 +9126,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -9189,7 +9279,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -9354,7 +9444,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -9634,7 +9724,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -9843,7 +9933,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -9996,7 +10086,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -10169,7 +10259,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -10404,7 +10494,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -10715,7 +10805,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -10988,7 +11078,7 @@
                     ],
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -11246,7 +11336,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -11430,7 +11520,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -11578,7 +11668,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -11726,7 +11816,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -11980,7 +12070,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -12168,7 +12258,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -12321,7 +12411,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -12473,7 +12563,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -12684,7 +12774,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -12970,7 +13060,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -13221,7 +13311,7 @@
                     ],
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -13455,7 +13545,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -13615,7 +13705,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -13768,7 +13858,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -13892,7 +13982,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -14127,7 +14217,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -14291,7 +14381,7 @@
                           "mainComponent": "Leading icon#2176:117"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -14444,7 +14534,7 @@
                           "mainComponent": "Trailing icon#2176:172"
                         },
                         "_isInstance": true,
-                        "_insRef": 3,
+                        "_insRef": 4,
                         "cAxSz": "FIXED",
                         "clipC": true,
                         "laySzH": "FIXED",
@@ -14572,7 +14662,7 @@
                       "mainComponent": "Icon#2179:227"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -14759,7 +14849,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -15021,7 +15111,7 @@
                         ],
                         "cPropR": {},
                         "_isInstance": true,
-                        "_insRef": 4,
+                        "_insRef": 5,
                         "cAxSz": "FIXED",
                         "laySzH": "FIXED",
                         "laySzV": "FIXED",
@@ -15248,7 +15338,7 @@
                     ],
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
