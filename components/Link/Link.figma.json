@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "ac1c3ed9-a805-44eb-b92c-dc7fbfd714cf",
-    "version": 5,
+    "version": 6,
     "name": "✅ Link",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T09:38:35.166Z",
+    "publishDate": "2026-01-14T16:15:50.470Z",
     "history": {
-      "5": {
+      "6": {
         "message": "Latest",
-        "date": "2026-01-14T09:38:35.166Z"
+        "date": "2026-01-14T16:15:50.470Z"
       }
     }
   },
@@ -35,6 +35,7 @@
     "cPage": "componentPageName",
     "varPr": "variantProperties",
     "cProp": "componentProperties",
+    "cPropD": "componentPropertyDefinitions",
     "rLibN": "remoteLibraryName",
     "rLibK": "remoteLibraryKey",
     "path": "path",
@@ -105,8 +106,7 @@
     "effSt": "effectStyle",
     "grdSt": "gridStyle",
     "stlKy": "styleKey",
-    "cPropR": "componentPropertyReferences",
-    "cPropD": "componentPropertyDefinitions"
+    "cPropR": "componentPropertyReferences"
   },
   "collections": {
     "0": {
@@ -1259,6 +1259,13 @@
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
       "cVers": 0
+    },
+    "3": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0
     }
   },
   "styles": {
@@ -1816,25 +1823,29 @@
                 ],
                 "stkAl": "INSIDE",
                 "cPropD": {
-                  "Leading icon": {
+                  "Leading icon#3288:5": {
                     "type": 25,
                     "defaultValue": false
                   },
-                  "Trailing icon": {
+                  "Trailing icon#3288:10": {
                     "type": 25,
                     "defaultValue": false
                   },
-                  "Lead icon": {
+                  "Lead icon#3288:20": {
                     "type": 27,
-                    "defaultValue": "5746:12972",
+                    "defaultValue": {
+                      "_insRef": 3
+                    },
                     "prefV": []
                   },
-                  "Trail icon": {
+                  "Trail icon#3288:25": {
                     "type": 27,
-                    "defaultValue": "5746:12972",
+                    "defaultValue": {
+                      "_insRef": 3
+                    },
                     "prefV": []
                   },
-                  "Value": {
+                  "Value#3288:50": {
                     "type": 2,
                     "defaultValue": "Link text"
                   },
@@ -3029,25 +3040,29 @@
                 ],
                 "stkAl": "INSIDE",
                 "cPropD": {
-                  "Leading icon": {
+                  "Leading icon#3288:5": {
                     "type": 25,
                     "defaultValue": false
                   },
-                  "Trailing icon": {
+                  "Trailing icon#3288:10": {
                     "type": 25,
                     "defaultValue": false
                   },
-                  "Lead icon": {
+                  "Lead icon#3288:20": {
                     "type": 27,
-                    "defaultValue": "5746:12972",
+                    "defaultValue": {
+                      "_insRef": 3
+                    },
                     "prefV": []
                   },
-                  "Trail icon": {
+                  "Trail icon#3288:25": {
                     "type": 27,
-                    "defaultValue": "5746:12972",
+                    "defaultValue": {
+                      "_insRef": 3
+                    },
                     "prefV": []
                   },
-                  "Value": {
+                  "Value#3288:50": {
                     "type": 2,
                     "defaultValue": "Link text"
                   },
