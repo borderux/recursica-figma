@@ -3,8 +3,8 @@
     "60e10658-76c7-44c1-87de-eacb2d68e930": {
       "name": "✹ Icons",
       "path": "components/Icons/Icons.figma.json",
-      "version": 2,
-      "publishDate": "2026-01-13T22:05:12.873Z"
+      "version": 3,
+      "publishDate": "2026-01-14T05:31:33.170Z"
     },
     "f2e98aa8-aef2-4433-8fe5-773f0262ddab": {
       "name": "✅ Accordion",
@@ -15,14 +15,14 @@
     "2fb7e88b-4932-4e6a-9399-5e17cd3572ba": {
       "name": "UI kit components",
       "path": "components/UI_kit_components/UI_kit_components.figma.json",
-      "version": 2,
-      "publishDate": "2026-01-13T22:05:12.873Z"
+      "version": 3,
+      "publishDate": "2026-01-14T05:31:33.170Z"
     },
     "2df95ba7-e7a2-4748-9b65-5e2762cb176b": {
       "name": "Logo",
       "path": "components/Logo/Logo.figma.json",
-      "version": 2,
-      "publishDate": "2026-01-13T22:05:12.873Z"
+      "version": 3,
+      "publishDate": "2026-01-14T05:31:33.170Z"
     },
     "8bb3c910-b8c1-4b42-8a2f-6707ecb88226": {
       "name": "✅ Avatar ",
@@ -57,20 +57,20 @@
     "2bc8d255-78b9-49d5-8068-6a942278f724": {
       "name": "✅  Checkbox",
       "path": "components/Checkbox/Checkbox.figma.json",
-      "version": 2,
-      "publishDate": "2026-01-14T02:57:21.444Z"
+      "version": 3,
+      "publishDate": "2026-01-14T05:31:33.173Z"
     },
     "ab4360c3-3d5d-4791-bf23-0a8795d5c21e": {
       "name": "Form base components",
       "path": "components/Form_base_components/Form_base_components.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-12T18:55:54.789Z"
+      "version": 2,
+      "publishDate": "2026-01-14T05:31:33.170Z"
     },
     "bc7409bf-9b73-46fe-abb9-c7722427093c": {
       "name": "✅ Chip",
       "path": "components/Chip/Chip.figma.json",
-      "version": 2,
-      "publishDate": "2026-01-12T20:11:37.082Z"
+      "version": 3,
+      "publishDate": "2026-01-14T05:31:33.173Z"
     },
     "8a1483bd-c5ff-487f-9cbd-8ea168323764": {
       "name": "✅ Date picker",
@@ -99,38 +99,38 @@
     "9ae98ada-7af5-4b95-bc87-72e0fcd964fa": {
       "name": "✅ Dropdown",
       "path": "components/Dropdown/Dropdown.figma.json",
-      "version": 3,
-      "publishDate": "2026-01-14T02:57:21.443Z"
+      "version": 4,
+      "publishDate": "2026-01-14T05:31:33.169Z"
     },
     "0f1cfe7c-a8ce-4d7f-bd61-f098811ba50e": {
       "name": "✅ Menu",
       "path": "components/Menu/Menu.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-13T22:05:12.873Z"
+      "version": 2,
+      "publishDate": "2026-01-14T05:31:33.172Z"
     },
     "002090c8-0d92-4979-b66e-277d47d04733": {
       "name": "Menu item",
       "path": "components/Menu_item/Menu_item.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-13T22:05:12.873Z"
+      "version": 2,
+      "publishDate": "2026-01-14T05:31:33.173Z"
     },
     "14fb4d98-f40c-4dd9-bf4e-0ca05322991f": {
       "name": "Divider",
       "path": "components/Divider/Divider.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-13T22:05:12.873Z"
+      "version": 2,
+      "publishDate": "2026-01-14T05:31:33.173Z"
     },
     "02f461b7-e991-4c8b-b254-32d611d10e98": {
       "name": "✅ Radio",
       "path": "components/Radio/Radio.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-14T02:57:21.444Z"
+      "version": 2,
+      "publishDate": "2026-01-14T05:31:33.173Z"
     },
     "ac1c3ed9-a805-44eb-b92c-dc7fbfd714cf": {
       "name": "✅ Link",
       "path": "components/Link/Link.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-14T02:57:21.444Z"
+      "version": 2,
+      "publishDate": "2026-01-14T05:31:33.173Z"
     }
   }
 }
