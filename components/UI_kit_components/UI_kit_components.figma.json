@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-    "version": 3,
+    "version": 4,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.170Z",
+    "publishDate": "2026-01-14T09:38:35.166Z",
     "history": {
-      "3": {
+      "4": {
         "message": "Latest",
-        "date": "2026-01-14T05:31:33.170Z"
+        "date": "2026-01-14T09:38:35.166Z"
       }
     }
   },
@@ -105,7 +105,8 @@
     "effSt": "effectStyle",
     "grdSt": "gridStyle",
     "stlKy": "styleKey",
-    "cPropR": "componentPropertyReferences"
+    "cPropR": "componentPropertyReferences",
+    "cPropD": "componentPropertyDefinitions"
   },
   "collections": {
     "0": {
@@ -889,7 +890,7 @@
           }
         ],
         "cPropR": {},
-        "componentPropertyDefinitions": {},
+        "cPropD": {},
         "layMd": "HORIZONTAL",
         "pAxSz": "FIXED",
         "cAxSz": "FIXED",
@@ -971,12 +972,12 @@
           }
         },
         "cPropR": {},
-        "componentPropertyDefinitions": {
-          "Component name#3041:0": {
+        "cPropD": {
+          "Component name": {
             "type": 2,
             "defaultValue": "Component title"
           },
-          "Has link#3042:2": {
+          "Has link": {
             "type": 25,
             "defaultValue": true
           }
