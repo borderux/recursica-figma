@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "ac1c3ed9-a805-44eb-b92c-dc7fbfd714cf",
-    "version": 7,
+    "version": 8,
     "name": "✅ Link",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T17:47:07.287Z",
+    "publishDate": "2026-01-14T18:17:56.370Z",
     "history": {
-      "7": {
-        "message": "Latest",
-        "date": "2026-01-14T17:47:07.287Z"
+      "8": {
+        "message": "Lateset",
+        "date": "2026-01-14T18:17:56.370Z"
       }
     }
   },
@@ -1263,17 +1263,17 @@
     "3": {
       "instT": "normal",
       "compN": "Style=outline",
-      "cSetN": "arrow-down",
+      "cSetN": "arrow-top-right-on-square",
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
       "cVers": 0,
       "path": [
         "Icons",
-        "arrow-down"
+        "arrow-top-right-on-square"
       ],
       "nodePath": [
         "5746:11133",
-        "5746:11159"
+        "5746:11264"
       ]
     }
   },
