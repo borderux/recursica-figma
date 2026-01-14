@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 3,
+    "version": 4,
     "name": "Logo",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.170Z",
+    "publishDate": "2026-01-14T07:08:29.607Z",
     "history": {
-      "3": {
+      "4": {
         "message": "Latest",
-        "date": "2026-01-14T05:31:33.170Z"
+        "date": "2026-01-14T07:08:29.607Z"
       }
     }
   },
@@ -1044,6 +1044,7 @@
         "y": -199,
         "w": 243,
         "h": 434,
+        "visbl": true,
         "fills": [
           {
             "type": 15,
@@ -1106,6 +1107,7 @@
             "y": 40,
             "w": 163,
             "h": 105,
+            "visbl": true,
             "stkAl": "INSIDE",
             "bndVar": {
               "itmSp": {
@@ -1125,6 +1127,7 @@
                 "name": "Logo",
                 "w": 36,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "_isInstance": true,
@@ -1146,6 +1149,7 @@
                     "h": 24.014991760253906,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1189,6 +1193,7 @@
                 "y": 32,
                 "w": 92,
                 "h": 45,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -1249,6 +1254,7 @@
                 "y": 85,
                 "w": 163,
                 "h": 20,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
@@ -1270,6 +1276,7 @@
                     "name": "Title",
                     "w": 143,
                     "h": 20,
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1334,6 +1341,7 @@
                     "y": 2,
                     "w": 16,
                     "h": 16,
+                    "visbl": true,
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -1360,6 +1368,7 @@
                         "h": 13,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
+                        "visbl": true,
                         "fills": [
                           {
                             "type": 15,
@@ -1414,6 +1423,7 @@
             "y": 185,
             "w": 104,
             "h": 209,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -1449,6 +1459,7 @@
                 "y": 20,
                 "w": 64,
                 "h": 43,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "padL": 15,
@@ -1468,6 +1479,7 @@
                     "h": 43.026859283447266,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1512,6 +1524,7 @@
                 "y": 83,
                 "w": 64,
                 "h": 43,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "padL": 15,
@@ -1531,6 +1544,7 @@
                     "h": 43.026859283447266,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1575,6 +1589,7 @@
                 "y": 146,
                 "w": 64,
                 "h": 43,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "padL": 15,
@@ -1594,6 +1609,7 @@
                     "h": 43.026859283447266,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
