@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "ac1c3ed9-a805-44eb-b92c-dc7fbfd714cf",
-    "version": 2,
+    "version": 3,
     "name": "✅ Link",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.173Z",
+    "publishDate": "2026-01-14T07:50:08.763Z",
     "history": {
-      "2": {
+      "3": {
         "message": "Latest",
-        "date": "2026-01-14T05:31:33.173Z"
+        "date": "2026-01-14T07:50:08.763Z"
       }
     }
   },
@@ -105,7 +105,8 @@
     "effSt": "effectStyle",
     "grdSt": "gridStyle",
     "stlKy": "styleKey",
-    "cPropR": "componentPropertyReferences"
+    "cPropR": "componentPropertyReferences",
+    "cPropD": "componentPropertyDefinitions"
   },
   "collections": {
     "0": {
@@ -1814,6 +1815,46 @@
                   }
                 ],
                 "stkAl": "INSIDE",
+                "cPropD": {
+                  "Leading icon": {
+                    "type": 25,
+                    "defaultValue": false
+                  },
+                  "Trailing icon": {
+                    "type": 25,
+                    "defaultValue": false
+                  },
+                  "Lead icon": {
+                    "type": 27,
+                    "defaultValue": "5746:12972",
+                    "prefV": []
+                  },
+                  "Trail icon": {
+                    "type": 27,
+                    "defaultValue": "5746:12972",
+                    "prefV": []
+                  },
+                  "Value": {
+                    "type": 2,
+                    "defaultValue": "Link text"
+                  },
+                  "Size": {
+                    "type": 26,
+                    "defaultValue": "Body",
+                    "variantOptions": [
+                      "Body",
+                      "Body small"
+                    ]
+                  },
+                  "State": {
+                    "type": 26,
+                    "defaultValue": "Default",
+                    "variantOptions": [
+                      "Default",
+                      "Hover"
+                    ]
+                  }
+                },
                 "layMd": "VERTICAL",
                 "padL": 20,
                 "padR": 20,
@@ -2987,6 +3028,46 @@
                   }
                 ],
                 "stkAl": "INSIDE",
+                "cPropD": {
+                  "Leading icon": {
+                    "type": 25,
+                    "defaultValue": false
+                  },
+                  "Trailing icon": {
+                    "type": 25,
+                    "defaultValue": false
+                  },
+                  "Lead icon": {
+                    "type": 27,
+                    "defaultValue": "5746:12972",
+                    "prefV": []
+                  },
+                  "Trail icon": {
+                    "type": 27,
+                    "defaultValue": "5746:12972",
+                    "prefV": []
+                  },
+                  "Value": {
+                    "type": 2,
+                    "defaultValue": "Link text"
+                  },
+                  "Size": {
+                    "type": 26,
+                    "defaultValue": "Body",
+                    "variantOptions": [
+                      "Body",
+                      "Body small"
+                    ]
+                  },
+                  "State": {
+                    "type": 26,
+                    "defaultValue": "Default",
+                    "variantOptions": [
+                      "Default",
+                      "Hover"
+                    ]
+                  }
+                },
                 "layMd": "VERTICAL",
                 "padL": 20,
                 "padR": 20,
