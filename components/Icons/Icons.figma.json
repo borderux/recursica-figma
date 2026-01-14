@@ -3,13 +3,13 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "60e10658-76c7-44c1-87de-eacb2d68e930",
-    "version": 7,
+    "version": 1,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
     "publishDate": "2026-01-14T18:32:52.423Z",
     "history": {
-      "7": {
-        "message": "Latest",
+      "1": {
+        "message": "First release",
         "date": "2026-01-14T18:32:52.423Z"
       }
     }
