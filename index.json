@@ -3,7 +3,7 @@
     "60e10658-76c7-44c1-87de-eacb2d68e930": {
       "name": "✹ Icons",
       "path": "components/Icons/Icons.figma.json",
-      "version": 7,
+      "version": 1,
       "publishDate": "2026-01-14T18:32:52.423Z"
     },
     "f2e98aa8-aef2-4433-8fe5-773f0262ddab": {
@@ -15,13 +15,13 @@
     "2fb7e88b-4932-4e6a-9399-5e17cd3572ba": {
       "name": "UI kit components",
       "path": "components/UI_kit_components/UI_kit_components.figma.json",
-      "version": 7,
+      "version": 1,
       "publishDate": "2026-01-14T18:32:52.423Z"
     },
     "2df95ba7-e7a2-4748-9b65-5e2762cb176b": {
       "name": "Logo",
       "path": "components/Logo/Logo.figma.json",
-      "version": 7,
+      "version": 1,
       "publishDate": "2026-01-14T18:32:52.423Z"
     },
     "8bb3c910-b8c1-4b42-8a2f-6707ecb88226": {
@@ -84,12 +84,6 @@
       "version": 1,
       "publishDate": "2026-01-12T18:22:33.084Z"
     },
-    "cf01fe4f-1ac3-4ecf-b75a-784bc5fda3f8": {
-      "name": "✅ Button",
-      "path": "components/Button/Button.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-12T18:22:33.088Z"
-    },
     "06c809d9-36c3-468a-bdf7-09044e68c594": {
       "name": "✅ File input",
       "path": "components/File_input/File_input.figma.json",
@@ -129,7 +123,7 @@
     "ac1c3ed9-a805-44eb-b92c-dc7fbfd714cf": {
       "name": "✅ Link",
       "path": "components/Link/Link.figma.json",
-      "version": 8,
+      "version": 1,
       "publishDate": "2026-01-14T18:17:56.370Z"
     },
     "8d831d8f-ecc5-4774-81e1-f6d952fbf206": {

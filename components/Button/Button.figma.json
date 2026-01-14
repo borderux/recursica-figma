@@ -9,8 +9,12 @@
     "publishDate": "2026-01-14T18:32:52.423Z",
     "history": {
       "2": {
-        "message": "Latest",
+        "message": "Updated with property references",
         "date": "2026-01-14T18:32:52.423Z"
+      },
+      "1": {
+        "message": "First release",
+        "date": "2026-01-12T18:32:52.423Z"
       }
     }
   },
