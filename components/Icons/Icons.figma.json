@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "60e10658-76c7-44c1-87de-eacb2d68e930",
-    "version": 3,
+    "version": 4,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.170Z",
+    "publishDate": "2026-01-14T07:08:29.607Z",
     "history": {
-      "3": {
+      "4": {
         "message": "Latest",
-        "date": "2026-01-14T05:31:33.170Z"
+        "date": "2026-01-14T07:08:29.607Z"
       }
     }
   },
@@ -140,6 +140,7 @@
         "name": "Icons",
         "w": 1301,
         "h": 366,
+        "visbl": true,
         "fills": [
           {
             "type": 15,
@@ -190,6 +191,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -227,6 +229,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -272,6 +275,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -307,6 +311,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -352,6 +357,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -389,6 +395,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -418,6 +425,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -462,6 +470,7 @@
                     "h": 18.004465103149414,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -501,6 +510,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -545,6 +555,7 @@
                     "h": 18.004465103149414,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -586,6 +597,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -615,6 +627,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -659,6 +672,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -698,6 +712,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -742,6 +757,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -783,6 +799,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -812,6 +829,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -856,6 +874,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -891,6 +910,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -935,6 +955,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -972,6 +993,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -1008,6 +1030,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -1053,6 +1076,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1092,6 +1116,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -1137,6 +1162,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1178,6 +1204,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -1214,6 +1241,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -1232,6 +1260,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1267,6 +1296,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -1285,6 +1315,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1320,6 +1351,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -1356,6 +1388,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -1374,6 +1407,7 @@
                     "h": 15.000083923339844,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1409,6 +1443,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -1427,6 +1462,7 @@
                     "h": 15.000083923339844,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1464,6 +1500,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -1500,6 +1537,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -1545,6 +1583,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1584,6 +1623,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -1629,6 +1669,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1664,6 +1705,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -1693,6 +1735,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -1710,6 +1753,7 @@
                     "h": 9,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1745,6 +1789,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -1762,6 +1807,7 @@
                     "h": 9,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1799,6 +1845,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -1834,6 +1881,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -1851,6 +1899,7 @@
                     "h": 16.500232696533203,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1886,6 +1935,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -1931,6 +1981,7 @@
                     "h": 16.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -1970,6 +2021,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -2005,6 +2057,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2022,6 +2075,7 @@
                     "h": 16.500059127807617,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2057,6 +2111,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
@@ -2102,6 +2157,7 @@
                     "h": 16.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2141,6 +2197,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -2170,6 +2227,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2187,6 +2245,7 @@
                     "h": 16.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2222,6 +2281,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2239,6 +2299,7 @@
                     "h": 16.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2276,6 +2337,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -2305,6 +2367,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2322,6 +2385,7 @@
                     "h": 16.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2357,6 +2421,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2374,6 +2439,7 @@
                     "h": 16.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2411,6 +2477,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -2440,6 +2507,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2457,6 +2525,7 @@
                     "h": 9,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2492,6 +2561,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2509,6 +2579,7 @@
                     "h": 9,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2546,6 +2617,7 @@
             "y": 40,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -2582,6 +2654,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -2600,6 +2673,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2639,6 +2713,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -2657,6 +2732,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2700,6 +2776,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -2729,6 +2806,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2746,6 +2824,7 @@
                     "h": 3,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2789,6 +2868,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -2806,6 +2886,7 @@
                     "h": 3,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2851,6 +2932,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -2887,6 +2969,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -2905,6 +2988,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -2948,6 +3032,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -2966,6 +3051,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3001,6 +3087,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -3030,6 +3117,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -3047,6 +3135,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3080,6 +3169,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -3097,6 +3187,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3146,6 +3237,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -3182,6 +3274,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -3200,6 +3293,7 @@
                     "h": 18,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3235,6 +3329,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -3253,6 +3348,7 @@
                     "h": 18,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3292,6 +3388,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -3321,6 +3418,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -3338,6 +3436,7 @@
                     "h": 17.99972915649414,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3372,6 +3471,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -3389,6 +3489,7 @@
                     "h": 17.999866485595703,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3430,6 +3531,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -3466,6 +3568,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -3484,6 +3587,7 @@
                     "h": 19.78400993347168,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3519,6 +3623,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -3537,6 +3642,7 @@
                     "h": 19.628677368164062,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3578,6 +3684,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -3614,6 +3721,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -3632,6 +3740,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3675,6 +3784,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -3693,6 +3803,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3728,6 +3839,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -3757,6 +3869,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -3774,6 +3887,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3809,6 +3923,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -3826,6 +3941,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3863,6 +3979,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -3899,6 +4016,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -3917,6 +4035,7 @@
                     "h": 1.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -3952,6 +4071,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -3970,6 +4090,7 @@
                     "h": 1.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4007,6 +4128,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -4043,6 +4165,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -4061,6 +4184,7 @@
                     "h": 20.24999237060547,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4100,6 +4224,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -4118,6 +4243,7 @@
                     "h": 20.2499942779541,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4163,6 +4289,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -4192,6 +4319,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -4209,6 +4337,7 @@
                     "h": 16.500001907348633,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4244,6 +4373,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -4261,6 +4391,7 @@
                     "h": 16.500001907348633,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4298,6 +4429,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -4334,6 +4466,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -4352,6 +4485,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4395,6 +4529,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -4413,6 +4548,7 @@
                     "h": 19.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4448,6 +4584,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -4477,6 +4614,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -4494,6 +4632,7 @@
                     "h": 13.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4529,6 +4668,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "cAxSz": "FIXED",
@@ -4546,6 +4686,7 @@
                     "h": 13.5,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4583,6 +4724,7 @@
             "y": 164,
             "w": 64,
             "h": 108,
+            "visbl": true,
             "strks": [
               {
                 "type": 15,
@@ -4619,6 +4761,7 @@
                 "y": 20,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -4637,6 +4780,7 @@
                     "h": 21,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4676,6 +4820,7 @@
                 "y": 64,
                 "w": 24,
                 "h": 24,
+                "visbl": true,
                 "stkAl": "INSIDE",
                 "cPropR": {},
                 "pAxSz": "FIXED",
@@ -4694,6 +4839,7 @@
                     "h": 21,
                     "cnsHr": "SCALE",
                     "cnsVr": "SCALE",
+                    "visbl": true,
                     "fills": [
                       {
                         "type": 15,
@@ -4734,6 +4880,7 @@
             "y": 288,
             "w": 1126,
             "h": 38,
+            "visbl": true,
             "stkAl": "INSIDE",
             "layMd": "HORIZONTAL",
             "pAxSz": "FIXED",
@@ -4754,6 +4901,7 @@
                 "y": 10,
                 "w": 141,
                 "h": 18,
+                "visbl": true,
                 "fills": [
                   {
                     "type": 15,
