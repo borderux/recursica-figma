@@ -6,11 +6,11 @@
     "version": 7,
     "name": "✅ Link",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T17:32:44.858Z",
+    "publishDate": "2026-01-14T17:45:12.136Z",
     "history": {
       "7": {
         "message": "Latest",
-        "date": "2026-01-14T17:32:44.858Z"
+        "date": "2026-01-14T17:45:12.136Z"
       }
     }
   },
@@ -1259,6 +1259,22 @@
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
       "cVers": 0
+    },
+    "3": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cSetN": "arrow-down",
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0,
+      "path": [
+        "Icons",
+        "arrow-down"
+      ],
+      "nodePath": [
+        "5746:11133",
+        "5746:11159"
+      ]
     }
   },
   "styles": {
@@ -1827,14 +1843,14 @@
                   "Lead icon#3288:20": {
                     "type": 27,
                     "defaultValue": {
-                      "_insRef": 2
+                      "_insRef": 3
                     },
                     "prefV": []
                   },
                   "Trail icon#3288:25": {
                     "type": 27,
                     "defaultValue": {
-                      "_insRef": 2
+                      "_insRef": 3
                     },
                     "prefV": []
                   },
@@ -3044,14 +3060,14 @@
                   "Lead icon#3288:20": {
                     "type": 27,
                     "defaultValue": {
-                      "_insRef": 2
+                      "_insRef": 3
                     },
                     "prefV": []
                   },
                   "Trail icon#3288:25": {
                     "type": 27,
                     "defaultValue": {
-                      "_insRef": 2
+                      "_insRef": 3
                     },
                     "prefV": []
                   },
