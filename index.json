@@ -131,6 +131,12 @@
       "path": "components/Link/Link.figma.json",
       "version": 5,
       "publishDate": "2026-01-14T09:38:35.166Z"
+    },
+    "8d831d8f-ecc5-4774-81e1-f6d952fbf206": {
+      "name": "✅ Search",
+      "path": "components/Search/Search.figma.json",
+      "version": 1,
+      "publishDate": "2026-01-14T15:08:04.911Z"
     }
   }
 }
