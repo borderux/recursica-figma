@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2bc8d255-78b9-49d5-8068-6a942278f724",
-    "version": 1,
+    "version": 2,
     "name": "✅  Checkbox",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-09T01:12:10.384Z",
+    "publishDate": "2026-01-14T02:57:21.444Z",
     "history": {
-      "1": {
+      "2": {
         "message": "Latest",
-        "date": "2026-01-09T01:12:10.384Z"
+        "date": "2026-01-14T02:57:21.444Z"
       }
     }
   },
@@ -1357,7 +1357,7 @@
       "nodePath": [],
       "cPage": "UI kit components",
       "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-      "cVers": 1
+      "cVers": 0
     },
     "1": {
       "instT": "normal",
@@ -1383,7 +1383,7 @@
       ],
       "cPage": "Logo",
       "compG": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-      "cVers": 1
+      "cVers": 0
     },
     "2": {
       "instT": "normal",
@@ -1407,7 +1407,7 @@
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     },
     "3": {
       "instT": "normal",
@@ -1440,7 +1440,7 @@
         "3211:4787"
       ],
       "cPage": "Form base components",
-      "compG": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
+      "compG": "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15",
       "cVers": 1
     },
     "4": {
@@ -1535,7 +1535,7 @@
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     },
     "7": {
       "instT": "normal",
@@ -1574,7 +1574,7 @@
         "3211:7033"
       ],
       "cPage": "Form base components",
-      "compG": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
+      "compG": "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15",
       "cVers": 1
     },
     "8": {
@@ -1667,7 +1667,7 @@
       ],
       "cPage": "✹ Icons",
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 1
+      "cVers": 0
     },
     "11": {
       "instT": "internal",

@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "9ae98ada-7af5-4b95-bc87-72e0fcd964fa",
-    "version": 2,
+    "version": 3,
     "name": "✅ Dropdown",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-13T22:05:12.873Z",
+    "publishDate": "2026-01-14T02:57:21.443Z",
     "history": {
-      "2": {
+      "3": {
         "message": "Latest",
-        "date": "2026-01-13T22:05:12.873Z"
+        "date": "2026-01-14T02:57:21.443Z"
       }
     }
   },
@@ -2982,7 +2982,7 @@
         "3211:4787"
       ],
       "cPage": "Form base components",
-      "compG": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
+      "compG": "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15",
       "cVers": 1
     },
     "4": {
@@ -3104,7 +3104,7 @@
         "3219:1082"
       ],
       "cPage": "Form base components",
-      "compG": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
+      "compG": "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15",
       "cVers": 1
     },
     "8": {
@@ -3166,7 +3166,7 @@
         "3219:8768"
       ],
       "cPage": "Form base components",
-      "compG": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
+      "compG": "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15",
       "cVers": 1
     },
     "10": {
@@ -3433,7 +3433,7 @@
         "3211:7033"
       ],
       "cPage": "Form base components",
-      "compG": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
+      "compG": "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15",
       "cVers": 1
     },
     "18": {
@@ -4006,7 +4006,7 @@
       ],
       "cPage": "✅ Chip",
       "compG": "bc7409bf-9b73-46fe-abb9-c7722427093c",
-      "cVers": 1
+      "cVers": 2
     },
     "19": {
       "instT": "normal",
