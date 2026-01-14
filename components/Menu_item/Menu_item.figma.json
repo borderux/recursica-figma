@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "002090c8-0d92-4979-b66e-277d47d04733",
-    "version": 1,
+    "version": 2,
     "name": "Menu item",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-13T22:05:12.873Z",
+    "publishDate": "2026-01-14T05:31:33.173Z",
     "history": {
-      "1": {
+      "2": {
         "message": "Latest",
-        "date": "2026-01-13T22:05:12.873Z"
+        "date": "2026-01-14T05:31:33.173Z"
       }
     }
   },
@@ -1775,7 +1775,7 @@
         "2295:4061"
       ],
       "cPage": "✅  Checkbox",
-      "compG": "002090c8-0d92-4979-b66e-277d47d04733",
+      "compG": "2bc8d255-78b9-49d5-8068-6a942278f724",
       "cVers": 1
     },
     "7": {
@@ -1811,7 +1811,7 @@
         "2295:6048"
       ],
       "cPage": "✅ Radio",
-      "compG": "002090c8-0d92-4979-b66e-277d47d04733",
+      "compG": "02f461b7-e991-4c8b-b254-32d611d10e98",
       "cVers": 1
     }
   },
