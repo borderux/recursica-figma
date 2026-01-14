@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-    "version": 5,
+    "version": 6,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T17:47:07.287Z",
+    "publishDate": "2026-01-14T18:17:56.370Z",
     "history": {
-      "5": {
+      "6": {
         "message": "Latest",
-        "date": "2026-01-14T17:47:07.287Z"
+        "date": "2026-01-14T18:17:56.370Z"
       }
     }
   },
