@@ -1,0 +1,4257 @@
+{
+  "metadata": {
+    "exportFormatVersion": "1.0.0",
+    "figmaApiVersion": "1.0.0",
+    "guid": "ac1c3ed9-a805-44eb-b92c-dc7fbfd714cf",
+    "version": 1,
+    "name": "✅ Link",
+    "pluginVersion": "1.0.0",
+    "publishDate": "2026-01-14T02:57:21.444Z",
+    "history": {
+      "1": {
+        "message": "Latest",
+        "date": "2026-01-14T02:57:21.444Z"
+      }
+    }
+  },
+  "stringTable": {
+    "colNm": "collectionName",
+    "colId": "collectionId",
+    "colGu": "collectionGuid",
+    "modes": "modes",
+    "varNm": "variableName",
+    "varTy": "variableType",
+    "vByMd": "valuesByMode",
+    "_colRef": "_colRef",
+    "_varRef": "_varRef",
+    "_insRef": "_instanceRef",
+    "_stlRef": "_styleRef",
+    "instT": "instanceType",
+    "compN": "componentName",
+    "cSetN": "componentSetName",
+    "cNode": "componentNodeId",
+    "compG": "componentGuid",
+    "cVers": "componentVersion",
+    "cPage": "componentPageName",
+    "varPr": "variantProperties",
+    "cProp": "componentProperties",
+    "rLibN": "remoteLibraryName",
+    "rLibK": "remoteLibraryKey",
+    "path": "path",
+    "struc": "structure",
+    "bndVar": "boundVariables",
+    "stkAl": "strokeAlign",
+    "stkWt": "strokeWeight",
+    "stkCp": "strokeCap",
+    "stkJn": "strokeJoin",
+    "fillG": "fillGeometry",
+    "strkG": "strokeGeometry",
+    "windR": "windingRule",
+    "layMd": "layoutMode",
+    "padL": "paddingLeft",
+    "padR": "paddingRight",
+    "padT": "paddingTop",
+    "padB": "paddingBottom",
+    "itmSp": "itemSpacing",
+    "clipC": "clipsContent",
+    "corR": "cornerRadius",
+    "pAxSz": "primaryAxisSizingMode",
+    "cAxSz": "counterAxisSizingMode",
+    "pAxAl": "primaryAxisAlignItems",
+    "cAxAl": "counterAxisAlignItems",
+    "cAxSp": "counterAxisSpacing",
+    "txtAr": "textAutoResize",
+    "letSp": "letterSpacing",
+    "linHt": "lineHeight",
+    "txtAh": "textAlignHorizontal",
+    "txtAv": "textAlignVertical",
+    "txtDc": "textDecoration",
+    "fontN": "fontName",
+    "fontS": "fontSize",
+    "fontW": "fontWeight",
+    "fontF": "fontFamily",
+    "prefV": "preferredValues",
+    "shwSh": "showShadowBehindNode",
+    "botLR": "bottomLeftRadius",
+    "botRR": "bottomRightRadius",
+    "topLR": "topLeftRadius",
+    "layGr": "layoutGrow",
+    "laySzH": "layoutSizingHorizontal",
+    "laySzV": "layoutSizingVertical",
+    "offX": "offsetX",
+    "offY": "offsetY",
+    "maxW": "maxWidth",
+    "minW": "minWidth",
+    "parSp": "paragraphSpacing",
+    "parIn": "paragraphIndent",
+    "lstOp": "listOptions",
+    "dashP": "dashPattern",
+    "blnMd": "blendMode",
+    "chars": "characters",
+    "child": "children",
+    "effct": "effects",
+    "fills": "fills",
+    "strks": "strokes",
+    "visbl": "visible",
+    "opcty": "opacity",
+    "rotat": "rotation",
+    "h": "height",
+    "w": "width",
+    "libNm": "libraryName",
+    "cnsHr": "constraintHorizontal",
+    "cnsVr": "constraintVertical",
+    "txtSt": "textStyle",
+    "pntSt": "paintStyle",
+    "effSt": "effectStyle",
+    "grdSt": "gridStyle",
+    "stlKy": "styleKey",
+    "cPropR": "componentPropertyReferences"
+  },
+  "collections": {
+    "0": {
+      "colNm": "Layer",
+      "modes": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000001"
+    },
+    "1": {
+      "colNm": "Theme",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000003"
+    },
+    "2": {
+      "colNm": "Tokens",
+      "modes": [
+        "Mode 1"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000002"
+    }
+  },
+  "variables": {
+    "0": {
+      "varNm": "color/gray/000",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9882352948188782,
+          "g": 0.9882352948188782,
+          "b": 0.9882352948188782,
+          "a": 1
+        }
+      }
+    },
+    "1": {
+      "varNm": "palette/white/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 0
+        },
+        "Dark": {
+          "_varRef": 0
+        }
+      }
+    },
+    "2": {
+      "varNm": "color/gray/1000",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.03921568766236305,
+          "g": 0.03921568766236305,
+          "b": 0.03921568766236305,
+          "a": 1
+        }
+      }
+    },
+    "3": {
+      "varNm": "palette/black/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 2
+        },
+        "Dark": {
+          "_varRef": 2
+        }
+      }
+    },
+    "4": {
+      "varNm": "layer/layer-0/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 1
+        },
+        "Dark": {
+          "_varRef": 3
+        }
+      }
+    },
+    "5": {
+      "varNm": "color/gray/050",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9755661487579346,
+          "g": 0.9751049876213074,
+          "b": 0.9751049876213074,
+          "a": 1
+        }
+      }
+    },
+    "6": {
+      "varNm": "color/gray/900",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1349721997976303,
+          "g": 0.1349721997976303,
+          "b": 0.1349721997976303,
+          "a": 1
+        }
+      }
+    },
+    "7": {
+      "varNm": "palette/neutral/050/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 5
+        },
+        "Dark": {
+          "_varRef": 6
+        }
+      }
+    },
+    "8": {
+      "varNm": "layer/layer-1/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "9": {
+      "varNm": "color/gray/100",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9137254953384399,
+          "g": 0.9137254953384399,
+          "b": 0.9137254953384399,
+          "a": 1
+        }
+      }
+    },
+    "10": {
+      "varNm": "color/gray/800",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.1725490242242813,
+          "g": 0.1725490242242813,
+          "b": 0.1725490242242813,
+          "a": 1
+        }
+      }
+    },
+    "11": {
+      "varNm": "palette/neutral/100/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 9
+        },
+        "Dark": {
+          "_varRef": 10
+        }
+      }
+    },
+    "12": {
+      "varNm": "layer/layer-2/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 11
+        },
+        "Dark": {
+          "_varRef": 11
+        }
+      }
+    },
+    "13": {
+      "varNm": "layer/layer-3/property/surface",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 7
+        },
+        "Dark": {
+          "_varRef": 7
+        }
+      }
+    },
+    "14": {
+      "varNm": "global/form/field/color/background",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 4
+        },
+        "1": {
+          "_varRef": 8
+        },
+        "2": {
+          "_varRef": 12
+        },
+        "3": {
+          "_varRef": 13
+        }
+      }
+    },
+    "15": {
+      "varNm": "size/default",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 8
+      }
+    },
+    "16": {
+      "varNm": "dimension/default",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 15
+        },
+        "Dark": {
+          "_varRef": 15
+        }
+      }
+    },
+    "17": {
+      "varNm": "color/salmon/400",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.8666666746139526,
+          "g": 0.1725490242242813,
+          "b": 0.33725491166114807,
+          "a": 1
+        }
+      }
+    },
+    "18": {
+      "varNm": "color/salmon/500",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.8235294222831726,
+          "g": 0.11764705926179886,
+          "b": 0.2862745225429535,
+          "a": 1
+        }
+      }
+    },
+    "19": {
+      "varNm": "palette/palette-1/400/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 17
+        },
+        "Dark": {
+          "_varRef": 18
+        }
+      }
+    },
+    "20": {
+      "varNm": "palette/palette-1/500/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 18
+        },
+        "Dark": {
+          "_varRef": 17
+        }
+      }
+    },
+    "21": {
+      "varNm": "palette/palette-1/default/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 19
+        },
+        "Dark": {
+          "_varRef": 20
+        }
+      }
+    },
+    "22": {
+      "varNm": "avatar/color/background-primary",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 21
+        },
+        "1": {
+          "_varRef": 21
+        },
+        "2": {
+          "_varRef": 21
+        },
+        "3": {
+          "_varRef": 21
+        }
+      }
+    },
+    "23": {
+      "varNm": "layer/layer-0/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "24": {
+      "varNm": "palette/neutral/050/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "25": {
+      "varNm": "layer/layer-1/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 24
+        },
+        "Dark": {
+          "_varRef": 24
+        }
+      }
+    },
+    "26": {
+      "varNm": "palette/neutral/100/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "27": {
+      "varNm": "layer/layer-2/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 24
+        },
+        "Dark": {
+          "_varRef": 26
+        }
+      }
+    },
+    "28": {
+      "varNm": "palette/neutral/200/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 1
+        }
+      }
+    },
+    "29": {
+      "varNm": "layer/layer-3/element/text/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 28
+        }
+      }
+    },
+    "30": {
+      "varNm": "global/form/label/color/default",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 23
+        },
+        "1": {
+          "_varRef": 25
+        },
+        "2": {
+          "_varRef": 27
+        },
+        "3": {
+          "_varRef": 29
+        }
+      }
+    },
+    "31": {
+      "varNm": "font/letter-spacing/default",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 0
+      }
+    },
+    "32": {
+      "varNm": "font/h1/letter-spacing",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 31
+        },
+        "Dark": {
+          "_varRef": 31
+        }
+      }
+    },
+    "33": {
+      "varNm": "font/family/lexend",
+      "varTy": 3,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": "Lexend"
+      }
+    },
+    "34": {
+      "varNm": "font/h1/font-family",
+      "varTy": 3,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 33
+        },
+        "Dark": {
+          "_varRef": 33
+        }
+      }
+    },
+    "35": {
+      "varNm": "font/weight/bold",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 700
+      }
+    },
+    "36": {
+      "varNm": "font/h1/weight",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 35
+        },
+        "Dark": {
+          "_varRef": 35
+        }
+      }
+    },
+    "37": {
+      "varNm": "size/0-5x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 4
+      }
+    },
+    "38": {
+      "varNm": "dimension/sm",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 37
+        },
+        "Dark": {
+          "_varRef": 37
+        }
+      }
+    },
+    "39": {
+      "varNm": "color/salmon/700",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.5215686559677124,
+          "g": 0.10196078568696976,
+          "b": 0.20392157137393951,
+          "a": 1
+        }
+      }
+    },
+    "40": {
+      "varNm": "color/salmon/200",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9725490212440491,
+          "g": 0.5686274766921997,
+          "b": 0.6039215922355652,
+          "a": 1
+        }
+      }
+    },
+    "41": {
+      "varNm": "palette/palette-1/700/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 39
+        },
+        "Dark": {
+          "_varRef": 40
+        }
+      }
+    },
+    "42": {
+      "varNm": "palette/actionable/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 19
+        },
+        "Dark": {
+          "_varRef": 41
+        }
+      }
+    },
+    "43": {
+      "varNm": "layer/layer-0/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "44": {
+      "varNm": "layer/layer-1/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "45": {
+      "varNm": "layer/layer-2/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "46": {
+      "varNm": "layer/layer-3/element/interactive/color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 42
+        },
+        "Dark": {
+          "_varRef": 42
+        }
+      }
+    },
+    "47": {
+      "varNm": "link/color/text-default",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 43
+        },
+        "1": {
+          "_varRef": 44
+        },
+        "2": {
+          "_varRef": 45
+        },
+        "3": {
+          "_varRef": 46
+        }
+      }
+    },
+    "48": {
+      "varNm": "font/body/letter-spacing",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 31
+        },
+        "Dark": {
+          "_varRef": 31
+        }
+      }
+    },
+    "49": {
+      "varNm": "font/size/md",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 16
+      }
+    },
+    "50": {
+      "varNm": "font/body/size",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 49
+        },
+        "Dark": {
+          "_varRef": 49
+        }
+      }
+    },
+    "51": {
+      "varNm": "font/family/bellota",
+      "varTy": 3,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": "Bellota Text"
+      }
+    },
+    "52": {
+      "varNm": "font/body/font-family",
+      "varTy": 3,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 51
+        },
+        "Dark": {
+          "_varRef": 51
+        }
+      }
+    },
+    "53": {
+      "varNm": "font/weight/regular",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 400
+      }
+    },
+    "54": {
+      "varNm": "font/body/weight-normal",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 53
+        },
+        "Dark": {
+          "_varRef": 53
+        }
+      }
+    },
+    "55": {
+      "varNm": "size/2x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 16
+      }
+    },
+    "56": {
+      "varNm": "link/size/text-icon-gap",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 38
+        },
+        "1": {
+          "_varRef": 38
+        },
+        "2": {
+          "_varRef": 38
+        },
+        "3": {
+          "_varRef": 38
+        }
+      }
+    },
+    "57": {
+      "varNm": "size/2x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 16
+      }
+    },
+    "58": {
+      "varNm": "dimension/icon/sm",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 57
+        },
+        "Dark": {
+          "_varRef": 57
+        }
+      }
+    },
+    "59": {
+      "varNm": "link/size/icon-body",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 58
+        },
+        "1": {
+          "_varRef": 58
+        },
+        "2": {
+          "_varRef": 58
+        },
+        "3": {
+          "_varRef": 58
+        }
+      }
+    },
+    "60": {
+      "varNm": "global/icon/style",
+      "varTy": 3,
+      "_colRef": 0,
+      "vByMd": {
+        "0": "outline",
+        "1": "outline",
+        "2": "outline",
+        "3": "outline"
+      }
+    },
+    "61": {
+      "varNm": "color/salmon/600",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.6941176652908325,
+          "g": 0.09019608050584793,
+          "b": 0.23137255012989044,
+          "a": 1
+        }
+      }
+    },
+    "62": {
+      "varNm": "color/salmon/300",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.8980392217636108,
+          "g": 0.364705890417099,
+          "b": 0.47058823704719543,
+          "a": 1
+        }
+      }
+    },
+    "63": {
+      "varNm": "palette/palette-1/600/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 61
+        },
+        "Dark": {
+          "_varRef": 62
+        }
+      }
+    },
+    "64": {
+      "varNm": "layer/layer-0/element/interactive/hover-color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 63
+        },
+        "Dark": {
+          "_varRef": 41
+        }
+      }
+    },
+    "65": {
+      "varNm": "layer/layer-1/element/interactive/hover-color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 63
+        },
+        "Dark": {
+          "_varRef": 41
+        }
+      }
+    },
+    "66": {
+      "varNm": "color/salmon/800",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.3686274588108063,
+          "g": 0.0117647061124444,
+          "b": 0.07058823853731155,
+          "a": 1
+        }
+      }
+    },
+    "67": {
+      "varNm": "color/salmon/100",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": {
+          "r": 0.9725490212440491,
+          "g": 0.7254902124404907,
+          "b": 0.7490196228027344,
+          "a": 1
+        }
+      }
+    },
+    "68": {
+      "varNm": "palette/palette-1/800/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 66
+        },
+        "Dark": {
+          "_varRef": 67
+        }
+      }
+    },
+    "69": {
+      "varNm": "layer/layer-2/element/interactive/hover-color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 63
+        },
+        "Dark": {
+          "_varRef": 68
+        }
+      }
+    },
+    "70": {
+      "varNm": "layer/layer-3/element/interactive/hover-color",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 20
+        },
+        "Dark": {
+          "_varRef": 41
+        }
+      }
+    },
+    "71": {
+      "varNm": "link/color/text-hover",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 64
+        },
+        "1": {
+          "_varRef": 65
+        },
+        "2": {
+          "_varRef": 69
+        },
+        "3": {
+          "_varRef": 70
+        }
+      }
+    },
+    "72": {
+      "varNm": "size/1-5x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 12
+      }
+    },
+    "73": {
+      "varNm": "dimension/icon/xs",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 72
+        },
+        "Dark": {
+          "_varRef": 72
+        }
+      }
+    },
+    "74": {
+      "varNm": "link/size/icon-body-small",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 73
+        },
+        "1": {
+          "_varRef": 73
+        },
+        "2": {
+          "_varRef": 73
+        },
+        "3": {
+          "_varRef": 73
+        }
+      }
+    },
+    "75": {
+      "varNm": "font/letter-spacing/wide",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 0.25
+      }
+    },
+    "76": {
+      "varNm": "font/body-small/letter-spacing",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 75
+        },
+        "Dark": {
+          "_varRef": 75
+        }
+      }
+    },
+    "77": {
+      "varNm": "font/size/sm",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Mode 1": 14
+      }
+    },
+    "78": {
+      "varNm": "font/body-small/size",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 77
+        },
+        "Dark": {
+          "_varRef": 77
+        }
+      }
+    },
+    "79": {
+      "varNm": "font/body-small/font-family",
+      "varTy": 3,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 51
+        },
+        "Dark": {
+          "_varRef": 51
+        }
+      }
+    },
+    "80": {
+      "varNm": "font/body-small/weight-normal",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 53
+        },
+        "Dark": {
+          "_varRef": 53
+        }
+      }
+    },
+    "81": {
+      "varNm": "table/color/link",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 43
+        },
+        "1": {
+          "_varRef": 44
+        },
+        "2": {
+          "_varRef": 45
+        },
+        "3": {
+          "_varRef": 46
+        }
+      }
+    }
+  },
+  "instances": {
+    "0": {
+      "instT": "normal",
+      "compN": ".UI kit / Page header",
+      "cProp": {
+        "Has link#3042:2": {
+          "type": 25,
+          "value": true
+        },
+        "Component name#3041:0": {
+          "type": 2,
+          "value": "Link"
+        }
+      },
+      "path": [],
+      "nodePath": [],
+      "cPage": "UI kit components",
+      "compG": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
+      "cVers": 0
+    },
+    "1": {
+      "instT": "normal",
+      "compN": "Style=Primary",
+      "cSetN": "Logo",
+      "varPr": {
+        "Style": "Primary"
+      },
+      "cProp": {
+        "Style": {
+          "value": "Primary",
+          "type": 26,
+          "bndVar": {}
+        }
+      },
+      "path": [
+        "Logo",
+        "Logo"
+      ],
+      "nodePath": [
+        "2992:9675",
+        "2476:2480"
+      ],
+      "cPage": "Logo",
+      "compG": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
+      "cVers": 0
+    },
+    "2": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cSetN": "arrow-top-right-on-square",
+      "varPr": {
+        "Style": "outline"
+      },
+      "cProp": {
+        "Style": {
+          "value": "outline",
+          "type": 26,
+          "bndVar": {}
+        }
+      },
+      "path": [
+        "arrow-top-right-on-square"
+      ],
+      "nodePath": [
+        "5746:12971"
+      ],
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0
+    }
+  },
+  "styles": {
+    "0": {
+      "type": 2,
+      "name": "h1",
+      "txtSt": {
+        "fontS": 36,
+        "fontN": {
+          "family": "Lexend",
+          "style": "Bold"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 32
+          },
+          "fontF": {
+            "_varRef": 34
+          },
+          "fontW": {
+            "_varRef": 36
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 32
+        },
+        "fontF": {
+          "_varRef": 34
+        },
+        "fontW": {
+          "_varRef": 36
+        }
+      }
+    },
+    "1": {
+      "type": 2,
+      "name": "body/normal",
+      "txtSt": {
+        "fontS": 16,
+        "fontN": {
+          "family": "Bellota Text",
+          "style": "Regular"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 48
+          },
+          "fontS": {
+            "_varRef": 50
+          },
+          "fontF": {
+            "_varRef": 52
+          },
+          "fontW": {
+            "_varRef": 54
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 48
+        },
+        "fontS": {
+          "_varRef": 50
+        },
+        "fontF": {
+          "_varRef": 52
+        },
+        "fontW": {
+          "_varRef": 54
+        }
+      }
+    },
+    "2": {
+      "type": 2,
+      "name": "body-small/normal",
+      "txtSt": {
+        "fontS": 14,
+        "fontN": {
+          "family": "Bellota Text",
+          "style": "Regular"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0.25
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 76
+          },
+          "fontS": {
+            "_varRef": 78
+          },
+          "fontF": {
+            "_varRef": 79
+          },
+          "fontW": {
+            "_varRef": 80
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 76
+        },
+        "fontS": {
+          "_varRef": 78
+        },
+        "fontF": {
+          "_varRef": 79
+        },
+        "fontW": {
+          "_varRef": 80
+        }
+      }
+    }
+  },
+  "images": {},
+  "pageData": {
+    "type": 13,
+    "id": "2529:12573",
+    "name": "✅ Link",
+    "backgrounds": [
+      {
+        "type": 15,
+        "visbl": true,
+        "opcty": 1,
+        "blnMd": "NORMAL",
+        "color": {
+          "r": 0.7193278670310974,
+          "g": 0.7265506982803345,
+          "b": 0.7644693851470947
+        },
+        "bndVar": {}
+      }
+    ],
+    "_unhandledKeys": [
+      "_unknownType"
+    ],
+    "child": [
+      {
+        "type": 1,
+        "id": "2529:12574",
+        "name": "Link",
+        "x": -417,
+        "y": -688,
+        "w": 243,
+        "h": 597,
+        "fills": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0.9882352948188782,
+              "g": 0.9882352948188782,
+              "b": 0.9882352948188782
+            },
+            "bndVar": {
+              "color": {
+                "_varRef": 14
+              }
+            }
+          }
+        ],
+        "stkAl": "INSIDE",
+        "bndVar": {
+          "fills": [
+            {
+              "_varRef": 14
+            }
+          ]
+        },
+        "backgrounds": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0.9882352948188782,
+              "g": 0.9882352948188782,
+              "b": 0.9882352948188782
+            },
+            "bndVar": {
+              "color": {
+                "_varRef": 14
+              }
+            }
+          }
+        ],
+        "layMd": "VERTICAL",
+        "padL": 40,
+        "padR": 40,
+        "padT": 40,
+        "padB": 40,
+        "itmSp": 40,
+        "clipC": true,
+        "laySzH": "HUG",
+        "laySzV": "HUG",
+        "child": [
+          {
+            "type": 3,
+            "id": "3042:1515",
+            "name": ".UI kit / Page header",
+            "x": 40,
+            "y": 40,
+            "w": 163,
+            "h": 105,
+            "stkAl": "INSIDE",
+            "bndVar": {
+              "itmSp": {
+                "_varRef": 16
+              }
+            },
+            "_isInstance": true,
+            "_insRef": 0,
+            "layMd": "VERTICAL",
+            "itmSp": 8,
+            "laySzH": "HUG",
+            "laySzV": "HUG",
+            "child": [
+              {
+                "type": 3,
+                "id": "I3042:1515;3041:62",
+                "name": "Logo",
+                "w": 36,
+                "h": 24,
+                "stkAl": "INSIDE",
+                "cPropR": {},
+                "_isInstance": true,
+                "_insRef": 1,
+                "padL": 15,
+                "padR": 15,
+                "padT": 15,
+                "padB": 15,
+                "itmSp": 10,
+                "corR": 10,
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
+                "child": [
+                  {
+                    "type": 5,
+                    "id": "I3042:1515;3041:62;2476:2484",
+                    "name": "Subtract",
+                    "w": 36.024269104003906,
+                    "h": 24.014991760253906,
+                    "cnsHr": "SCALE",
+                    "cnsVr": "SCALE",
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.8666666746139526,
+                          "g": 0.1725490242242813,
+                          "b": 0.33725491166114807
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 22
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 22
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "fillG": [
+                      {
+                        "data": "M 1.5395 0 C 0.689257 0 0 0.689224 0 1.53942 L 0 22.4756 C 0 23.3258 0.689257 24.015 1.5395 24.015 L 34.4848 24.015 C 35.335 24.015 36.0243 23.3258 36.0243 22.4756 L 36.0243 1.53942 C 36.0243 0.689223 35.335 0 34.4848 0 L 1.5395 0 Z M 2.30925 21.6909 C 2.30925 11.2361 10.581 2.71325 20.9372 2.30913 L 20.9372 21.6909 L 2.30925 21.6909 Z M 25.5557 21.6909 C 23.8552 21.6909 22.4767 20.3124 22.4767 18.612 L 25.5557 18.612 L 25.5557 21.6909 Z M 33.6907 13.5319 L 22.4767 13.5319 L 22.4767 2.31842 C 28.4954 2.69916 33.31 7.51354 33.6907 13.5319 Z M 33.6754 15.0714 C 33.3166 18.5376 30.5616 21.2925 27.0952 21.6513 L 27.0952 15.0714 L 33.6754 15.0714 Z M 24.478 15.0863 C 23.3727 15.0863 22.4767 15.9823 22.4767 17.0876 L 24.478 17.0876 L 24.478 15.0863 Z",
+                        "windRule": "EVENODD"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 2,
+                "id": "I3042:1515;3041:63",
+                "name": "Title",
+                "y": 32,
+                "w": 79,
+                "h": 45,
+                "fills": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 1,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0.03921568766236305,
+                      "g": 0.03921568766236305,
+                      "b": 0.03921568766236305
+                    },
+                    "bndVar": {
+                      "color": {
+                        "_varRef": 30
+                      }
+                    }
+                  }
+                ],
+                "stkAl": "OUTSIDE",
+                "bndVar": {
+                  "fills": [
+                    {
+                      "_varRef": 30
+                    }
+                  ],
+                  "letSp": [
+                    {
+                      "_varRef": 32
+                    }
+                  ],
+                  "fontF": [
+                    {
+                      "_varRef": 34
+                    }
+                  ],
+                  "fontW": [
+                    {
+                      "_varRef": 36
+                    }
+                  ]
+                },
+                "cPropR": {
+                  "chars": "Component name#3041:0"
+                },
+                "_stlRef": 0,
+                "chars": "Link",
+                "fontN": {
+                  "family": "Lexend",
+                  "style": "Bold"
+                },
+                "fontS": 36,
+                "txtAr": "WIDTH_AND_HEIGHT"
+              },
+              {
+                "type": 1,
+                "id": "I3042:1515;3041:361",
+                "name": "Link",
+                "y": 85,
+                "w": 163,
+                "h": 20,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 38
+                  }
+                },
+                "cPropR": {
+                  "visbl": "Has link#3042:2"
+                },
+                "layMd": "HORIZONTAL",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "I3042:1515;3041:67",
+                    "name": "Title",
+                    "w": 143,
+                    "h": 20,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.8666666746139526,
+                          "g": 0.1725490242242813,
+                          "b": 0.33725491166114807
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 47
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 47
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 48
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 50
+                        }
+                      ],
+                      "fontF": [
+                        {
+                          "_varRef": 52
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 54
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "_stlRef": 1,
+                    "chars": "View documentation",
+                    "fontN": {
+                      "family": "Bellota Text",
+                      "style": "Regular"
+                    },
+                    "fontS": 16,
+                    "txtDc": "UNDERLINE",
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  },
+                  {
+                    "type": 3,
+                    "id": "I3042:1515;3041:358",
+                    "name": "arrow-top-right-on-square",
+                    "x": 147,
+                    "y": 2,
+                    "w": 16,
+                    "h": 16,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 55
+                      },
+                      "h": {
+                        "_varRef": 55
+                      }
+                    },
+                    "cPropR": {},
+                    "_isInstance": true,
+                    "_insRef": 2,
+                    "cAxSz": "FIXED",
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I3042:1515;3041:358;5746:11266",
+                        "name": "Icon",
+                        "x": 1.5,
+                        "y": 1.5,
+                        "w": 13,
+                        "h": 13,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 47
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0,
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 47
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "fillG": [
+                          {
+                            "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                            "windRule": "NONZERO"
+                          },
+                          {
+                            "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ],
+                        "stkCp": "ROUND",
+                        "stkJn": "ROUND"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "id": "3288:3318",
+            "name": "Content",
+            "x": 40,
+            "y": 185,
+            "w": 100,
+            "h": 372,
+            "stkAl": "INSIDE",
+            "layMd": "VERTICAL",
+            "itmSp": 20,
+            "laySzH": "HUG",
+            "laySzV": "HUG",
+            "child": [
+              {
+                "type": 14,
+                "id": "2529:12606",
+                "name": "Standalone anchor",
+                "w": 100,
+                "h": 176,
+                "strks": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 1,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0.5411764979362488,
+                      "g": 0.21960784494876862,
+                      "b": 0.9607843160629272
+                    },
+                    "bndVar": {}
+                  }
+                ],
+                "stkAl": "INSIDE",
+                "layMd": "VERTICAL",
+                "padL": 20,
+                "padR": 20,
+                "padT": 20,
+                "padB": 20,
+                "itmSp": 20,
+                "corR": 5,
+                "clipC": true,
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "child": [
+                  {
+                    "type": 4,
+                    "id": "2529:12603",
+                    "name": "Size=Body, State=Default",
+                    "x": 20,
+                    "y": 20,
+                    "w": 60,
+                    "h": 20,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 56
+                      }
+                    },
+                    "cPropR": {},
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "3288:3271",
+                        "name": "arrow-top-right-on-square",
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 59
+                          },
+                          "h": {
+                            "_varRef": 59
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Leading icon#3288:5",
+                          "mainComponent": "Lead icon#3288:20"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3271;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 2,
+                        "id": "2529:12602",
+                        "name": "Link text",
+                        "w": 60,
+                        "h": 20,
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 47
+                              }
+                            }
+                          }
+                        ],
+                        "stkAl": "OUTSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 47
+                            }
+                          ],
+                          "letSp": [
+                            {
+                              "_varRef": 48
+                            }
+                          ],
+                          "fontS": [
+                            {
+                              "_varRef": 50
+                            }
+                          ],
+                          "fontF": [
+                            {
+                              "_varRef": 52
+                            }
+                          ],
+                          "fontW": [
+                            {
+                              "_varRef": 54
+                            }
+                          ]
+                        },
+                        "cPropR": {
+                          "chars": "Value#3288:50"
+                        },
+                        "_stlRef": 1,
+                        "chars": "Link text",
+                        "fontN": {
+                          "family": "Bellota Text",
+                          "style": "Regular"
+                        },
+                        "fontS": 16,
+                        "txtAr": "WIDTH_AND_HEIGHT"
+                      },
+                      {
+                        "type": 3,
+                        "id": "3288:3259",
+                        "name": "arrow-top-right-on-square",
+                        "x": 64,
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 59
+                          },
+                          "h": {
+                            "_varRef": 59
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Trailing icon#3288:10",
+                          "mainComponent": "Trail icon#3288:25"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3259;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "2529:12607",
+                    "name": "Size=Body, State=Hover",
+                    "x": 20,
+                    "y": 60,
+                    "w": 60,
+                    "h": 20,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 56
+                      }
+                    },
+                    "cPropR": {},
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "3288:3273",
+                        "name": "arrow-top-right-on-square",
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 59
+                          },
+                          "h": {
+                            "_varRef": 59
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Leading icon#3288:5",
+                          "mainComponent": "Lead icon#3288:20"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3273;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "id": "3288:3460",
+                        "name": "Link",
+                        "w": 60,
+                        "h": 20,
+                        "stkAl": "INSIDE",
+                        "cPropR": {},
+                        "layMd": "VERTICAL",
+                        "laySzH": "HUG",
+                        "laySzV": "HUG",
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "2529:12608",
+                            "name": "Link text",
+                            "w": 60,
+                            "h": 20,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 48
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 50
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 52
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 54
+                                }
+                              ]
+                            },
+                            "cPropR": {
+                              "chars": "Value#3288:50"
+                            },
+                            "_stlRef": 1,
+                            "chars": "Link text",
+                            "fontN": {
+                              "family": "Bellota Text",
+                              "style": "Regular"
+                            },
+                            "fontS": 16,
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          },
+                          {
+                            "type": 9,
+                            "id": "3288:3458",
+                            "name": "Underline",
+                            "y": 20,
+                            "w": 60,
+                            "h": 0,
+                            "strks": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "type": 29,
+                                    "id": "VariableID:3288:3292"
+                                  }
+                                }
+                              }
+                            ],
+                            "bndVar": {
+                              "strks": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "strkG": [
+                              {
+                                "data": "M 0 -0.5 L 0 0 L 60 0 L 60 -0.5 L 60 -1 L 0 -1 L 0 -0.5 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 3,
+                        "id": "3288:3262",
+                        "name": "arrow-top-right-on-square",
+                        "x": 64,
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 59
+                          },
+                          "h": {
+                            "_varRef": 59
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Trailing icon#3288:10",
+                          "mainComponent": "Trail icon#3288:25"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3262;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "2529:12612",
+                    "name": "Size=Body small, State=Default",
+                    "x": 20,
+                    "y": 100,
+                    "w": 54,
+                    "h": 18,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 56
+                      }
+                    },
+                    "cPropR": {},
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "3288:3275",
+                        "name": "arrow-top-right-on-square",
+                        "y": 3,
+                        "w": 12,
+                        "h": 12,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 74
+                          },
+                          "h": {
+                            "_varRef": 74
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Leading icon#3288:5",
+                          "mainComponent": "Lead icon#3288:20"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "clipC": true,
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3275;5746:11266",
+                            "name": "Icon",
+                            "x": 1.125,
+                            "y": 1.125,
+                            "w": 9.75,
+                            "h": 9.75,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 6.75 0 L 9.375 0 C 9.47446 0 9.56984 0.039509 9.64017 0.109835 C 9.71049 0.180161 9.75 0.275544 9.75 0.375 L 9.75 3 C 9.75 3.20711 9.58211 3.375 9.375 3.375 C 9.16789 3.375 9 3.20711 9 3 L 9 1.28033 L 2.89017 7.39016 C 2.74372 7.53661 2.50628 7.53661 2.35983 7.39016 C 2.21339 7.24372 2.21339 7.00628 2.35983 6.85984 L 8.46967 0.75 L 6.75 0.75 C 6.54289 0.75 6.375 0.582107 6.375 0.375 C 6.375 0.167893 6.54289 0 6.75 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 1.5 2.25 C 1.08579 2.25 0.75 2.58579 0.75 3 L 0.75 8.25 C 0.75 8.66421 1.08579 9 1.5 9 L 6.75 9 C 7.16421 9 7.5 8.66421 7.5 8.25 L 7.5 4.125 C 7.5 3.91789 7.66789 3.75 7.875 3.75 C 8.08211 3.75 8.25 3.91789 8.25 4.125 L 8.25 8.25 C 8.25 9.07843 7.57843 9.75 6.75 9.75 L 1.5 9.75 C 0.671573 9.75 0 9.07843 0 8.25 L 0 3 C 0 2.17157 0.671573 1.5 1.5 1.5 L 5.625 1.5 C 5.83211 1.5 6 1.66789 6 1.875 C 6 2.08211 5.83211 2.25 5.625 2.25 L 1.5 2.25 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 2,
+                        "id": "2529:12613",
+                        "name": "Link text",
+                        "w": 54,
+                        "h": 18,
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.8666666746139526,
+                              "g": 0.1725490242242813,
+                              "b": 0.33725491166114807
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 47
+                              }
+                            }
+                          }
+                        ],
+                        "stkAl": "OUTSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 47
+                            }
+                          ],
+                          "letSp": [
+                            {
+                              "_varRef": 76
+                            }
+                          ],
+                          "fontS": [
+                            {
+                              "_varRef": 78
+                            }
+                          ],
+                          "fontF": [
+                            {
+                              "_varRef": 79
+                            }
+                          ],
+                          "fontW": [
+                            {
+                              "_varRef": 80
+                            }
+                          ]
+                        },
+                        "cPropR": {
+                          "chars": "Value#3288:50"
+                        },
+                        "_stlRef": 2,
+                        "chars": "Link text",
+                        "fontN": {
+                          "family": "Bellota Text",
+                          "style": "Regular"
+                        },
+                        "fontS": 14,
+                        "letSp": {
+                          "unit": "PIXELS",
+                          "value": 0.25
+                        },
+                        "txtAr": "WIDTH_AND_HEIGHT"
+                      },
+                      {
+                        "type": 3,
+                        "id": "3288:3265",
+                        "name": "arrow-top-right-on-square",
+                        "x": 58,
+                        "y": 3,
+                        "w": 12,
+                        "h": 12,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 74
+                          },
+                          "h": {
+                            "_varRef": 74
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Trailing icon#3288:10",
+                          "mainComponent": "Trail icon#3288:25"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "clipC": true,
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3265;5746:11266",
+                            "name": "Icon",
+                            "x": 1.125,
+                            "y": 1.125,
+                            "w": 9.75,
+                            "h": 9.75,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 6.75 0 L 9.375 0 C 9.47446 0 9.56984 0.039509 9.64017 0.109835 C 9.71049 0.180161 9.75 0.275544 9.75 0.375 L 9.75 3 C 9.75 3.20711 9.58211 3.375 9.375 3.375 C 9.16789 3.375 9 3.20711 9 3 L 9 1.28033 L 2.89017 7.39016 C 2.74372 7.53661 2.50628 7.53661 2.35983 7.39016 C 2.21339 7.24372 2.21339 7.00628 2.35983 6.85984 L 8.46967 0.75 L 6.75 0.75 C 6.54289 0.75 6.375 0.582107 6.375 0.375 C 6.375 0.167893 6.54289 0 6.75 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 1.5 2.25 C 1.08579 2.25 0.75 2.58579 0.75 3 L 0.75 8.25 C 0.75 8.66421 1.08579 9 1.5 9 L 6.75 9 C 7.16421 9 7.5 8.66421 7.5 8.25 L 7.5 4.125 C 7.5 3.91789 7.66789 3.75 7.875 3.75 C 8.08211 3.75 8.25 3.91789 8.25 4.125 L 8.25 8.25 C 8.25 9.07843 7.57843 9.75 6.75 9.75 L 1.5 9.75 C 0.671573 9.75 0 9.07843 0 8.25 L 0 3 C 0 2.17157 0.671573 1.5 1.5 1.5 L 5.625 1.5 C 5.83211 1.5 6 1.66789 6 1.875 C 6 2.08211 5.83211 2.25 5.625 2.25 L 1.5 2.25 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "2529:12614",
+                    "name": "Size=Body small, State=Hover",
+                    "x": 20,
+                    "y": 138,
+                    "w": 54,
+                    "h": 18,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 56
+                      }
+                    },
+                    "cPropR": {},
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "3288:3277",
+                        "name": "arrow-top-right-on-square",
+                        "y": 3,
+                        "w": 12,
+                        "h": 12,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 74
+                          },
+                          "h": {
+                            "_varRef": 74
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Leading icon#3288:5",
+                          "mainComponent": "Lead icon#3288:20"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "clipC": true,
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3277;5746:11266",
+                            "name": "Icon",
+                            "x": 1.125,
+                            "y": 1.125,
+                            "w": 9.75,
+                            "h": 9.75,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 6.75 0 L 9.375 0 C 9.47446 0 9.56984 0.039509 9.64017 0.109835 C 9.71049 0.180161 9.75 0.275544 9.75 0.375 L 9.75 3 C 9.75 3.20711 9.58211 3.375 9.375 3.375 C 9.16789 3.375 9 3.20711 9 3 L 9 1.28033 L 2.89017 7.39016 C 2.74372 7.53661 2.50628 7.53661 2.35983 7.39016 C 2.21339 7.24372 2.21339 7.00628 2.35983 6.85984 L 8.46967 0.75 L 6.75 0.75 C 6.54289 0.75 6.375 0.582107 6.375 0.375 C 6.375 0.167893 6.54289 0 6.75 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 1.5 2.25 C 1.08579 2.25 0.75 2.58579 0.75 3 L 0.75 8.25 C 0.75 8.66421 1.08579 9 1.5 9 L 6.75 9 C 7.16421 9 7.5 8.66421 7.5 8.25 L 7.5 4.125 C 7.5 3.91789 7.66789 3.75 7.875 3.75 C 8.08211 3.75 8.25 3.91789 8.25 4.125 L 8.25 8.25 C 8.25 9.07843 7.57843 9.75 6.75 9.75 L 1.5 9.75 C 0.671573 9.75 0 9.07843 0 8.25 L 0 3 C 0 2.17157 0.671573 1.5 1.5 1.5 L 5.625 1.5 C 5.83211 1.5 6 1.66789 6 1.875 C 6 2.08211 5.83211 2.25 5.625 2.25 L 1.5 2.25 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "id": "3288:3463",
+                        "name": "Link",
+                        "w": 54,
+                        "h": 18,
+                        "stkAl": "INSIDE",
+                        "cPropR": {},
+                        "layMd": "VERTICAL",
+                        "laySzH": "HUG",
+                        "laySzV": "HUG",
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "2529:12615",
+                            "name": "Link text",
+                            "w": 54,
+                            "h": 18,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 76
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 78
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 79
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 80
+                                }
+                              ]
+                            },
+                            "cPropR": {
+                              "chars": "Value#3288:50"
+                            },
+                            "_stlRef": 2,
+                            "chars": "Link text",
+                            "fontN": {
+                              "family": "Bellota Text",
+                              "style": "Regular"
+                            },
+                            "fontS": 14,
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          },
+                          {
+                            "type": 9,
+                            "id": "3288:3461",
+                            "name": "Underline",
+                            "y": 18,
+                            "w": 54,
+                            "h": 0,
+                            "strks": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "type": 29,
+                                    "id": "VariableID:3288:3292"
+                                  }
+                                }
+                              }
+                            ],
+                            "bndVar": {
+                              "strks": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "strkG": [
+                              {
+                                "data": "M 0 -0.5 L 0 0 L 54 0 L 54 -0.5 L 54 -1 L 0 -1 L 0 -0.5 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 3,
+                        "id": "3288:3268",
+                        "name": "arrow-top-right-on-square",
+                        "x": 58,
+                        "y": 3,
+                        "w": 12,
+                        "h": 12,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 74
+                          },
+                          "h": {
+                            "_varRef": 74
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Trailing icon#3288:10",
+                          "mainComponent": "Trail icon#3288:25"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "clipC": true,
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3268;5746:11266",
+                            "name": "Icon",
+                            "x": 1.125,
+                            "y": 1.125,
+                            "w": 9.75,
+                            "h": 9.75,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 6.75 0 L 9.375 0 C 9.47446 0 9.56984 0.039509 9.64017 0.109835 C 9.71049 0.180161 9.75 0.275544 9.75 0.375 L 9.75 3 C 9.75 3.20711 9.58211 3.375 9.375 3.375 C 9.16789 3.375 9 3.20711 9 3 L 9 1.28033 L 2.89017 7.39016 C 2.74372 7.53661 2.50628 7.53661 2.35983 7.39016 C 2.21339 7.24372 2.21339 7.00628 2.35983 6.85984 L 8.46967 0.75 L 6.75 0.75 C 6.54289 0.75 6.375 0.582107 6.375 0.375 C 6.375 0.167893 6.54289 0 6.75 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 1.5 2.25 C 1.08579 2.25 0.75 2.58579 0.75 3 L 0.75 8.25 C 0.75 8.66421 1.08579 9 1.5 9 L 6.75 9 C 7.16421 9 7.5 8.66421 7.5 8.25 L 7.5 4.125 C 7.5 3.91789 7.66789 3.75 7.875 3.75 C 8.08211 3.75 8.25 3.91789 8.25 4.125 L 8.25 8.25 C 8.25 9.07843 7.57843 9.75 6.75 9.75 L 1.5 9.75 C 0.671573 9.75 0 9.07843 0 8.25 L 0 3 C 0 2.17157 0.671573 1.5 1.5 1.5 L 5.625 1.5 C 5.83211 1.5 6 1.66789 6 1.875 C 6 2.08211 5.83211 2.25 5.625 2.25 L 1.5 2.25 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 14,
+                "id": "3288:3464",
+                "name": "Inline anchor",
+                "y": 196,
+                "w": 100,
+                "h": 176,
+                "strks": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 1,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0.5411764979362488,
+                      "g": 0.21960784494876862,
+                      "b": 0.9607843160629272
+                    },
+                    "bndVar": {}
+                  }
+                ],
+                "stkAl": "INSIDE",
+                "layMd": "VERTICAL",
+                "padL": 20,
+                "padR": 20,
+                "padT": 20,
+                "padB": 20,
+                "itmSp": 20,
+                "corR": 5,
+                "clipC": true,
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "child": [
+                  {
+                    "type": 4,
+                    "id": "3288:3469",
+                    "name": "Size=Body, State=Default",
+                    "x": 20,
+                    "y": 20,
+                    "w": 60,
+                    "h": 20,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 56
+                      }
+                    },
+                    "cPropR": {},
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "3288:3470",
+                        "name": "arrow-top-right-on-square",
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 59
+                          },
+                          "h": {
+                            "_varRef": 59
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Leading icon#3288:5",
+                          "mainComponent": "Lead icon#3288:20"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3470;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "id": "3288:3471",
+                        "name": "Link",
+                        "w": 60,
+                        "h": 20,
+                        "stkAl": "INSIDE",
+                        "cPropR": {},
+                        "layMd": "VERTICAL",
+                        "laySzH": "HUG",
+                        "laySzV": "HUG",
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "3288:3472",
+                            "name": "Link text",
+                            "w": 60,
+                            "h": 20,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 81
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 81
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 48
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 50
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 52
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 54
+                                }
+                              ]
+                            },
+                            "cPropR": {
+                              "chars": "Value#3288:50"
+                            },
+                            "_stlRef": 1,
+                            "chars": "Link text",
+                            "fontN": {
+                              "family": "Bellota Text",
+                              "style": "Regular"
+                            },
+                            "fontS": 16,
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          },
+                          {
+                            "type": 9,
+                            "id": "3288:3473",
+                            "name": "Underline",
+                            "y": 20,
+                            "w": 60,
+                            "h": 0,
+                            "strks": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "type": 29,
+                                    "id": "VariableID:2529:12626"
+                                  }
+                                }
+                              }
+                            ],
+                            "bndVar": {
+                              "strks": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "strkG": [
+                              {
+                                "data": "M 0 -0.5 L 0 0 L 60 0 L 60 -0.5 L 60 -1 L 0 -1 L 0 -0.5 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 3,
+                        "id": "3288:3474",
+                        "name": "arrow-top-right-on-square",
+                        "x": 64,
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 59
+                          },
+                          "h": {
+                            "_varRef": 59
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Trailing icon#3288:10",
+                          "mainComponent": "Trail icon#3288:25"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3474;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "3288:3493",
+                    "name": "Size=Body, State=Hover",
+                    "x": 20,
+                    "y": 60,
+                    "w": 60,
+                    "h": 20,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 56
+                      }
+                    },
+                    "cPropR": {},
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "3288:3494",
+                        "name": "arrow-top-right-on-square",
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 59
+                          },
+                          "h": {
+                            "_varRef": 59
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Leading icon#3288:5",
+                          "mainComponent": "Lead icon#3288:20"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3494;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "id": "3288:3495",
+                        "name": "Link",
+                        "w": 60,
+                        "h": 20,
+                        "stkAl": "INSIDE",
+                        "cPropR": {},
+                        "layMd": "VERTICAL",
+                        "laySzH": "HUG",
+                        "laySzV": "HUG",
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "3288:3496",
+                            "name": "Link text",
+                            "w": 60,
+                            "h": 20,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 48
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 50
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 52
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 54
+                                }
+                              ]
+                            },
+                            "cPropR": {
+                              "chars": "Value#3288:50"
+                            },
+                            "_stlRef": 1,
+                            "chars": "Link text",
+                            "fontN": {
+                              "family": "Bellota Text",
+                              "style": "Regular"
+                            },
+                            "fontS": 16,
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          },
+                          {
+                            "type": 9,
+                            "id": "3288:3497",
+                            "name": "Underline",
+                            "y": 20,
+                            "w": 60,
+                            "h": 0,
+                            "strks": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "type": 29,
+                                    "id": "VariableID:3288:3292"
+                                  }
+                                }
+                              }
+                            ],
+                            "bndVar": {
+                              "strks": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "strkG": [
+                              {
+                                "data": "M 0 -0.5 L 0 0 L 60 0 L 60 -0.5 L 60 -1 L 0 -1 L 0 -0.5 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 3,
+                        "id": "3288:3498",
+                        "name": "arrow-top-right-on-square",
+                        "x": 64,
+                        "y": 2,
+                        "w": 16,
+                        "h": 16,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 59
+                          },
+                          "h": {
+                            "_varRef": 59
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Trailing icon#3288:10",
+                          "mainComponent": "Trail icon#3288:25"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3498;5746:11266",
+                            "name": "Icon",
+                            "x": 1.5,
+                            "y": 1.5,
+                            "w": 13,
+                            "h": 13,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 9 0 L 12.5 0 C 12.6326 0 12.7598 0.052678 12.8536 0.146447 C 12.9473 0.240215 13 0.367392 13 0.5 L 13 4 C 13 4.27614 12.7761 4.5 12.5 4.5 C 12.2239 4.5 12 4.27614 12 4 L 12 1.70711 L 3.85355 9.85355 C 3.65829 10.0488 3.34171 10.0488 3.14645 9.85355 C 2.95118 9.65829 2.95118 9.34171 3.14645 9.14645 L 11.2929 1 L 9 1 C 8.72386 1 8.5 0.776143 8.5 0.5 C 8.5 0.223858 8.72386 0 9 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 2 3 C 1.44772 3 1 3.44772 1 4 L 1 11 C 1 11.5523 1.44772 12 2 12 L 9 12 C 9.55229 12 10 11.5523 10 11 L 10 5.5 C 10 5.22386 10.2239 5 10.5 5 C 10.7761 5 11 5.22386 11 5.5 L 11 11 C 11 12.1046 10.1046 13 9 13 L 2 13 C 0.89543 13 0 12.1046 0 11 L 0 4 C 0 2.89543 0.895431 2 2 2 L 7.5 2 C 7.77614 2 8 2.22386 8 2.5 C 8 2.77614 7.77614 3 7.5 3 L 2 3 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "3288:3479",
+                    "name": "Size=Body small, State=Default",
+                    "x": 20,
+                    "y": 100,
+                    "w": 54,
+                    "h": 18,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 56
+                      }
+                    },
+                    "cPropR": {},
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "3288:3480",
+                        "name": "arrow-top-right-on-square",
+                        "y": 3,
+                        "w": 12,
+                        "h": 12,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 74
+                          },
+                          "h": {
+                            "_varRef": 74
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Leading icon#3288:5",
+                          "mainComponent": "Lead icon#3288:20"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "clipC": true,
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3480;5746:11266",
+                            "name": "Icon",
+                            "x": 1.125,
+                            "y": 1.125,
+                            "w": 9.75,
+                            "h": 9.75,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 6.75 0 L 9.375 0 C 9.47446 0 9.56984 0.039509 9.64017 0.109835 C 9.71049 0.180161 9.75 0.275544 9.75 0.375 L 9.75 3 C 9.75 3.20711 9.58211 3.375 9.375 3.375 C 9.16789 3.375 9 3.20711 9 3 L 9 1.28033 L 2.89017 7.39016 C 2.74372 7.53661 2.50628 7.53661 2.35983 7.39016 C 2.21339 7.24372 2.21339 7.00628 2.35983 6.85984 L 8.46967 0.75 L 6.75 0.75 C 6.54289 0.75 6.375 0.582107 6.375 0.375 C 6.375 0.167893 6.54289 0 6.75 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 1.5 2.25 C 1.08579 2.25 0.75 2.58579 0.75 3 L 0.75 8.25 C 0.75 8.66421 1.08579 9 1.5 9 L 6.75 9 C 7.16421 9 7.5 8.66421 7.5 8.25 L 7.5 4.125 C 7.5 3.91789 7.66789 3.75 7.875 3.75 C 8.08211 3.75 8.25 3.91789 8.25 4.125 L 8.25 8.25 C 8.25 9.07843 7.57843 9.75 6.75 9.75 L 1.5 9.75 C 0.671573 9.75 0 9.07843 0 8.25 L 0 3 C 0 2.17157 0.671573 1.5 1.5 1.5 L 5.625 1.5 C 5.83211 1.5 6 1.66789 6 1.875 C 6 2.08211 5.83211 2.25 5.625 2.25 L 1.5 2.25 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "id": "3288:3481",
+                        "name": "Link",
+                        "w": 54,
+                        "h": 18,
+                        "stkAl": "INSIDE",
+                        "cPropR": {},
+                        "layMd": "VERTICAL",
+                        "laySzH": "HUG",
+                        "laySzV": "HUG",
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "3288:3482",
+                            "name": "Link text",
+                            "w": 54,
+                            "h": 18,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 81
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 81
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 76
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 78
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 79
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 80
+                                }
+                              ]
+                            },
+                            "cPropR": {
+                              "chars": "Value#3288:50"
+                            },
+                            "_stlRef": 2,
+                            "chars": "Link text",
+                            "fontN": {
+                              "family": "Bellota Text",
+                              "style": "Regular"
+                            },
+                            "fontS": 14,
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          },
+                          {
+                            "type": 9,
+                            "id": "3288:3483",
+                            "name": "Underline",
+                            "y": 18,
+                            "w": 54,
+                            "h": 0,
+                            "strks": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "type": 29,
+                                    "id": "VariableID:2529:12626"
+                                  }
+                                }
+                              }
+                            ],
+                            "bndVar": {
+                              "strks": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "strkG": [
+                              {
+                                "data": "M 0 -0.5 L 0 0 L 54 0 L 54 -0.5 L 54 -1 L 0 -1 L 0 -0.5 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 3,
+                        "id": "3288:3484",
+                        "name": "arrow-top-right-on-square",
+                        "x": 58,
+                        "y": 3,
+                        "w": 12,
+                        "h": 12,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 74
+                          },
+                          "h": {
+                            "_varRef": 74
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Trailing icon#3288:10",
+                          "mainComponent": "Trail icon#3288:25"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "clipC": true,
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3484;5746:11266",
+                            "name": "Icon",
+                            "x": 1.125,
+                            "y": 1.125,
+                            "w": 9.75,
+                            "h": 9.75,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.8666666746139526,
+                                  "g": 0.1725490242242813,
+                                  "b": 0.33725491166114807
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 47
+                                  }
+                                }
+                              }
+                            ],
+                            "stkWt": 0,
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 47
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 6.75 0 L 9.375 0 C 9.47446 0 9.56984 0.039509 9.64017 0.109835 C 9.71049 0.180161 9.75 0.275544 9.75 0.375 L 9.75 3 C 9.75 3.20711 9.58211 3.375 9.375 3.375 C 9.16789 3.375 9 3.20711 9 3 L 9 1.28033 L 2.89017 7.39016 C 2.74372 7.53661 2.50628 7.53661 2.35983 7.39016 C 2.21339 7.24372 2.21339 7.00628 2.35983 6.85984 L 8.46967 0.75 L 6.75 0.75 C 6.54289 0.75 6.375 0.582107 6.375 0.375 C 6.375 0.167893 6.54289 0 6.75 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 1.5 2.25 C 1.08579 2.25 0.75 2.58579 0.75 3 L 0.75 8.25 C 0.75 8.66421 1.08579 9 1.5 9 L 6.75 9 C 7.16421 9 7.5 8.66421 7.5 8.25 L 7.5 4.125 C 7.5 3.91789 7.66789 3.75 7.875 3.75 C 8.08211 3.75 8.25 3.91789 8.25 4.125 L 8.25 8.25 C 8.25 9.07843 7.57843 9.75 6.75 9.75 L 1.5 9.75 C 0.671573 9.75 0 9.07843 0 8.25 L 0 3 C 0 2.17157 0.671573 1.5 1.5 1.5 L 5.625 1.5 C 5.83211 1.5 6 1.66789 6 1.875 C 6 2.08211 5.83211 2.25 5.625 2.25 L 1.5 2.25 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ],
+                            "stkCp": "ROUND",
+                            "stkJn": "ROUND"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 4,
+                    "id": "3288:3501",
+                    "name": "Size=Body small, State=Hover",
+                    "x": 20,
+                    "y": 138,
+                    "w": 54,
+                    "h": 18,
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "itmSp": {
+                        "_varRef": 56
+                      }
+                    },
+                    "cPropR": {},
+                    "layMd": "HORIZONTAL",
+                    "cAxAl": "CENTER",
+                    "itmSp": 4,
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "child": [
+                      {
+                        "type": 3,
+                        "id": "3288:3502",
+                        "name": "arrow-top-right-on-square",
+                        "y": 3,
+                        "w": 12,
+                        "h": 12,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 74
+                          },
+                          "h": {
+                            "_varRef": 74
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Leading icon#3288:5",
+                          "mainComponent": "Lead icon#3288:20"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "clipC": true,
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3502;5746:11266",
+                            "name": "Icon",
+                            "x": 1.125,
+                            "y": 1.125,
+                            "w": 9.75,
+                            "h": 9.75,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 6.75 0 L 9.375 0 C 9.47446 0 9.56984 0.039509 9.64017 0.109835 C 9.71049 0.180161 9.75 0.275544 9.75 0.375 L 9.75 3 C 9.75 3.20711 9.58211 3.375 9.375 3.375 C 9.16789 3.375 9 3.20711 9 3 L 9 1.28033 L 2.89017 7.39016 C 2.74372 7.53661 2.50628 7.53661 2.35983 7.39016 C 2.21339 7.24372 2.21339 7.00628 2.35983 6.85984 L 8.46967 0.75 L 6.75 0.75 C 6.54289 0.75 6.375 0.582107 6.375 0.375 C 6.375 0.167893 6.54289 0 6.75 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 1.5 2.25 C 1.08579 2.25 0.75 2.58579 0.75 3 L 0.75 8.25 C 0.75 8.66421 1.08579 9 1.5 9 L 6.75 9 C 7.16421 9 7.5 8.66421 7.5 8.25 L 7.5 4.125 C 7.5 3.91789 7.66789 3.75 7.875 3.75 C 8.08211 3.75 8.25 3.91789 8.25 4.125 L 8.25 8.25 C 8.25 9.07843 7.57843 9.75 6.75 9.75 L 1.5 9.75 C 0.671573 9.75 0 9.07843 0 8.25 L 0 3 C 0 2.17157 0.671573 1.5 1.5 1.5 L 5.625 1.5 C 5.83211 1.5 6 1.66789 6 1.875 C 6 2.08211 5.83211 2.25 5.625 2.25 L 1.5 2.25 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 1,
+                        "id": "3288:3503",
+                        "name": "Link",
+                        "w": 54,
+                        "h": 18,
+                        "stkAl": "INSIDE",
+                        "cPropR": {},
+                        "layMd": "VERTICAL",
+                        "laySzH": "HUG",
+                        "laySzV": "HUG",
+                        "child": [
+                          {
+                            "type": 2,
+                            "id": "3288:3504",
+                            "name": "Link text",
+                            "w": 54,
+                            "h": 18,
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ],
+                              "letSp": [
+                                {
+                                  "_varRef": 76
+                                }
+                              ],
+                              "fontS": [
+                                {
+                                  "_varRef": 78
+                                }
+                              ],
+                              "fontF": [
+                                {
+                                  "_varRef": 79
+                                }
+                              ],
+                              "fontW": [
+                                {
+                                  "_varRef": 80
+                                }
+                              ]
+                            },
+                            "cPropR": {
+                              "chars": "Value#3288:50"
+                            },
+                            "_stlRef": 2,
+                            "chars": "Link text",
+                            "fontN": {
+                              "family": "Bellota Text",
+                              "style": "Regular"
+                            },
+                            "fontS": 14,
+                            "letSp": {
+                              "unit": "PIXELS",
+                              "value": 0.25
+                            },
+                            "txtAr": "WIDTH_AND_HEIGHT"
+                          },
+                          {
+                            "type": 9,
+                            "id": "3288:3505",
+                            "name": "Underline",
+                            "y": 18,
+                            "w": 54,
+                            "h": 0,
+                            "strks": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "type": 29,
+                                    "id": "VariableID:3288:3292"
+                                  }
+                                }
+                              }
+                            ],
+                            "bndVar": {
+                              "strks": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "strkG": [
+                              {
+                                "data": "M 0 -0.5 L 0 0 L 54 0 L 54 -0.5 L 54 -1 L 0 -1 L 0 -0.5 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": 3,
+                        "id": "3288:3506",
+                        "name": "arrow-top-right-on-square",
+                        "x": 58,
+                        "y": 3,
+                        "w": 12,
+                        "h": 12,
+                        "visbl": false,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "w": {
+                            "_varRef": 74
+                          },
+                          "h": {
+                            "_varRef": 74
+                          },
+                          "cProp": {
+                            "Style": {
+                              "_varRef": 60
+                            }
+                          }
+                        },
+                        "cPropR": {
+                          "visbl": "Trailing icon#3288:10",
+                          "mainComponent": "Trail icon#3288:25"
+                        },
+                        "_isInstance": true,
+                        "_insRef": 2,
+                        "cAxSz": "FIXED",
+                        "clipC": true,
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "child": [
+                          {
+                            "type": 5,
+                            "id": "I3288:3506;5746:11266",
+                            "name": "Icon",
+                            "x": 1.125,
+                            "y": 1.125,
+                            "w": 9.75,
+                            "h": 9.75,
+                            "cnsHr": "SCALE",
+                            "cnsVr": "SCALE",
+                            "fills": [
+                              {
+                                "type": 15,
+                                "visbl": true,
+                                "opcty": 1,
+                                "blnMd": "NORMAL",
+                                "color": {
+                                  "r": 0.6941176652908325,
+                                  "g": 0.09019608050584793,
+                                  "b": 0.23137255012989044
+                                },
+                                "bndVar": {
+                                  "color": {
+                                    "_varRef": 71
+                                  }
+                                }
+                              }
+                            ],
+                            "stkAl": "OUTSIDE",
+                            "bndVar": {
+                              "fills": [
+                                {
+                                  "_varRef": 71
+                                }
+                              ]
+                            },
+                            "cPropR": {},
+                            "fillG": [
+                              {
+                                "data": "M 6.75 0 L 9.375 0 C 9.47446 0 9.56984 0.039509 9.64017 0.109835 C 9.71049 0.180161 9.75 0.275544 9.75 0.375 L 9.75 3 C 9.75 3.20711 9.58211 3.375 9.375 3.375 C 9.16789 3.375 9 3.20711 9 3 L 9 1.28033 L 2.89017 7.39016 C 2.74372 7.53661 2.50628 7.53661 2.35983 7.39016 C 2.21339 7.24372 2.21339 7.00628 2.35983 6.85984 L 8.46967 0.75 L 6.75 0.75 C 6.54289 0.75 6.375 0.582107 6.375 0.375 C 6.375 0.167893 6.54289 0 6.75 0 Z",
+                                "windRule": "NONZERO"
+                              },
+                              {
+                                "data": "M 1.5 2.25 C 1.08579 2.25 0.75 2.58579 0.75 3 L 0.75 8.25 C 0.75 8.66421 1.08579 9 1.5 9 L 6.75 9 C 7.16421 9 7.5 8.66421 7.5 8.25 L 7.5 4.125 C 7.5 3.91789 7.66789 3.75 7.875 3.75 C 8.08211 3.75 8.25 3.91789 8.25 4.125 L 8.25 8.25 C 8.25 9.07843 7.57843 9.75 6.75 9.75 L 1.5 9.75 C 0.671573 9.75 0 9.07843 0 8.25 L 0 3 C 0 2.17157 0.671573 1.5 1.5 1.5 L 5.625 1.5 C 5.83211 1.5 6 1.66789 6 1.875 C 6 2.08211 5.83211 2.25 5.625 2.25 L 1.5 2.25 Z",
+                                "windRule": "NONZERO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
