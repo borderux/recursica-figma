@@ -3,14 +3,14 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "02f461b7-e991-4c8b-b254-32d611d10e98",
-    "version": 1,
+    "version": 2,
     "name": "✅ Radio",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T02:57:21.444Z",
+    "publishDate": "2026-01-14T05:31:33.173Z",
     "history": {
-      "1": {
+      "2": {
         "message": "Latest",
-        "date": "2026-01-14T02:57:21.444Z"
+        "date": "2026-01-14T05:31:33.173Z"
       }
     }
   },
@@ -1427,7 +1427,7 @@
         "3211:4787"
       ],
       "cPage": "Form base components",
-      "compG": "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15",
+      "compG": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
       "cVers": 1
     },
     "4": {
@@ -1607,7 +1607,7 @@
         "3211:7033"
       ],
       "cPage": "Form base components",
-      "compG": "4c5abde8-6aa9-4e24-92d1-44a4b78f3b15",
+      "compG": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
       "cVers": 1
     },
     "9": {
