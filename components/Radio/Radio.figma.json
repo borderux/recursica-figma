@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "02f461b7-e991-4c8b-b254-32d611d10e98",
-    "version": 2,
+    "version": 3,
     "name": "✅ Radio",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.173Z",
     "history": {
-      "2": {
-        "message": "Latest",
-        "date": "2026-01-14T05:31:33.173Z"
+      "3": {
+        "message": "Latest version",
+        "date": "2026-01-15T18:08:57.211Z"
       }
-    }
+    },
+    "publishDate": "2026-01-15T18:08:57.211Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -35,6 +35,7 @@
     "cPage": "componentPageName",
     "varPr": "variantProperties",
     "cProp": "componentProperties",
+    "cPropD": "componentPropertyDefinitions",
     "rLibN": "remoteLibraryName",
     "rLibK": "remoteLibraryKey",
     "path": "path",
@@ -2230,6 +2231,34 @@
                   }
                 ],
                 "stkAl": "INSIDE",
+                "cPropD": {
+                  "Layout": {
+                    "type": 26,
+                    "defaultValue": "Stacked",
+                    "variantOptions": [
+                      "Stacked",
+                      "Side-by-side"
+                    ]
+                  },
+                  "Number of options": {
+                    "type": 26,
+                    "defaultValue": "5",
+                    "variantOptions": [
+                      "2",
+                      "3",
+                      "4",
+                      "5"
+                    ]
+                  },
+                  "Standalone": {
+                    "type": 26,
+                    "defaultValue": "False",
+                    "variantOptions": [
+                      "False",
+                      "True"
+                    ]
+                  }
+                },
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
@@ -16097,6 +16126,28 @@
                   }
                 ],
                 "stkAl": "INSIDE",
+                "cPropD": {
+                  "Value#292:83": {
+                    "type": 2,
+                    "defaultValue": "Value"
+                  },
+                  "Selected": {
+                    "type": 26,
+                    "defaultValue": "False",
+                    "variantOptions": [
+                      "False",
+                      "True"
+                    ]
+                  },
+                  "Enabled": {
+                    "type": 26,
+                    "defaultValue": "True",
+                    "variantOptions": [
+                      "True",
+                      "False"
+                    ]
+                  }
+                },
                 "layMd": "VERTICAL",
                 "padL": 8,
                 "padR": 8,
@@ -17148,6 +17199,24 @@
                       }
                     ],
                     "stkAl": "INSIDE",
+                    "cPropD": {
+                      "Selected": {
+                        "type": 26,
+                        "defaultValue": "False",
+                        "variantOptions": [
+                          "True",
+                          "False"
+                        ]
+                      },
+                      "Enabled": {
+                        "type": 26,
+                        "defaultValue": "True",
+                        "variantOptions": [
+                          "True",
+                          "False"
+                        ]
+                      }
+                    },
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "padL": 20,

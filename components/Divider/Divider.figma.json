@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "14fb4d98-f40c-4dd9-bf4e-0ca05322991f",
-    "version": 2,
+    "version": 3,
     "name": "Divider",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.173Z",
     "history": {
-      "2": {
-        "message": "Latest",
-        "date": "2026-01-14T05:31:33.173Z"
+      "3": {
+        "message": "Latest version",
+        "date": "2026-01-15T18:08:57.211Z"
       }
-    }
+    },
+    "publishDate": "2026-01-15T18:08:57.211Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -35,6 +35,7 @@
     "cPage": "componentPageName",
     "varPr": "variantProperties",
     "cProp": "componentProperties",
+    "cPropD": "componentPropertyDefinitions",
     "rLibN": "remoteLibraryName",
     "rLibK": "remoteLibraryKey",
     "path": "path",
@@ -2123,7 +2124,7 @@
             "h": 0,
             "stkAl": "INSIDE",
             "cPropR": {},
-            "componentPropertyDefinitions": {},
+            "cPropD": {},
             "cAxSz": "FIXED",
             "laySzH": "FIXED",
             "laySzV": "FIXED",
