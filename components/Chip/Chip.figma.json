@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "bc7409bf-9b73-46fe-abb9-c7722427093c",
-    "version": 3,
+    "version": 4,
     "name": "✅ Chip",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.173Z",
     "history": {
-      "3": {
-        "message": "Latest",
-        "date": "2026-01-14T05:31:33.173Z"
+      "4": {
+        "message": "Latest version",
+        "date": "2026-01-15T18:08:57.211Z"
       }
-    }
+    },
+    "publishDate": "2026-01-15T18:08:57.211Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -35,6 +35,7 @@
     "cPage": "componentPageName",
     "varPr": "variantProperties",
     "cProp": "componentProperties",
+    "cPropD": "componentPropertyDefinitions",
     "rLibN": "remoteLibraryName",
     "rLibK": "remoteLibraryKey",
     "path": "path",
@@ -1374,6 +1375,22 @@
     "3": {
       "instT": "normal",
       "compN": "Style=outline",
+      "cSetN": "heart",
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0,
+      "path": [
+        "Icons",
+        "heart"
+      ],
+      "nodePath": [
+        "5746:11133",
+        "5746:11620"
+      ]
+    },
+    "4": {
+      "instT": "normal",
+      "compN": "Style=outline",
       "cSetN": "x-mark",
       "varPr": {
         "Style": "outline"
@@ -1395,7 +1412,7 @@
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
       "cVers": 0
     },
-    "4": {
+    "5": {
       "instT": "normal",
       "compN": "Style=outline",
       "cSetN": "heart",
@@ -1419,7 +1436,7 @@
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
       "cVers": 0
     },
-    "5": {
+    "6": {
       "instT": "normal",
       "compN": "Style=outline",
       "cSetN": "check",
@@ -1985,6 +2002,568 @@
               }
             ],
             "stkAl": "INSIDE",
+            "cPropD": {
+              "Label#124:6": {
+                "type": 2,
+                "defaultValue": "Label"
+              },
+              "Removable#3874:0": {
+                "type": 25,
+                "defaultValue": true
+              },
+              "Leading icon#5482:9": {
+                "type": 27,
+                "defaultValue": {
+                  "_insRef": 3
+                },
+                "prefV": [
+                  {
+                    "type": 14,
+                    "key": "4f857ab142138eab863fb3fe40cfc358a2429ebf"
+                  },
+                  {
+                    "type": 14,
+                    "key": "fcfda64deda336a8ab3883b476d107dd848d6d47"
+                  },
+                  {
+                    "type": 14,
+                    "key": "8f25cee54798cadd5cfff3c46986ffed1990cb4a"
+                  },
+                  {
+                    "type": 14,
+                    "key": "ae419eb3515cd12c97f28f09bd54522898818f94"
+                  },
+                  {
+                    "type": 14,
+                    "key": "bd15b093093b6e883bf11f0018e38b0731d47892"
+                  },
+                  {
+                    "type": 14,
+                    "key": "75bbf5cb5b28ec7b9b598d742716a2d68a9f3781"
+                  },
+                  {
+                    "type": 14,
+                    "key": "265e62026451c18d0138950a1f631c1f96d6208e"
+                  },
+                  {
+                    "type": 14,
+                    "key": "2af79fa018e702a8e8ff01b9ab1622b5f6ecbf7a"
+                  },
+                  {
+                    "type": 14,
+                    "key": "b668afb4ba42ae278287d0c9585a6cec4bf35f06"
+                  },
+                  {
+                    "type": 14,
+                    "key": "1d503879cc70f4d76ba95f25de2edd2a228731e9"
+                  },
+                  {
+                    "type": 14,
+                    "key": "00107696be20cc8ffe5c1d62bc0ddc9d8a3a6536"
+                  },
+                  {
+                    "type": 14,
+                    "key": "390150d85bb6578f7061ad46a5945c6cfcc75cf6"
+                  },
+                  {
+                    "type": 14,
+                    "key": "98b9fc779c9ff88c0a858ef0b7977745842f34e5"
+                  },
+                  {
+                    "type": 14,
+                    "key": "cdb17821dc4db04b5759b3734e8b9fd1de18df52"
+                  },
+                  {
+                    "type": 14,
+                    "key": "a1c210e9ed163e5c8da315dd40861376194add74"
+                  },
+                  {
+                    "type": 14,
+                    "key": "62b6f663232663544cbe328fda9bed7c2ac66d80"
+                  },
+                  {
+                    "type": 14,
+                    "key": "a826a2242a869ecbb834b99b55680bcd26dc449f"
+                  },
+                  {
+                    "type": 14,
+                    "key": "88301bccef9d26917a27a3e76f3edef93d2e749d"
+                  },
+                  {
+                    "type": 14,
+                    "key": "34073f8b335d780fd515687414ec2721b604027e"
+                  },
+                  {
+                    "type": 14,
+                    "key": "511ed16aa9919b661792ef7d58daefb3b4d20561"
+                  },
+                  {
+                    "type": 14,
+                    "key": "6527ae469499083064f96ed76593366c9ea9f850"
+                  },
+                  {
+                    "type": 14,
+                    "key": "56f60ac62e7f7513674b0a5a9a1a8fe6e02986fd"
+                  },
+                  {
+                    "type": 14,
+                    "key": "a3e93a5b2cbe7b72f2b2dc840ce415333ae624bf"
+                  },
+                  {
+                    "type": 14,
+                    "key": "76a140f9d8e5c10ae9e0b0c7545926117dce512b"
+                  },
+                  {
+                    "type": 14,
+                    "key": "e6b55e751302bb28301cd0c8c448ec869637c5b7"
+                  },
+                  {
+                    "type": 14,
+                    "key": "4629714f965f17fb28ca8c22d0a43f7b9deffe52"
+                  },
+                  {
+                    "type": 14,
+                    "key": "55dfe0420698708e0792d7a2dfdfeb9f056965dc"
+                  },
+                  {
+                    "type": 14,
+                    "key": "0ca83c022a7bd7e64e6218e1987365f1f2b8b022"
+                  },
+                  {
+                    "type": 14,
+                    "key": "c06069ad0a21b33d99704686656353b6edaf2269"
+                  },
+                  {
+                    "type": 14,
+                    "key": "8f0b2bdf45190687b6997fbda75aeb6554a62bf3"
+                  },
+                  {
+                    "type": 14,
+                    "key": "59ad0045e6a64f6786faebf6ce35131b96522ecb"
+                  },
+                  {
+                    "type": 14,
+                    "key": "0e8347192a7dbfcf1edfd7d6233600ac9a24c770"
+                  },
+                  {
+                    "type": 14,
+                    "key": "9b844a4c2221c9f9ac2ef5215cb1543cfdedb220"
+                  },
+                  {
+                    "type": 14,
+                    "key": "495438dbbed359bb04e0373607dcd13b85ce2e0d"
+                  },
+                  {
+                    "type": 14,
+                    "key": "a5dd434f31d29f084249228b5003df879a6365ee"
+                  },
+                  {
+                    "type": 14,
+                    "key": "29a9e72bb861462a0b602969ded85b2a8b50eb03"
+                  },
+                  {
+                    "type": 14,
+                    "key": "026858138d3b8e9f1d17ddb9de75613863a2bcfc"
+                  },
+                  {
+                    "type": 14,
+                    "key": "4e50a8ec3963bed600ebd971e63ffa33e7f4b21b"
+                  },
+                  {
+                    "type": 14,
+                    "key": "94b508c4c8597609e56420beb3394814f9cb17c3"
+                  },
+                  {
+                    "type": 14,
+                    "key": "178cf3766b3205148fec56c2f3bf6b7680ccfed4"
+                  },
+                  {
+                    "type": 14,
+                    "key": "5e1a60d6ff301ea39825455b2ee83cf9e4abbf77"
+                  },
+                  {
+                    "type": 14,
+                    "key": "be33e383dc983c8a22ef11d48e2e24bc97f01b3d"
+                  },
+                  {
+                    "type": 14,
+                    "key": "4fbf181710a7b2d9d31acd0120c801e28c60cb40"
+                  },
+                  {
+                    "type": 14,
+                    "key": "172e0a2b8c05317cd676f75af587f81bf2d344ac"
+                  },
+                  {
+                    "type": 14,
+                    "key": "7d609418748fe29719b99b1c27d98caddfceab71"
+                  },
+                  {
+                    "type": 14,
+                    "key": "1229dde1a70795bf89f24cd889e0db6b18ee2667"
+                  },
+                  {
+                    "type": 14,
+                    "key": "10f7e50d419e31626aec97c367288e6089f2aaaf"
+                  },
+                  {
+                    "type": 14,
+                    "key": "d118f9d7783e17f5880cbd9d4181423083b4b719"
+                  },
+                  {
+                    "type": 14,
+                    "key": "49d1a337bfdcdbc59913655095a2dcf0b2e84640"
+                  },
+                  {
+                    "type": 14,
+                    "key": "23d77e8877fbe55a2b9736f2764b9179756de1fc"
+                  },
+                  {
+                    "type": 14,
+                    "key": "e064938393125e125dbaf0e0e9851ee6dc14d20a"
+                  },
+                  {
+                    "type": 14,
+                    "key": "cb181d21587d4d2131a315e3185b6c49996a372f"
+                  },
+                  {
+                    "type": 14,
+                    "key": "60a4d80013fea26389d38eafad8dd456ce15f3af"
+                  },
+                  {
+                    "type": 14,
+                    "key": "23976e29d90f0902a0e700d8b452dc6acea78720"
+                  },
+                  {
+                    "type": 14,
+                    "key": "7b7335bd6a113790763f7092cf2b0af54d2fafda"
+                  },
+                  {
+                    "type": 14,
+                    "key": "cd6dbc6661db6447b0363f623a4f768b5684e6d0"
+                  },
+                  {
+                    "type": 14,
+                    "key": "a7eb1758e2cee1bd3cab6fc08e9e3f7dabe70ea9"
+                  },
+                  {
+                    "type": 14,
+                    "key": "a45646c34c47bbc6743198bb1c7ab5126bb15d64"
+                  },
+                  {
+                    "type": 14,
+                    "key": "a77112cf7543f7dc9acb848d00900cc3203c0b23"
+                  },
+                  {
+                    "type": 14,
+                    "key": "5b6354083be20ac929f082c3a34283b4ed8700e2"
+                  },
+                  {
+                    "type": 14,
+                    "key": "e4443ec3073434fd7993d9544b6bfb492d158e94"
+                  },
+                  {
+                    "type": 14,
+                    "key": "08ffa9f3f7414a69eff6c7f52021ea94443fc182"
+                  },
+                  {
+                    "type": 14,
+                    "key": "43a5a867ce521c6a2b8026709cf378aed0361e2a"
+                  },
+                  {
+                    "type": 14,
+                    "key": "67c2d5f18f1339ef19d1e904afcfc6e2b26c0361"
+                  },
+                  {
+                    "type": 14,
+                    "key": "1ae42dc165d88e5fcdf67b12295f73b5606f3e15"
+                  },
+                  {
+                    "type": 14,
+                    "key": "084d655951f798346846b319d25e64f28b22e283"
+                  },
+                  {
+                    "type": 14,
+                    "key": "74e6fd6a3467f86b6bb5f86d0b72b0eb95d93d25"
+                  },
+                  {
+                    "type": 14,
+                    "key": "3b0fa439ccb918f6d9d388106d8e2b750de9b6cf"
+                  },
+                  {
+                    "type": 14,
+                    "key": "773a8ea096176b5c229b402ec2f6dba6ccc35f3d"
+                  },
+                  {
+                    "type": 14,
+                    "key": "a8f4e8c9ff439fd2618de900202ff58435ceaa51"
+                  },
+                  {
+                    "type": 14,
+                    "key": "ee35b18326073c730e9e4a3d0c67df74255c8d0d"
+                  },
+                  {
+                    "type": 14,
+                    "key": "f64bcd0f6a1294b1a639582555fc639ca7e1fe4e"
+                  },
+                  {
+                    "type": 14,
+                    "key": "0afc7d6bf664c9138a77f53443dfff1d8f82ff17"
+                  },
+                  {
+                    "type": 14,
+                    "key": "9653c48e6301770407dfc091f634fab5458f4daf"
+                  },
+                  {
+                    "type": 14,
+                    "key": "12a5a17621e6bfe75b25aa85f2c6a3fea3d6ea00"
+                  },
+                  {
+                    "type": 14,
+                    "key": "c00d7671d906eda012fe4d3a7855a0545f439009"
+                  },
+                  {
+                    "type": 14,
+                    "key": "986232196a8bc08984800f39d2582aff72f0b3c4"
+                  },
+                  {
+                    "type": 14,
+                    "key": "3f549f05851ae96026b121c892fa8aa5afb3839a"
+                  },
+                  {
+                    "type": 14,
+                    "key": "932b85bf07927ae58ceed7bf1586045f30f241a0"
+                  },
+                  {
+                    "type": 14,
+                    "key": "abfdbff462b357ca00a91a8e605060a2f2acf5e6"
+                  },
+                  {
+                    "type": 14,
+                    "key": "55694f053249a81f65ee9b27807d38375abb020d"
+                  },
+                  {
+                    "type": 14,
+                    "key": "53329763ca6467d7fcdbd7b0b3c202db4e8d6ef6"
+                  },
+                  {
+                    "type": 14,
+                    "key": "14a032859388327c5ceb93bb7cebda7e2655f0bb"
+                  },
+                  {
+                    "type": 14,
+                    "key": "56959b0d8e4447beaaf9a55b8da56749388081e0"
+                  },
+                  {
+                    "type": 14,
+                    "key": "5dc33ef4f20de5a7318bcfef85d584019f6c8793"
+                  },
+                  {
+                    "type": 14,
+                    "key": "cd356227babb2cc7e78cd86a4443684c49783073"
+                  },
+                  {
+                    "type": 14,
+                    "key": "c59aad21705425547ebcda068933bcef9e1feb9d"
+                  },
+                  {
+                    "type": 14,
+                    "key": "f20f91a54340cde3e60a5033ff920fe72221c022"
+                  },
+                  {
+                    "type": 14,
+                    "key": "b571d1cfdcb357a7c49e061173d679d06e505873"
+                  },
+                  {
+                    "type": 14,
+                    "key": "b703b1cc1f76a414bc53b8d986dacbd222728789"
+                  },
+                  {
+                    "type": 14,
+                    "key": "809d029f78c807e34f8d777404f3c69fa0c4d521"
+                  },
+                  {
+                    "type": 14,
+                    "key": "828bc1099ec11401e97f4bf3de8d06e4060d3da4"
+                  },
+                  {
+                    "type": 14,
+                    "key": "61690f2d5af00a5b5da920d5ccf3289dc713b940"
+                  },
+                  {
+                    "type": 14,
+                    "key": "4670698d88410dca8af8e73a108c5c03632b5bab"
+                  },
+                  {
+                    "type": 14,
+                    "key": "fe1e936d9796c2403893de0871fb1ae8a656f4e3"
+                  },
+                  {
+                    "type": 14,
+                    "key": "8c0776c5ecdb52fa3b0719cbf0f47ec0b28a2f0b"
+                  },
+                  {
+                    "type": 14,
+                    "key": "c4325effe7558ace7d40d54e6a4c36ea57fc2c99"
+                  },
+                  {
+                    "type": 14,
+                    "key": "b76a4e9de3a70c4d389323b500efaf33ce272177"
+                  },
+                  {
+                    "type": 14,
+                    "key": "71c067f290300655ab26e47ddc9e4da2fa7d4ebc"
+                  },
+                  {
+                    "type": 14,
+                    "key": "832fef79eabad5e20b858072915195c598ac516c"
+                  },
+                  {
+                    "type": 14,
+                    "key": "e5a45f07bc40778aa36a0f0e380551b943745b87"
+                  },
+                  {
+                    "type": 14,
+                    "key": "7aa5cb7f71974e87715953437eb7da87e53ae244"
+                  },
+                  {
+                    "type": 14,
+                    "key": "d73e7266cc8450d851e49380d8cd0b1df0c6366e"
+                  },
+                  {
+                    "type": 14,
+                    "key": "d3ed217d8c64927c280c2d8e45c5c3010221a75e"
+                  },
+                  {
+                    "type": 14,
+                    "key": "c6a2206ffb2cdd309c359beb4bc7e8fef5f2ab1d"
+                  },
+                  {
+                    "type": 14,
+                    "key": "e1303f73f1cea89a611a6a20889ad83ad64c56dc"
+                  },
+                  {
+                    "type": 14,
+                    "key": "2a145a81013f747edf3da6d6eabc02c6ffdd8135"
+                  },
+                  {
+                    "type": 14,
+                    "key": "8d042269106fc2173ff2b9eaa0a563958a9f158b"
+                  },
+                  {
+                    "type": 14,
+                    "key": "ab2602f3fe4b09ef8b6e935b7328c4311d52a35b"
+                  },
+                  {
+                    "type": 14,
+                    "key": "115a8eb191d209c89ba137c46dfa7a7b584f25ed"
+                  },
+                  {
+                    "type": 14,
+                    "key": "0d9a4a63cdbb986a764347241e835fd037905dfe"
+                  },
+                  {
+                    "type": 14,
+                    "key": "26cdb43947c62b1cabb541d820b380f246a1d59e"
+                  },
+                  {
+                    "type": 14,
+                    "key": "fd986ffddae9146e5fb1af100fc32ec553572b40"
+                  },
+                  {
+                    "type": 14,
+                    "key": "316340971a7cb850adb6d60b31f2bc6d5840b837"
+                  },
+                  {
+                    "type": 14,
+                    "key": "c169c17dfbe64e61cf55b5603d30c43dd7467f90"
+                  },
+                  {
+                    "type": 14,
+                    "key": "4fdf321da7be659b6e6cbbe4b883fd7e1f26172f"
+                  },
+                  {
+                    "type": 14,
+                    "key": "2095eec8129b9bb62bd9021ceac40694e524901b"
+                  },
+                  {
+                    "type": 14,
+                    "key": "ea85639a342e22bb751281659596c83128b63c57"
+                  },
+                  {
+                    "type": 14,
+                    "key": "5a07e2562c806943a216eb30da4d3c37bf919612"
+                  },
+                  {
+                    "type": 14,
+                    "key": "90d2211e6487eac5c95c78b9723a5eb0b9431f75"
+                  },
+                  {
+                    "type": 14,
+                    "key": "295709305d8cdebc65d6c901c492e9640a237d89"
+                  },
+                  {
+                    "type": 14,
+                    "key": "7efafd2dfe381facb5c6276ae35dce7369451816"
+                  },
+                  {
+                    "type": 14,
+                    "key": "94ed804fbb84aa7a8acf8b84e86cbdeb96db8673"
+                  },
+                  {
+                    "type": 14,
+                    "key": "5d9a1608ac3acb8ad2c13fbf643fc8fe2585f2d0"
+                  },
+                  {
+                    "type": 14,
+                    "key": "1ca77f1a63f3c4582828be4a1cdd147fcf48df2e"
+                  },
+                  {
+                    "type": 14,
+                    "key": "25d02271c60ad2b3d322d1405fe3b1e64a656d9f"
+                  },
+                  {
+                    "type": 14,
+                    "key": "1c212ee18969719d03e5650a5196446d7372cd7a"
+                  },
+                  {
+                    "type": 14,
+                    "key": "47bc9523ffaca99445276b543f4ba4305b29277c"
+                  },
+                  {
+                    "type": 14,
+                    "key": "841d7dcd6c88296dd6522a73a2c48cdacf3d1c45"
+                  },
+                  {
+                    "type": 14,
+                    "key": "ecfd4c1b5d2817d3fe6db33428dd43f2592b4d9e"
+                  }
+                ]
+              },
+              "Selected": {
+                "type": 26,
+                "defaultValue": "False",
+                "variantOptions": [
+                  "False",
+                  "True"
+                ]
+              },
+              "Icon": {
+                "type": 26,
+                "defaultValue": "False",
+                "variantOptions": [
+                  "True",
+                  "False"
+                ]
+              },
+              "Error": {
+                "type": 26,
+                "defaultValue": "False",
+                "variantOptions": [
+                  "False",
+                  "True"
+                ]
+              }
+            },
             "layMd": "HORIZONTAL",
             "pAxSz": "FIXED",
             "pAxAl": "CENTER",
@@ -2210,7 +2789,7 @@
                       "visbl": "Removable#3874:0"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -2476,7 +3055,7 @@
                       "visbl": "Removable#3874:0"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -2671,7 +3250,7 @@
                       "mainComponent": "Leading icon#5482:9"
                     },
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -2818,7 +3397,7 @@
                       "visbl": "Removable#3874:0"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -3013,7 +3592,7 @@
                       "mainComponent": "Leading icon#5482:9"
                     },
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -3160,7 +3739,7 @@
                       "visbl": "Removable#3874:0"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -3353,7 +3932,7 @@
                     },
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 5,
+                    "_insRef": 6,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -3496,7 +4075,7 @@
                       "visbl": "Removable#3874:0"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -3689,7 +4268,7 @@
                     },
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 5,
+                    "_insRef": 6,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -3832,7 +4411,7 @@
                       "visbl": "Removable#3874:0"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -4028,7 +4607,7 @@
                       "mainComponent": "Leading icon#5482:9"
                     },
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -4175,7 +4754,7 @@
                       "visbl": "Removable#3874:0"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -4245,7 +4824,7 @@
                     },
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 5,
+                    "_insRef": 6,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -4441,7 +5020,7 @@
                       "mainComponent": "Leading icon#5482:9"
                     },
                     "_isInstance": true,
-                    "_insRef": 4,
+                    "_insRef": 5,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -4588,7 +5167,7 @@
                       "visbl": "Removable#3874:0"
                     },
                     "_isInstance": true,
-                    "_insRef": 3,
+                    "_insRef": 4,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
@@ -4658,7 +5237,7 @@
                     },
                     "cPropR": {},
                     "_isInstance": true,
-                    "_insRef": 5,
+                    "_insRef": 6,
                     "cAxSz": "FIXED",
                     "clipC": true,
                     "laySzH": "FIXED",
