@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "ab4360c3-3d5d-4791-bf23-0a8795d5c21e",
-    "version": 2,
+    "version": 3,
     "name": "Form base components",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.170Z",
     "history": {
-      "2": {
-        "message": "Latest",
-        "date": "2026-01-14T05:31:33.170Z"
+      "3": {
+        "message": "Latest version",
+        "date": "2026-01-15T18:08:57.211Z"
       }
-    }
+    },
+    "publishDate": "2026-01-15T18:08:57.211Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -35,6 +35,7 @@
     "cPage": "componentPageName",
     "varPr": "variantProperties",
     "cProp": "componentProperties",
+    "cPropD": "componentPropertyDefinitions",
     "rLibN": "remoteLibraryName",
     "rLibK": "remoteLibraryKey",
     "path": "path",
@@ -1694,6 +1695,22 @@
       "instT": "normal",
       "compN": "Style=outline",
       "cSetN": "heart",
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0,
+      "path": [
+        "Icons",
+        "heart"
+      ],
+      "nodePath": [
+        "5746:11133",
+        "5746:11620"
+      ]
+    },
+    "6": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cSetN": "heart",
       "varPr": {
         "Style": "outline"
       },
@@ -1719,7 +1736,23 @@
       "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
       "cVers": 0
     },
-    "6": {
+    "7": {
+      "instT": "normal",
+      "compN": "Style=outline",
+      "cSetN": "exclamation-circle",
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0,
+      "path": [
+        "Icons",
+        "exclamation-circle"
+      ],
+      "nodePath": [
+        "5746:11133",
+        "5746:11565"
+      ]
+    },
+    "8": {
       "instT": "normal",
       "compN": "Style=outline",
       "cSetN": "exclamation-circle",
@@ -2331,6 +2364,26 @@
               }
             ],
             "stkAl": "INSIDE",
+            "cPropD": {
+              "Label#3211:1": {
+                "type": 2,
+                "defaultValue": "Label"
+              },
+              "Show label#3211:9": {
+                "type": 25,
+                "defaultValue": true
+              },
+              "Indicator": {
+                "type": 26,
+                "defaultValue": "None",
+                "variantOptions": [
+                  "None",
+                  "Optional",
+                  "Asterisk / Truncate overflow",
+                  "Asterisk / Full label text"
+                ]
+              }
+            },
             "layMd": "VERTICAL",
             "cAxSz": "FIXED",
             "padL": 20,
@@ -3075,6 +3128,33 @@
               }
             ],
             "stkAl": "INSIDE",
+            "cPropD": {
+              "Label#3211:6": {
+                "type": 2,
+                "defaultValue": "Label"
+              },
+              "Show label#3212:20": {
+                "type": 25,
+                "defaultValue": true
+              },
+              "Indicator": {
+                "type": 26,
+                "defaultValue": "None",
+                "variantOptions": [
+                  "None",
+                  "Asterisk",
+                  "Optional"
+                ]
+              },
+              "Align": {
+                "type": 26,
+                "defaultValue": "Middle",
+                "variantOptions": [
+                  "Middle",
+                  "Top"
+                ]
+              }
+            },
             "layMd": "VERTICAL",
             "padL": 20,
             "padR": 20,
@@ -4227,7 +4307,7 @@
                 "h": 18,
                 "stkAl": "INSIDE",
                 "cPropR": {},
-                "componentPropertyDefinitions": {},
+                "cPropD": {},
                 "layMd": "HORIZONTAL",
                 "pAxAl": "CENTER",
                 "cAxAl": "CENTER",
@@ -4314,7 +4394,7 @@
                 "h": 15,
                 "stkAl": "INSIDE",
                 "cPropR": {},
-                "componentPropertyDefinitions": {},
+                "cPropD": {},
                 "layMd": "HORIZONTAL",
                 "pAxAl": "CENTER",
                 "cAxAl": "CENTER",
@@ -4787,10 +4867,12 @@
               }
             },
             "cPropR": {},
-            "componentPropertyDefinitions": {
+            "cPropD": {
               "Icon#3219:0": {
                 "type": 27,
-                "defaultValue": "5746:12246",
+                "defaultValue": {
+                  "_insRef": 5
+                },
                 "prefV": [
                   {
                     "type": 14,
@@ -4841,7 +4923,7 @@
                   "mainComponent": "Icon#3219:0"
                 },
                 "_isInstance": true,
-                "_insRef": 5,
+                "_insRef": 6,
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "laySzH": "FIXED",
@@ -5363,10 +5445,12 @@
               }
             },
             "cPropR": {},
-            "componentPropertyDefinitions": {
+            "cPropD": {
               "Icon#3219:3": {
                 "type": 27,
-                "defaultValue": "5746:13033",
+                "defaultValue": {
+                  "_insRef": 7
+                },
                 "prefV": [
                   {
                     "type": 14,
@@ -5418,7 +5502,7 @@
                   "mainComponent": "Icon#3219:3"
                 },
                 "_isInstance": true,
-                "_insRef": 6,
+                "_insRef": 8,
                 "cAxSz": "FIXED",
                 "clipC": true,
                 "laySzH": "FIXED",
