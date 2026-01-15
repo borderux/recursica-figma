@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "002090c8-0d92-4979-b66e-277d47d04733",
-    "version": 2,
+    "version": 3,
     "name": "Menu item",
     "pluginVersion": "1.0.0",
-    "publishDate": "2026-01-14T05:31:33.173Z",
     "history": {
-      "2": {
-        "message": "Latest",
-        "date": "2026-01-14T05:31:33.173Z"
+      "3": {
+        "message": "Latest version",
+        "date": "2026-01-15T18:08:57.211Z"
       }
-    }
+    },
+    "publishDate": "2026-01-15T18:08:57.211Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -35,6 +35,7 @@
     "cPage": "componentPageName",
     "varPr": "variantProperties",
     "cProp": "componentProperties",
+    "cPropD": "componentPropertyDefinitions",
     "rLibN": "remoteLibraryName",
     "rLibK": "remoteLibraryKey",
     "path": "path",
@@ -1670,21 +1671,9 @@
       "instT": "normal",
       "compN": "Style=outline",
       "cSetN": "folder",
-      "varPr": {
-        "Style": "outline"
-      },
-      "cProp": {
-        "Style": {
-          "value": "outline",
-          "type": 26,
-          "bndVar": {
-            "value": {
-              "type": 29,
-              "id": "VariableID:2156:2528"
-            }
-          }
-        }
-      },
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0,
       "path": [
         "Icons",
         "folder"
@@ -1692,30 +1681,15 @@
       "nodePath": [
         "5746:11133",
         "5746:11595"
-      ],
-      "cPage": "✹ Icons",
-      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 0
+      ]
     },
     "4": {
       "instT": "normal",
       "compN": "Style=outline",
       "cSetN": "chevron-right",
-      "varPr": {
-        "Style": "outline"
-      },
-      "cProp": {
-        "Style": {
-          "value": "outline",
-          "type": 26,
-          "bndVar": {
-            "value": {
-              "type": 29,
-              "id": "VariableID:2156:2528"
-            }
-          }
-        }
-      },
+      "cPage": "✹ Icons",
+      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
+      "cVers": 0,
       "path": [
         "Icons",
         "chevron-right"
@@ -1723,10 +1697,7 @@
       "nodePath": [
         "5746:11133",
         "5746:11510"
-      ],
-      "cPage": "✹ Icons",
-      "compG": "60e10658-76c7-44c1-87de-eacb2d68e930",
-      "cVers": 0
+      ]
     },
     "5": {
       "instT": "normal",
@@ -2397,6 +2368,62 @@
               }
             ],
             "stkAl": "INSIDE",
+            "cPropD": {
+              "Divider#2301:0": {
+                "type": 25,
+                "defaultValue": false
+              },
+              "Supporting text#2301:6": {
+                "type": 25,
+                "defaultValue": false
+              },
+              "Supporting value#2301:18": {
+                "type": 2,
+                "defaultValue": "Supporting value"
+              },
+              "Leading element#2301:24": {
+                "type": 25,
+                "defaultValue": false
+              },
+              "Trailing element#2301:30": {
+                "type": 25,
+                "defaultValue": false
+              },
+              "Leading icon#2301:36": {
+                "type": 27,
+                "defaultValue": {
+                  "_insRef": 3
+                },
+                "prefV": []
+              },
+              "Trailing icon#2301:42": {
+                "type": 27,
+                "defaultValue": {
+                  "_insRef": 4
+                },
+                "prefV": []
+              },
+              "Type": {
+                "type": 26,
+                "defaultValue": "Single-select",
+                "variantOptions": [
+                  "Single-select",
+                  "Multi-select",
+                  "Radio"
+                ]
+              },
+              "State": {
+                "type": 26,
+                "defaultValue": "Enabled",
+                "variantOptions": [
+                  "Enabled",
+                  "Hover",
+                  "Selected",
+                  "Focused",
+                  "Disabled"
+                ]
+              }
+            },
             "cAxSz": "FIXED",
             "corR": 5,
             "clipC": true,
