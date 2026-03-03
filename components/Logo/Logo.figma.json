@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 2,
+    "version": 3,
     "name": "Logo",
     "pluginVersion": "1.0.0",
     "history": {
-      "2": {
-        "message": "Latest version",
-        "date": "2026-01-15T18:08:57.211Z"
+      "3": {
+        "message": "Used new Recursica variables",
+        "date": "2026-03-03T00:11:04.231Z"
       }
     },
-    "publishDate": "2026-01-15T18:08:57.211Z"
+    "publishDate": "2026-03-03T00:11:04.231Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -130,7 +130,8 @@
     "2": {
       "colNm": "Tokens",
       "modes": [
-        "Mode 1"
+        "Mode 1",
+        "Default"
       ],
       "colGu": "00000000-0000-0000-0000-000000000002"
     }
@@ -359,64 +360,64 @@
       }
     },
     "17": {
-      "varNm": "color/salmon/400",
+      "varNm": "colors/gray/1000",
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
-          "r": 0.8666666746139526,
-          "g": 0.1725490242242813,
-          "b": 0.33725491166114807,
+        "Default": {
+          "r": 0.07450980693101883,
+          "g": 0.07450980693101883,
+          "b": 0.07450980693101883,
           "a": 1
         }
       }
     },
     "18": {
-      "varNm": "color/salmon/500",
+      "varNm": "palettes/core-colors/black/tone",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
-        "Mode 1": {
-          "r": 0.8235294222831726,
-          "g": 0.11764705926179886,
-          "b": 0.2862745225429535,
-          "a": 1
+        "Light": {
+          "_varRef": 17
+        },
+        "Dark": {
+          "_varRef": 17
         }
       }
     },
     "19": {
-      "varNm": "palette/palette-1/400/tone",
+      "varNm": "colors/gray/000",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 2,
       "vByMd": {
-        "Light": {
-          "_varRef": 17
-        },
-        "Dark": {
-          "_varRef": 18
+        "Default": {
+          "r": 0.9882352948188782,
+          "g": 0.9882352948188782,
+          "b": 0.9882352948188782,
+          "a": 1
         }
       }
     },
     "20": {
-      "varNm": "palette/palette-1/500/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 18
-        },
-        "Dark": {
-          "_varRef": 17
-        }
-      }
-    },
-    "21": {
-      "varNm": "palette/palette-1/default/tone",
+      "varNm": "palettes/core-colors/white/tone",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
         "Light": {
           "_varRef": 19
+        },
+        "Dark": {
+          "_varRef": 19
+        }
+      }
+    },
+    "21": {
+      "varNm": "palettes/neutral/050/color/on-tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 18
         },
         "Dark": {
           "_varRef": 20
@@ -424,135 +425,19 @@
       }
     },
     "22": {
-      "varNm": "avatar/color/background-primary",
+      "varNm": "layers/layer-0/elements/text/color",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 1,
       "vByMd": {
-        "0": {
+        "Light": {
           "_varRef": 21
         },
-        "1": {
-          "_varRef": 21
-        },
-        "2": {
-          "_varRef": 21
-        },
-        "3": {
-          "_varRef": 21
+        "Dark": {
+          "_varRef": 20
         }
       }
     },
     "23": {
-      "varNm": "layer/layer-0/element/text/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 3
-        },
-        "Dark": {
-          "_varRef": 1
-        }
-      }
-    },
-    "24": {
-      "varNm": "palette/neutral/050/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 3
-        },
-        "Dark": {
-          "_varRef": 1
-        }
-      }
-    },
-    "25": {
-      "varNm": "layer/layer-1/element/text/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 24
-        },
-        "Dark": {
-          "_varRef": 24
-        }
-      }
-    },
-    "26": {
-      "varNm": "palette/neutral/100/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 3
-        },
-        "Dark": {
-          "_varRef": 1
-        }
-      }
-    },
-    "27": {
-      "varNm": "layer/layer-2/element/text/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 24
-        },
-        "Dark": {
-          "_varRef": 26
-        }
-      }
-    },
-    "28": {
-      "varNm": "palette/neutral/200/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 3
-        },
-        "Dark": {
-          "_varRef": 1
-        }
-      }
-    },
-    "29": {
-      "varNm": "layer/layer-3/element/text/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 3
-        },
-        "Dark": {
-          "_varRef": 28
-        }
-      }
-    },
-    "30": {
-      "varNm": "global/form/label/color/default",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 23
-        },
-        "1": {
-          "_varRef": 25
-        },
-        "2": {
-          "_varRef": 27
-        },
-        "3": {
-          "_varRef": 29
-        }
-      }
-    },
-    "31": {
       "varNm": "font/letter-spacing/default",
       "varTy": 2,
       "_colRef": 2,
@@ -560,20 +445,20 @@
         "Mode 1": 0
       }
     },
-    "32": {
+    "24": {
       "varNm": "font/h1/letter-spacing",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 31
+          "_varRef": 23
         },
         "Dark": {
-          "_varRef": 31
+          "_varRef": 23
         }
       }
     },
-    "33": {
+    "25": {
       "varNm": "font/family/lexend",
       "varTy": 3,
       "_colRef": 2,
@@ -581,20 +466,20 @@
         "Mode 1": "Lexend"
       }
     },
-    "34": {
+    "26": {
       "varNm": "font/h1/font-family",
       "varTy": 3,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 33
+          "_varRef": 25
         },
         "Dark": {
-          "_varRef": 33
+          "_varRef": 25
         }
       }
     },
-    "35": {
+    "27": {
       "varNm": "font/weight/bold",
       "varTy": 2,
       "_colRef": 2,
@@ -602,20 +487,20 @@
         "Mode 1": 700
       }
     },
-    "36": {
+    "28": {
       "varNm": "font/h1/weight",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 35
+          "_varRef": 27
         },
         "Dark": {
-          "_varRef": 35
+          "_varRef": 27
         }
       }
     },
-    "37": {
+    "29": {
       "varNm": "size/0-5x",
       "varTy": 2,
       "_colRef": 2,
@@ -623,52 +508,169 @@
         "Mode 1": 4
       }
     },
-    "38": {
+    "30": {
       "varNm": "dimension/sm",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 37
+          "_varRef": 29
         },
         "Dark": {
+          "_varRef": 29
+        }
+      }
+    },
+    "31": {
+      "varNm": "colors/mandy/500",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": {
+          "r": 0.8313725590705872,
+          "g": 0.05098039284348488,
+          "b": 0.05098039284348488,
+          "a": 1
+        }
+      }
+    },
+    "32": {
+      "varNm": "colors/mandy/400",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": {
+          "r": 0.9254902005195618,
+          "g": 0.054901961237192154,
+          "b": 0.054901961237192154,
+          "a": 1
+        }
+      }
+    },
+    "33": {
+      "varNm": "palettes/core-colors/interactive/default/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 31
+        },
+        "Dark": {
+          "_varRef": 32
+        }
+      }
+    },
+    "34": {
+      "varNm": "layers/layer-0/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 33
+        },
+        "Dark": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    "35": {
+      "varNm": "layers/layer-1/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 33
+        },
+        "Dark": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    "36": {
+      "varNm": "layers/layer-2/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 33
+        },
+        "Dark": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    "37": {
+      "varNm": "layers/layer-3/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 33
+        },
+        "Dark": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    "38": {
+      "varNm": "components/link/variants/states/default/properties/colors/text",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 34
+        },
+        "1": {
+          "_varRef": 35
+        },
+        "2": {
+          "_varRef": 36
+        },
+        "3": {
           "_varRef": 37
         }
       }
     },
     "39": {
-      "varNm": "color/salmon/700",
-      "varTy": 1,
-      "_colRef": 2,
+      "varNm": "font/body/letter-spacing",
+      "varTy": 2,
+      "_colRef": 1,
       "vByMd": {
-        "Mode 1": {
-          "r": 0.5215686559677124,
-          "g": 0.10196078568696976,
-          "b": 0.20392157137393951,
-          "a": 1
+        "Light": {
+          "_varRef": 23
+        },
+        "Dark": {
+          "_varRef": 23
         }
       }
     },
     "40": {
-      "varNm": "color/salmon/200",
-      "varTy": 1,
+      "varNm": "font/size/md",
+      "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
-          "r": 0.9725490212440491,
-          "g": 0.5686274766921997,
-          "b": 0.6039215922355652,
-          "a": 1
-        }
+        "Mode 1": 16
       }
     },
     "41": {
-      "varNm": "palette/palette-1/700/tone",
-      "varTy": 1,
+      "varNm": "font/body/size",
+      "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 39
+          "_varRef": 40
         },
         "Dark": {
           "_varRef": 40
@@ -676,21 +678,16 @@
       }
     },
     "42": {
-      "varNm": "palette/actionable/tone",
-      "varTy": 1,
-      "_colRef": 1,
+      "varNm": "font/family/bellota",
+      "varTy": 3,
+      "_colRef": 2,
       "vByMd": {
-        "Light": {
-          "_varRef": 19
-        },
-        "Dark": {
-          "_varRef": 41
-        }
+        "Mode 1": "Bellota Text"
       }
     },
     "43": {
-      "varNm": "layer/layer-0/element/interactive/color",
-      "varTy": 1,
+      "varNm": "font/body/font-family",
+      "varTy": 3,
       "_colRef": 1,
       "vByMd": {
         "Light": {
@@ -702,119 +699,6 @@
       }
     },
     "44": {
-      "varNm": "layer/layer-1/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 42
-        },
-        "Dark": {
-          "_varRef": 42
-        }
-      }
-    },
-    "45": {
-      "varNm": "layer/layer-2/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 42
-        },
-        "Dark": {
-          "_varRef": 42
-        }
-      }
-    },
-    "46": {
-      "varNm": "layer/layer-3/element/interactive/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 42
-        },
-        "Dark": {
-          "_varRef": 42
-        }
-      }
-    },
-    "47": {
-      "varNm": "link/color/text-default",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 43
-        },
-        "1": {
-          "_varRef": 44
-        },
-        "2": {
-          "_varRef": 45
-        },
-        "3": {
-          "_varRef": 46
-        }
-      }
-    },
-    "48": {
-      "varNm": "font/body/letter-spacing",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 31
-        },
-        "Dark": {
-          "_varRef": 31
-        }
-      }
-    },
-    "49": {
-      "varNm": "font/size/md",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "Mode 1": 16
-      }
-    },
-    "50": {
-      "varNm": "font/body/size",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 49
-        },
-        "Dark": {
-          "_varRef": 49
-        }
-      }
-    },
-    "51": {
-      "varNm": "font/family/bellota",
-      "varTy": 3,
-      "_colRef": 2,
-      "vByMd": {
-        "Mode 1": "Bellota Text"
-      }
-    },
-    "52": {
-      "varNm": "font/body/font-family",
-      "varTy": 3,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 51
-        },
-        "Dark": {
-          "_varRef": 51
-        }
-      }
-    },
-    "53": {
       "varNm": "font/weight/regular",
       "varTy": 2,
       "_colRef": 2,
@@ -822,44 +706,25 @@
         "Mode 1": 400
       }
     },
-    "54": {
+    "45": {
       "varNm": "font/body/weight-normal",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
         "Light": {
-          "_varRef": 53
+          "_varRef": 44
         },
         "Dark": {
-          "_varRef": 53
+          "_varRef": 44
         }
       }
     },
-    "55": {
+    "46": {
       "varNm": "size/2x",
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
         "Mode 1": 16
-      }
-    },
-    "56": {
-      "varNm": "global/form/field/color/icon",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 23
-        },
-        "1": {
-          "_varRef": 25
-        },
-        "2": {
-          "_varRef": 27
-        },
-        "3": {
-          "_varRef": 29
-        }
       }
     }
   },
@@ -948,25 +813,25 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 32
+            "_varRef": 24
           },
           "fontF": {
-            "_varRef": 34
+            "_varRef": 26
           },
           "fontW": {
-            "_varRef": 36
+            "_varRef": 28
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 32
+          "_varRef": 24
         },
         "fontF": {
-          "_varRef": 34
+          "_varRef": 26
         },
         "fontW": {
-          "_varRef": 36
+          "_varRef": 28
         }
       }
     },
@@ -985,31 +850,31 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 48
+            "_varRef": 39
           },
           "fontS": {
-            "_varRef": 50
+            "_varRef": 41
           },
           "fontF": {
-            "_varRef": 52
+            "_varRef": 43
           },
           "fontW": {
-            "_varRef": 54
+            "_varRef": 45
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 48
+          "_varRef": 39
         },
         "fontS": {
-          "_varRef": 50
+          "_varRef": 41
         },
         "fontF": {
-          "_varRef": 52
+          "_varRef": 43
         },
         "fontW": {
-          "_varRef": 54
+          "_varRef": 45
         }
       }
     }
@@ -1158,21 +1023,10 @@
                           "g": 0.1725490242242813,
                           "b": 0.33725491166114807
                         },
-                        "bndVar": {
-                          "color": {
-                            "_varRef": 22
-                          }
-                        }
+                        "bndVar": {}
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "bndVar": {
-                      "fills": [
-                        {
-                          "_varRef": 22
-                        }
-                      ]
-                    },
                     "cPropR": {},
                     "fillG": [
                       {
@@ -1197,13 +1051,13 @@
                     "opcty": 1,
                     "blnMd": "NORMAL",
                     "color": {
-                      "r": 0.03921568766236305,
-                      "g": 0.03921568766236305,
-                      "b": 0.03921568766236305
+                      "r": 0.07450980693101883,
+                      "g": 0.07450980693101883,
+                      "b": 0.07450980693101883
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 30
+                        "_varRef": 22
                       }
                     }
                   }
@@ -1212,22 +1066,22 @@
                 "bndVar": {
                   "fills": [
                     {
-                      "_varRef": 30
+                      "_varRef": 22
                     }
                   ],
                   "letSp": [
                     {
-                      "_varRef": 32
+                      "_varRef": 24
                     }
                   ],
                   "fontF": [
                     {
-                      "_varRef": 34
+                      "_varRef": 26
                     }
                   ],
                   "fontW": [
                     {
-                      "_varRef": 36
+                      "_varRef": 28
                     }
                   ]
                 },
@@ -1253,7 +1107,7 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 38
+                    "_varRef": 30
                   }
                 },
                 "cPropR": {
@@ -1278,13 +1132,13 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "color": {
-                          "r": 0.8666666746139526,
-                          "g": 0.1725490242242813,
-                          "b": 0.33725491166114807
+                          "r": 0.8313725590705872,
+                          "g": 0.05098039284348488,
+                          "b": 0.05098039284348488
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 47
+                            "_varRef": 38
                           }
                         }
                       }
@@ -1293,27 +1147,27 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 47
+                          "_varRef": 38
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 48
+                          "_varRef": 39
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 50
+                          "_varRef": 41
                         }
                       ],
                       "fontF": [
                         {
-                          "_varRef": 52
+                          "_varRef": 43
                         }
                       ],
                       "fontW": [
                         {
-                          "_varRef": 54
+                          "_varRef": 45
                         }
                       ]
                     },
@@ -1338,10 +1192,10 @@
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
-                        "_varRef": 55
+                        "_varRef": 46
                       },
                       "h": {
-                        "_varRef": 55
+                        "_varRef": 46
                       }
                     },
                     "cPropR": {},
@@ -1368,13 +1222,13 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.8666666746139526,
-                              "g": 0.1725490242242813,
-                              "b": 0.33725491166114807
+                              "r": 0.8313725590705872,
+                              "g": 0.05098039284348488,
+                              "b": 0.05098039284348488
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 47
+                                "_varRef": 38
                               }
                             }
                           }
@@ -1383,7 +1237,7 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 47
+                              "_varRef": 38
                             }
                           ]
                         },
@@ -1491,21 +1345,10 @@
                           "g": 0.1725490242242813,
                           "b": 0.33725491166114807
                         },
-                        "bndVar": {
-                          "color": {
-                            "_varRef": 22
-                          }
-                        }
+                        "bndVar": {}
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "bndVar": {
-                      "fills": [
-                        {
-                          "_varRef": 22
-                        }
-                      ]
-                    },
                     "cPropR": {},
                     "fillG": [
                       {
@@ -1554,21 +1397,10 @@
                           "g": 0.03921568766236305,
                           "b": 0.03921568766236305
                         },
-                        "bndVar": {
-                          "color": {
-                            "_varRef": 56
-                          }
-                        }
+                        "bndVar": {}
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "bndVar": {
-                      "fills": [
-                        {
-                          "_varRef": 56
-                        }
-                      ]
-                    },
                     "cPropR": {},
                     "fillG": [
                       {
@@ -1617,21 +1449,10 @@
                           "g": 0.9882352948188782,
                           "b": 0.9882352948188782
                         },
-                        "bndVar": {
-                          "color": {
-                            "_varRef": 14
-                          }
-                        }
+                        "bndVar": {}
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "bndVar": {
-                      "fills": [
-                        {
-                          "_varRef": 14
-                        }
-                      ]
-                    },
                     "cPropR": {},
                     "fillG": [
                       {

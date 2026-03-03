@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "60e10658-76c7-44c1-87de-eacb2d68e930",
-    "version": 2,
+    "version": 3,
     "name": "✹ Icons",
     "pluginVersion": "1.0.0",
     "history": {
-      "2": {
-        "message": "Latest version",
-        "date": "2026-01-15T18:08:57.211Z"
+      "3": {
+        "message": "N/A",
+        "date": "2026-03-03T00:11:04.231Z"
       }
     },
-    "publishDate": "2026-01-15T18:08:57.211Z"
+    "publishDate": "2026-03-03T00:11:04.231Z"
   },
   "stringTable": {
     "colNm": "collectionName",
