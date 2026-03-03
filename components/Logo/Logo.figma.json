@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 3,
+    "version": 4,
     "name": "Logo",
     "pluginVersion": "1.0.0",
     "history": {
-      "3": {
-        "message": "Used new Recursica variables",
-        "date": "2026-03-03T00:11:04.231Z"
+      "4": {
+        "message": "Fixed mode output for variables",
+        "date": "2026-03-03T18:31:40.006Z"
       }
     },
-    "publishDate": "2026-03-03T00:11:04.231Z"
+    "publishDate": "2026-03-03T18:31:40.006Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -130,7 +130,6 @@
     "2": {
       "colNm": "Tokens",
       "modes": [
-        "Mode 1",
         "Default"
       ],
       "colGu": "00000000-0000-0000-0000-000000000002"
@@ -142,7 +141,7 @@
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
+        "Default": {
           "r": 0.9882352948188782,
           "g": 0.9882352948188782,
           "b": 0.9882352948188782,
@@ -168,7 +167,7 @@
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
+        "Default": {
           "r": 0.03921568766236305,
           "g": 0.03921568766236305,
           "b": 0.03921568766236305,
@@ -207,7 +206,7 @@
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
+        "Default": {
           "r": 0.9755661487579346,
           "g": 0.9751049876213074,
           "b": 0.9751049876213074,
@@ -220,7 +219,7 @@
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
+        "Default": {
           "r": 0.1349721997976303,
           "g": 0.1349721997976303,
           "b": 0.1349721997976303,
@@ -259,7 +258,7 @@
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
+        "Default": {
           "r": 0.9137254953384399,
           "g": 0.9137254953384399,
           "b": 0.9137254953384399,
@@ -272,7 +271,7 @@
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": {
+        "Default": {
           "r": 0.1725490242242813,
           "g": 0.1725490242242813,
           "b": 0.1725490242242813,
@@ -343,7 +342,7 @@
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": 8
+        "Default": 8
       }
     },
     "16": {
@@ -442,7 +441,7 @@
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": 0
+        "Default": 0
       }
     },
     "24": {
@@ -463,7 +462,7 @@
       "varTy": 3,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": "Lexend"
+        "Default": "Lexend"
       }
     },
     "26": {
@@ -484,7 +483,7 @@
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": 700
+        "Default": 700
       }
     },
     "28": {
@@ -505,7 +504,7 @@
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": 4
+        "Default": 4
       }
     },
     "30": {
@@ -661,7 +660,7 @@
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": 16
+        "Default": 16
       }
     },
     "41": {
@@ -682,7 +681,7 @@
       "varTy": 3,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": "Bellota Text"
+        "Default": "Bellota Text"
       }
     },
     "43": {
@@ -703,7 +702,7 @@
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": 400
+        "Default": 400
       }
     },
     "45": {
@@ -724,7 +723,7 @@
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Mode 1": 16
+        "Default": 16
       }
     }
   },

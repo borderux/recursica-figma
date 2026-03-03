@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-    "version": 3,
+    "version": 4,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
     "history": {
-      "3": {
-        "message": "Using new Recursica variables",
-        "date": "2026-03-03T00:11:04.231Z"
+      "4": {
+        "message": "Fixed mode output for variables",
+        "date": "2026-03-03T18:31:40.006Z"
       }
     },
-    "publishDate": "2026-03-03T00:11:04.231Z"
+    "publishDate": "2026-03-03T18:31:40.006Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -120,7 +120,6 @@
     "1": {
       "colNm": "Tokens",
       "modes": [
-        "Mode 1",
         "Default"
       ],
       "colGu": "00000000-0000-0000-0000-000000000002"
@@ -142,7 +141,7 @@
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 0
+        "Default": 0
       }
     },
     "1": {
@@ -163,7 +162,7 @@
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 16
+        "Default": 16
       }
     },
     "3": {
@@ -184,7 +183,7 @@
       "varTy": 3,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": "Bellota Text"
+        "Default": "Bellota Text"
       }
     },
     "5": {
@@ -205,7 +204,7 @@
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 400
+        "Default": 400
       }
     },
     "7": {
@@ -226,7 +225,7 @@
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 8
+        "Default": 8
       }
     },
     "9": {
@@ -367,7 +366,7 @@
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 4
+        "Default": 4
       }
     },
     "21": {
@@ -510,7 +509,7 @@
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
-        "Mode 1": 16
+        "Default": 16
       }
     }
   },
