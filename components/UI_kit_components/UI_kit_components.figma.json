@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-    "version": 4,
+    "version": 5,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
     "history": {
-      "4": {
-        "message": "Fixed mode output for variables",
-        "date": "2026-03-03T18:31:40.006Z"
+      "5": {
+        "message": "Updated variable handling for checks of incorrectly bound variables",
+        "date": "2026-03-04T00:15:22.846Z"
       }
     },
-    "publishDate": "2026-03-03T18:31:40.006Z"
+    "publishDate": "2026-03-04T00:15:22.846Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -137,7 +137,7 @@
   },
   "variables": {
     "0": {
-      "varNm": "font/letter-spacing/default",
+      "varNm": "font/letter-spacings/default",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
@@ -145,7 +145,7 @@
       }
     },
     "1": {
-      "varNm": "font/body/letter-spacing",
+      "varNm": "typography/body/letter-spacing",
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
@@ -158,7 +158,7 @@
       }
     },
     "2": {
-      "varNm": "font/size/md",
+      "varNm": "font/sizes/md",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
@@ -166,7 +166,7 @@
       }
     },
     "3": {
-      "varNm": "font/body/size",
+      "varNm": "typography/body/font-size",
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
@@ -179,69 +179,6 @@
       }
     },
     "4": {
-      "varNm": "font/family/bellota",
-      "varTy": 3,
-      "_colRef": 1,
-      "vByMd": {
-        "Default": "Bellota Text"
-      }
-    },
-    "5": {
-      "varNm": "font/body/font-family",
-      "varTy": 3,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 4
-        },
-        "Dark": {
-          "_varRef": 4
-        }
-      }
-    },
-    "6": {
-      "varNm": "font/weight/regular",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Default": 400
-      }
-    },
-    "7": {
-      "varNm": "font/body/weight-normal",
-      "varTy": 2,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 6
-        },
-        "Dark": {
-          "_varRef": 6
-        }
-      }
-    },
-    "8": {
-      "varNm": "size/default",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Default": 8
-      }
-    },
-    "9": {
-      "varNm": "dimension/default",
-      "varTy": 2,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 8
-        },
-        "Dark": {
-          "_varRef": 8
-        }
-      }
-    },
-    "10": {
       "varNm": "colors/gray/1000",
       "varTy": 1,
       "_colRef": 1,
@@ -254,20 +191,20 @@
         }
       }
     },
-    "11": {
+    "5": {
       "varNm": "palettes/core-colors/black/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 10
+          "_varRef": 4
         },
         "Dark": {
-          "_varRef": 10
+          "_varRef": 4
         }
       }
     },
-    "12": {
+    "6": {
       "varNm": "colors/gray/000",
       "varTy": 1,
       "_colRef": 1,
@@ -280,67 +217,59 @@
         }
       }
     },
-    "13": {
+    "7": {
       "varNm": "palettes/core-colors/white/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 12
+          "_varRef": 6
         },
         "Dark": {
-          "_varRef": 12
+          "_varRef": 6
         }
       }
     },
-    "14": {
+    "8": {
       "varNm": "palettes/neutral/050/color/on-tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 11
+          "_varRef": 5
         },
         "Dark": {
-          "_varRef": 13
+          "_varRef": 7
         }
       }
     },
-    "15": {
+    "9": {
       "varNm": "layers/layer-0/elements/text/color",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 14
+          "_varRef": 8
         },
         "Dark": {
-          "_varRef": 13
+          "_varRef": 7
         }
       }
     },
-    "16": {
-      "varNm": "font/letter-spacings/default",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Default": 0
-      }
-    },
-    "17": {
+    "10": {
       "varNm": "typography/h1/letter-spacing",
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 16
+          "_varRef": 0
         },
         "Dark": {
-          "_varRef": 16
+          "_varRef": 0
         }
       }
     },
-    "18": {
+    "11": {
       "varNm": "font/sizes/6xl",
       "varTy": 2,
       "_colRef": 1,
@@ -348,41 +277,20 @@
         "Default": 40
       }
     },
-    "19": {
+    "12": {
       "varNm": "typography/h1/font-size",
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 18
+          "_varRef": 11
         },
         "Dark": {
-          "_varRef": 18
+          "_varRef": 11
         }
       }
     },
-    "20": {
-      "varNm": "size/0-5x",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Default": 4
-      }
-    },
-    "21": {
-      "varNm": "dimension/sm",
-      "varTy": 2,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 20
-        },
-        "Dark": {
-          "_varRef": 20
-        }
-      }
-    },
-    "22": {
+    "13": {
       "varNm": "colors/mandy/500",
       "varTy": 1,
       "_colRef": 1,
@@ -395,7 +303,7 @@
         }
       }
     },
-    "23": {
+    "14": {
       "varNm": "colors/mandy/400",
       "varTy": 1,
       "_colRef": 1,
@@ -408,26 +316,26 @@
         }
       }
     },
-    "24": {
+    "15": {
       "varNm": "palettes/core-colors/interactive/default/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 22
+          "_varRef": 13
         },
         "Dark": {
-          "_varRef": 23
+          "_varRef": 14
         }
       }
     },
-    "25": {
+    "16": {
       "varNm": "layers/layer-0/elements/interactive/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 24
+          "_varRef": 15
         },
         "Dark": {
           "r": 1,
@@ -437,13 +345,13 @@
         }
       }
     },
-    "26": {
+    "17": {
       "varNm": "layers/layer-1/elements/interactive/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 24
+          "_varRef": 15
         },
         "Dark": {
           "r": 1,
@@ -453,13 +361,13 @@
         }
       }
     },
-    "27": {
+    "18": {
       "varNm": "layers/layer-2/elements/interactive/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 24
+          "_varRef": 15
         },
         "Dark": {
           "r": 1,
@@ -469,13 +377,13 @@
         }
       }
     },
-    "28": {
+    "19": {
       "varNm": "layers/layer-3/elements/interactive/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 24
+          "_varRef": 15
         },
         "Dark": {
           "r": 1,
@@ -485,26 +393,26 @@
         }
       }
     },
-    "29": {
+    "20": {
       "varNm": "components/link/variants/states/default/properties/colors/text",
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
         "0": {
-          "_varRef": 25
+          "_varRef": 16
         },
         "1": {
-          "_varRef": 26
+          "_varRef": 17
         },
         "2": {
-          "_varRef": 27
+          "_varRef": 18
         },
         "3": {
-          "_varRef": 28
+          "_varRef": 19
         }
       }
     },
-    "30": {
+    "21": {
       "varNm": "size/2x",
       "varTy": 2,
       "_colRef": 1,
@@ -568,7 +476,7 @@
   "styles": {
     "0": {
       "type": 2,
-      "name": "body/normal",
+      "name": "Recursica/recursica_body",
       "txtSt": {
         "fontS": 16,
         "fontN": {
@@ -579,18 +487,16 @@
           "unit": "PIXELS",
           "value": 0
         },
+        "linHt": {
+          "unit": "PIXELS",
+          "value": 16.799999237060547
+        },
         "bndVar": {
           "letSp": {
             "_varRef": 1
           },
           "fontS": {
             "_varRef": 3
-          },
-          "fontF": {
-            "_varRef": 5
-          },
-          "fontW": {
-            "_varRef": 7
           }
         }
       },
@@ -600,14 +506,12 @@
         },
         "fontS": {
           "_varRef": 3
-        },
-        "fontF": {
-          "_varRef": 5
-        },
-        "fontW": {
-          "_varRef": 7
         }
-      }
+      },
+      "nodePaths": [
+        "UI kit components (ID: 390:1323) → .UI kit / Slot (ID: 390:1353) → Replace slot with content (component instance) (ID: 390:1352)",
+        "UI kit components (ID: 390:1323) → .UI kit / Page header (ID: 3041:362) → Link (ID: 3041:361) → Title (ID: 3041:67)"
+      ]
     },
     "1": {
       "type": 2,
@@ -628,21 +532,24 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 17
+            "_varRef": 10
           },
           "fontS": {
-            "_varRef": 19
+            "_varRef": 12
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 17
+          "_varRef": 10
         },
         "fontS": {
-          "_varRef": 19
+          "_varRef": 12
         }
-      }
+      },
+      "nodePaths": [
+        "UI kit components (ID: 390:1323) → .UI kit / Page header (ID: 3041:362) → Title (ID: 3041:63)"
+      ]
     }
   },
   "images": {},
@@ -720,9 +627,9 @@
             "type": 2,
             "id": "390:1352",
             "name": "Replace slot with content (component instance)",
-            "y": 138.5,
+            "y": 141.5,
             "w": 216,
-            "h": 40,
+            "h": 34,
             "fills": [
               {
                 "type": 15,
@@ -748,16 +655,6 @@
                 {
                   "_varRef": 3
                 }
-              ],
-              "fontF": [
-                {
-                  "_varRef": 5
-                }
-              ],
-              "fontW": [
-                {
-                  "_varRef": 7
-                }
               ]
             },
             "cPropR": {},
@@ -769,6 +666,10 @@
             },
             "fontS": 16,
             "txtAh": "CENTER",
+            "linHt": {
+              "unit": "PIXELS",
+              "value": 16.799999237060547
+            },
             "txtAr": "HEIGHT"
           }
         ]
@@ -780,13 +681,8 @@
         "x": -595,
         "y": -184,
         "w": 327,
-        "h": 102,
+        "h": 99,
         "stkAl": "INSIDE",
-        "bndVar": {
-          "itmSp": {
-            "_varRef": 9
-          }
-        },
         "cPropR": {},
         "cPropD": {
           "Component name#3041:0": {
@@ -875,7 +771,7 @@
                 },
                 "bndVar": {
                   "color": {
-                    "_varRef": 15
+                    "_varRef": 9
                   }
                 }
               }
@@ -884,17 +780,17 @@
             "bndVar": {
               "fills": [
                 {
-                  "_varRef": 15
+                  "_varRef": 9
                 }
               ],
               "letSp": [
                 {
-                  "_varRef": 17
+                  "_varRef": 10
                 }
               ],
               "fontS": [
                 {
-                  "_varRef": 19
+                  "_varRef": 12
                 }
               ]
             },
@@ -920,13 +816,8 @@
             "name": "Link",
             "y": 82,
             "w": 163,
-            "h": 20,
+            "h": 17,
             "stkAl": "INSIDE",
-            "bndVar": {
-              "itmSp": {
-                "_varRef": 21
-              }
-            },
             "cPropR": {
               "visbl": "Has link#3042:2"
             },
@@ -941,7 +832,7 @@
                 "id": "3041:67",
                 "name": "Title",
                 "w": 143,
-                "h": 20,
+                "h": 17,
                 "fills": [
                   {
                     "type": 15,
@@ -955,7 +846,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 29
+                        "_varRef": 20
                       }
                     }
                   }
@@ -964,7 +855,7 @@
                 "bndVar": {
                   "fills": [
                     {
-                      "_varRef": 29
+                      "_varRef": 20
                     }
                   ],
                   "letSp": [
@@ -976,16 +867,6 @@
                     {
                       "_varRef": 3
                     }
-                  ],
-                  "fontF": [
-                    {
-                      "_varRef": 5
-                    }
-                  ],
-                  "fontW": [
-                    {
-                      "_varRef": 7
-                    }
                   ]
                 },
                 "cPropR": {},
@@ -996,6 +877,10 @@
                   "style": "Regular"
                 },
                 "fontS": 16,
+                "linHt": {
+                  "unit": "PIXELS",
+                  "value": 16.799999237060547
+                },
                 "txtAr": "WIDTH_AND_HEIGHT"
               },
               {
@@ -1003,16 +888,16 @@
                 "id": "3041:358",
                 "name": "arrow-top-right-on-square",
                 "x": 147,
-                "y": 2,
+                "y": 0.5,
                 "w": 16,
                 "h": 16,
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "w": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "h": {
-                    "_varRef": 30
+                    "_varRef": 21
                   }
                 },
                 "cPropR": {},
@@ -1045,7 +930,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 29
+                            "_varRef": 20
                           }
                         }
                       }
@@ -1054,7 +939,7 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 29
+                          "_varRef": 20
                         }
                       ]
                     },
