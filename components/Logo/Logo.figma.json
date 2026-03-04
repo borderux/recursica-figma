@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 4,
+    "version": 5,
     "name": "Logo",
     "pluginVersion": "1.0.0",
     "history": {
-      "4": {
-        "message": "Fixed mode output for variables",
-        "date": "2026-03-03T18:31:40.006Z"
+      "5": {
+        "message": "Updated variable handling for checks of incorrectly bound variables",
+        "date": "2026-03-04T00:15:22.846Z"
       }
     },
-    "publishDate": "2026-03-03T18:31:40.006Z"
+    "publishDate": "2026-03-04T00:15:22.846Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -110,6 +110,21 @@
   },
   "collections": {
     "0": {
+      "colNm": "Theme",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000003"
+    },
+    "1": {
+      "colNm": "Tokens",
+      "modes": [
+        "Default"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000002"
+    },
+    "2": {
       "colNm": "Layer",
       "modes": [
         "0",
@@ -118,41 +133,26 @@
         "3"
       ],
       "colGu": "00000000-0000-0000-0000-000000000001"
-    },
-    "1": {
-      "colNm": "Theme",
-      "modes": [
-        "Light",
-        "Dark"
-      ],
-      "colGu": "00000000-0000-0000-0000-000000000003"
-    },
-    "2": {
-      "colNm": "Tokens",
-      "modes": [
-        "Default"
-      ],
-      "colGu": "00000000-0000-0000-0000-000000000002"
     }
   },
   "variables": {
     "0": {
-      "varNm": "color/gray/000",
+      "varNm": "colors/gray/1000",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
-          "r": 0.9882352948188782,
-          "g": 0.9882352948188782,
-          "b": 0.9882352948188782,
+          "r": 0.07450980693101883,
+          "g": 0.07450980693101883,
+          "b": 0.07450980693101883,
           "a": 1
         }
       }
     },
     "1": {
-      "varNm": "palette/white/tone",
+      "varNm": "palettes/core-colors/black/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
           "_varRef": 0
@@ -163,22 +163,22 @@
       }
     },
     "2": {
-      "varNm": "color/gray/1000",
+      "varNm": "colors/gray/000",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
-          "r": 0.03921568766236305,
-          "g": 0.03921568766236305,
-          "b": 0.03921568766236305,
+          "r": 0.9882352948188782,
+          "g": 0.9882352948188782,
+          "b": 0.9882352948188782,
           "a": 1
         }
       }
     },
     "3": {
-      "varNm": "palette/black/tone",
+      "varNm": "palettes/core-colors/white/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
           "_varRef": 2
@@ -189,9 +189,9 @@
       }
     },
     "4": {
-      "varNm": "layer/layer-0/property/surface",
+      "varNm": "palettes/neutral/050/color/on-tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
           "_varRef": 1
@@ -202,38 +202,33 @@
       }
     },
     "5": {
-      "varNm": "color/gray/050",
+      "varNm": "layers/layer-0/elements/text/color",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 0,
       "vByMd": {
-        "Default": {
-          "r": 0.9755661487579346,
-          "g": 0.9751049876213074,
-          "b": 0.9751049876213074,
-          "a": 1
+        "Light": {
+          "_varRef": 4
+        },
+        "Dark": {
+          "_varRef": 3
         }
       }
     },
     "6": {
-      "varNm": "color/gray/900",
-      "varTy": 1,
-      "_colRef": 2,
+      "varNm": "font/letter-spacings/default",
+      "varTy": 2,
+      "_colRef": 1,
       "vByMd": {
-        "Default": {
-          "r": 0.1349721997976303,
-          "g": 0.1349721997976303,
-          "b": 0.1349721997976303,
-          "a": 1
-        }
+        "Default": 0
       }
     },
     "7": {
-      "varNm": "palette/neutral/050/tone",
-      "varTy": 1,
-      "_colRef": 1,
+      "varNm": "typography/h1/letter-spacing",
+      "varTy": 2,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 5
+          "_varRef": 6
         },
         "Dark": {
           "_varRef": 6
@@ -241,64 +236,59 @@
       }
     },
     "8": {
-      "varNm": "layer/layer-1/property/surface",
-      "varTy": 1,
+      "varNm": "font/sizes/6xl",
+      "varTy": 2,
       "_colRef": 1,
       "vByMd": {
-        "Light": {
-          "_varRef": 7
-        },
-        "Dark": {
-          "_varRef": 7
-        }
+        "Default": 40
       }
     },
     "9": {
-      "varNm": "color/gray/100",
-      "varTy": 1,
-      "_colRef": 2,
+      "varNm": "typography/h1/font-size",
+      "varTy": 2,
+      "_colRef": 0,
       "vByMd": {
-        "Default": {
-          "r": 0.9137254953384399,
-          "g": 0.9137254953384399,
-          "b": 0.9137254953384399,
-          "a": 1
+        "Light": {
+          "_varRef": 8
+        },
+        "Dark": {
+          "_varRef": 8
         }
       }
     },
     "10": {
-      "varNm": "color/gray/800",
+      "varNm": "colors/mandy/500",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
-          "r": 0.1725490242242813,
-          "g": 0.1725490242242813,
-          "b": 0.1725490242242813,
+          "r": 0.8313725590705872,
+          "g": 0.05098039284348488,
+          "b": 0.05098039284348488,
           "a": 1
         }
       }
     },
     "11": {
-      "varNm": "palette/neutral/100/tone",
+      "varNm": "colors/mandy/400",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Light": {
-          "_varRef": 9
-        },
-        "Dark": {
-          "_varRef": 10
+        "Default": {
+          "r": 0.9254902005195618,
+          "g": 0.054901961237192154,
+          "b": 0.054901961237192154,
+          "a": 1
         }
       }
     },
     "12": {
-      "varNm": "layer/layer-2/property/surface",
+      "varNm": "palettes/core-colors/interactive/default/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 11
+          "_varRef": 10
         },
         "Dark": {
           "_varRef": 11
@@ -306,101 +296,113 @@
       }
     },
     "13": {
-      "varNm": "layer/layer-3/property/surface",
+      "varNm": "layers/layer-0/elements/interactive/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 7
+          "_varRef": 12
         },
         "Dark": {
-          "_varRef": 7
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         }
       }
     },
     "14": {
-      "varNm": "global/form/field/color/background",
+      "varNm": "layers/layer-1/elements/interactive/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
-        "0": {
-          "_varRef": 4
-        },
-        "1": {
-          "_varRef": 8
-        },
-        "2": {
+        "Light": {
           "_varRef": 12
         },
-        "3": {
-          "_varRef": 13
+        "Dark": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         }
       }
     },
     "15": {
-      "varNm": "size/default",
-      "varTy": 2,
-      "_colRef": 2,
+      "varNm": "layers/layer-2/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 0,
       "vByMd": {
-        "Default": 8
+        "Light": {
+          "_varRef": 12
+        },
+        "Dark": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
       }
     },
     "16": {
-      "varNm": "dimension/default",
-      "varTy": 2,
-      "_colRef": 1,
+      "varNm": "layers/layer-3/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 15
+          "_varRef": 12
         },
         "Dark": {
-          "_varRef": 15
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         }
       }
     },
     "17": {
-      "varNm": "colors/gray/1000",
+      "varNm": "components/link/variants/states/default/properties/colors/text",
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Default": {
-          "r": 0.07450980693101883,
-          "g": 0.07450980693101883,
-          "b": 0.07450980693101883,
-          "a": 1
+        "0": {
+          "_varRef": 13
+        },
+        "1": {
+          "_varRef": 14
+        },
+        "2": {
+          "_varRef": 15
+        },
+        "3": {
+          "_varRef": 16
         }
       }
     },
     "18": {
-      "varNm": "palettes/core-colors/black/tone",
-      "varTy": 1,
-      "_colRef": 1,
+      "varNm": "typography/body/letter-spacing",
+      "varTy": 2,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 17
+          "_varRef": 6
         },
         "Dark": {
-          "_varRef": 17
+          "_varRef": 6
         }
       }
     },
     "19": {
-      "varNm": "colors/gray/000",
-      "varTy": 1,
-      "_colRef": 2,
+      "varNm": "font/sizes/md",
+      "varTy": 2,
+      "_colRef": 1,
       "vByMd": {
-        "Default": {
-          "r": 0.9882352948188782,
-          "g": 0.9882352948188782,
-          "b": 0.9882352948188782,
-          "a": 1
-        }
+        "Default": 16
       }
     },
     "20": {
-      "varNm": "palettes/core-colors/white/tone",
-      "varTy": 1,
-      "_colRef": 1,
+      "varNm": "typography/body/font-size",
+      "varTy": 2,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
           "_varRef": 19
@@ -411,317 +413,9 @@
       }
     },
     "21": {
-      "varNm": "palettes/neutral/050/color/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 18
-        },
-        "Dark": {
-          "_varRef": 20
-        }
-      }
-    },
-    "22": {
-      "varNm": "layers/layer-0/elements/text/color",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 21
-        },
-        "Dark": {
-          "_varRef": 20
-        }
-      }
-    },
-    "23": {
-      "varNm": "font/letter-spacing/default",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": 0
-      }
-    },
-    "24": {
-      "varNm": "font/h1/letter-spacing",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 23
-        },
-        "Dark": {
-          "_varRef": 23
-        }
-      }
-    },
-    "25": {
-      "varNm": "font/family/lexend",
-      "varTy": 3,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": "Lexend"
-      }
-    },
-    "26": {
-      "varNm": "font/h1/font-family",
-      "varTy": 3,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 25
-        },
-        "Dark": {
-          "_varRef": 25
-        }
-      }
-    },
-    "27": {
-      "varNm": "font/weight/bold",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": 700
-      }
-    },
-    "28": {
-      "varNm": "font/h1/weight",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 27
-        },
-        "Dark": {
-          "_varRef": 27
-        }
-      }
-    },
-    "29": {
-      "varNm": "size/0-5x",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": 4
-      }
-    },
-    "30": {
-      "varNm": "dimension/sm",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 29
-        },
-        "Dark": {
-          "_varRef": 29
-        }
-      }
-    },
-    "31": {
-      "varNm": "colors/mandy/500",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": {
-          "r": 0.8313725590705872,
-          "g": 0.05098039284348488,
-          "b": 0.05098039284348488,
-          "a": 1
-        }
-      }
-    },
-    "32": {
-      "varNm": "colors/mandy/400",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": {
-          "r": 0.9254902005195618,
-          "g": 0.054901961237192154,
-          "b": 0.054901961237192154,
-          "a": 1
-        }
-      }
-    },
-    "33": {
-      "varNm": "palettes/core-colors/interactive/default/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 31
-        },
-        "Dark": {
-          "_varRef": 32
-        }
-      }
-    },
-    "34": {
-      "varNm": "layers/layer-0/elements/interactive/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 33
-        },
-        "Dark": {
-          "r": 1,
-          "g": 1,
-          "b": 1,
-          "a": 1
-        }
-      }
-    },
-    "35": {
-      "varNm": "layers/layer-1/elements/interactive/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 33
-        },
-        "Dark": {
-          "r": 1,
-          "g": 1,
-          "b": 1,
-          "a": 1
-        }
-      }
-    },
-    "36": {
-      "varNm": "layers/layer-2/elements/interactive/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 33
-        },
-        "Dark": {
-          "r": 1,
-          "g": 1,
-          "b": 1,
-          "a": 1
-        }
-      }
-    },
-    "37": {
-      "varNm": "layers/layer-3/elements/interactive/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 33
-        },
-        "Dark": {
-          "r": 1,
-          "g": 1,
-          "b": 1,
-          "a": 1
-        }
-      }
-    },
-    "38": {
-      "varNm": "components/link/variants/states/default/properties/colors/text",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 34
-        },
-        "1": {
-          "_varRef": 35
-        },
-        "2": {
-          "_varRef": 36
-        },
-        "3": {
-          "_varRef": 37
-        }
-      }
-    },
-    "39": {
-      "varNm": "font/body/letter-spacing",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 23
-        },
-        "Dark": {
-          "_varRef": 23
-        }
-      }
-    },
-    "40": {
-      "varNm": "font/size/md",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": 16
-      }
-    },
-    "41": {
-      "varNm": "font/body/size",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 40
-        },
-        "Dark": {
-          "_varRef": 40
-        }
-      }
-    },
-    "42": {
-      "varNm": "font/family/bellota",
-      "varTy": 3,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": "Bellota Text"
-      }
-    },
-    "43": {
-      "varNm": "font/body/font-family",
-      "varTy": 3,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 42
-        },
-        "Dark": {
-          "_varRef": 42
-        }
-      }
-    },
-    "44": {
-      "varNm": "font/weight/regular",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": 400
-      }
-    },
-    "45": {
-      "varNm": "font/body/weight-normal",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 44
-        },
-        "Dark": {
-          "_varRef": 44
-        }
-      }
-    },
-    "46": {
       "varNm": "size/2x",
       "varTy": 2,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": 16
       }
@@ -799,9 +493,9 @@
   "styles": {
     "0": {
       "type": 2,
-      "name": "h1",
+      "name": "Recursica/recursica_h1",
       "txtSt": {
-        "fontS": 36,
+        "fontS": 40,
         "fontN": {
           "family": "Lexend",
           "style": "Bold"
@@ -810,33 +504,34 @@
           "unit": "PIXELS",
           "value": 0
         },
+        "linHt": {
+          "unit": "PIXELS",
+          "value": 42
+        },
         "bndVar": {
           "letSp": {
-            "_varRef": 24
+            "_varRef": 7
           },
-          "fontF": {
-            "_varRef": 26
-          },
-          "fontW": {
-            "_varRef": 28
+          "fontS": {
+            "_varRef": 9
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 24
+          "_varRef": 7
         },
-        "fontF": {
-          "_varRef": 26
-        },
-        "fontW": {
-          "_varRef": 28
+        "fontS": {
+          "_varRef": 9
         }
-      }
+      },
+      "nodePaths": [
+        "Logo (ID: 2475:2476) → Logo (ID: 2992:9675) → .UI kit / Page header (ID: 3042:3823) → Title (ID: I3042:3823;3041:63)"
+      ]
     },
     "1": {
       "type": 2,
-      "name": "body/normal",
+      "name": "Recursica/recursica_body",
       "txtSt": {
         "fontS": 16,
         "fontN": {
@@ -847,35 +542,30 @@
           "unit": "PIXELS",
           "value": 0
         },
+        "linHt": {
+          "unit": "PIXELS",
+          "value": 16.799999237060547
+        },
         "bndVar": {
           "letSp": {
-            "_varRef": 39
+            "_varRef": 18
           },
           "fontS": {
-            "_varRef": 41
-          },
-          "fontF": {
-            "_varRef": 43
-          },
-          "fontW": {
-            "_varRef": 45
+            "_varRef": 20
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 39
+          "_varRef": 18
         },
         "fontS": {
-          "_varRef": 41
-        },
-        "fontF": {
-          "_varRef": 43
-        },
-        "fontW": {
-          "_varRef": 45
+          "_varRef": 20
         }
-      }
+      },
+      "nodePaths": [
+        "Logo (ID: 2475:2476) → Logo (ID: 2992:9675) → .UI kit / Page header (ID: 3042:3823) → Link (ID: I3042:3823;3041:361) → Title (ID: I3042:3823;3041:67)"
+      ]
     }
   },
   "images": {},
@@ -908,7 +598,7 @@
         "x": 233,
         "y": -199,
         "w": 243,
-        "h": 434,
+        "h": 428,
         "fills": [
           {
             "type": 15,
@@ -920,21 +610,10 @@
               "g": 0.9882352948188782,
               "b": 0.9882352948188782
             },
-            "bndVar": {
-              "color": {
-                "_varRef": 14
-              }
-            }
+            "bndVar": {}
           }
         ],
         "stkAl": "INSIDE",
-        "bndVar": {
-          "fills": [
-            {
-              "_varRef": 14
-            }
-          ]
-        },
         "backgrounds": [
           {
             "type": 15,
@@ -946,11 +625,7 @@
               "g": 0.9882352948188782,
               "b": 0.9882352948188782
             },
-            "bndVar": {
-              "color": {
-                "_varRef": 14
-              }
-            }
+            "bndVar": {}
           }
         ],
         "layMd": "VERTICAL",
@@ -970,13 +645,8 @@
             "x": 40,
             "y": 40,
             "w": 163,
-            "h": 105,
+            "h": 99,
             "stkAl": "INSIDE",
-            "bndVar": {
-              "itmSp": {
-                "_varRef": 16
-              }
-            },
             "_isInstance": true,
             "_insRef": 0,
             "layMd": "VERTICAL",
@@ -1041,8 +711,8 @@
                 "id": "I3042:3823;3041:63",
                 "name": "Title",
                 "y": 32,
-                "w": 92,
-                "h": 45,
+                "w": 102,
+                "h": 42,
                 "fills": [
                   {
                     "type": 15,
@@ -1056,7 +726,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 22
+                        "_varRef": 5
                       }
                     }
                   }
@@ -1065,22 +735,17 @@
                 "bndVar": {
                   "fills": [
                     {
-                      "_varRef": 22
+                      "_varRef": 5
                     }
                   ],
                   "letSp": [
                     {
-                      "_varRef": 24
+                      "_varRef": 7
                     }
                   ],
-                  "fontF": [
+                  "fontS": [
                     {
-                      "_varRef": 26
-                    }
-                  ],
-                  "fontW": [
-                    {
-                      "_varRef": 28
+                      "_varRef": 9
                     }
                   ]
                 },
@@ -1093,22 +758,21 @@
                   "family": "Lexend",
                   "style": "Bold"
                 },
-                "fontS": 36,
+                "fontS": 40,
+                "linHt": {
+                  "unit": "PIXELS",
+                  "value": 42
+                },
                 "txtAr": "WIDTH_AND_HEIGHT"
               },
               {
                 "type": 1,
                 "id": "I3042:3823;3041:361",
                 "name": "Link",
-                "y": 85,
+                "y": 82,
                 "w": 163,
-                "h": 20,
+                "h": 17,
                 "stkAl": "INSIDE",
-                "bndVar": {
-                  "itmSp": {
-                    "_varRef": 30
-                  }
-                },
                 "cPropR": {
                   "visbl": "Has link#3042:2"
                 },
@@ -1123,7 +787,7 @@
                     "id": "I3042:3823;3041:67",
                     "name": "Title",
                     "w": 143,
-                    "h": 20,
+                    "h": 17,
                     "fills": [
                       {
                         "type": 15,
@@ -1137,7 +801,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 38
+                            "_varRef": 17
                           }
                         }
                       }
@@ -1146,27 +810,17 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 38
+                          "_varRef": 17
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 39
+                          "_varRef": 18
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 41
-                        }
-                      ],
-                      "fontF": [
-                        {
-                          "_varRef": 43
-                        }
-                      ],
-                      "fontW": [
-                        {
-                          "_varRef": 45
+                          "_varRef": 20
                         }
                       ]
                     },
@@ -1178,6 +832,10 @@
                       "style": "Regular"
                     },
                     "fontS": 16,
+                    "linHt": {
+                      "unit": "PIXELS",
+                      "value": 16.799999237060547
+                    },
                     "txtAr": "WIDTH_AND_HEIGHT"
                   },
                   {
@@ -1185,16 +843,16 @@
                     "id": "I3042:3823;3041:358",
                     "name": "arrow-top-right-on-square",
                     "x": 147,
-                    "y": 2,
+                    "y": 0.5,
                     "w": 16,
                     "h": 16,
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
-                        "_varRef": 46
+                        "_varRef": 21
                       },
                       "h": {
-                        "_varRef": 46
+                        "_varRef": 21
                       }
                     },
                     "cPropR": {},
@@ -1227,7 +885,7 @@
                             },
                             "bndVar": {
                               "color": {
-                                "_varRef": 38
+                                "_varRef": 17
                               }
                             }
                           }
@@ -1236,7 +894,7 @@
                         "bndVar": {
                           "fills": [
                             {
-                              "_varRef": 38
+                              "_varRef": 17
                             }
                           ]
                         },
@@ -1265,7 +923,7 @@
             "id": "2476:2480",
             "name": "Logo",
             "x": 40,
-            "y": 185,
+            "y": 179,
             "w": 104,
             "h": 209,
             "strks": [
