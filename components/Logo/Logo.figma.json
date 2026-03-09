@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 5,
+    "version": 6,
     "name": "Logo",
     "pluginVersion": "1.0.0",
     "history": {
-      "5": {
-        "message": "Updated variable handling for checks of incorrectly bound variables",
-        "date": "2026-03-04T00:15:22.846Z"
+      "6": {
+        "message": "Latest",
+        "date": "2026-03-09T02:36:45.234Z"
       }
     },
-    "publishDate": "2026-03-04T00:15:22.846Z"
+    "publishDate": "2026-03-09T02:36:45.234Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -524,10 +524,7 @@
         "fontS": {
           "_varRef": 9
         }
-      },
-      "nodePaths": [
-        "Logo (ID: 2475:2476) → Logo (ID: 2992:9675) → .UI kit / Page header (ID: 3042:3823) → Title (ID: I3042:3823;3041:63)"
-      ]
+      }
     },
     "1": {
       "type": 2,
@@ -562,10 +559,7 @@
         "fontS": {
           "_varRef": 20
         }
-      },
-      "nodePaths": [
-        "Logo (ID: 2475:2476) → Logo (ID: 2992:9675) → .UI kit / Page header (ID: 3042:3823) → Link (ID: I3042:3823;3041:361) → Title (ID: I3042:3823;3041:67)"
-      ]
+      }
     }
   },
   "images": {},

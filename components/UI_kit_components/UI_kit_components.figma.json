@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-    "version": 5,
+    "version": 6,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
     "history": {
-      "5": {
-        "message": "Updated variable handling for checks of incorrectly bound variables",
-        "date": "2026-03-04T00:15:22.846Z"
+      "6": {
+        "message": "Latest",
+        "date": "2026-03-09T02:36:45.234Z"
       }
     },
-    "publishDate": "2026-03-04T00:15:22.846Z"
+    "publishDate": "2026-03-09T02:36:45.234Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -507,11 +507,7 @@
         "fontS": {
           "_varRef": 3
         }
-      },
-      "nodePaths": [
-        "UI kit components (ID: 390:1323) → .UI kit / Slot (ID: 390:1353) → Replace slot with content (component instance) (ID: 390:1352)",
-        "UI kit components (ID: 390:1323) → .UI kit / Page header (ID: 3041:362) → Link (ID: 3041:361) → Title (ID: 3041:67)"
-      ]
+      }
     },
     "1": {
       "type": 2,
@@ -546,10 +542,7 @@
         "fontS": {
           "_varRef": 12
         }
-      },
-      "nodePaths": [
-        "UI kit components (ID: 390:1323) → .UI kit / Page header (ID: 3041:362) → Title (ID: 3041:63)"
-      ]
+      }
     }
   },
   "images": {},
