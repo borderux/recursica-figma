@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 7,
+    "version": 8,
     "name": "Logo",
     "pluginVersion": "1.0.0",
     "history": {
-      "7": {
+      "8": {
         "message": "Latest",
-        "date": "2026-03-09T03:23:05.913Z"
+        "date": "2026-03-09T04:10:59.251Z"
       }
     },
-    "publishDate": "2026-03-09T03:23:05.913Z"
+    "publishDate": "2026-03-09T04:10:59.251Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -241,6 +241,41 @@
   "styles": {
     "0": {
       "type": 2,
+      "name": "Recursica/recursica_h1",
+      "txtSt": {
+        "fontS": 40,
+        "fontN": {
+          "family": "Lexend",
+          "style": "Bold"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "linHt": {
+          "unit": "PIXELS",
+          "value": 42
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 1
+          },
+          "fontS": {
+            "_varRef": 3
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 1
+        },
+        "fontS": {
+          "_varRef": 3
+        }
+      }
+    },
+    "1": {
+      "type": 2,
       "name": "Recursica/recursica_link_states_default_text",
       "txtSt": {
         "fontN": {
@@ -429,6 +464,7 @@
                 "cPropR": {
                   "chars": "Component name#3041:0"
                 },
+                "_stlRef": 0,
                 "chars": "Logo",
                 "fontN": {
                   "family": "Lexend",
@@ -481,7 +517,7 @@
                     ],
                     "stkAl": "OUTSIDE",
                     "cPropR": {},
-                    "_stlRef": 0,
+                    "_stlRef": 1,
                     "chars": "View documentation",
                     "fontN": {
                       "family": "Lexend",
