@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "60e10658-76c7-44c1-87de-eacb2d68e930",
-    "version": 9,
+    "version": 10,
     "name": " Icons",
     "pluginVersion": "1.0.0",
     "history": {
-      "9": {
+      "10": {
         "message": "Latest",
-        "date": "2026-03-09T16:51:24.822Z"
+        "date": "2026-03-09T17:47:40.092Z"
       }
     },
-    "publishDate": "2026-03-09T16:51:24.822Z"
+    "publishDate": "2026-03-09T17:47:40.092Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -156,20 +156,6 @@
           }
         ],
         "stkAl": "INSIDE",
-        "backgrounds": [
-          {
-            "type": 15,
-            "visbl": true,
-            "opcty": 1,
-            "blnMd": "NORMAL",
-            "color": {
-              "r": 1,
-              "g": 1,
-              "b": 1
-            },
-            "bndVar": {}
-          }
-        ],
         "layMd": "HORIZONTAL",
         "pAxSz": "FIXED",
         "cAxSz": "FIXED",
@@ -254,20 +240,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
@@ -332,20 +304,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
@@ -451,20 +409,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "laySzH": "FIXED",
@@ -532,20 +476,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "laySzH": "FIXED",
@@ -654,20 +584,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "laySzH": "FIXED",
@@ -735,20 +651,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "laySzH": "FIXED",
@@ -857,20 +759,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "laySzH": "FIXED",
@@ -934,20 +822,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "laySzH": "FIXED",
@@ -1059,20 +933,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
@@ -1141,20 +1001,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
@@ -1567,20 +1413,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
@@ -1649,20 +1481,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "pAxSz": "FIXED",
                 "cAxSz": "FIXED",
@@ -1962,20 +1780,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "laySzH": "FIXED",
@@ -2140,20 +1944,6 @@
                   }
                 ],
                 "stkAl": "INSIDE",
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": false,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 1
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "cAxSz": "FIXED",
                 "laySzH": "FIXED",
