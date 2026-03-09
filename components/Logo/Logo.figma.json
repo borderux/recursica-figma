@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2df95ba7-e7a2-4748-9b65-5e2762cb176b",
-    "version": 9,
+    "version": 10,
     "name": "Logo",
     "pluginVersion": "1.0.0",
     "history": {
-      "9": {
+      "10": {
         "message": "Latest",
-        "date": "2026-03-09T16:51:24.822Z"
+        "date": "2026-03-09T17:47:40.092Z"
       }
     },
-    "publishDate": "2026-03-09T16:51:24.822Z"
+    "publishDate": "2026-03-09T17:47:40.092Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -337,20 +337,6 @@
           }
         ],
         "stkAl": "INSIDE",
-        "backgrounds": [
-          {
-            "type": 15,
-            "visbl": true,
-            "opcty": 1,
-            "blnMd": "NORMAL",
-            "color": {
-              "r": 0.9882352948188782,
-              "g": 0.9882352948188782,
-              "b": 0.9882352948188782
-            },
-            "bndVar": {}
-          }
-        ],
         "layMd": "VERTICAL",
         "pAxSz": "FIXED",
         "cAxSz": "FIXED",
@@ -560,20 +546,6 @@
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 2,
