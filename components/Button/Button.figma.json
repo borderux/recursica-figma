@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "3a9a8897-2e4d-4458-83d0-d21ef429fb47",
-    "version": 7,
+    "version": 8,
     "name": " Button",
     "pluginVersion": "1.0.0",
     "history": {
-      "7": {
+      "8": {
         "message": "Latest",
-        "date": "2026-03-09T16:51:24.822Z"
+        "date": "2026-03-09T17:47:40.092Z"
       }
     },
-    "publishDate": "2026-03-09T16:51:24.822Z"
+    "publishDate": "2026-03-09T17:47:40.092Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -1874,20 +1874,6 @@
           }
         ],
         "stkAl": "INSIDE",
-        "backgrounds": [
-          {
-            "type": 15,
-            "visbl": true,
-            "opcty": 1,
-            "blnMd": "NORMAL",
-            "color": {
-              "r": 0.9882352948188782,
-              "g": 0.9882352948188782,
-              "b": 0.9882352948188782
-            },
-            "bndVar": {}
-          }
-        ],
         "layMd": "VERTICAL",
         "pAxSz": "FIXED",
         "cAxSz": "FIXED",
@@ -2095,20 +2081,6 @@
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 2,
@@ -2402,24 +2374,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -2729,24 +2683,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -3130,24 +3066,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -3371,24 +3289,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -3706,24 +3606,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -4115,24 +3997,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -4360,24 +4224,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -4455,20 +4301,6 @@
                             "_varRef": 53
                           }
                         },
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -4718,20 +4550,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -4801,20 +4619,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -5067,20 +4871,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {}
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -5123,20 +4913,6 @@
                         "_varRef": 65
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 4,
@@ -5325,24 +5101,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -5644,24 +5402,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -6029,24 +5769,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -6230,24 +5952,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -6521,24 +6225,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -6878,24 +6564,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -7079,24 +6747,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -7157,20 +6807,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -7397,24 +7033,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -7475,20 +7093,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -7718,24 +7322,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -7772,20 +7358,6 @@
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 4,
@@ -7941,24 +7513,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -8248,24 +7802,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -8633,24 +8169,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -8834,24 +8352,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -9125,24 +8625,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -9482,24 +8964,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -9683,24 +9147,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -9761,20 +9207,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -10001,24 +9433,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -10079,20 +9493,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -10322,24 +9722,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -10376,20 +9758,6 @@
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 4,
@@ -10581,24 +9949,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -10901,24 +10251,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -11288,24 +10620,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -11521,24 +10835,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -11849,24 +11145,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -12244,24 +11522,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -12483,24 +11743,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -12569,20 +11811,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -12841,24 +12069,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -12927,20 +12137,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -13202,24 +12398,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 1,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0.8313725590705872,
-                      "g": 0.05098039284348488,
-                      "b": 0.05098039284348488
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 18
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -13262,20 +12440,6 @@
                         "_varRef": 62
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 4,
@@ -13467,24 +12631,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -13787,24 +12933,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -14174,24 +13302,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -14407,24 +13517,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -14731,24 +13823,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -15122,24 +14196,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -15355,24 +14411,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -15433,20 +14471,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -15705,24 +14729,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -15783,20 +14789,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -16047,24 +15039,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 72
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -16101,20 +15075,6 @@
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 4,
@@ -16274,24 +15234,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -16594,24 +15536,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -16981,24 +15905,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -17214,24 +16120,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -17538,24 +16426,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -17929,24 +16799,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -18162,24 +17014,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -18240,20 +17074,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -18512,24 +17332,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -18590,20 +17392,6 @@
                           }
                         ],
                         "stkAl": "INSIDE",
-                        "backgrounds": [
-                          {
-                            "type": 15,
-                            "visbl": false,
-                            "opcty": 1,
-                            "blnMd": "NORMAL",
-                            "color": {
-                              "r": 1,
-                              "g": 1,
-                              "b": 1
-                            },
-                            "bndVar": {}
-                          }
-                        ],
                         "cPropR": {},
                         "_isInstance": true,
                         "_insRef": 4,
@@ -18865,24 +17653,6 @@
                     }
                   ]
                 },
-                "backgrounds": [
-                  {
-                    "type": 15,
-                    "visbl": true,
-                    "opcty": 0,
-                    "blnMd": "NORMAL",
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "bndVar": {
-                      "color": {
-                        "_varRef": 103
-                      }
-                    }
-                  }
-                ],
                 "cPropR": {},
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
@@ -18919,20 +17689,6 @@
                       }
                     ],
                     "stkAl": "INSIDE",
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "_isInstance": true,
                     "_insRef": 4,
