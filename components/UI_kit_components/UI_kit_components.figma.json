@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.0.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2fb7e88b-4932-4e6a-9399-5e17cd3572ba",
-    "version": 10,
+    "version": 11,
     "name": "UI kit components",
     "pluginVersion": "1.0.0",
     "history": {
-      "10": {
+      "11": {
         "message": "Latest",
-        "date": "2026-03-09T20:20:04.927Z"
+        "date": "2026-03-10T18:04:13.793Z"
       }
     },
-    "publishDate": "2026-03-09T20:20:04.927Z"
+    "publishDate": "2026-03-10T18:04:13.793Z"
   },
   "stringTable": {
     "colNm": "collectionName",
