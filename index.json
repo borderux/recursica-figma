@@ -1,16 +1,16 @@
 {
   "components": {
     "60e10658-76c7-44c1-87de-eacb2d68e930": {
-      "name": "✹ Icons",
+      "name": " Icons",
       "path": "components/Icons/Icons.figma.json",
-      "version": 11,
-      "publishDate": "2026-03-18T18:15:26.764Z"
+      "version": 12,
+      "publishDate": "2026-03-20T20:10:29.865Z"
     },
     "f2e98aa8-aef2-4433-8fe5-773f0262ddab": {
-      "name": "✅ Accordion",
+      "name": " Accordion",
       "path": "components/Accordion/Accordion.figma.json",
-      "version": 1,
-      "publishDate": "2026-01-06T00:30:33.221Z"
+      "version": 2,
+      "publishDate": "2026-03-20T20:10:29.865Z"
     },
     "2fb7e88b-4932-4e6a-9399-5e17cd3572ba": {
       "name": "UI kit components",
