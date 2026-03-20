@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "exportFormatVersion": "1.0.0",
+    "exportFormatVersion": "1.1.0",
     "figmaApiVersion": "1.0.0",
     "guid": "60e10658-76c7-44c1-87de-eacb2d68e930",
-    "version": 11,
-    "name": "✹ Icons",
+    "version": 12,
+    "name": " Icons",
     "pluginVersion": "1.0.0",
     "history": {
-      "11": {
-        "message": "Updated with latest variables",
-        "date": "2026-03-18T18:15:26.764Z"
+      "12": {
+        "message": "",
+        "date": "2026-03-20T20:10:29.865Z"
       }
     },
-    "publishDate": "2026-03-18T18:15:26.764Z"
+    "publishDate": "2026-03-20T20:10:29.865Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -116,7 +116,7 @@
   "pageData": {
     "type": 13,
     "id": "5746:11132",
-    "name": "✹ Icons",
+    "name": " Icons",
     "backgrounds": [
       {
         "type": 15,
