@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "exportFormatVersion": "1.0.0",
+    "exportFormatVersion": "1.1.0",
     "figmaApiVersion": "1.0.0",
     "guid": "8b898479-963b-42df-822d-0c7bd7af0da3",
-    "version": 1,
+    "version": 2,
     "name": "Accordion",
     "pluginVersion": "1.0.0",
     "history": {
-      "1": {
-        "message": "Initial commit of Forge-connected component vars",
-        "date": "2026-03-25T20:41:54.728Z"
+      "2": {
+        "message": "Re-exporting to see if it imports properly",
+        "date": "2026-03-25T23:10:04.669Z"
       }
     },
-    "publishDate": "2026-03-25T20:41:54.728Z"
+    "publishDate": "2026-03-25T23:10:04.669Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -1645,9 +1645,6 @@
             },
             "bndVar": {}
           }
-        ],
-        "_unhandledKeys": [
-          "_unknownType"
         ],
         "child": [
           {
@@ -6470,9 +6467,6 @@
             },
             "bndVar": {}
           }
-        ],
-        "_unhandledKeys": [
-          "_unknownType"
         ],
         "child": [
           {
