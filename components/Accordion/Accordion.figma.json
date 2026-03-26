@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "exportFormatVersion": "1.1.0",
+    "exportFormatVersion": "1.1.1",
     "figmaApiVersion": "1.0.0",
     "guid": "8b898479-963b-42df-822d-0c7bd7af0da3",
-    "version": 2,
+    "version": 3,
     "name": "Accordion",
     "pluginVersion": "1.0.0",
     "history": {
-      "2": {
-        "message": "Re-exporting to see if it imports properly",
-        "date": "2026-03-25T23:10:04.669Z"
+      "3": {
+        "message": "Fixed variable bindings for effect styles.  Fix incorrect drop shadow value",
+        "date": "2026-03-26T19:37:42.252Z"
       }
     },
-    "publishDate": "2026-03-25T23:10:04.669Z"
+    "publishDate": "2026-03-26T19:37:42.252Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -228,57 +228,6 @@
       }
     },
     "7": {
-      "varNm": "sizes/none",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Default": 0
-      }
-    },
-    "8": {
-      "varNm": "dimensions/border-radii/none",
-      "varTy": 2,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 7
-        },
-        "Dark": {
-          "_varRef": 7
-        }
-      }
-    },
-    "9": {
-      "varNm": "components/accordion-item/properties/border-radius",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "0": {
-          "_varRef": 8
-        },
-        "1": {
-          "_varRef": 8
-        },
-        "2": {
-          "_varRef": 8
-        },
-        "3": {
-          "_varRef": 8
-        }
-      }
-    },
-    "10": {
-      "varNm": "components/accordion-item/properties/divider-size",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "0": 1,
-        "1": 1,
-        "2": 1,
-        "3": 1
-      }
-    },
-    "11": {
       "varNm": "color/gray/300",
       "varTy": 1,
       "_colRef": 1,
@@ -291,7 +240,7 @@
         }
       }
     },
-    "12": {
+    "8": {
       "varNm": "color/gray/600",
       "varTy": 1,
       "_colRef": 1,
@@ -304,20 +253,20 @@
         }
       }
     },
-    "13": {
+    "9": {
       "varNm": "palette/neutral/300/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 11
+          "_varRef": 7
         },
         "Dark": {
-          "_varRef": 12
+          "_varRef": 8
         }
       }
     },
-    "14": {
+    "10": {
       "varNm": "color/gray/200",
       "varTy": 1,
       "_colRef": 1,
@@ -330,7 +279,7 @@
         }
       }
     },
-    "15": {
+    "11": {
       "varNm": "color/gray/700",
       "varTy": 1,
       "_colRef": 1,
@@ -343,46 +292,46 @@
         }
       }
     },
-    "16": {
+    "12": {
       "varNm": "palette/neutral/200/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 14
+          "_varRef": 10
         },
         "Dark": {
-          "_varRef": 15
+          "_varRef": 11
         }
       }
     },
-    "17": {
+    "13": {
       "varNm": "layer/layer-1/property/border-color",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 16
+          "_varRef": 12
         },
         "Dark": {
-          "_varRef": 16
+          "_varRef": 12
         }
       }
     },
-    "18": {
+    "14": {
       "varNm": "layer/layer-2/property/border-color",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 13
+          "_varRef": 9
         },
         "Dark": {
-          "_varRef": 13
+          "_varRef": 9
         }
       }
     },
-    "19": {
+    "15": {
       "varNm": "color/gray/400",
       "varTy": 1,
       "_colRef": 1,
@@ -395,7 +344,7 @@
         }
       }
     },
-    "20": {
+    "16": {
       "varNm": "color/gray/500",
       "varTy": 1,
       "_colRef": 1,
@@ -408,26 +357,85 @@
         }
       }
     },
-    "21": {
+    "17": {
       "varNm": "palette/neutral/400/tone",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 19
+          "_varRef": 15
         },
         "Dark": {
-          "_varRef": 20
+          "_varRef": 16
         }
       }
     },
-    "22": {
+    "18": {
       "varNm": "layer/layer-3/property/border-color",
       "varTy": 1,
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 16
+          "_varRef": 12
+        },
+        "Dark": {
+          "_varRef": 17
+        }
+      }
+    },
+    "19": {
+      "varNm": "global/form/field/color/border",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 9
+        },
+        "1": {
+          "_varRef": 13
+        },
+        "2": {
+          "_varRef": 14
+        },
+        "3": {
+          "_varRef": 18
+        }
+      }
+    },
+    "20": {
+      "varNm": "accordion/color/divider",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 19
+        },
+        "1": {
+          "_varRef": 19
+        },
+        "2": {
+          "_varRef": 19
+        },
+        "3": {
+          "_varRef": 18
+        }
+      }
+    },
+    "21": {
+      "varNm": "sizes/none",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Default": 0
+      }
+    },
+    "22": {
+      "varNm": "dimensions/border-radii/none",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 21
         },
         "Dark": {
           "_varRef": 21
@@ -435,18 +443,18 @@
       }
     },
     "23": {
-      "varNm": "global/form/field/color/border",
-      "varTy": 1,
+      "varNm": "components/accordion-item/properties/border-radius",
+      "varTy": 2,
       "_colRef": 2,
       "vByMd": {
         "0": {
-          "_varRef": 13
+          "_varRef": 22
         },
         "1": {
-          "_varRef": 17
+          "_varRef": 22
         },
         "2": {
-          "_varRef": 18
+          "_varRef": 22
         },
         "3": {
           "_varRef": 22
@@ -454,22 +462,14 @@
       }
     },
     "24": {
-      "varNm": "accordion/color/divider",
-      "varTy": 1,
+      "varNm": "components/accordion-item/properties/divider-size",
+      "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "0": {
-          "_varRef": 23
-        },
-        "1": {
-          "_varRef": 23
-        },
-        "2": {
-          "_varRef": 23
-        },
-        "3": {
-          "_varRef": 22
-        }
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1
       }
     },
     "25": {
@@ -917,6 +917,129 @@
       }
     },
     "56": {
+      "varNm": "palettes/neutral/100/color/tone",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 4
+        },
+        "Dark": {
+          "_varRef": 3
+        }
+      }
+    },
+    "57": {
+      "varNm": "layers/layer-0/properties/border-color",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 2
+        },
+        "Dark": {
+          "_varRef": 56
+        }
+      }
+    },
+    "58": {
+      "varNm": "layers/layer-1/properties/border-color",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 2
+        },
+        "Dark": {
+          "_varRef": 56
+        }
+      }
+    },
+    "59": {
+      "varNm": "layers/layer-2/properties/border-color",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 2
+        },
+        "Dark": {
+          "_varRef": 2
+        }
+      }
+    },
+    "60": {
+      "varNm": "colors/gray/300",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Default": {
+          "r": 0.7607843279838562,
+          "g": 0.7607843279838562,
+          "b": 0.7607843279838562,
+          "a": 1
+        }
+      }
+    },
+    "61": {
+      "varNm": "colors/gray/600",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Default": {
+          "r": 0.42352941632270813,
+          "g": 0.42352941632270813,
+          "b": 0.42352941632270813,
+          "a": 1
+        }
+      }
+    },
+    "62": {
+      "varNm": "palettes/neutral/300/color/tone",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 60
+        },
+        "Dark": {
+          "_varRef": 61
+        }
+      }
+    },
+    "63": {
+      "varNm": "layers/layer-3/properties/border-color",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 56
+        },
+        "Dark": {
+          "_varRef": 62
+        }
+      }
+    },
+    "64": {
+      "varNm": "components/accordion-item/properties/colors/divider",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 57
+        },
+        "1": {
+          "_varRef": 58
+        },
+        "2": {
+          "_varRef": 59
+        },
+        "3": {
+          "_varRef": 63
+        }
+      }
+    },
+    "65": {
       "varNm": "components/accordion-item/properties/header-content-gap",
       "varTy": 2,
       "_colRef": 2,
@@ -932,129 +1055,6 @@
         },
         "3": {
           "_varRef": 30
-        }
-      }
-    },
-    "57": {
-      "varNm": "palettes/neutral/100/color/tone",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 4
-        },
-        "Dark": {
-          "_varRef": 3
-        }
-      }
-    },
-    "58": {
-      "varNm": "layers/layer-0/properties/border-color",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 2
-        },
-        "Dark": {
-          "_varRef": 57
-        }
-      }
-    },
-    "59": {
-      "varNm": "layers/layer-1/properties/border-color",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 2
-        },
-        "Dark": {
-          "_varRef": 57
-        }
-      }
-    },
-    "60": {
-      "varNm": "layers/layer-2/properties/border-color",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 2
-        },
-        "Dark": {
-          "_varRef": 2
-        }
-      }
-    },
-    "61": {
-      "varNm": "colors/gray/300",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Default": {
-          "r": 0.7607843279838562,
-          "g": 0.7607843279838562,
-          "b": 0.7607843279838562,
-          "a": 1
-        }
-      }
-    },
-    "62": {
-      "varNm": "colors/gray/600",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Default": {
-          "r": 0.42352941632270813,
-          "g": 0.42352941632270813,
-          "b": 0.42352941632270813,
-          "a": 1
-        }
-      }
-    },
-    "63": {
-      "varNm": "palettes/neutral/300/color/tone",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 61
-        },
-        "Dark": {
-          "_varRef": 62
-        }
-      }
-    },
-    "64": {
-      "varNm": "layers/layer-3/properties/border-color",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "Light": {
-          "_varRef": 57
-        },
-        "Dark": {
-          "_varRef": 63
-        }
-      }
-    },
-    "65": {
-      "varNm": "components/accordion-item/properties/colors/divider",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "0": {
-          "_varRef": 58
-        },
-        "1": {
-          "_varRef": 59
-        },
-        "2": {
-          "_varRef": 60
-        },
-        "3": {
-          "_varRef": 64
         }
       }
     },
@@ -1133,10 +1133,10 @@
       "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 7
+          "_varRef": 21
         },
         "Dark": {
-          "_varRef": 7
+          "_varRef": 21
         }
       }
     },
@@ -1191,77 +1191,6 @@
       }
     },
     "72": {
-      "varNm": "components/accordion/properties/padding",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "0": {
-          "_varRef": 69
-        },
-        "1": {
-          "_varRef": 69
-        },
-        "2": {
-          "_varRef": 69
-        },
-        "3": {
-          "_varRef": 69
-        }
-      }
-    },
-    "73": {
-      "varNm": "components/accordion/properties/border-radius",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "0": {
-          "_varRef": 8
-        },
-        "1": {
-          "_varRef": 8
-        },
-        "2": {
-          "_varRef": 8
-        },
-        "3": {
-          "_varRef": 8
-        }
-      }
-    },
-    "74": {
-      "varNm": "components/accordion/properties/border-size",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "0": 1,
-        "1": 1,
-        "2": 1,
-        "3": 1
-      }
-    },
-    "75": {
-      "varNm": "components/accordion/properties/min-width",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "0": 20,
-        "1": 20,
-        "2": 20,
-        "3": 20
-      }
-    },
-    "76": {
-      "varNm": "components/accordion/properties/max-width",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "0": 1500,
-        "1": 1500,
-        "2": 1500,
-        "3": 1500
-      }
-    },
-    "77": {
       "varNm": "components/accordion/properties/colors/border-color",
       "varTy": 1,
       "_colRef": 2,
@@ -1290,6 +1219,77 @@
           "b": 0,
           "a": 0
         }
+      }
+    },
+    "73": {
+      "varNm": "components/accordion/properties/padding",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 69
+        },
+        "1": {
+          "_varRef": 69
+        },
+        "2": {
+          "_varRef": 69
+        },
+        "3": {
+          "_varRef": 69
+        }
+      }
+    },
+    "74": {
+      "varNm": "components/accordion/properties/border-radius",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 22
+        },
+        "1": {
+          "_varRef": 22
+        },
+        "2": {
+          "_varRef": 22
+        },
+        "3": {
+          "_varRef": 22
+        }
+      }
+    },
+    "75": {
+      "varNm": "components/accordion/properties/border-size",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    "76": {
+      "varNm": "components/accordion/properties/min-width",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "0": 20,
+        "1": 20,
+        "2": 20,
+        "3": 20
+      }
+    },
+    "77": {
+      "varNm": "components/accordion/properties/max-width",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "0": 1500,
+        "1": 1500,
+        "2": 1500,
+        "3": 1500
       }
     }
   },
@@ -1449,8 +1449,7 @@
             "radius": 0,
             "bndVar": {
               "color": {
-                "type": 29,
-                "id": "VariableID:11421:2405"
+                "_varRef": 6
               }
             },
             "color": {
@@ -1565,8 +1564,7 @@
             "radius": 0,
             "bndVar": {
               "color": {
-                "type": 29,
-                "id": "VariableID:11421:2405"
+                "_varRef": 6
               }
             },
             "color": {
@@ -1670,6 +1668,8 @@
               }
             ],
             "stkAl": "INSIDE",
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
             "cPropD": {
               "Title#102:35": {
                 "type": 2,
@@ -1717,8 +1717,6 @@
             "itmSp": 32,
             "corR": 5,
             "clipC": true,
-            "laySzH": "FIXED",
-            "laySzV": "HUG",
             "child": [
               {
                 "type": 4,
@@ -1736,8 +1734,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:2405"
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -1768,8 +1765,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:1057:5033"
+                        "_varRef": 20
                       }
                     }
                   }
@@ -1777,23 +1773,23 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "topLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "topRightRadius": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botRR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 10
+                    "_varRef": 24
                   },
                   "strks": [
                     {
-                      "_varRef": 24
+                      "_varRef": 20
                     }
                   ],
                   "effct": [
@@ -1803,12 +1799,12 @@
                   ]
                 },
                 "cPropR": {},
+                "laySzH": "FILL",
+                "laySzV": "HUG",
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
                 "cAxAl": "CENTER",
                 "clipC": true,
-                "laySzH": "FILL",
-                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 1,
@@ -1876,6 +1872,8 @@
                       }
                     ],
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
@@ -1885,8 +1883,6 @@
                     "padB": 16,
                     "itmSp": 4,
                     "layGr": 1,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 3,
@@ -1909,11 +1905,11 @@
                         "cPropR": {
                           "visbl": "Left icon#11433:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 1,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -1953,6 +1949,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -2009,6 +2007,8 @@
                         "cPropR": {
                           "chars": "Title#102:35"
                         },
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "_stlRef": 1,
                         "chars": "Accordion",
                         "fontN": {
@@ -2041,11 +2041,11 @@
                           }
                         },
                         "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 2,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -2085,6 +2085,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 16.281 1.28104 L 8.78104 8.78104 C 8.71139 8.85077 8.62867 8.90609 8.53762 8.94384 C 8.44657 8.98158 8.34898 9.00101 8.25042 9.00101 C 8.15186 9.00101 8.05426 8.98158 7.96321 8.94384 C 7.87216 8.90609 7.78945 8.85077 7.71979 8.78104 L 0.219792 1.28104 C 0.079062 1.14031 0 0.94944 0 0.750417 C 0 0.551394 0.079062 0.360522 0.219792 0.219792 C 0.360523 0.079061 0.551394 0 0.750417 0 C 0.94944 0 1.14031 0.079061 1.28104 0.219792 L 8.25042 7.1901 L 15.2198 0.219792 C 15.2895 0.150109 15.3722 0.094834 15.4632 0.057122 C 15.5543 0.01941 15.6519 0 15.7504 0 C 15.849 0 15.9465 0.01941 16.0376 0.057122 C 16.1286 0.094834 16.2114 0.150109 16.281 0.219792 C 16.3507 0.289474 16.406 0.3722 16.4437 0.463245 C 16.4814 0.554289 16.5008 0.651871 16.5008 0.750417 C 16.5008 0.848963 16.4814 0.946545 16.4437 1.03759 C 16.406 1.12863 16.3507 1.21136 16.281 1.28104 Z",
@@ -2114,8 +2116,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:2405"
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -2136,16 +2137,16 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "topLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "topRightRadius": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botRR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "effct": [
                     {
@@ -2154,12 +2155,12 @@
                   ]
                 },
                 "cPropR": {},
+                "laySzH": "FILL",
+                "laySzV": "HUG",
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
                 "cAxAl": "CENTER",
                 "clipC": true,
-                "laySzH": "FILL",
-                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 1,
@@ -2227,6 +2228,8 @@
                       }
                     ],
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
@@ -2236,8 +2239,6 @@
                     "padB": 16,
                     "itmSp": 4,
                     "layGr": 1,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 3,
@@ -2260,11 +2261,11 @@
                         "cPropR": {
                           "visbl": "Left icon#11433:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 1,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -2304,6 +2305,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -2360,6 +2363,8 @@
                         "cPropR": {
                           "chars": "Title#102:35"
                         },
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "_stlRef": 1,
                         "chars": "Accordion",
                         "fontN": {
@@ -2392,11 +2397,11 @@
                           }
                         },
                         "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 2,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -2436,6 +2441,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 16.281 1.28104 L 8.78104 8.78104 C 8.71139 8.85077 8.62867 8.90609 8.53762 8.94384 C 8.44657 8.98158 8.34898 9.00101 8.25042 9.00101 C 8.15186 9.00101 8.05426 8.98158 7.96321 8.94384 C 7.87216 8.90609 7.78945 8.85077 7.71979 8.78104 L 0.219792 1.28104 C 0.079062 1.14031 0 0.94944 0 0.750417 C 0 0.551394 0.079062 0.360522 0.219792 0.219792 C 0.360523 0.079061 0.551394 0 0.750417 0 C 0.94944 0 1.14031 0.079061 1.28104 0.219792 L 8.25042 7.1901 L 15.2198 0.219792 C 15.2895 0.150109 15.3722 0.094834 15.4632 0.057122 C 15.5543 0.01941 15.6519 0 15.7504 0 C 15.849 0 15.9465 0.01941 16.0376 0.057122 C 16.1286 0.094834 16.2114 0.150109 16.281 0.219792 C 16.3507 0.289474 16.406 0.3722 16.4437 0.463245 C 16.4814 0.554289 16.5008 0.651871 16.5008 0.750417 C 16.5008 0.848963 16.4814 0.946545 16.4437 1.03759 C 16.406 1.12863 16.3507 1.21136 16.281 1.28104 Z",
@@ -2465,8 +2472,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:2405"
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -2515,8 +2521,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:3148"
+                        "_varRef": 64
                       }
                     }
                   }
@@ -2524,22 +2529,22 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 56
+                    "_varRef": 65
                   },
                   "topLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "topRightRadius": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botRR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 10
+                    "_varRef": 24
                   },
                   "fills": [
                     {
@@ -2548,7 +2553,7 @@
                   ],
                   "strks": [
                     {
-                      "_varRef": 65
+                      "_varRef": 64
                     }
                   ],
                   "effct": [
@@ -2576,12 +2581,12 @@
                   }
                 ],
                 "cPropR": {},
+                "laySzH": "FILL",
+                "laySzV": "HUG",
                 "layMd": "VERTICAL",
                 "cAxSz": "FIXED",
                 "itmSp": 16,
                 "clipC": true,
-                "laySzH": "FILL",
-                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 1,
@@ -2608,6 +2613,8 @@
                       }
                     },
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
@@ -2616,8 +2623,6 @@
                     "padT": 16,
                     "padB": 16,
                     "itmSp": 4,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 3,
@@ -2640,11 +2645,11 @@
                         "cPropR": {
                           "visbl": "Left icon#11433:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 1,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -2684,6 +2689,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -2740,6 +2747,8 @@
                         "cPropR": {
                           "chars": "Title#102:35"
                         },
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "_stlRef": 1,
                         "chars": "Accordion",
                         "fontN": {
@@ -2772,11 +2781,11 @@
                           }
                         },
                         "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 3,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -2816,6 +2825,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 16.281 8.78122 C 16.2114 8.85095 16.1287 8.90627 16.0376 8.94401 C 15.9466 8.98175 15.849 9.00118 15.7504 9.00118 C 15.6519 9.00118 15.5543 8.98175 15.4632 8.94401 C 15.3722 8.90627 15.2894 8.85095 15.2198 8.78122 L 8.25042 1.8109 L 1.28104 8.78122 C 1.14031 8.92195 0.94944 9.00101 0.750417 9.00101 C 0.551394 9.00101 0.360523 8.92195 0.219792 8.78122 C 0.079062 8.64048 0 8.44961 0 8.25059 C -0 8.05157 0.079062 7.8607 0.219792 7.71996 L 7.71979 0.219965 C 7.78945 0.150232 7.87216 0.094914 7.96321 0.05717 C 8.05426 0.019427 8.15186 0 8.25042 0 C 8.34898 0 8.44657 0.019427 8.53762 0.05717 C 8.62867 0.094914 8.71139 0.150232 8.78104 0.219965 L 16.281 7.71996 C 16.3508 7.78962 16.4061 7.87234 16.4438 7.96338 C 16.4816 8.05443 16.501 8.15203 16.501 8.25059 C 16.501 8.34915 16.4816 8.44675 16.4438 8.5378 C 16.4061 8.62884 16.3508 8.71156 16.281 8.78122 Z",
@@ -2890,6 +2901,8 @@
                     "cPropR": {
                       "mainComponent": "Slot#390:39"
                     },
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "_isInstance": true,
                     "_insRef": 0,
                     "layMd": "VERTICAL",
@@ -2899,8 +2912,6 @@
                     "padL": 16,
                     "padR": 16,
                     "padB": 16,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 2,
@@ -2948,6 +2959,8 @@
                         "cPropR": {
                           "chars": "Content#11443:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_stlRef": 2,
                         "chars": "Content",
                         "fontN": {
@@ -2982,8 +2995,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:2405"
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -3032,8 +3044,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:3148"
+                        "_varRef": 64
                       }
                     }
                   }
@@ -3041,19 +3052,19 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 56
+                    "_varRef": 65
                   },
                   "topLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "topRightRadius": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botRR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "fills": [
                     {
@@ -3062,7 +3073,7 @@
                   ],
                   "strks": [
                     {
-                      "_varRef": 65
+                      "_varRef": 64
                     }
                   ],
                   "effct": [
@@ -3090,12 +3101,12 @@
                   }
                 ],
                 "cPropR": {},
+                "laySzH": "FILL",
+                "laySzV": "HUG",
                 "layMd": "VERTICAL",
                 "cAxSz": "FIXED",
                 "itmSp": 16,
                 "clipC": true,
-                "laySzH": "FILL",
-                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 1,
@@ -3122,6 +3133,8 @@
                       }
                     },
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
@@ -3130,8 +3143,6 @@
                     "padT": 16,
                     "padB": 16,
                     "itmSp": 4,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 3,
@@ -3154,11 +3165,11 @@
                         "cPropR": {
                           "visbl": "Left icon#11433:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 1,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -3198,6 +3209,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -3254,6 +3267,8 @@
                         "cPropR": {
                           "chars": "Title#102:35"
                         },
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "_stlRef": 1,
                         "chars": "Accordion",
                         "fontN": {
@@ -3286,11 +3301,11 @@
                           }
                         },
                         "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 3,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -3330,6 +3345,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 16.281 8.78122 C 16.2114 8.85095 16.1287 8.90627 16.0376 8.94401 C 15.9466 8.98175 15.849 9.00118 15.7504 9.00118 C 15.6519 9.00118 15.5543 8.98175 15.4632 8.94401 C 15.3722 8.90627 15.2894 8.85095 15.2198 8.78122 L 8.25042 1.8109 L 1.28104 8.78122 C 1.14031 8.92195 0.94944 9.00101 0.750417 9.00101 C 0.551394 9.00101 0.360523 8.92195 0.219792 8.78122 C 0.079062 8.64048 0 8.44961 0 8.25059 C -0 8.05157 0.079062 7.8607 0.219792 7.71996 L 7.71979 0.219965 C 7.78945 0.150232 7.87216 0.094914 7.96321 0.05717 C 8.05426 0.019427 8.15186 0 8.25042 0 C 8.34898 0 8.44657 0.019427 8.53762 0.05717 C 8.62867 0.094914 8.71139 0.150232 8.78104 0.219965 L 16.281 7.71996 C 16.3508 7.78962 16.4061 7.87234 16.4438 7.96338 C 16.4816 8.05443 16.501 8.15203 16.501 8.25059 C 16.501 8.34915 16.4816 8.44675 16.4438 8.5378 C 16.4061 8.62884 16.3508 8.71156 16.281 8.78122 Z",
@@ -3404,6 +3421,8 @@
                     "cPropR": {
                       "mainComponent": "Slot#390:39"
                     },
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "_isInstance": true,
                     "_insRef": 0,
                     "layMd": "VERTICAL",
@@ -3413,8 +3432,6 @@
                     "padL": 16,
                     "padR": 16,
                     "padB": 16,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 2,
@@ -3462,6 +3479,8 @@
                         "cPropR": {
                           "chars": "Content#11443:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_stlRef": 2,
                         "chars": "Content",
                         "fontN": {
@@ -3525,13 +3544,13 @@
               }
             ],
             "cPropR": {},
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
             "cPropD": {},
             "layMd": "VERTICAL",
             "cAxSz": "FIXED",
             "pAxAl": "CENTER",
             "cAxAl": "CENTER",
-            "laySzH": "FIXED",
-            "laySzV": "HUG",
             "child": [
               {
                 "type": 3,
@@ -3547,8 +3566,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:2405"
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -3579,8 +3597,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:1057:5033"
+                        "_varRef": 20
                       }
                     }
                   }
@@ -3588,23 +3605,23 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "topLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "topRightRadius": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botRR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 10
+                    "_varRef": 24
                   },
                   "strks": [
                     {
-                      "_varRef": 24
+                      "_varRef": 20
                     }
                   ],
                   "effct": [
@@ -3614,14 +3631,14 @@
                   ]
                 },
                 "cPropR": {},
+                "laySzH": "FILL",
+                "laySzV": "HUG",
                 "_isInstance": true,
                 "_insRef": 4,
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
                 "cAxAl": "CENTER",
                 "clipC": true,
-                "laySzH": "FILL",
-                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 1,
@@ -3689,6 +3706,8 @@
                       }
                     ],
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
@@ -3698,8 +3717,6 @@
                     "padB": 16,
                     "itmSp": 4,
                     "layGr": 1,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 3,
@@ -3722,11 +3739,11 @@
                         "cPropR": {
                           "visbl": "Left icon#11433:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 1,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -3766,6 +3783,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -3822,6 +3841,8 @@
                         "cPropR": {
                           "chars": "Title#102:35"
                         },
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "_stlRef": 1,
                         "chars": "Accordion",
                         "fontN": {
@@ -3854,11 +3875,11 @@
                           }
                         },
                         "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 2,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -3898,6 +3919,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 16.281 1.28104 L 8.78104 8.78104 C 8.71139 8.85077 8.62867 8.90609 8.53762 8.94384 C 8.44657 8.98158 8.34898 9.00101 8.25042 9.00101 C 8.15186 9.00101 8.05426 8.98158 7.96321 8.94384 C 7.87216 8.90609 7.78945 8.85077 7.71979 8.78104 L 0.219792 1.28104 C 0.079062 1.14031 0 0.94944 0 0.750417 C 0 0.551394 0.079062 0.360522 0.219792 0.219792 C 0.360523 0.079061 0.551394 0 0.750417 0 C 0.94944 0 1.14031 0.079061 1.28104 0.219792 L 8.25042 7.1901 L 15.2198 0.219792 C 15.2895 0.150109 15.3722 0.094834 15.4632 0.057122 C 15.5543 0.01941 15.6519 0 15.7504 0 C 15.849 0 15.9465 0.01941 16.0376 0.057122 C 16.1286 0.094834 16.2114 0.150109 16.281 0.219792 C 16.3507 0.289474 16.406 0.3722 16.4437 0.463245 C 16.4814 0.554289 16.5008 0.651871 16.5008 0.750417 C 16.5008 0.848963 16.4814 0.946545 16.4437 1.03759 C 16.406 1.12863 16.3507 1.21136 16.281 1.28104 Z",
@@ -3926,8 +3949,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:2405"
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -3976,8 +3998,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:3148"
+                        "_varRef": 64
                       }
                     }
                   }
@@ -3985,22 +4006,22 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "itmSp": {
-                    "_varRef": 56
+                    "_varRef": 65
                   },
                   "topLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "topRightRadius": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botRR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 10
+                    "_varRef": 24
                   },
                   "fills": [
                     {
@@ -4009,7 +4030,7 @@
                   ],
                   "strks": [
                     {
-                      "_varRef": 65
+                      "_varRef": 64
                     }
                   ],
                   "effct": [
@@ -4037,14 +4058,14 @@
                   }
                 ],
                 "cPropR": {},
+                "laySzH": "FILL",
+                "laySzV": "HUG",
                 "_isInstance": true,
                 "_insRef": 5,
                 "layMd": "VERTICAL",
                 "cAxSz": "FIXED",
                 "itmSp": 16,
                 "clipC": true,
-                "laySzH": "FILL",
-                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 1,
@@ -4071,6 +4092,8 @@
                       }
                     },
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
@@ -4079,8 +4102,6 @@
                     "padT": 16,
                     "padB": 16,
                     "itmSp": 4,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 3,
@@ -4103,11 +4124,11 @@
                         "cPropR": {
                           "visbl": "Left icon#11433:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 1,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -4147,6 +4168,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -4203,6 +4226,8 @@
                         "cPropR": {
                           "chars": "Title#102:35"
                         },
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "_stlRef": 1,
                         "chars": "Accordion",
                         "fontN": {
@@ -4235,11 +4260,11 @@
                           }
                         },
                         "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 3,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -4279,6 +4304,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 16.281 8.78122 C 16.2114 8.85095 16.1287 8.90627 16.0376 8.94401 C 15.9466 8.98175 15.849 9.00118 15.7504 9.00118 C 15.6519 9.00118 15.5543 8.98175 15.4632 8.94401 C 15.3722 8.90627 15.2894 8.85095 15.2198 8.78122 L 8.25042 1.8109 L 1.28104 8.78122 C 1.14031 8.92195 0.94944 9.00101 0.750417 9.00101 C 0.551394 9.00101 0.360523 8.92195 0.219792 8.78122 C 0.079062 8.64048 0 8.44961 0 8.25059 C -0 8.05157 0.079062 7.8607 0.219792 7.71996 L 7.71979 0.219965 C 7.78945 0.150232 7.87216 0.094914 7.96321 0.05717 C 8.05426 0.019427 8.15186 0 8.25042 0 C 8.34898 0 8.44657 0.019427 8.53762 0.05717 C 8.62867 0.094914 8.71139 0.150232 8.78104 0.219965 L 16.281 7.71996 C 16.3508 7.78962 16.4061 7.87234 16.4438 7.96338 C 16.4816 8.05443 16.501 8.15203 16.501 8.25059 C 16.501 8.34915 16.4816 8.44675 16.4438 8.5378 C 16.4061 8.62884 16.3508 8.71156 16.281 8.78122 Z",
@@ -4353,6 +4380,8 @@
                     "cPropR": {
                       "mainComponent": "Slot#390:39"
                     },
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "_isInstance": true,
                     "_insRef": 0,
                     "layMd": "VERTICAL",
@@ -4362,8 +4391,6 @@
                     "padL": 16,
                     "padR": 16,
                     "padB": 16,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 2,
@@ -4410,6 +4437,8 @@
                         "cPropR": {
                           "chars": "Content#11443:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_stlRef": 2,
                         "chars": "Content",
                         "fontN": {
@@ -4443,8 +4472,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:11421:2405"
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -4475,8 +4503,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "type": 29,
-                        "id": "VariableID:1057:5033"
+                        "_varRef": 20
                       }
                     }
                   }
@@ -4484,23 +4511,23 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "topLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "topRightRadius": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botLR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "botRR": {
-                    "_varRef": 9
+                    "_varRef": 23
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 10
+                    "_varRef": 24
                   },
                   "strks": [
                     {
-                      "_varRef": 24
+                      "_varRef": 20
                     }
                   ],
                   "effct": [
@@ -4510,14 +4537,14 @@
                   ]
                 },
                 "cPropR": {},
+                "laySzH": "FILL",
+                "laySzV": "HUG",
                 "_isInstance": true,
                 "_insRef": 4,
                 "layMd": "HORIZONTAL",
                 "pAxSz": "FIXED",
                 "cAxAl": "CENTER",
                 "clipC": true,
-                "laySzH": "FILL",
-                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 1,
@@ -4585,6 +4612,8 @@
                       }
                     ],
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
@@ -4594,8 +4623,6 @@
                     "padB": 16,
                     "itmSp": 4,
                     "layGr": 1,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 3,
@@ -4618,11 +4645,11 @@
                         "cPropR": {
                           "visbl": "Left icon#11433:0"
                         },
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 1,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -4662,6 +4689,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -4718,6 +4747,8 @@
                         "cPropR": {
                           "chars": "Title#102:35"
                         },
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "_stlRef": 1,
                         "chars": "Accordion",
                         "fontN": {
@@ -4750,11 +4781,11 @@
                           }
                         },
                         "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
                         "_isInstance": true,
                         "_insRef": 2,
                         "cAxSz": "FIXED",
-                        "laySzH": "FIXED",
-                        "laySzV": "FIXED",
                         "child": [
                           {
                             "type": 5,
@@ -4794,6 +4825,8 @@
                               ]
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "fillG": [
                               {
                                 "data": "M 16.281 1.28104 L 8.78104 8.78104 C 8.71139 8.85077 8.62867 8.90609 8.53762 8.94384 C 8.44657 8.98158 8.34898 9.00101 8.25042 9.00101 C 8.15186 9.00101 8.05426 8.98158 7.96321 8.94384 C 7.87216 8.90609 7.78945 8.85077 7.71979 8.78104 L 0.219792 1.28104 C 0.079062 1.14031 0 0.94944 0 0.750417 C 0 0.551394 0.079062 0.360522 0.219792 0.219792 C 0.360523 0.079061 0.551394 0 0.750417 0 C 0.94944 0 1.14031 0.079061 1.28104 0.219792 L 8.25042 7.1901 L 15.2198 0.219792 C 15.2895 0.150109 15.3722 0.094834 15.4632 0.057122 C 15.5543 0.01941 15.6519 0 15.7504 0 C 15.849 0 15.9465 0.01941 16.0376 0.057122 C 16.1286 0.094834 16.2114 0.150109 16.281 0.219792 C 16.3507 0.289474 16.406 0.3722 16.4437 0.463245 C 16.4814 0.554289 16.5008 0.651871 16.5008 0.750417 C 16.5008 0.848963 16.4814 0.946545 16.4437 1.03759 C 16.406 1.12863 16.3507 1.21136 16.281 1.28104 Z",
@@ -4871,6 +4904,8 @@
               }
             ],
             "cPropR": {},
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
             "cPropD": {
               "Content#11443:0": {
                 "type": 2,
@@ -4884,8 +4919,6 @@
             "padL": 16,
             "padR": 16,
             "padB": 16,
-            "laySzH": "FIXED",
-            "laySzV": "HUG",
             "child": [
               {
                 "type": 2,
@@ -4932,6 +4965,8 @@
                 "cPropR": {
                   "chars": "Content#11443:0"
                 },
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "_stlRef": 2,
                 "chars": "Content",
                 "fontN": {
@@ -4964,8 +4999,7 @@
                 "radius": 0,
                 "bndVar": {
                   "color": {
-                    "type": 29,
-                    "id": "VariableID:11421:2405"
+                    "_varRef": 6
                   }
                 },
                 "color": {
@@ -5014,8 +5048,7 @@
                 },
                 "bndVar": {
                   "color": {
-                    "type": 29,
-                    "id": "VariableID:11421:3136"
+                    "_varRef": 72
                   }
                 }
               }
@@ -5023,46 +5056,46 @@
             "stkAl": "INSIDE",
             "bndVar": {
               "padL": {
-                "_varRef": 72
+                "_varRef": 73
               },
               "padT": {
-                "_varRef": 72
+                "_varRef": 73
               },
               "padR": {
-                "_varRef": 72
+                "_varRef": 73
               },
               "padB": {
-                "_varRef": 72
+                "_varRef": 73
               },
               "topLR": {
-                "_varRef": 73
+                "_varRef": 74
               },
               "topRightRadius": {
-                "_varRef": 73
+                "_varRef": 74
               },
               "botLR": {
-                "_varRef": 73
+                "_varRef": 74
               },
               "botRR": {
-                "_varRef": 73
+                "_varRef": 74
               },
               "strokeTopWeight": {
-                "_varRef": 74
-              },
-              "strokeBottomWeight": {
-                "_varRef": 74
-              },
-              "strokeLeftWeight": {
-                "_varRef": 74
-              },
-              "strokeRightWeight": {
-                "_varRef": 74
-              },
-              "minW": {
                 "_varRef": 75
               },
-              "maxW": {
+              "strokeBottomWeight": {
+                "_varRef": 75
+              },
+              "strokeLeftWeight": {
+                "_varRef": 75
+              },
+              "strokeRightWeight": {
+                "_varRef": 75
+              },
+              "minW": {
                 "_varRef": 76
+              },
+              "maxW": {
+                "_varRef": 77
               },
               "fills": [
                 {
@@ -5071,7 +5104,7 @@
               ],
               "strks": [
                 {
-                  "_varRef": 77
+                  "_varRef": 72
                 }
               ],
               "effct": [
@@ -5099,6 +5132,8 @@
               }
             ],
             "cPropR": {},
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
             "cPropD": {
               "Slot#11403:4": {
                 "type": 27,
@@ -5111,8 +5146,6 @@
             "layMd": "VERTICAL",
             "cAxSz": "FIXED",
             "clipC": true,
-            "laySzH": "FIXED",
-            "laySzV": "HUG",
             "child": [
               {
                 "type": 3,
@@ -5157,14 +5190,14 @@
                 "cPropR": {
                   "mainComponent": "Slot#11403:4"
                 },
+                "laySzH": "FILL",
+                "laySzV": "HUG",
                 "_isInstance": true,
                 "_insRef": 6,
                 "layMd": "VERTICAL",
                 "cAxSz": "FIXED",
                 "pAxAl": "CENTER",
                 "cAxAl": "CENTER",
-                "laySzH": "FILL",
-                "laySzV": "HUG",
                 "child": [
                   {
                     "type": 3,
@@ -5180,8 +5213,7 @@
                         "radius": 0,
                         "bndVar": {
                           "color": {
-                            "type": 29,
-                            "id": "VariableID:11421:2405"
+                            "_varRef": 6
                           }
                         },
                         "color": {
@@ -5212,8 +5244,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "type": 29,
-                            "id": "VariableID:1057:5033"
+                            "_varRef": 20
                           }
                         }
                       }
@@ -5221,23 +5252,23 @@
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "topLR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "topRightRadius": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "botLR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "botRR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "strokeBottomWeight": {
-                        "_varRef": 10
+                        "_varRef": 24
                       },
                       "strks": [
                         {
-                          "_varRef": 24
+                          "_varRef": 20
                         }
                       ],
                       "effct": [
@@ -5247,14 +5278,14 @@
                       ]
                     },
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "_isInstance": true,
                     "_insRef": 4,
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
                     "clipC": true,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 1,
@@ -5322,6 +5353,8 @@
                           }
                         ],
                         "cPropR": {},
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "layMd": "HORIZONTAL",
                         "pAxSz": "FIXED",
                         "cAxAl": "CENTER",
@@ -5331,8 +5364,6 @@
                         "padB": 16,
                         "itmSp": 4,
                         "layGr": 1,
-                        "laySzH": "FILL",
-                        "laySzV": "HUG",
                         "child": [
                           {
                             "type": 3,
@@ -5355,11 +5386,11 @@
                             "cPropR": {
                               "visbl": "Left icon#11433:0"
                             },
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "_isInstance": true,
                             "_insRef": 1,
                             "cAxSz": "FIXED",
-                            "laySzH": "FIXED",
-                            "laySzV": "FIXED",
                             "child": [
                               {
                                 "type": 5,
@@ -5399,6 +5430,8 @@
                                   ]
                                 },
                                 "cPropR": {},
+                                "laySzH": "FIXED",
+                                "laySzV": "FIXED",
                                 "fillG": [
                                   {
                                     "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -5455,6 +5488,8 @@
                             "cPropR": {
                               "chars": "Title#102:35"
                             },
+                            "laySzH": "FILL",
+                            "laySzV": "HUG",
                             "_stlRef": 1,
                             "chars": "Accordion",
                             "fontN": {
@@ -5487,11 +5522,11 @@
                               }
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "_isInstance": true,
                             "_insRef": 2,
                             "cAxSz": "FIXED",
-                            "laySzH": "FIXED",
-                            "laySzV": "FIXED",
                             "child": [
                               {
                                 "type": 5,
@@ -5531,6 +5566,8 @@
                                   ]
                                 },
                                 "cPropR": {},
+                                "laySzH": "FIXED",
+                                "laySzV": "FIXED",
                                 "fillG": [
                                   {
                                     "data": "M 16.281 1.28104 L 8.78104 8.78104 C 8.71139 8.85077 8.62867 8.90609 8.53762 8.94384 C 8.44657 8.98158 8.34898 9.00101 8.25042 9.00101 C 8.15186 9.00101 8.05426 8.98158 7.96321 8.94384 C 7.87216 8.90609 7.78945 8.85077 7.71979 8.78104 L 0.219792 1.28104 C 0.079062 1.14031 0 0.94944 0 0.750417 C 0 0.551394 0.079062 0.360522 0.219792 0.219792 C 0.360523 0.079061 0.551394 0 0.750417 0 C 0.94944 0 1.14031 0.079061 1.28104 0.219792 L 8.25042 7.1901 L 15.2198 0.219792 C 15.2895 0.150109 15.3722 0.094834 15.4632 0.057122 C 15.5543 0.01941 15.6519 0 15.7504 0 C 15.849 0 15.9465 0.01941 16.0376 0.057122 C 16.1286 0.094834 16.2114 0.150109 16.281 0.219792 C 16.3507 0.289474 16.406 0.3722 16.4437 0.463245 C 16.4814 0.554289 16.5008 0.651871 16.5008 0.750417 C 16.5008 0.848963 16.4814 0.946545 16.4437 1.03759 C 16.406 1.12863 16.3507 1.21136 16.281 1.28104 Z",
@@ -5559,8 +5596,7 @@
                         "radius": 0,
                         "bndVar": {
                           "color": {
-                            "type": 29,
-                            "id": "VariableID:11421:2405"
+                            "_varRef": 6
                           }
                         },
                         "color": {
@@ -5609,8 +5645,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "type": 29,
-                            "id": "VariableID:11421:3148"
+                            "_varRef": 64
                           }
                         }
                       }
@@ -5618,22 +5653,22 @@
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "itmSp": {
-                        "_varRef": 56
+                        "_varRef": 65
                       },
                       "topLR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "topRightRadius": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "botLR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "botRR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "strokeBottomWeight": {
-                        "_varRef": 10
+                        "_varRef": 24
                       },
                       "fills": [
                         {
@@ -5642,7 +5677,7 @@
                       ],
                       "strks": [
                         {
-                          "_varRef": 65
+                          "_varRef": 64
                         }
                       ],
                       "effct": [
@@ -5670,14 +5705,14 @@
                       }
                     ],
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "_isInstance": true,
                     "_insRef": 5,
                     "layMd": "VERTICAL",
                     "cAxSz": "FIXED",
                     "itmSp": 16,
                     "clipC": true,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 1,
@@ -5704,6 +5739,8 @@
                           }
                         },
                         "cPropR": {},
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "layMd": "HORIZONTAL",
                         "pAxSz": "FIXED",
                         "cAxAl": "CENTER",
@@ -5712,8 +5749,6 @@
                         "padT": 16,
                         "padB": 16,
                         "itmSp": 4,
-                        "laySzH": "FILL",
-                        "laySzV": "HUG",
                         "child": [
                           {
                             "type": 3,
@@ -5736,11 +5771,11 @@
                             "cPropR": {
                               "visbl": "Left icon#11433:0"
                             },
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "_isInstance": true,
                             "_insRef": 1,
                             "cAxSz": "FIXED",
-                            "laySzH": "FIXED",
-                            "laySzV": "FIXED",
                             "child": [
                               {
                                 "type": 5,
@@ -5780,6 +5815,8 @@
                                   ]
                                 },
                                 "cPropR": {},
+                                "laySzH": "FIXED",
+                                "laySzV": "FIXED",
                                 "fillG": [
                                   {
                                     "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -5836,6 +5873,8 @@
                             "cPropR": {
                               "chars": "Title#102:35"
                             },
+                            "laySzH": "FILL",
+                            "laySzV": "HUG",
                             "_stlRef": 1,
                             "chars": "Accordion",
                             "fontN": {
@@ -5868,11 +5907,11 @@
                               }
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "_isInstance": true,
                             "_insRef": 3,
                             "cAxSz": "FIXED",
-                            "laySzH": "FIXED",
-                            "laySzV": "FIXED",
                             "child": [
                               {
                                 "type": 5,
@@ -5912,6 +5951,8 @@
                                   ]
                                 },
                                 "cPropR": {},
+                                "laySzH": "FIXED",
+                                "laySzV": "FIXED",
                                 "fillG": [
                                   {
                                     "data": "M 16.281 8.78122 C 16.2114 8.85095 16.1287 8.90627 16.0376 8.94401 C 15.9466 8.98175 15.849 9.00118 15.7504 9.00118 C 15.6519 9.00118 15.5543 8.98175 15.4632 8.94401 C 15.3722 8.90627 15.2894 8.85095 15.2198 8.78122 L 8.25042 1.8109 L 1.28104 8.78122 C 1.14031 8.92195 0.94944 9.00101 0.750417 9.00101 C 0.551394 9.00101 0.360523 8.92195 0.219792 8.78122 C 0.079062 8.64048 0 8.44961 0 8.25059 C -0 8.05157 0.079062 7.8607 0.219792 7.71996 L 7.71979 0.219965 C 7.78945 0.150232 7.87216 0.094914 7.96321 0.05717 C 8.05426 0.019427 8.15186 0 8.25042 0 C 8.34898 0 8.44657 0.019427 8.53762 0.05717 C 8.62867 0.094914 8.71139 0.150232 8.78104 0.219965 L 16.281 7.71996 C 16.3508 7.78962 16.4061 7.87234 16.4438 7.96338 C 16.4816 8.05443 16.501 8.15203 16.501 8.25059 C 16.501 8.34915 16.4816 8.44675 16.4438 8.5378 C 16.4061 8.62884 16.3508 8.71156 16.281 8.78122 Z",
@@ -5986,6 +6027,8 @@
                         "cPropR": {
                           "mainComponent": "Slot#390:39"
                         },
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "_isInstance": true,
                         "_insRef": 0,
                         "layMd": "VERTICAL",
@@ -5995,8 +6038,6 @@
                         "padL": 16,
                         "padR": 16,
                         "padB": 16,
-                        "laySzH": "FILL",
-                        "laySzV": "HUG",
                         "child": [
                           {
                             "type": 2,
@@ -6043,6 +6084,8 @@
                             "cPropR": {
                               "chars": "Content#11443:0"
                             },
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "_stlRef": 2,
                             "chars": "Content",
                             "fontN": {
@@ -6076,8 +6119,7 @@
                         "radius": 0,
                         "bndVar": {
                           "color": {
-                            "type": 29,
-                            "id": "VariableID:11421:2405"
+                            "_varRef": 6
                           }
                         },
                         "color": {
@@ -6108,8 +6150,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "type": 29,
-                            "id": "VariableID:1057:5033"
+                            "_varRef": 20
                           }
                         }
                       }
@@ -6117,23 +6158,23 @@
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "topLR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "topRightRadius": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "botLR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "botRR": {
-                        "_varRef": 9
+                        "_varRef": 23
                       },
                       "strokeBottomWeight": {
-                        "_varRef": 10
+                        "_varRef": 24
                       },
                       "strks": [
                         {
-                          "_varRef": 24
+                          "_varRef": 20
                         }
                       ],
                       "effct": [
@@ -6143,14 +6184,14 @@
                       ]
                     },
                     "cPropR": {},
+                    "laySzH": "FILL",
+                    "laySzV": "HUG",
                     "_isInstance": true,
                     "_insRef": 4,
                     "layMd": "HORIZONTAL",
                     "pAxSz": "FIXED",
                     "cAxAl": "CENTER",
                     "clipC": true,
-                    "laySzH": "FILL",
-                    "laySzV": "HUG",
                     "child": [
                       {
                         "type": 1,
@@ -6218,6 +6259,8 @@
                           }
                         ],
                         "cPropR": {},
+                        "laySzH": "FILL",
+                        "laySzV": "HUG",
                         "layMd": "HORIZONTAL",
                         "pAxSz": "FIXED",
                         "cAxAl": "CENTER",
@@ -6227,8 +6270,6 @@
                         "padB": 16,
                         "itmSp": 4,
                         "layGr": 1,
-                        "laySzH": "FILL",
-                        "laySzV": "HUG",
                         "child": [
                           {
                             "type": 3,
@@ -6251,11 +6292,11 @@
                             "cPropR": {
                               "visbl": "Left icon#11433:0"
                             },
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "_isInstance": true,
                             "_insRef": 1,
                             "cAxSz": "FIXED",
-                            "laySzH": "FIXED",
-                            "laySzV": "FIXED",
                             "child": [
                               {
                                 "type": 5,
@@ -6295,6 +6336,8 @@
                                   ]
                                 },
                                 "cPropR": {},
+                                "laySzH": "FIXED",
+                                "laySzV": "FIXED",
                                 "fillG": [
                                   {
                                     "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -6351,6 +6394,8 @@
                             "cPropR": {
                               "chars": "Title#102:35"
                             },
+                            "laySzH": "FILL",
+                            "laySzV": "HUG",
                             "_stlRef": 1,
                             "chars": "Accordion",
                             "fontN": {
@@ -6383,11 +6428,11 @@
                               }
                             },
                             "cPropR": {},
+                            "laySzH": "FIXED",
+                            "laySzV": "FIXED",
                             "_isInstance": true,
                             "_insRef": 2,
                             "cAxSz": "FIXED",
-                            "laySzH": "FIXED",
-                            "laySzV": "FIXED",
                             "child": [
                               {
                                 "type": 5,
@@ -6427,6 +6472,8 @@
                                   ]
                                 },
                                 "cPropR": {},
+                                "laySzH": "FIXED",
+                                "laySzV": "FIXED",
                                 "fillG": [
                                   {
                                     "data": "M 16.281 1.28104 L 8.78104 8.78104 C 8.71139 8.85077 8.62867 8.90609 8.53762 8.94384 C 8.44657 8.98158 8.34898 9.00101 8.25042 9.00101 C 8.15186 9.00101 8.05426 8.98158 7.96321 8.94384 C 7.87216 8.90609 7.78945 8.85077 7.71979 8.78104 L 0.219792 1.28104 C 0.079062 1.14031 0 0.94944 0 0.750417 C 0 0.551394 0.079062 0.360522 0.219792 0.219792 C 0.360523 0.079061 0.551394 0 0.750417 0 C 0.94944 0 1.14031 0.079061 1.28104 0.219792 L 8.25042 7.1901 L 15.2198 0.219792 C 15.2895 0.150109 15.3722 0.094834 15.4632 0.057122 C 15.5543 0.01941 15.6519 0 15.7504 0 C 15.849 0 15.9465 0.01941 16.0376 0.057122 C 16.1286 0.094834 16.2114 0.150109 16.281 0.219792 C 16.3507 0.289474 16.406 0.3722 16.4437 0.463245 C 16.4814 0.554289 16.5008 0.651871 16.5008 0.750417 C 16.5008 0.848963 16.4814 0.946545 16.4437 1.03759 C 16.406 1.12863 16.3507 1.21136 16.281 1.28104 Z",
@@ -6487,10 +6534,10 @@
               }
             },
             "cPropR": {},
-            "cPropD": {},
-            "cAxSz": "FIXED",
             "laySzH": "FIXED",
             "laySzV": "FIXED",
+            "cPropD": {},
+            "cAxSz": "FIXED",
             "child": [
               {
                 "type": 5,
@@ -6530,6 +6577,8 @@
                   ]
                 },
                 "cPropR": {},
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "fillG": [
                   {
                     "data": "M 13.4897 12.8755 C 13.2952 13.9618 12.7726 14.9624 11.9922 15.7426 C 11.2118 16.5229 10.211 17.0453 9.12469 17.2395 C 9.08345 17.2461 9.04176 17.2496 9 17.2498 C 8.81187 17.2498 8.63063 17.179 8.49222 17.0516 C 8.35381 16.9242 8.26834 16.7494 8.25277 16.5619 C 8.2372 16.3745 8.29265 16.188 8.40814 16.0394 C 8.52362 15.8909 8.69071 15.7913 8.87625 15.7602 C 10.4297 15.4986 11.7478 14.1805 12.0112 12.6242 C 12.0446 12.428 12.1545 12.2531 12.3167 12.138 C 12.479 12.0228 12.6804 11.9768 12.8766 12.0102 C 13.0727 12.0435 13.2476 12.1534 13.3628 12.3156 C 13.478 12.4779 13.5239 12.6793 13.4906 12.8755 L 13.4897 12.8755 Z M 16.5 11.9998 C 16.5 14.1879 15.6308 16.2863 14.0836 17.8335 C 12.5365 19.3807 10.438 20.2498 8.25 20.2498 C 6.06196 20.2498 3.96354 19.3807 2.41637 17.8335 C 0.869194 16.2863 0 14.1879 0 11.9998 C 0 9.38235 1.03125 6.70579 3.06188 4.04516 C 3.12615 3.96091 3.20755 3.89124 3.30071 3.84074 C 3.39387 3.79024 3.49667 3.76005 3.60235 3.75217 C 3.70802 3.74429 3.81417 3.75889 3.91379 3.79501 C 4.01341 3.83113 4.10425 3.88795 4.18031 3.96172 L 6.44156 6.15641 L 8.50406 0.492973 C 8.54527 0.380017 8.61303 0.278624 8.70163 0.197341 C 8.79023 0.116058 8.89707 0.057268 9.01315 0.025927 C 9.12923 -0.005414 9.25115 -0.008387 9.36862 0.017259 C 9.48609 0.042905 9.59567 0.096418 9.68812 0.173286 C 11.7384 1.87485 16.5 6.42641 16.5 11.9998 Z M 15 11.9998 C 15 7.67891 11.6447 3.94485 9.54281 2.03141 L 7.455 7.75672 C 7.41215 7.87431 7.34055 7.97931 7.24674 8.06215 C 7.15292 8.14499 7.03986 8.20303 6.91787 8.23099 C 6.79588 8.25895 6.66883 8.25593 6.5483 8.22222 C 6.42777 8.18851 6.3176 8.12517 6.22781 8.03797 L 3.75562 5.63985 C 2.25844 7.80079 1.5 9.93735 1.5 11.9998 C 1.5 13.7901 2.21116 15.5069 3.47703 16.7728 C 4.7429 18.0387 6.45979 18.7498 8.25 18.7498 C 10.0402 18.7498 11.7571 18.0387 13.023 16.7728 C 14.2888 15.5069 15 13.7901 15 11.9998 Z",
@@ -6557,10 +6606,10 @@
               }
             },
             "cPropR": {},
-            "cPropD": {},
-            "cAxSz": "FIXED",
             "laySzH": "FIXED",
             "laySzV": "FIXED",
+            "cPropD": {},
+            "cAxSz": "FIXED",
             "child": [
               {
                 "type": 5,
@@ -6600,6 +6649,8 @@
                   ]
                 },
                 "cPropR": {},
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "fillG": [
                   {
                     "data": "M 16.281 1.28104 L 8.78104 8.78104 C 8.71139 8.85077 8.62867 8.90609 8.53762 8.94384 C 8.44657 8.98158 8.34898 9.00101 8.25042 9.00101 C 8.15186 9.00101 8.05426 8.98158 7.96321 8.94384 C 7.87216 8.90609 7.78945 8.85077 7.71979 8.78104 L 0.219792 1.28104 C 0.079062 1.14031 0 0.94944 0 0.750417 C 0 0.551394 0.079062 0.360522 0.219792 0.219792 C 0.360523 0.079061 0.551394 0 0.750417 0 C 0.94944 0 1.14031 0.079061 1.28104 0.219792 L 8.25042 7.1901 L 15.2198 0.219792 C 15.2895 0.150109 15.3722 0.094834 15.4632 0.057122 C 15.5543 0.01941 15.6519 0 15.7504 0 C 15.849 0 15.9465 0.01941 16.0376 0.057122 C 16.1286 0.094834 16.2114 0.150109 16.281 0.219792 C 16.3507 0.289474 16.406 0.3722 16.4437 0.463245 C 16.4814 0.554289 16.5008 0.651871 16.5008 0.750417 C 16.5008 0.848963 16.4814 0.946545 16.4437 1.03759 C 16.406 1.12863 16.3507 1.21136 16.281 1.28104 Z",
@@ -6627,10 +6678,10 @@
               }
             },
             "cPropR": {},
-            "cPropD": {},
-            "cAxSz": "FIXED",
             "laySzH": "FIXED",
             "laySzV": "FIXED",
+            "cPropD": {},
+            "cAxSz": "FIXED",
             "child": [
               {
                 "type": 5,
@@ -6670,6 +6721,8 @@
                   ]
                 },
                 "cPropR": {},
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
                 "fillG": [
                   {
                     "data": "M 16.281 8.78122 C 16.2114 8.85095 16.1287 8.90627 16.0376 8.94401 C 15.9466 8.98175 15.849 9.00118 15.7504 9.00118 C 15.6519 9.00118 15.5543 8.98175 15.4632 8.94401 C 15.3722 8.90627 15.2894 8.85095 15.2198 8.78122 L 8.25042 1.8109 L 1.28104 8.78122 C 1.14031 8.92195 0.94944 9.00101 0.750417 9.00101 C 0.551394 9.00101 0.360523 8.92195 0.219792 8.78122 C 0.079062 8.64048 0 8.44961 0 8.25059 C -0 8.05157 0.079062 7.8607 0.219792 7.71996 L 7.71979 0.219965 C 7.78945 0.150232 7.87216 0.094914 7.96321 0.05717 C 8.05426 0.019427 8.15186 0 8.25042 0 C 8.34898 0 8.44657 0.019427 8.53762 0.05717 C 8.62867 0.094914 8.71139 0.150232 8.78104 0.219965 L 16.281 7.71996 C 16.3508 7.78962 16.4061 7.87234 16.4438 7.96338 C 16.4816 8.05443 16.501 8.15203 16.501 8.25059 C 16.501 8.34915 16.4816 8.44675 16.4438 8.5378 C 16.4061 8.62884 16.3508 8.71156 16.281 8.78122 Z",
