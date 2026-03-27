@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "exportFormatVersion": "1.1.1",
+    "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
     "guid": "8b898479-963b-42df-822d-0c7bd7af0da3",
-    "version": 5,
+    "version": 6,
     "name": "Accordion",
     "pluginVersion": "1.0.0",
     "history": {
-      "5": {
-        "message": "Fixed HUG and FILL properties not being applied",
-        "date": "2026-03-27T22:22:02.144Z"
+      "6": {
+        "message": "Changed JSON format version",
+        "date": "2026-03-27T22:25:36.717Z"
       }
     },
-    "publishDate": "2026-03-27T22:22:02.144Z"
+    "publishDate": "2026-03-27T22:25:36.717Z"
   },
   "stringTable": {
     "colNm": "collectionName",
