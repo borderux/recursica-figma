@@ -2,17 +2,17 @@
   "metadata": {
     "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
-    "guid": "4b0f4232-91b9-4470-83f6-588651cd7ca7",
-    "version": 3,
+    "guid": "36a7f8cb-a04b-4546-933b-6eff512e701d",
+    "version": 1,
     "name": "Avatar",
     "pluginVersion": "1.0.0",
     "history": {
-      "3": {
-        "message": "Fix for stone color prop",
-        "date": "2026-03-31T17:13:00.844Z"
+      "1": {
+        "message": "New version",
+        "date": "2026-03-31T17:23:37.970Z"
       }
     },
-    "publishDate": "2026-03-31T17:13:00.844Z"
+    "publishDate": "2026-03-31T17:23:37.970Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -2080,20 +2080,6 @@
                     "y": 8,
                     "w": 16,
                     "h": 16,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -2103,20 +2089,6 @@
                         "_varRef": 34
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -2341,20 +2313,6 @@
                     "y": 8,
                     "w": 24,
                     "h": 24,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -2364,20 +2322,6 @@
                         "_varRef": 41
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -2602,20 +2546,6 @@
                     "y": 16,
                     "w": 32,
                     "h": 32,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -2625,20 +2555,6 @@
                         "_varRef": 46
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -4183,20 +4099,6 @@
                     "y": 8,
                     "w": 16,
                     "h": 16,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -4206,20 +4108,6 @@
                         "_varRef": 34
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -4420,20 +4308,6 @@
                     "y": 8,
                     "w": 24,
                     "h": 24,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -4443,20 +4317,6 @@
                         "_varRef": 41
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -4657,20 +4517,6 @@
                     "y": 16,
                     "w": 32,
                     "h": 32,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -4680,20 +4526,6 @@
                         "_varRef": 46
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -6250,20 +6082,6 @@
                     "y": 8,
                     "w": 16,
                     "h": 16,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -6273,20 +6091,6 @@
                         "_varRef": 34
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -6511,20 +6315,6 @@
                     "y": 8,
                     "w": 24,
                     "h": 24,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -6534,20 +6324,6 @@
                         "_varRef": 41
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -6772,20 +6548,6 @@
                     "y": 16,
                     "w": 32,
                     "h": 32,
-                    "fills": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "stkAl": "INSIDE",
                     "bndVar": {
                       "w": {
@@ -6795,20 +6557,6 @@
                         "_varRef": 46
                       }
                     },
-                    "backgrounds": [
-                      {
-                        "type": 15,
-                        "visbl": false,
-                        "opcty": 1,
-                        "blnMd": "NORMAL",
-                        "color": {
-                          "r": 1,
-                          "g": 1,
-                          "b": 1
-                        },
-                        "bndVar": {}
-                      }
-                    ],
                     "cPropR": {},
                     "laySzH": "FIXED",
                     "laySzV": "FIXED",
@@ -8234,35 +7982,7 @@
             "y": 32,
             "w": 32,
             "h": 32,
-            "fills": [
-              {
-                "type": 15,
-                "visbl": false,
-                "opcty": 1,
-                "blnMd": "NORMAL",
-                "color": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1
-                },
-                "bndVar": {}
-              }
-            ],
             "stkAl": "INSIDE",
-            "backgrounds": [
-              {
-                "type": 15,
-                "visbl": false,
-                "opcty": 1,
-                "blnMd": "NORMAL",
-                "color": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1
-                },
-                "bndVar": {}
-              }
-            ],
             "cPropR": {},
             "laySzH": "FIXED",
             "laySzV": "FIXED",
