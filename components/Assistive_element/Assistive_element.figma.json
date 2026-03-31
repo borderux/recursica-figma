@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
     "guid": "36a05702-ba71-4198-82e0-d35c21ad6572",
-    "version": 1,
+    "version": 2,
     "name": "Assistive element",
     "pluginVersion": "1.0.0",
     "history": {
-      "1": {
-        "message": "First version",
-        "date": "2026-03-31T16:42:49.659Z"
+      "2": {
+        "message": "Test publish",
+        "date": "2026-03-31T18:30:09.712Z"
       }
     },
-    "publishDate": "2026-03-31T16:42:49.659Z"
+    "publishDate": "2026-03-31T18:30:09.712Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -1165,20 +1165,6 @@
             "y": 32,
             "w": 16,
             "h": 16,
-            "fills": [
-              {
-                "type": 15,
-                "visbl": false,
-                "opcty": 1,
-                "blnMd": "NORMAL",
-                "color": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1
-                },
-                "bndVar": {}
-              }
-            ],
             "stkAl": "INSIDE",
             "bndVar": {
               "w": {
@@ -1188,20 +1174,6 @@
                 "_varRef": 36
               }
             },
-            "backgrounds": [
-              {
-                "type": 15,
-                "visbl": false,
-                "opcty": 1,
-                "blnMd": "NORMAL",
-                "color": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1
-                },
-                "bndVar": {}
-              }
-            ],
             "cPropR": {},
             "laySzH": "FIXED",
             "laySzV": "FIXED",
@@ -1265,20 +1237,6 @@
             "y": 32,
             "w": 16,
             "h": 16,
-            "fills": [
-              {
-                "type": 15,
-                "visbl": false,
-                "opcty": 1,
-                "blnMd": "NORMAL",
-                "color": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1
-                },
-                "bndVar": {}
-              }
-            ],
             "stkAl": "INSIDE",
             "bndVar": {
               "w": {
@@ -1288,20 +1246,6 @@
                 "_varRef": 36
               }
             },
-            "backgrounds": [
-              {
-                "type": 15,
-                "visbl": false,
-                "opcty": 1,
-                "blnMd": "NORMAL",
-                "color": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1
-                },
-                "bndVar": {}
-              }
-            ],
             "cPropR": {},
             "laySzH": "FIXED",
             "laySzV": "FIXED",
