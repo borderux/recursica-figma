@@ -23,6 +23,12 @@
       "path": "components/Badge/Badge.figma.json",
       "version": 3,
       "publishDate": "2026-03-31T18:19:46.190Z"
+    },
+    "d3053608-bbbc-4e7a-9264-4d113e23066c": {
+      "name": "Chip",
+      "path": "components/Chip/Chip.figma.json",
+      "version": 1,
+      "publishDate": "2026-03-31T19:01:58.227Z"
     }
   }
 }
