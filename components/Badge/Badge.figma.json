@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2600db4d-2e4d-4017-89d4-d4cfa22a77c9",
-    "version": 2,
+    "version": 3,
     "name": "Badge",
     "pluginVersion": "1.0.0",
     "history": {
-      "2": {
-        "message": "Add text prop to variant",
-        "date": "2026-03-31T17:44:50.051Z"
+      "3": {
+        "message": "Re-publishing due to conflicts",
+        "date": "2026-03-31T18:19:46.190Z"
       }
     },
-    "publishDate": "2026-03-31T17:44:50.051Z"
+    "publishDate": "2026-03-31T18:19:46.190Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -110,6 +110,21 @@
   },
   "collections": {
     "0": {
+      "colNm": "Theme",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000003"
+    },
+    "1": {
+      "colNm": "Tokens",
+      "modes": [
+        "Default"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000002"
+    },
+    "2": {
       "colNm": "Layer",
       "modes": [
         "0",
@@ -118,151 +133,13 @@
         "3"
       ],
       "colGu": "00000000-0000-0000-0000-000000000001"
-    },
-    "1": {
-      "colNm": "Theme",
-      "modes": [
-        "Light",
-        "Dark"
-      ],
-      "colGu": "00000000-0000-0000-0000-000000000003"
-    },
-    "2": {
-      "colNm": "Tokens",
-      "modes": [
-        "Default"
-      ],
-      "colGu": "00000000-0000-0000-0000-000000000002"
     }
   },
   "variables": {
     "0": {
-      "varNm": "color/gray/000",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": {
-          "r": 0.9882352948188782,
-          "g": 0.9882352948188782,
-          "b": 0.9882352948188782,
-          "a": 1
-        }
-      }
-    },
-    "1": {
-      "varNm": "palette/white",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 0
-        },
-        "Dark": {
-          "_varRef": 0
-        }
-      }
-    },
-    "2": {
-      "varNm": "color/gray/1000",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": {
-          "r": 0.03921568766236305,
-          "g": 0.03921568766236305,
-          "b": 0.03921568766236305,
-          "a": 1
-        }
-      }
-    },
-    "3": {
-      "varNm": "palette/black",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 2
-        },
-        "Dark": {
-          "_varRef": 2
-        }
-      }
-    },
-    "4": {
-      "varNm": "layer/layer-0/property/surface",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 1
-        },
-        "Dark": {
-          "_varRef": 3
-        }
-      }
-    },
-    "5": {
-      "varNm": "color/gray/050",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": {
-          "r": 0.9755661487579346,
-          "g": 0.9751049876213074,
-          "b": 0.9751049876213074,
-          "a": 1
-        }
-      }
-    },
-    "6": {
-      "varNm": "color/gray/900",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": {
-          "r": 0.06073042005300522,
-          "g": 0.06073042005300522,
-          "b": 0.06073042005300522,
-          "a": 1
-        }
-      }
-    },
-    "7": {
-      "varNm": "palette/neutral/050/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 5
-        },
-        "Dark": {
-          "_varRef": 6
-        }
-      }
-    },
-    "8": {
-      "varNm": "global/form/field/color/background",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 4
-        },
-        "1": {
-          "_varRef": 7
-        },
-        "2": {
-          "_varRef": 7
-        },
-        "3": {
-          "_varRef": 7
-        }
-      }
-    },
-    "9": {
       "varNm": "colors/gray/200",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.8392156958580017,
@@ -272,10 +149,10 @@
         }
       }
     },
-    "10": {
+    "1": {
       "varNm": "colors/gray/700",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.3294117748737335,
@@ -285,23 +162,23 @@
         }
       }
     },
-    "11": {
+    "2": {
       "varNm": "palettes/neutral/200/color/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 9
+          "_varRef": 0
         },
         "Dark": {
-          "_varRef": 10
+          "_varRef": 1
         }
       }
     },
-    "12": {
+    "3": {
       "varNm": "colors/gray/800",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.21568627655506134,
@@ -311,10 +188,10 @@
         }
       }
     },
-    "13": {
+    "4": {
       "varNm": "colors/gray/100",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.9137254953384399,
@@ -324,36 +201,36 @@
         }
       }
     },
-    "14": {
+    "5": {
       "varNm": "palettes/neutral/800/color/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 12
+          "_varRef": 3
         },
         "Dark": {
-          "_varRef": 13
+          "_varRef": 4
         }
       }
     },
-    "15": {
+    "6": {
       "varNm": "palettes/neutral/default/color/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 11
+          "_varRef": 2
         },
         "Dark": {
-          "_varRef": 14
+          "_varRef": 5
         }
       }
     },
-    "16": {
+    "7": {
       "varNm": "colors/greensheen/400",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0,
@@ -363,10 +240,10 @@
         }
       }
     },
-    "17": {
+    "8": {
       "varNm": "colors/salmon/500",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.7607843279838562,
@@ -376,23 +253,23 @@
         }
       }
     },
-    "18": {
+    "9": {
       "varNm": "palettes/palette-1/400/color/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 16
+          "_varRef": 7
         },
         "Dark": {
-          "_varRef": 17
+          "_varRef": 8
         }
       }
     },
-    "19": {
+    "10": {
       "varNm": "colors/greensheen/600",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0,
@@ -402,10 +279,10 @@
         }
       }
     },
-    "20": {
+    "11": {
       "varNm": "colors/salmon/300",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.8980392217636108,
@@ -415,165 +292,292 @@
         }
       }
     },
-    "21": {
+    "12": {
       "varNm": "palettes/palette-1/600/color/tone",
       "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 10
+        },
+        "Dark": {
+          "_varRef": 11
+        }
+      }
+    },
+    "13": {
+      "varNm": "palettes/palette-1/default/color/tone",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 9
+        },
+        "Dark": {
+          "_varRef": 12
+        }
+      }
+    },
+    "14": {
+      "varNm": "components/badge/variants/styles/primary-color/properties/colors/background",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 13
+        },
+        "1": {
+          "_varRef": 13
+        },
+        "2": {
+          "_varRef": 13
+        },
+        "3": {
+          "_varRef": 13
+        }
+      }
+    },
+    "15": {
+      "varNm": "components/badge/variants/styles/primary-color/properties/colors/border-color",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 13
+        },
+        "1": {
+          "_varRef": 13
+        },
+        "2": {
+          "_varRef": 13
+        },
+        "3": {
+          "_varRef": 13
+        }
+      }
+    },
+    "16": {
+      "varNm": "sizes/default",
+      "varTy": 2,
       "_colRef": 1,
+      "vByMd": {
+        "Default": 8
+      }
+    },
+    "17": {
+      "varNm": "dimensions/general/default",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 16
+        },
+        "Dark": {
+          "_varRef": 16
+        }
+      }
+    },
+    "18": {
+      "varNm": "components/badge/properties/padding-horizontal",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 17
+        },
+        "1": {
+          "_varRef": 17
+        },
+        "2": {
+          "_varRef": 17
+        },
+        "3": {
+          "_varRef": 17
+        }
+      }
+    },
+    "19": {
+      "varNm": "sizes/0-5x",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Default": 4
+      }
+    },
+    "20": {
+      "varNm": "dimensions/general/sm",
+      "varTy": 2,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
           "_varRef": 19
         },
         "Dark": {
+          "_varRef": 19
+        }
+      }
+    },
+    "21": {
+      "varNm": "components/badge/properties/padding-vertical",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 20
+        },
+        "1": {
+          "_varRef": 20
+        },
+        "2": {
+          "_varRef": 20
+        },
+        "3": {
           "_varRef": 20
         }
       }
     },
     "22": {
-      "varNm": "palettes/palette-1/default/color/tone",
-      "varTy": 1,
+      "varNm": "sizes/4x",
+      "varTy": 2,
       "_colRef": 1,
       "vByMd": {
-        "Light": {
-          "_varRef": 18
-        },
-        "Dark": {
-          "_varRef": 21
-        }
+        "Default": 32
       }
     },
     "23": {
-      "varNm": "components/badge/variants/styles/primary-color/properties/colors/background",
-      "varTy": 1,
+      "varNm": "dimensions/border-radii/2xl",
+      "varTy": 2,
       "_colRef": 0,
       "vByMd": {
-        "0": {
+        "Light": {
           "_varRef": 22
         },
-        "1": {
-          "_varRef": 22
-        },
-        "2": {
-          "_varRef": 22
-        },
-        "3": {
+        "Dark": {
           "_varRef": 22
         }
       }
     },
     "24": {
-      "varNm": "components/badge/variants/styles/primary-color/properties/colors/border-color",
-      "varTy": 1,
-      "_colRef": 0,
+      "varNm": "components/badge/properties/border-radius",
+      "varTy": 2,
+      "_colRef": 2,
       "vByMd": {
         "0": {
-          "_varRef": 22
+          "_varRef": 23
         },
         "1": {
-          "_varRef": 22
+          "_varRef": 23
         },
         "2": {
-          "_varRef": 22
+          "_varRef": 23
         },
         "3": {
-          "_varRef": 22
+          "_varRef": 23
         }
       }
     },
     "25": {
-      "varNm": "sizes/default",
+      "varNm": "components/badge/properties/border-size",
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
-        "Default": 8
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1
       }
     },
     "26": {
-      "varNm": "dimensions/general/default",
-      "varTy": 2,
+      "varNm": "colors/gray/000",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Light": {
-          "_varRef": 25
-        },
-        "Dark": {
-          "_varRef": 25
+        "Default": {
+          "r": 0.9882352948188782,
+          "g": 0.9882352948188782,
+          "b": 0.9882352948188782,
+          "a": 1
         }
       }
     },
     "27": {
-      "varNm": "components/badge/properties/padding-horizontal",
-      "varTy": 2,
+      "varNm": "palettes/core-colors/white/tone",
+      "varTy": 1,
       "_colRef": 0,
       "vByMd": {
-        "0": {
+        "Light": {
           "_varRef": 26
         },
-        "1": {
-          "_varRef": 26
-        },
-        "2": {
-          "_varRef": 26
-        },
-        "3": {
+        "Dark": {
           "_varRef": 26
         }
       }
     },
     "28": {
-      "varNm": "sizes/0-5x",
-      "varTy": 2,
-      "_colRef": 2,
+      "varNm": "palettes/palette-1/400/color/on-tone",
+      "varTy": 1,
+      "_colRef": 0,
       "vByMd": {
-        "Default": 4
+        "Light": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "Dark": {
+          "_varRef": 27
+        }
       }
     },
     "29": {
-      "varNm": "dimensions/general/sm",
-      "varTy": 2,
+      "varNm": "colors/gray/1000",
+      "varTy": 1,
       "_colRef": 1,
       "vByMd": {
-        "Light": {
-          "_varRef": 28
-        },
-        "Dark": {
-          "_varRef": 28
+        "Default": {
+          "r": 0.07450980693101883,
+          "g": 0.07450980693101883,
+          "b": 0.07450980693101883,
+          "a": 1
         }
       }
     },
     "30": {
-      "varNm": "components/badge/properties/padding-vertical",
-      "varTy": 2,
+      "varNm": "palettes/core-colors/black/tone",
+      "varTy": 1,
       "_colRef": 0,
       "vByMd": {
-        "0": {
+        "Light": {
           "_varRef": 29
         },
-        "1": {
-          "_varRef": 29
-        },
-        "2": {
-          "_varRef": 29
-        },
-        "3": {
+        "Dark": {
           "_varRef": 29
         }
       }
     },
     "31": {
-      "varNm": "sizes/4x",
-      "varTy": 2,
-      "_colRef": 2,
+      "varNm": "palettes/palette-1/600/color/on-tone",
+      "varTy": 1,
+      "_colRef": 0,
       "vByMd": {
-        "Default": 32
+        "Light": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "Dark": {
+          "_varRef": 30
+        }
       }
     },
     "32": {
-      "varNm": "dimensions/border-radii/2xl",
-      "varTy": 2,
-      "_colRef": 1,
+      "varNm": "palettes/palette-1/default/color/on-tone",
+      "varTy": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 31
+          "_varRef": 28
         },
         "Dark": {
           "_varRef": 31
@@ -581,9 +585,9 @@
       }
     },
     "33": {
-      "varNm": "components/badge/properties/border-radius",
-      "varTy": 2,
-      "_colRef": 0,
+      "varNm": "components/badge/variants/styles/primary-color/properties/colors/text",
+      "varTy": 1,
+      "_colRef": 2,
       "vByMd": {
         "0": {
           "_varRef": 32
@@ -600,152 +604,25 @@
       }
     },
     "34": {
-      "varNm": "components/badge/properties/border-size",
-      "varTy": 2,
-      "_colRef": 0,
-      "vByMd": {
-        "0": 1,
-        "1": 1,
-        "2": 1,
-        "3": 1
-      }
-    },
-    "35": {
-      "varNm": "colors/gray/000",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": {
-          "r": 0.9882352948188782,
-          "g": 0.9882352948188782,
-          "b": 0.9882352948188782,
-          "a": 1
-        }
-      }
-    },
-    "36": {
-      "varNm": "palettes/core-colors/white/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 35
-        },
-        "Dark": {
-          "_varRef": 35
-        }
-      }
-    },
-    "37": {
-      "varNm": "palettes/palette-1/400/color/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "r": 1,
-          "g": 1,
-          "b": 1,
-          "a": 1
-        },
-        "Dark": {
-          "_varRef": 36
-        }
-      }
-    },
-    "38": {
-      "varNm": "colors/gray/1000",
-      "varTy": 1,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": {
-          "r": 0.07450980693101883,
-          "g": 0.07450980693101883,
-          "b": 0.07450980693101883,
-          "a": 1
-        }
-      }
-    },
-    "39": {
-      "varNm": "palettes/core-colors/black/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 38
-        },
-        "Dark": {
-          "_varRef": 38
-        }
-      }
-    },
-    "40": {
-      "varNm": "palettes/palette-1/600/color/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "r": 1,
-          "g": 1,
-          "b": 1,
-          "a": 1
-        },
-        "Dark": {
-          "_varRef": 39
-        }
-      }
-    },
-    "41": {
-      "varNm": "palettes/palette-1/default/color/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 37
-        },
-        "Dark": {
-          "_varRef": 40
-        }
-      }
-    },
-    "42": {
-      "varNm": "components/badge/variants/styles/primary-color/properties/colors/text",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 41
-        },
-        "1": {
-          "_varRef": 41
-        },
-        "2": {
-          "_varRef": 41
-        },
-        "3": {
-          "_varRef": 41
-        }
-      }
-    },
-    "43": {
       "varNm": "font/letter-spacings/default",
       "varTy": 2,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": 0
       }
     },
-    "44": {
+    "35": {
       "varNm": "font/sizes/xs",
       "varTy": 2,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": 12
       }
     },
-    "45": {
+    "36": {
       "varNm": "colors/mandarin/600",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.8509804010391235,
@@ -755,10 +632,10 @@
         }
       }
     },
-    "46": {
+    "37": {
       "varNm": "colors/mandarin/400",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.9882352948188782,
@@ -768,61 +645,61 @@
         }
       }
     },
-    "47": {
+    "38": {
       "varNm": "palettes/core-colors/warning/tone",
       "varTy": 1,
-      "_colRef": 1,
+      "_colRef": 0,
       "vByMd": {
         "Light": {
-          "_varRef": 45
+          "_varRef": 36
         },
         "Dark": {
-          "_varRef": 46
+          "_varRef": 37
         }
       }
     },
-    "48": {
+    "39": {
       "varNm": "components/badge/variants/styles/warning/properties/colors/background",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 2,
       "vByMd": {
         "0": {
-          "_varRef": 47
+          "_varRef": 38
         },
         "1": {
-          "_varRef": 47
+          "_varRef": 38
         },
         "2": {
-          "_varRef": 47
+          "_varRef": 38
         },
         "3": {
-          "_varRef": 47
+          "_varRef": 38
         }
       }
     },
-    "49": {
+    "40": {
       "varNm": "components/badge/variants/styles/warning/properties/colors/border-color",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 2,
       "vByMd": {
         "0": {
-          "_varRef": 47
+          "_varRef": 38
         },
         "1": {
-          "_varRef": 47
+          "_varRef": 38
         },
         "2": {
-          "_varRef": 47
+          "_varRef": 38
         },
         "3": {
-          "_varRef": 47
+          "_varRef": 38
         }
       }
     },
-    "50": {
+    "41": {
       "varNm": "colors/mandy/900",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 1,
       "vByMd": {
         "Default": {
           "r": 0.18431372940540314,
@@ -832,23 +709,164 @@
         }
       }
     },
-    "51": {
+    "42": {
       "varNm": "palettes/core-colors/warning/on-tone",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 41
+        },
+        "Dark": {
+          "_varRef": 41
+        }
+      }
+    },
+    "43": {
+      "varNm": "components/badge/variants/styles/warning/properties/colors/text",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 42
+        },
+        "1": {
+          "_varRef": 42
+        },
+        "2": {
+          "_varRef": 42
+        },
+        "3": {
+          "_varRef": 42
+        }
+      }
+    },
+    "44": {
+      "varNm": "colors/mandy/600",
       "varTy": 1,
       "_colRef": 1,
       "vByMd": {
+        "Default": {
+          "r": 0.7411764860153198,
+          "g": 0.04313725605607033,
+          "b": 0.04313725605607033,
+          "a": 1
+        }
+      }
+    },
+    "45": {
+      "varNm": "colors/mandy/400",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Default": {
+          "r": 0.9254902005195618,
+          "g": 0.054901961237192154,
+          "b": 0.054901961237192154,
+          "a": 1
+        }
+      }
+    },
+    "46": {
+      "varNm": "palettes/core-colors/alert/tone",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
         "Light": {
-          "_varRef": 50
+          "_varRef": 44
         },
         "Dark": {
-          "_varRef": 50
+          "_varRef": 45
+        }
+      }
+    },
+    "47": {
+      "varNm": "components/badge/variants/styles/alert/properties/colors/background",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 46
+        },
+        "1": {
+          "_varRef": 46
+        },
+        "2": {
+          "_varRef": 46
+        },
+        "3": {
+          "_varRef": 46
+        }
+      }
+    },
+    "48": {
+      "varNm": "components/badge/variants/styles/alert/properties/colors/border-color",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 46
+        },
+        "1": {
+          "_varRef": 46
+        },
+        "2": {
+          "_varRef": 46
+        },
+        "3": {
+          "_varRef": 46
+        }
+      }
+    },
+    "49": {
+      "varNm": "palettes/core-colors/alert/on-tone",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 27
+        },
+        "Dark": {
+          "_varRef": 27
+        }
+      }
+    },
+    "50": {
+      "varNm": "components/badge/variants/styles/alert/properties/colors/text",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "0": {
+          "_varRef": 49
+        },
+        "1": {
+          "_varRef": 49
+        },
+        "2": {
+          "_varRef": 49
+        },
+        "3": {
+          "_varRef": 49
+        }
+      }
+    },
+    "51": {
+      "varNm": "palettes/core-colors/success/tone",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "Light": {
+          "_varRef": 10
+        },
+        "Dark": {
+          "_varRef": 7
         }
       }
     },
     "52": {
-      "varNm": "components/badge/variants/styles/warning/properties/colors/text",
+      "varNm": "components/badge/variants/styles/success/properties/colors/background",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 2,
       "vByMd": {
         "0": {
           "_varRef": 51
@@ -865,194 +883,53 @@
       }
     },
     "53": {
-      "varNm": "colors/mandy/600",
+      "varNm": "components/badge/variants/styles/success/properties/colors/border-color",
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
-        "Default": {
-          "r": 0.7411764860153198,
-          "g": 0.04313725605607033,
-          "b": 0.04313725605607033,
-          "a": 1
+        "0": {
+          "_varRef": 51
+        },
+        "1": {
+          "_varRef": 51
+        },
+        "2": {
+          "_varRef": 51
+        },
+        "3": {
+          "_varRef": 51
         }
       }
     },
     "54": {
-      "varNm": "colors/mandy/400",
+      "varNm": "palettes/core-colors/success/on-tone",
       "varTy": 1,
-      "_colRef": 2,
+      "_colRef": 0,
       "vByMd": {
-        "Default": {
-          "r": 0.9254902005195618,
-          "g": 0.054901961237192154,
-          "b": 0.054901961237192154,
-          "a": 1
+        "Light": {
+          "_varRef": 27
+        },
+        "Dark": {
+          "_varRef": 27
         }
       }
     },
     "55": {
-      "varNm": "palettes/core-colors/alert/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 53
-        },
-        "Dark": {
-          "_varRef": 54
-        }
-      }
-    },
-    "56": {
-      "varNm": "components/badge/variants/styles/alert/properties/colors/background",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 55
-        },
-        "1": {
-          "_varRef": 55
-        },
-        "2": {
-          "_varRef": 55
-        },
-        "3": {
-          "_varRef": 55
-        }
-      }
-    },
-    "57": {
-      "varNm": "components/badge/variants/styles/alert/properties/colors/border-color",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 55
-        },
-        "1": {
-          "_varRef": 55
-        },
-        "2": {
-          "_varRef": 55
-        },
-        "3": {
-          "_varRef": 55
-        }
-      }
-    },
-    "58": {
-      "varNm": "palettes/core-colors/alert/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 36
-        },
-        "Dark": {
-          "_varRef": 36
-        }
-      }
-    },
-    "59": {
-      "varNm": "components/badge/variants/styles/alert/properties/colors/text",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 58
-        },
-        "1": {
-          "_varRef": 58
-        },
-        "2": {
-          "_varRef": 58
-        },
-        "3": {
-          "_varRef": 58
-        }
-      }
-    },
-    "60": {
-      "varNm": "palettes/core-colors/success/tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 19
-        },
-        "Dark": {
-          "_varRef": 16
-        }
-      }
-    },
-    "61": {
-      "varNm": "components/badge/variants/styles/success/properties/colors/background",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 60
-        },
-        "1": {
-          "_varRef": 60
-        },
-        "2": {
-          "_varRef": 60
-        },
-        "3": {
-          "_varRef": 60
-        }
-      }
-    },
-    "62": {
-      "varNm": "components/badge/variants/styles/success/properties/colors/border-color",
-      "varTy": 1,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 60
-        },
-        "1": {
-          "_varRef": 60
-        },
-        "2": {
-          "_varRef": 60
-        },
-        "3": {
-          "_varRef": 60
-        }
-      }
-    },
-    "63": {
-      "varNm": "palettes/core-colors/success/on-tone",
-      "varTy": 1,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 36
-        },
-        "Dark": {
-          "_varRef": 36
-        }
-      }
-    },
-    "64": {
       "varNm": "components/badge/variants/styles/success/properties/colors/text",
       "varTy": 1,
-      "_colRef": 0,
+      "_colRef": 2,
       "vByMd": {
         "0": {
-          "_varRef": 63
+          "_varRef": 54
         },
         "1": {
-          "_varRef": 63
+          "_varRef": 54
         },
         "2": {
-          "_varRef": 63
+          "_varRef": 54
         },
         "3": {
-          "_varRef": 63
+          "_varRef": 54
         }
       }
     }
@@ -1070,7 +947,7 @@
             "radius": 0,
             "bndVar": {
               "color": {
-                "_varRef": 15
+                "_varRef": 6
               }
             },
             "color": {
@@ -1091,7 +968,7 @@
         "bndVar": {
           "effct": [
             {
-              "_varRef": 15
+              "_varRef": 6
             }
           ]
         }
@@ -1099,7 +976,7 @@
       "bndVar": {
         "effct": [
           {
-            "_varRef": 15
+            "_varRef": 6
           }
         ]
       }
@@ -1122,19 +999,19 @@
         },
         "bndVar": {
           "letSp": {
-            "_varRef": 43
+            "_varRef": 34
           },
           "fontS": {
-            "_varRef": 44
+            "_varRef": 35
           }
         }
       },
       "bndVar": {
         "letSp": {
-          "_varRef": 43
+          "_varRef": 34
         },
         "fontS": {
-          "_varRef": 44
+          "_varRef": 35
         }
       }
     }
@@ -1163,11 +1040,11 @@
     ],
     "child": [
       {
-        "type": 1,
-        "id": "124:1101",
+        "type": "SECTION",
+        "id": "11404:2",
         "name": "Components",
-        "x": 59,
-        "y": -369,
+        "x": 2,
+        "y": -611,
         "w": 392,
         "h": 148,
         "fills": [
@@ -1177,52 +1054,13 @@
             "opcty": 1,
             "blnMd": "NORMAL",
             "color": {
-              "r": 0.9882352948188782,
-              "g": 0.9882352948188782,
-              "b": 0.9882352948188782
+              "r": 1,
+              "g": 1,
+              "b": 1
             },
-            "bndVar": {
-              "color": {
-                "_varRef": 8
-              }
-            }
+            "bndVar": {}
           }
         ],
-        "stkAl": "INSIDE",
-        "bndVar": {
-          "fills": [
-            {
-              "_varRef": 8
-            }
-          ]
-        },
-        "backgrounds": [
-          {
-            "type": 15,
-            "visbl": true,
-            "opcty": 1,
-            "blnMd": "NORMAL",
-            "color": {
-              "r": 0.9882352948188782,
-              "g": 0.9882352948188782,
-              "b": 0.9882352948188782
-            },
-            "bndVar": {
-              "color": {
-                "_varRef": 8
-              }
-            }
-          }
-        ],
-        "laySzH": "HUG",
-        "laySzV": "HUG",
-        "layMd": "VERTICAL",
-        "padL": 32,
-        "padR": 32,
-        "padT": 32,
-        "padB": 32,
-        "itmSp": 32,
-        "clipC": true,
         "child": [
           {
             "type": 14,
@@ -1292,7 +1130,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "_varRef": 15
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -1323,7 +1161,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 23
+                        "_varRef": 14
                       }
                     }
                   }
@@ -1341,7 +1179,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 24
+                        "_varRef": 15
                       }
                     }
                   }
@@ -1349,54 +1187,54 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "padL": {
-                    "_varRef": 27
+                    "_varRef": 18
                   },
                   "padT": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "padR": {
-                    "_varRef": 27
+                    "_varRef": 18
                   },
                   "padB": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "topLR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "topRightRadius": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "botLR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "botRR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "strokeTopWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeLeftWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeRightWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "fills": [
                     {
-                      "_varRef": 23
+                      "_varRef": 14
                     }
                   ],
                   "strks": [
                     {
-                      "_varRef": 24
+                      "_varRef": 15
                     }
                   ],
                   "effct": [
                     {
-                      "_varRef": 15
+                      "_varRef": 6
                     }
                   ]
                 },
@@ -1413,7 +1251,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 23
+                        "_varRef": 14
                       }
                     }
                   }
@@ -1451,7 +1289,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 42
+                            "_varRef": 33
                           }
                         }
                       }
@@ -1460,17 +1298,17 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 42
+                          "_varRef": 33
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 43
+                          "_varRef": 34
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 44
+                          "_varRef": 35
                         }
                       ]
                     },
@@ -1512,7 +1350,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "_varRef": 15
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -1543,7 +1381,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 48
+                        "_varRef": 39
                       }
                     }
                   }
@@ -1561,7 +1399,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 49
+                        "_varRef": 40
                       }
                     }
                   }
@@ -1569,54 +1407,54 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "padL": {
-                    "_varRef": 27
+                    "_varRef": 18
                   },
                   "padT": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "padR": {
-                    "_varRef": 27
+                    "_varRef": 18
                   },
                   "padB": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "topLR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "topRightRadius": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "botLR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "botRR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "strokeTopWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeLeftWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeRightWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "fills": [
                     {
-                      "_varRef": 48
+                      "_varRef": 39
                     }
                   ],
                   "strks": [
                     {
-                      "_varRef": 49
+                      "_varRef": 40
                     }
                   ],
                   "effct": [
                     {
-                      "_varRef": 15
+                      "_varRef": 6
                     }
                   ]
                 },
@@ -1633,7 +1471,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 48
+                        "_varRef": 39
                       }
                     }
                   }
@@ -1671,7 +1509,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 52
+                            "_varRef": 43
                           }
                         }
                       }
@@ -1680,17 +1518,17 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 52
+                          "_varRef": 43
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 43
+                          "_varRef": 34
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 44
+                          "_varRef": 35
                         }
                       ]
                     },
@@ -1732,7 +1570,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "_varRef": 15
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -1763,7 +1601,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 56
+                        "_varRef": 47
                       }
                     }
                   }
@@ -1781,7 +1619,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 57
+                        "_varRef": 48
                       }
                     }
                   }
@@ -1789,54 +1627,54 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "padL": {
-                    "_varRef": 27
+                    "_varRef": 18
                   },
                   "padT": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "padR": {
-                    "_varRef": 27
+                    "_varRef": 18
                   },
                   "padB": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "topLR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "topRightRadius": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "botLR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "botRR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "strokeTopWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeLeftWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeRightWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "fills": [
                     {
-                      "_varRef": 56
+                      "_varRef": 47
                     }
                   ],
                   "strks": [
                     {
-                      "_varRef": 57
+                      "_varRef": 48
                     }
                   ],
                   "effct": [
                     {
-                      "_varRef": 15
+                      "_varRef": 6
                     }
                   ]
                 },
@@ -1853,7 +1691,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 56
+                        "_varRef": 47
                       }
                     }
                   }
@@ -1891,7 +1729,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 59
+                            "_varRef": 50
                           }
                         }
                       }
@@ -1900,17 +1738,17 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 59
+                          "_varRef": 50
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 43
+                          "_varRef": 34
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 44
+                          "_varRef": 35
                         }
                       ]
                     },
@@ -1952,7 +1790,7 @@
                     "radius": 0,
                     "bndVar": {
                       "color": {
-                        "_varRef": 15
+                        "_varRef": 6
                       }
                     },
                     "color": {
@@ -1983,7 +1821,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 61
+                        "_varRef": 52
                       }
                     }
                   }
@@ -2001,7 +1839,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 62
+                        "_varRef": 53
                       }
                     }
                   }
@@ -2009,54 +1847,54 @@
                 "stkAl": "INSIDE",
                 "bndVar": {
                   "padL": {
-                    "_varRef": 27
+                    "_varRef": 18
                   },
                   "padT": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "padR": {
-                    "_varRef": 27
+                    "_varRef": 18
                   },
                   "padB": {
-                    "_varRef": 30
+                    "_varRef": 21
                   },
                   "topLR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "topRightRadius": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "botLR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "botRR": {
-                    "_varRef": 33
+                    "_varRef": 24
                   },
                   "strokeTopWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeBottomWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeLeftWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "strokeRightWeight": {
-                    "_varRef": 34
+                    "_varRef": 25
                   },
                   "fills": [
                     {
-                      "_varRef": 61
+                      "_varRef": 52
                     }
                   ],
                   "strks": [
                     {
-                      "_varRef": 62
+                      "_varRef": 53
                     }
                   ],
                   "effct": [
                     {
-                      "_varRef": 15
+                      "_varRef": 6
                     }
                   ]
                 },
@@ -2073,7 +1911,7 @@
                     },
                     "bndVar": {
                       "color": {
-                        "_varRef": 61
+                        "_varRef": 52
                       }
                     }
                   }
@@ -2111,7 +1949,7 @@
                         },
                         "bndVar": {
                           "color": {
-                            "_varRef": 64
+                            "_varRef": 55
                           }
                         }
                       }
@@ -2120,17 +1958,17 @@
                     "bndVar": {
                       "fills": [
                         {
-                          "_varRef": 64
+                          "_varRef": 55
                         }
                       ],
                       "letSp": [
                         {
-                          "_varRef": 43
+                          "_varRef": 34
                         }
                       ],
                       "fontS": [
                         {
-                          "_varRef": 44
+                          "_varRef": 35
                         }
                       ]
                     },
