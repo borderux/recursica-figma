@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
     "guid": "4b0f4232-91b9-4470-83f6-588651cd7ca7",
-    "version": 2,
+    "version": 3,
     "name": "Avatar",
     "pluginVersion": "1.0.0",
     "history": {
-      "2": {
-        "message": "Trying the publish / import flow again",
-        "date": "2026-03-31T17:06:19.998Z"
+      "3": {
+        "message": "Fix for stone color prop",
+        "date": "2026-03-31T17:13:00.844Z"
       }
     },
-    "publishDate": "2026-03-31T17:06:19.998Z"
+    "publishDate": "2026-03-31T17:13:00.844Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -1793,26 +1793,6 @@
         "fontS": {
           "_varRef": 61
         }
-      }
-    },
-    "4": {
-      "type": "PAINT",
-      "name": "stone",
-      "pntSt": {
-        "paints": [
-          {
-            "type": 15,
-            "visbl": true,
-            "opcty": 1,
-            "blnMd": "NORMAL",
-            "color": {
-              "r": 0.20392157137393951,
-              "g": 0.20000000298023224,
-              "b": 0.1882352977991104
-            },
-            "bndVar": {}
-          }
-        ]
       }
     }
   },
@@ -8299,7 +8279,6 @@
                 "h": 25.026201248168945,
                 "cnsHr": "SCALE",
                 "cnsVr": "SCALE",
-                "_fillStyleRef": 4,
                 "fills": [
                   {
                     "type": 15,
@@ -8307,9 +8286,9 @@
                     "opcty": 1,
                     "blnMd": "NORMAL",
                     "color": {
-                      "r": 0.20392157137393951,
-                      "g": 0.20000000298023224,
-                      "b": 0.1882352977991104
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
                     },
                     "bndVar": {}
                   }
