@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
     "guid": "8b898479-963b-42df-822d-0c7bd7af0da3",
-    "version": 6,
+    "version": 7,
     "name": "Accordion",
     "pluginVersion": "1.0.0",
     "history": {
-      "6": {
-        "message": "Changed JSON format version",
-        "date": "2026-03-27T22:25:36.717Z"
+      "7": {
+        "message": "Re-publishing to test import",
+        "date": "2026-03-31T15:37:19.718Z"
       }
     },
-    "publishDate": "2026-03-27T22:25:36.717Z"
+    "publishDate": "2026-03-31T15:37:19.718Z"
   },
   "stringTable": {
     "colNm": "collectionName",
