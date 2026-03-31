@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
     "guid": "2600db4d-2e4d-4017-89d4-d4cfa22a77c9",
-    "version": 1,
+    "version": 2,
     "name": "Badge",
     "pluginVersion": "1.0.0",
     "history": {
-      "1": {
-        "message": "Initial publishing",
-        "date": "2026-03-31T17:41:27.700Z"
+      "2": {
+        "message": "Add text prop to variant",
+        "date": "2026-03-31T17:44:50.051Z"
       }
     },
-    "publishDate": "2026-03-31T17:41:27.700Z"
+    "publishDate": "2026-03-31T17:44:50.051Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -1250,6 +1250,10 @@
             "laySzH": "HUG",
             "laySzV": "HUG",
             "cPropD": {
+              "Text#11402:0": {
+                "type": 2,
+                "defaultValue": "Text"
+              },
               "Style": {
                 "type": 26,
                 "defaultValue": "Primary",
@@ -1470,7 +1474,9 @@
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Text#11402:0"
+                    },
                     "laySzH": "HUG",
                     "laySzV": "HUG",
                     "_stlRef": 1,
@@ -1688,7 +1694,9 @@
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Text#11402:0"
+                    },
                     "laySzH": "HUG",
                     "laySzV": "HUG",
                     "_stlRef": 1,
@@ -1906,7 +1914,9 @@
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Text#11402:0"
+                    },
                     "laySzH": "HUG",
                     "laySzV": "HUG",
                     "_stlRef": 1,
@@ -2124,7 +2134,9 @@
                         }
                       ]
                     },
-                    "cPropR": {},
+                    "cPropR": {
+                      "chars": "Text#11402:0"
+                    },
                     "laySzH": "HUG",
                     "laySzV": "HUG",
                     "_stlRef": 1,
