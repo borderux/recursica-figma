@@ -3,16 +3,16 @@
     "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
     "guid": "36a05702-ba71-4198-82e0-d35c21ad6572",
-    "version": 2,
+    "version": 3,
     "name": "Assistive element",
     "pluginVersion": "1.0.0",
     "history": {
-      "2": {
-        "message": "Fix for a few props",
-        "date": "2026-04-21T19:47:21.248Z"
+      "3": {
+        "message": "Fixed icon size mapping and max width",
+        "date": "2026-05-06T20:03:22.830Z"
       }
     },
-    "publishDate": "2026-04-21T19:47:21.248Z"
+    "publishDate": "2026-05-06T20:03:22.830Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -221,14 +221,14 @@
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
-        "0": 200,
-        "1": 200,
-        "2": 200,
-        "3": 200
+        "0": 500,
+        "1": 500,
+        "2": 500,
+        "3": 500
       }
     },
     "7": {
-      "varNm": "size/2x",
+      "varNm": "sizes/2x",
       "varTy": 2,
       "_colRef": 2,
       "vByMd": {
@@ -236,7 +236,7 @@
       }
     },
     "8": {
-      "varNm": "dimension/icon/sm",
+      "varNm": "dimensions/icons/sm",
       "varTy": 2,
       "_colRef": 1,
       "vByMd": {
@@ -249,7 +249,7 @@
       }
     },
     "9": {
-      "varNm": "global/form/assistive-element/size/icon",
+      "varNm": "components/assistive-element/properties/icon-size",
       "varTy": 2,
       "_colRef": 0,
       "vByMd": {
@@ -462,22 +462,22 @@
       "_colRef": 2,
       "vByMd": {
         "Default": {
-          "r": 0.7411764860153198,
-          "g": 0.04313725605607033,
-          "b": 0.04313725605607033,
+          "r": 0.615686297416687,
+          "g": 0,
+          "b": 0,
           "a": 1
         }
       }
     },
     "25": {
-      "varNm": "colors/mandy/400",
+      "varNm": "colors/mandy/500",
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
         "Default": {
-          "r": 0.9254902005195618,
-          "g": 0.054901961237192154,
-          "b": 0.054901961237192154,
+          "r": 0.7490196228027344,
+          "g": 0,
+          "b": 0,
           "a": 1
         }
       }
@@ -496,14 +496,14 @@
       }
     },
     "27": {
-      "varNm": "colors/mandy/300",
+      "varNm": "colors/mandy/200",
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
         "Default": {
-          "r": 0.9411764740943909,
-          "g": 0.24313725531101227,
-          "b": 0.24313725531101227,
+          "r": 0.9254902005195618,
+          "g": 0.3607843220233917,
+          "b": 0.3607843220233917,
           "a": 1
         }
       }
@@ -522,14 +522,14 @@
       }
     },
     "29": {
-      "varNm": "colors/mandy/200",
+      "varNm": "colors/mandy/100",
       "varTy": 1,
       "_colRef": 2,
       "vByMd": {
         "Default": {
-          "r": 0.95686274766922,
-          "g": 0.4313725531101227,
-          "b": 0.4313725531101227,
+          "r": 0.9411764740943909,
+          "g": 0.5529412031173706,
+          "b": 0.5529412031173706,
           "a": 1
         }
       }
@@ -566,9 +566,9 @@
       "_colRef": 2,
       "vByMd": {
         "Default": {
-          "r": 0.9843137264251709,
-          "g": 0.8117647171020508,
-          "b": 0.8117647171020508,
+          "r": 0.9607843160629272,
+          "g": 0.7529411911964417,
+          "b": 0.7529411911964417,
           "a": 1
         }
       }
@@ -623,46 +623,6 @@
           "_varRef": 33
         }
       }
-    },
-    "36": {
-      "varNm": "sizes/2x",
-      "varTy": 2,
-      "_colRef": 2,
-      "vByMd": {
-        "Default": 16
-      }
-    },
-    "37": {
-      "varNm": "dimensions/icons/sm",
-      "varTy": 2,
-      "_colRef": 1,
-      "vByMd": {
-        "Light": {
-          "_varRef": 36
-        },
-        "Dark": {
-          "_varRef": 36
-        }
-      }
-    },
-    "38": {
-      "varNm": "components/assistive-element/properties/icon-size",
-      "varTy": 2,
-      "_colRef": 0,
-      "vByMd": {
-        "0": {
-          "_varRef": 37
-        },
-        "1": {
-          "_varRef": 37
-        },
-        "2": {
-          "_varRef": 37
-        },
-        "3": {
-          "_varRef": 37
-        }
-      }
     }
   },
   "instances": {
@@ -674,9 +634,9 @@
         "Icons"
       ],
       "nodePath": [
-        "1:56"
+        "1:58"
       ],
-      "cNode": "1:48"
+      "cNode": "1:50"
     },
     "1": {
       "instT": "internal",
@@ -686,9 +646,9 @@
         "Icons"
       ],
       "nodePath": [
-        "1:56"
+        "1:58"
       ],
-      "cNode": "1:47"
+      "cNode": "1:49"
     }
   },
   "styles": {
@@ -725,7 +685,7 @@
   "images": {},
   "pageData": {
     "type": 13,
-    "id": "1:44",
+    "id": "1:46",
     "name": "Assistive element",
     "backgrounds": [
       {
@@ -747,7 +707,7 @@
     "child": [
       {
         "type": "SECTION",
-        "id": "1:49",
+        "id": "1:51",
         "name": "Components",
         "x": 191,
         "y": -203,
@@ -770,7 +730,7 @@
         "child": [
           {
             "type": 14,
-            "id": "1:55",
+            "id": "1:57",
             "name": "Assistive element",
             "x": 32,
             "y": 32,
@@ -823,11 +783,11 @@
             "child": [
               {
                 "type": 4,
-                "id": "1:45",
+                "id": "1:47",
                 "name": "Type=Help",
                 "x": 32,
                 "y": 32,
-                "w": 200,
+                "w": 252,
                 "h": 24,
                 "stkAl": "INSIDE",
                 "bndVar": {
@@ -842,16 +802,15 @@
                   }
                 },
                 "cPropR": {},
-                "laySzH": "FILL",
+                "laySzH": "HUG",
                 "laySzV": "HUG",
                 "layMd": "HORIZONTAL",
-                "pAxSz": "FIXED",
                 "padT": 8,
                 "itmSp": 4,
                 "child": [
                   {
                     "type": 3,
-                    "id": "1:51",
+                    "id": "1:53",
                     "name": "Help",
                     "y": 8,
                     "w": 16,
@@ -876,9 +835,9 @@
                     "child": [
                       {
                         "type": 5,
-                        "id": "I1:51;1:58",
+                        "id": "I1:53;1:60",
                         "name": "Vector",
-                        "x": 1.4999973773956299,
+                        "x": 1.499997615814209,
                         "y": 1.5,
                         "w": 13,
                         "h": 13,
@@ -925,12 +884,12 @@
                   },
                   {
                     "type": 2,
-                    "id": "1:52",
+                    "id": "1:54",
                     "name": "Message",
                     "x": 20,
                     "y": 8,
-                    "w": 180,
-                    "h": 16,
+                    "w": 232,
+                    "h": 15,
                     "fills": [
                       {
                         "type": 15,
@@ -966,7 +925,7 @@
                       "chars": "Text#1:0"
                     },
                     "laySzH": "FILL",
-                    "laySzV": "FILL",
+                    "laySzV": "HUG",
                     "_stlRef": 0,
                     "chars": "Assistive text",
                     "fontN": {
@@ -979,17 +938,17 @@
                       "unit": "PIXELS",
                       "value": 14.69999885559082
                     },
-                    "txtAr": "NONE"
+                    "txtAr": "HEIGHT"
                   }
                 ]
               },
               {
                 "type": 4,
-                "id": "1:46",
+                "id": "1:48",
                 "name": "Type=Error",
                 "x": 32,
                 "y": 88,
-                "w": 200,
+                "w": 252,
                 "h": 24,
                 "stkAl": "INSIDE",
                 "bndVar": {
@@ -1004,16 +963,15 @@
                   }
                 },
                 "cPropR": {},
-                "laySzH": "FILL",
+                "laySzH": "HUG",
                 "laySzV": "HUG",
                 "layMd": "HORIZONTAL",
-                "pAxSz": "FIXED",
                 "padT": 8,
                 "itmSp": 4,
                 "child": [
                   {
                     "type": 3,
-                    "id": "1:53",
+                    "id": "1:55",
                     "name": "Error",
                     "y": 8,
                     "w": 16,
@@ -1038,12 +996,12 @@
                     "child": [
                       {
                         "type": 5,
-                        "id": "I1:53;1:57",
+                        "id": "I1:55;1:59",
                         "name": "Vector",
                         "x": 0.9993295669555664,
                         "y": 1.499958872795105,
-                        "w": 14.000699996948242,
-                        "h": 12.500082015991211,
+                        "w": 14.000699043273926,
+                        "h": 12.500081062316895,
                         "cnsHr": "SCALE",
                         "cnsVr": "SCALE",
                         "fills": [
@@ -1053,9 +1011,9 @@
                             "opcty": 1,
                             "blnMd": "NORMAL",
                             "color": {
-                              "r": 0.7411764860153198,
-                              "g": 0.04313725605607033,
-                              "b": 0.04313725605607033
+                              "r": 0.615686297416687,
+                              "g": 0,
+                              "b": 0
                             },
                             "bndVar": {
                               "color": {
@@ -1087,12 +1045,12 @@
                   },
                   {
                     "type": 2,
-                    "id": "1:54",
+                    "id": "1:56",
                     "name": "Message",
                     "x": 20,
                     "y": 8,
-                    "w": 180,
-                    "h": 16,
+                    "w": 232,
+                    "h": 15,
                     "fills": [
                       {
                         "type": 15,
@@ -1100,9 +1058,9 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "color": {
-                          "r": 0.7411764860153198,
-                          "g": 0.04313725605607033,
-                          "b": 0.04313725605607033
+                          "r": 0.615686297416687,
+                          "g": 0,
+                          "b": 0
                         },
                         "bndVar": {
                           "color": {
@@ -1128,7 +1086,7 @@
                       "chars": "Text#1:0"
                     },
                     "laySzH": "FILL",
-                    "laySzV": "FILL",
+                    "laySzV": "HUG",
                     "_stlRef": 0,
                     "chars": "Assistive text",
                     "fontN": {
@@ -1141,7 +1099,7 @@
                       "unit": "PIXELS",
                       "value": 14.69999885559082
                     },
-                    "txtAr": "NONE"
+                    "txtAr": "HEIGHT"
                   }
                 ]
               }
@@ -1151,7 +1109,7 @@
       },
       {
         "type": "SECTION",
-        "id": "1:56",
+        "id": "1:58",
         "name": "Icons",
         "x": 552,
         "y": -203,
@@ -1174,7 +1132,7 @@
         "child": [
           {
             "type": 4,
-            "id": "1:47",
+            "id": "1:49",
             "name": "Error",
             "x": 80,
             "y": 32,
@@ -1183,10 +1141,10 @@
             "stkAl": "INSIDE",
             "bndVar": {
               "w": {
-                "_varRef": 38
+                "_varRef": 9
               },
               "h": {
-                "_varRef": 38
+                "_varRef": 9
               }
             },
             "cPropR": {},
@@ -1197,12 +1155,12 @@
             "child": [
               {
                 "type": 5,
-                "id": "1:57",
+                "id": "1:59",
                 "name": "Vector",
                 "x": 0.9993295669555664,
                 "y": 1.499958872795105,
-                "w": 14.000699996948242,
-                "h": 12.500082015991211,
+                "w": 14.000699043273926,
+                "h": 12.500081062316895,
                 "cnsHr": "SCALE",
                 "cnsVr": "SCALE",
                 "fills": [
@@ -1235,7 +1193,7 @@
           },
           {
             "type": 4,
-            "id": "1:48",
+            "id": "1:50",
             "name": "Help",
             "x": 32,
             "y": 32,
@@ -1244,10 +1202,10 @@
             "stkAl": "INSIDE",
             "bndVar": {
               "w": {
-                "_varRef": 38
+                "_varRef": 9
               },
               "h": {
-                "_varRef": 38
+                "_varRef": 9
               }
             },
             "cPropR": {},
@@ -1258,9 +1216,9 @@
             "child": [
               {
                 "type": 5,
-                "id": "1:58",
+                "id": "1:60",
                 "name": "Vector",
-                "x": 1.4999973773956299,
+                "x": 1.499997615814209,
                 "y": 1.5,
                 "w": 13,
                 "h": 13,
