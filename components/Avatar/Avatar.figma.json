@@ -2,17 +2,17 @@
   "metadata": {
     "exportFormatVersion": "1.2.0",
     "figmaApiVersion": "1.0.0",
-    "guid": "4b0f4232-91b9-4470-83f6-588651cd7ca7",
+    "guid": "36a7f8cb-a04b-4546-933b-6eff512e701d",
     "version": 1,
     "name": "Avatar",
     "pluginVersion": "1.0.0",
     "history": {
       "1": {
-        "message": "New version",
-        "date": "2026-03-31T17:23:37.970Z"
+        "message": "Next",
+        "date": "2026-07-02T18:49:24.511Z"
       }
     },
-    "publishDate": "2026-03-31T17:23:37.970Z"
+    "publishDate": "2026-07-02T18:49:24.511Z"
   },
   "stringTable": {
     "colNm": "collectionName",
@@ -1846,6 +1846,22 @@
             "bndVar": {}
           }
         ],
+        "strks": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 0.10000000149011612,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "bndVar": {}
+          }
+        ],
+        "stkAl": "INSIDE",
+        "corR": 2,
         "child": [
           {
             "type": 14,
@@ -3439,6 +3455,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -3451,17 +3478,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -3661,6 +3677,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -3673,17 +3700,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -3883,6 +3899,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -3895,17 +3922,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -5422,6 +5438,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -5434,17 +5461,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -5644,6 +5660,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -5656,17 +5683,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -5866,6 +5882,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -5878,17 +5905,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -7453,6 +7469,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -7465,17 +7492,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -7675,6 +7691,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -7687,17 +7714,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -7897,6 +7913,17 @@
                         "opcty": 1,
                         "blnMd": "NORMAL",
                         "scaleMode": "FILL",
+                        "scalingFactor": 1,
+                        "rotat": 0,
+                        "filters": {
+                          "exposure": 0,
+                          "contrast": 0,
+                          "saturation": 0,
+                          "temperature": 0,
+                          "tint": 0,
+                          "highlights": 0,
+                          "shadows": 0
+                        },
                         "imageTransform": [
                           [
                             1,
@@ -7909,17 +7936,6 @@
                             0
                           ]
                         ],
-                        "scalingFactor": 1,
-                        "rotat": 0,
-                        "filters": {
-                          "exposure": 0,
-                          "contrast": 0,
-                          "saturation": 0,
-                          "temperature": 0,
-                          "tint": 0,
-                          "highlights": 0,
-                          "shadows": 0
-                        },
                         "_imgRef": 0
                       }
                     ],
@@ -7973,6 +7989,22 @@
             "bndVar": {}
           }
         ],
+        "strks": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 0.10000000149011612,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "bndVar": {}
+          }
+        ],
+        "stkAl": "INSIDE",
+        "corR": 2,
         "child": [
           {
             "type": 4,
