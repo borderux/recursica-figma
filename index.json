@@ -29,6 +29,12 @@
       "path": "components/Chip/Chip.figma.json",
       "version": 1,
       "publishDate": "2026-03-31T19:01:58.227Z"
+    },
+    "10eb1efb-5404-4673-af07-9ed5f36fbf3c": {
+      "name": "Link",
+      "path": "components/Link/Link.figma.json",
+      "version": 1,
+      "publishDate": "2026-07-02T19:05:14.335Z"
     }
   }
 }
