@@ -1,0 +1,2913 @@
+{
+  "metadata": {
+    "exportFormatVersion": "1.2.0",
+    "figmaApiVersion": "1.0.0",
+    "guid": "10eb1efb-5404-4673-af07-9ed5f36fbf3c",
+    "version": 1,
+    "name": "Link",
+    "pluginVersion": "1.0.0",
+    "history": {
+      "1": {
+        "message": "Test",
+        "date": "2026-07-02T19:05:14.335Z"
+      }
+    },
+    "publishDate": "2026-07-02T19:05:14.335Z"
+  },
+  "stringTable": {
+    "colNm": "collectionName",
+    "colId": "collectionId",
+    "colGu": "collectionGuid",
+    "modes": "modes",
+    "varNm": "variableName",
+    "varTy": "variableType",
+    "vByMd": "valuesByMode",
+    "_colRef": "_colRef",
+    "_varRef": "_varRef",
+    "_insRef": "_instanceRef",
+    "_stlRef": "_styleRef",
+    "instT": "instanceType",
+    "compN": "componentName",
+    "cSetN": "componentSetName",
+    "cNode": "componentNodeId",
+    "compG": "componentGuid",
+    "cVers": "componentVersion",
+    "cPage": "componentPageName",
+    "varPr": "variantProperties",
+    "cProp": "componentProperties",
+    "cPropD": "componentPropertyDefinitions",
+    "rLibN": "remoteLibraryName",
+    "rLibK": "remoteLibraryKey",
+    "path": "path",
+    "struc": "structure",
+    "bndVar": "boundVariables",
+    "stkAl": "strokeAlign",
+    "stkWt": "strokeWeight",
+    "stkCp": "strokeCap",
+    "stkJn": "strokeJoin",
+    "fillG": "fillGeometry",
+    "strkG": "strokeGeometry",
+    "windR": "windingRule",
+    "layMd": "layoutMode",
+    "padL": "paddingLeft",
+    "padR": "paddingRight",
+    "padT": "paddingTop",
+    "padB": "paddingBottom",
+    "itmSp": "itemSpacing",
+    "clipC": "clipsContent",
+    "corR": "cornerRadius",
+    "pAxSz": "primaryAxisSizingMode",
+    "cAxSz": "counterAxisSizingMode",
+    "pAxAl": "primaryAxisAlignItems",
+    "cAxAl": "counterAxisAlignItems",
+    "cAxSp": "counterAxisSpacing",
+    "txtAr": "textAutoResize",
+    "letSp": "letterSpacing",
+    "linHt": "lineHeight",
+    "txtAh": "textAlignHorizontal",
+    "txtAv": "textAlignVertical",
+    "txtDc": "textDecoration",
+    "fontN": "fontName",
+    "fontS": "fontSize",
+    "fontW": "fontWeight",
+    "fontF": "fontFamily",
+    "prefV": "preferredValues",
+    "shwSh": "showShadowBehindNode",
+    "botLR": "bottomLeftRadius",
+    "botRR": "bottomRightRadius",
+    "topLR": "topLeftRadius",
+    "layGr": "layoutGrow",
+    "laySzH": "layoutSizingHorizontal",
+    "laySzV": "layoutSizingVertical",
+    "offX": "offsetX",
+    "offY": "offsetY",
+    "maxW": "maxWidth",
+    "minW": "minWidth",
+    "parSp": "paragraphSpacing",
+    "parIn": "paragraphIndent",
+    "lstOp": "listOptions",
+    "dashP": "dashPattern",
+    "blnMd": "blendMode",
+    "chars": "characters",
+    "child": "children",
+    "effct": "effects",
+    "fills": "fills",
+    "strks": "strokes",
+    "visbl": "visible",
+    "opcty": "opacity",
+    "rotat": "rotation",
+    "h": "height",
+    "w": "width",
+    "libNm": "libraryName",
+    "cnsHr": "constraintHorizontal",
+    "cnsVr": "constraintVertical",
+    "txtSt": "textStyle",
+    "pntSt": "paintStyle",
+    "effSt": "effectStyle",
+    "grdSt": "gridStyle",
+    "stlKy": "styleKey",
+    "cPropR": "componentPropertyReferences"
+  },
+  "collections": {
+    "0": {
+      "colNm": "Layer",
+      "modes": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000001"
+    },
+    "1": {
+      "colNm": "Theme",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000003"
+    },
+    "2": {
+      "colNm": "Tokens",
+      "modes": [
+        "Default"
+      ],
+      "colGu": "00000000-0000-0000-0000-000000000002"
+    }
+  },
+  "variables": {
+    "0": {
+      "varNm": "sizes/0-5x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": 4
+      }
+    },
+    "1": {
+      "varNm": "dimensions/general/sm",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 0
+        },
+        "Dark": {
+          "_varRef": 0
+        }
+      }
+    },
+    "2": {
+      "varNm": "components/link/properties/icon-text-gap",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 1
+        },
+        "1": {
+          "_varRef": 1
+        },
+        "2": {
+          "_varRef": 1
+        },
+        "3": {
+          "_varRef": 1
+        }
+      }
+    },
+    "3": {
+      "varNm": "colors/salmon/500",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": {
+          "r": 0.7607843279838562,
+          "g": 0.10588235408067703,
+          "b": 0.26274511218070984,
+          "a": 1
+        }
+      }
+    },
+    "4": {
+      "varNm": "colors/salmon/200",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": {
+          "r": 0.9725490212440491,
+          "g": 0.5686274766921997,
+          "b": 0.6039215922355652,
+          "a": 1
+        }
+      }
+    },
+    "5": {
+      "varNm": "palettes/core-colors/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 3
+        },
+        "Dark": {
+          "_varRef": 4
+        }
+      }
+    },
+    "6": {
+      "varNm": "layers/layer-0/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 5
+        },
+        "Dark": {
+          "_varRef": 5
+        }
+      }
+    },
+    "7": {
+      "varNm": "layers/layer-1/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 5
+        },
+        "Dark": {
+          "_varRef": 5
+        }
+      }
+    },
+    "8": {
+      "varNm": "layers/layer-2/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 5
+        },
+        "Dark": {
+          "_varRef": 5
+        }
+      }
+    },
+    "9": {
+      "varNm": "colors/salmon/100",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": {
+          "r": 0.9725490212440491,
+          "g": 0.7254902124404907,
+          "b": 0.7490196228027344,
+          "a": 1
+        }
+      }
+    },
+    "10": {
+      "varNm": "layers/layer-3/elements/interactive/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 5
+        },
+        "Dark": {
+          "_varRef": 9
+        }
+      }
+    },
+    "11": {
+      "varNm": "components/link/variants/states/default/properties/colors/text",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 6
+        },
+        "1": {
+          "_varRef": 7
+        },
+        "2": {
+          "_varRef": 8
+        },
+        "3": {
+          "_varRef": 10
+        }
+      }
+    },
+    "12": {
+      "varNm": "font/letter-spacings/default",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": 0
+      }
+    },
+    "13": {
+      "varNm": "components/link/properties/text/letter-spacing",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 12
+        },
+        "1": {
+          "_varRef": 12
+        },
+        "2": {
+          "_varRef": 12
+        },
+        "3": {
+          "_varRef": 12
+        }
+      }
+    },
+    "14": {
+      "varNm": "font/sizes/sm",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": 14
+      }
+    },
+    "15": {
+      "varNm": "components/link/properties/text/font-size",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 14
+        },
+        "1": {
+          "_varRef": 14
+        },
+        "2": {
+          "_varRef": 14
+        },
+        "3": {
+          "_varRef": 14
+        }
+      }
+    },
+    "16": {
+      "varNm": "font/weights/regular",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": 400
+      }
+    },
+    "17": {
+      "varNm": "components/link/variants/states/default/properties/text/font-weight",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 16
+        },
+        "1": {
+          "_varRef": 16
+        },
+        "2": {
+          "_varRef": 16
+        },
+        "3": {
+          "_varRef": 16
+        }
+      }
+    },
+    "18": {
+      "varNm": "sizes/2x",
+      "varTy": 2,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": 16
+      }
+    },
+    "19": {
+      "varNm": "dimensions/icons/sm",
+      "varTy": 2,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 18
+        },
+        "Dark": {
+          "_varRef": 18
+        }
+      }
+    },
+    "20": {
+      "varNm": "components/link/properties/icon-size",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 19
+        },
+        "1": {
+          "_varRef": 19
+        },
+        "2": {
+          "_varRef": 19
+        },
+        "3": {
+          "_varRef": 19
+        }
+      }
+    },
+    "21": {
+      "varNm": "components/link/variants/states/default/properties/colors/icon",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 6
+        },
+        "1": {
+          "_varRef": 7
+        },
+        "2": {
+          "_varRef": 8
+        },
+        "3": {
+          "_varRef": 10
+        }
+      }
+    },
+    "22": {
+      "varNm": "components/link/variants/states/hover/properties/colors/text",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 6
+        },
+        "1": {
+          "_varRef": 7
+        },
+        "2": {
+          "_varRef": 8
+        },
+        "3": {
+          "_varRef": 10
+        }
+      }
+    },
+    "23": {
+      "varNm": "components/link/variants/states/hover/properties/text/font-weight",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 16
+        },
+        "1": {
+          "_varRef": 16
+        },
+        "2": {
+          "_varRef": 16
+        },
+        "3": {
+          "_varRef": 16
+        }
+      }
+    },
+    "24": {
+      "varNm": "components/link/variants/states/hover/properties/colors/icon",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 6
+        },
+        "1": {
+          "_varRef": 7
+        },
+        "2": {
+          "_varRef": 8
+        },
+        "3": {
+          "_varRef": 10
+        }
+      }
+    },
+    "25": {
+      "varNm": "colors/salmon/800",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": {
+          "r": 0.3686274588108063,
+          "g": 0.0117647061124444,
+          "b": 0.07058823853731155,
+          "a": 1
+        }
+      }
+    },
+    "26": {
+      "varNm": "palettes/palette-1/800/color/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 25
+        },
+        "Dark": {
+          "_varRef": 9
+        }
+      }
+    },
+    "27": {
+      "varNm": "components/link/variants/states/visited/properties/colors/text",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 26
+        },
+        "1": {
+          "_varRef": 26
+        },
+        "2": {
+          "_varRef": 26
+        },
+        "3": {
+          "_varRef": 26
+        }
+      }
+    },
+    "28": {
+      "varNm": "components/link/variants/states/visited-hover/properties/text/font-weight",
+      "varTy": 2,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 16
+        },
+        "1": {
+          "_varRef": 16
+        },
+        "2": {
+          "_varRef": 16
+        },
+        "3": {
+          "_varRef": 16
+        }
+      }
+    },
+    "29": {
+      "varNm": "components/link/variants/states/visited/properties/colors/icon",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 26
+        },
+        "1": {
+          "_varRef": 26
+        },
+        "2": {
+          "_varRef": 26
+        },
+        "3": {
+          "_varRef": 26
+        }
+      }
+    },
+    "30": {
+      "varNm": "colors/salmon/900",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": {
+          "r": 0.2980392277240753,
+          "g": 0.003921568859368563,
+          "b": 0.05098039284348488,
+          "a": 1
+        }
+      }
+    },
+    "31": {
+      "varNm": "colors/salmon/050",
+      "varTy": 1,
+      "_colRef": 2,
+      "vByMd": {
+        "Default": {
+          "r": 0.9647058844566345,
+          "g": 0.8352941274642944,
+          "b": 0.8470588326454163,
+          "a": 1
+        }
+      }
+    },
+    "32": {
+      "varNm": "palettes/palette-1/900/color/tone",
+      "varTy": 1,
+      "_colRef": 1,
+      "vByMd": {
+        "Light": {
+          "_varRef": 30
+        },
+        "Dark": {
+          "_varRef": 31
+        }
+      }
+    },
+    "33": {
+      "varNm": "components/link/variants/states/visited-hover/properties/colors/text",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 32
+        },
+        "1": {
+          "_varRef": 32
+        },
+        "2": {
+          "_varRef": 32
+        },
+        "3": {
+          "_varRef": 32
+        }
+      }
+    },
+    "34": {
+      "varNm": "components/link/variants/states/visited-hover/properties/colors/icon",
+      "varTy": 1,
+      "_colRef": 0,
+      "vByMd": {
+        "0": {
+          "_varRef": 32
+        },
+        "1": {
+          "_varRef": 32
+        },
+        "2": {
+          "_varRef": 32
+        },
+        "3": {
+          "_varRef": 32
+        }
+      }
+    }
+  },
+  "instances": {
+    "0": {
+      "instT": "internal",
+      "compN": "Icon",
+      "cProp": {},
+      "path": [
+        "Icons"
+      ],
+      "nodePath": [
+        "1:7"
+      ],
+      "cNode": "10:160"
+    }
+  },
+  "styles": {
+    "0": {
+      "type": 2,
+      "name": "Recursica/recursica_components_link_states_default_text",
+      "txtSt": {
+        "fontS": 14,
+        "fontN": {
+          "family": "Lexend",
+          "style": "Regular"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 13
+          },
+          "fontS": {
+            "_varRef": 15
+          },
+          "fontW": {
+            "_varRef": 17
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 13
+        },
+        "fontS": {
+          "_varRef": 15
+        },
+        "fontW": {
+          "_varRef": 17
+        }
+      }
+    },
+    "1": {
+      "type": 2,
+      "name": "Recursica/recursica_components_link_states_hover_text",
+      "txtSt": {
+        "fontS": 14,
+        "fontN": {
+          "family": "Lexend",
+          "style": "Regular"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "txtDc": "UNDERLINE",
+        "bndVar": {
+          "letSp": {
+            "_varRef": 13
+          },
+          "fontS": {
+            "_varRef": 15
+          },
+          "fontW": {
+            "_varRef": 23
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 13
+        },
+        "fontS": {
+          "_varRef": 15
+        },
+        "fontW": {
+          "_varRef": 23
+        }
+      }
+    },
+    "2": {
+      "type": 2,
+      "name": "Recursica/recursica_components_link_states_visited_text",
+      "txtSt": {
+        "fontS": 14,
+        "fontN": {
+          "family": "Lexend",
+          "style": "Regular"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "bndVar": {
+          "letSp": {
+            "_varRef": 13
+          },
+          "fontS": {
+            "_varRef": 15
+          },
+          "fontW": {
+            "_varRef": 28
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 13
+        },
+        "fontS": {
+          "_varRef": 15
+        },
+        "fontW": {
+          "_varRef": 28
+        }
+      }
+    },
+    "3": {
+      "type": 2,
+      "name": "Recursica/recursica_components_link_states_visited-hover_text",
+      "txtSt": {
+        "fontS": 14,
+        "fontN": {
+          "family": "Lexend",
+          "style": "Regular"
+        },
+        "letSp": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "txtDc": "UNDERLINE",
+        "bndVar": {
+          "letSp": {
+            "_varRef": 13
+          },
+          "fontS": {
+            "_varRef": 15
+          },
+          "fontW": {
+            "_varRef": 28
+          }
+        }
+      },
+      "bndVar": {
+        "letSp": {
+          "_varRef": 13
+        },
+        "fontS": {
+          "_varRef": 15
+        },
+        "fontW": {
+          "_varRef": 28
+        }
+      }
+    },
+    "4": {
+      "type": "PAINT",
+      "name": "stone",
+      "pntSt": {
+        "paints": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0.20392157137393951,
+              "g": 0.20000000298023224,
+              "b": 0.1882352977991104
+            },
+            "bndVar": {}
+          }
+        ]
+      }
+    }
+  },
+  "images": {},
+  "pageData": {
+    "type": 13,
+    "id": "0:1",
+    "name": "Link",
+    "backgrounds": [
+      {
+        "type": 15,
+        "visbl": true,
+        "opcty": 1,
+        "blnMd": "NORMAL",
+        "color": {
+          "r": 0.9607843160629272,
+          "g": 0.9607843160629272,
+          "b": 0.9607843160629272
+        },
+        "bndVar": {}
+      }
+    ],
+    "_unhandledKeys": [
+      "_unknownType"
+    ],
+    "child": [
+      {
+        "type": 1,
+        "id": "1:2",
+        "name": "Link",
+        "x": 113,
+        "w": 593,
+        "h": 371,
+        "fills": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "bndVar": {}
+          }
+        ],
+        "stkAl": "INSIDE",
+        "backgrounds": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "bndVar": {}
+          }
+        ],
+        "laySzH": "FIXED",
+        "laySzV": "HUG",
+        "layMd": "VERTICAL",
+        "cAxSz": "FIXED",
+        "padL": 68,
+        "padR": 68,
+        "padT": 65,
+        "padB": 65,
+        "itmSp": 10,
+        "clipC": true,
+        "child": [
+          {
+            "type": 14,
+            "id": "1:28",
+            "name": "Component 1",
+            "x": 68,
+            "y": 65,
+            "w": 454,
+            "h": 241,
+            "strks": [
+              {
+                "type": 15,
+                "visbl": true,
+                "opcty": 1,
+                "blnMd": "NORMAL",
+                "color": {
+                  "r": 0.5921568870544434,
+                  "g": 0.27843138575553894,
+                  "b": 1
+                },
+                "bndVar": {}
+              }
+            ],
+            "stkAl": "INSIDE",
+            "laySzH": "FIXED",
+            "laySzV": "HUG",
+            "cPropD": {
+              "Icon": {
+                "type": 26,
+                "defaultValue": "None",
+                "variantOptions": [
+                  "None",
+                  "Leading",
+                  "Trailing"
+                ]
+              },
+              "State": {
+                "type": 26,
+                "defaultValue": "Default",
+                "variantOptions": [
+                  "Default",
+                  "Hover",
+                  "Visited",
+                  "Visited Hover"
+                ]
+              }
+            },
+            "layMd": "HORIZONTAL",
+            "pAxSz": "FIXED",
+            "cAxAl": "CENTER",
+            "padL": 20,
+            "padR": 20,
+            "padT": 20,
+            "padB": 20,
+            "itmSp": 43,
+            "cAxSp": 43,
+            "corR": 5,
+            "clipC": true,
+            "layoutWrap": "WRAP",
+            "child": [
+              {
+                "type": 4,
+                "id": "1:26",
+                "name": "Icon=None, State=Default",
+                "x": 20,
+                "y": 20,
+                "w": 100,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "1:4",
+                    "name": "Visit the Forge",
+                    "w": 100,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7607843279838562,
+                          "g": 0.10588235408067703,
+                          "b": 0.26274511218070984
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 11
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 11
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 17
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 0,
+                    "chars": "Visit the Forge",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "1:27",
+                "name": "Icon=Leading, State=Default",
+                "x": 163,
+                "y": 20,
+                "w": 126,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 3,
+                    "id": "10:163",
+                    "name": "Icon",
+                    "y": 1,
+                    "w": 16,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 20
+                      },
+                      "h": {
+                        "_varRef": 20
+                      }
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "cPropR": {},
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "_isInstance": true,
+                    "_insRef": 0,
+                    "cAxSz": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I10:163;10:157",
+                        "name": "Vector",
+                        "x": 1.4998213052749634,
+                        "y": 1.499747633934021,
+                        "w": 13.000431060791016,
+                        "h": 13.000431060791016,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.7607843279838562,
+                              "g": 0.10588235408067703,
+                              "b": 0.26274511218070984
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 21
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0.125,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 21
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "fillG": [
+                          {
+                            "data": "M 8.85393 4.1465 C 8.90042 4.19294 8.9373 4.24808 8.96246 4.30878 C 8.98762 4.36948 9.00057 4.43455 9.00057 4.50025 C 9.00057 4.56596 8.98762 4.63102 8.96246 4.69172 C 8.9373 4.75242 8.90042 4.80757 8.85393 4.854 L 4.85393 8.854 C 4.80747 8.90046 4.75232 8.93731 4.69163 8.96245 C 4.63093 8.98759 4.56588 9.00053 4.50018 9.00053 C 4.43448 9.00053 4.36943 8.98759 4.30873 8.96245 C 4.24803 8.93731 4.19288 8.90046 4.14643 8.854 C 4.09997 8.80755 4.06312 8.7524 4.03798 8.6917 C 4.01284 8.631 3.9999 8.56595 3.9999 8.50025 C 3.9999 8.43456 4.01284 8.3695 4.03798 8.3088 C 4.06312 8.24811 4.09997 8.19296 4.14643 8.1465 L 8.14643 4.1465 C 8.19286 4.10001 8.24801 4.06313 8.30871 4.03797 C 8.36941 4.01281 8.43447 3.99986 8.50018 3.99986 C 8.56589 3.99986 8.63095 4.01281 8.69165 4.03797 C 8.75235 4.06313 8.80749 4.10001 8.85393 4.1465 Z M 11.9752 1.02525 C 11.6502 0.70021 11.2643 0.44237 10.8397 0.266456 C 10.415 0.090542 9.95984 0 9.50018 0 C 9.04052 0 8.58537 0.090542 8.1607 0.266456 C 7.73604 0.44237 7.35019 0.70021 7.02518 1.02525 L 5.14643 2.90338 C 5.05261 2.9972 4.9999 3.12445 4.9999 3.25713 C 4.9999 3.38981 5.05261 3.51706 5.14643 3.61088 C 5.24025 3.7047 5.3675 3.75741 5.50018 3.75741 C 5.63286 3.75741 5.76011 3.7047 5.85393 3.61088 L 7.73268 1.73588 C 8.20323 1.27566 8.83629 1.01957 9.49448 1.0232 C 10.1527 1.02682 10.7829 1.28987 11.2483 1.75524 C 11.7138 2.22061 11.9769 2.85077 11.9807 3.50895 C 11.9844 4.16714 11.7284 4.80024 11.2683 5.27088 L 9.38893 7.14963 C 9.29511 7.24337 9.24237 7.37053 9.24231 7.50316 C 9.24225 7.63578 9.29488 7.76299 9.38862 7.85682 C 9.48235 7.95064 9.60952 8.00338 9.74214 8.00344 C 9.87477 8.00349 10.002 7.95087 10.0958 7.85713 L 11.9752 5.97525 C 12.3002 5.65024 12.5581 5.26439 12.734 4.83973 C 12.9099 4.41506 13.0004 3.95991 13.0004 3.50025 C 13.0004 3.0406 12.9099 2.58544 12.734 2.16078 C 12.5581 1.73612 12.3002 1.35026 11.9752 1.02525 Z M 7.14643 9.389 L 5.26768 11.2678 C 5.03648 11.5041 4.76068 11.6923 4.45625 11.8214 C 4.15182 11.9505 3.82482 12.0179 3.49416 12.0197 C 3.16351 12.0215 2.83578 11.9577 2.52995 11.832 C 2.22412 11.7063 1.94626 11.5212 1.71247 11.2873 C 1.47868 11.0535 1.2936 10.7756 1.16794 10.4698 C 1.04229 10.1639 0.978555 9.83616 0.980434 9.50551 C 0.982314 9.17486 1.04977 8.84786 1.17889 8.54346 C 1.30802 8.23905 1.49625 7.96329 1.73268 7.73213 L 3.6108 5.854 C 3.70462 5.76018 3.75733 5.63293 3.75733 5.50025 C 3.75733 5.36757 3.70462 5.24032 3.6108 5.1465 C 3.51698 5.05268 3.38974 4.99997 3.25705 4.99997 C 3.12437 4.99997 2.99712 5.05268 2.9033 5.1465 L 1.02518 7.02525 C 0.368768 7.68166 0 8.57195 0 9.50025 C 0 10.4286 0.368768 11.3188 1.02518 11.9753 C 1.68159 12.6317 2.57187 13.0004 3.50018 13.0004 C 4.42848 13.0004 5.31877 12.6317 5.97518 11.9753 L 7.85393 10.0959 C 7.94767 10.0021 8.00029 9.87484 8.00024 9.74222 C 8.00018 9.6096 7.94744 9.48243 7.85362 9.38869 C 7.7598 9.29495 7.63258 9.24232 7.49996 9.24238 C 7.36733 9.24244 7.24017 9.29518 7.14643 9.389 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 2,
+                    "id": "1:21",
+                    "name": "Goblin Archives",
+                    "x": 20,
+                    "w": 106,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7607843279838562,
+                          "g": 0.10588235408067703,
+                          "b": 0.26274511218070984
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 11
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 11
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 17
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 0,
+                    "chars": "Goblin Archives",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:176",
+                "name": "Icon=Trailing, State=Default",
+                "x": 332,
+                "y": 20,
+                "w": 102,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "10:177",
+                    "name": "Rune Codex",
+                    "w": 82,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7607843279838562,
+                          "g": 0.10588235408067703,
+                          "b": 0.26274511218070984
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 11
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 11
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 17
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 0,
+                    "chars": "Rune Codex",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  },
+                  {
+                    "type": 3,
+                    "id": "10:178",
+                    "name": "Icon",
+                    "x": 86,
+                    "y": 1,
+                    "w": 16,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 20
+                      },
+                      "h": {
+                        "_varRef": 20
+                      }
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "cPropR": {},
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "_isInstance": true,
+                    "_insRef": 0,
+                    "cAxSz": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I10:178;10:157",
+                        "name": "Vector",
+                        "x": 1.4998213052749634,
+                        "y": 1.499747633934021,
+                        "w": 13.000431060791016,
+                        "h": 13.000431060791016,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.7607843279838562,
+                              "g": 0.10588235408067703,
+                              "b": 0.26274511218070984
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 21
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0.125,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 21
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "fillG": [
+                          {
+                            "data": "M 8.85393 4.1465 C 8.90042 4.19294 8.9373 4.24808 8.96246 4.30878 C 8.98762 4.36948 9.00057 4.43455 9.00057 4.50025 C 9.00057 4.56596 8.98762 4.63102 8.96246 4.69172 C 8.9373 4.75242 8.90042 4.80757 8.85393 4.854 L 4.85393 8.854 C 4.80747 8.90046 4.75232 8.93731 4.69163 8.96245 C 4.63093 8.98759 4.56588 9.00053 4.50018 9.00053 C 4.43448 9.00053 4.36943 8.98759 4.30873 8.96245 C 4.24803 8.93731 4.19288 8.90046 4.14643 8.854 C 4.09997 8.80755 4.06312 8.7524 4.03798 8.6917 C 4.01284 8.631 3.9999 8.56595 3.9999 8.50025 C 3.9999 8.43456 4.01284 8.3695 4.03798 8.3088 C 4.06312 8.24811 4.09997 8.19296 4.14643 8.1465 L 8.14643 4.1465 C 8.19286 4.10001 8.24801 4.06313 8.30871 4.03797 C 8.36941 4.01281 8.43447 3.99986 8.50018 3.99986 C 8.56589 3.99986 8.63095 4.01281 8.69165 4.03797 C 8.75235 4.06313 8.80749 4.10001 8.85393 4.1465 Z M 11.9752 1.02525 C 11.6502 0.70021 11.2643 0.44237 10.8397 0.266456 C 10.415 0.090542 9.95984 0 9.50018 0 C 9.04052 0 8.58537 0.090542 8.1607 0.266456 C 7.73604 0.44237 7.35019 0.70021 7.02518 1.02525 L 5.14643 2.90338 C 5.05261 2.9972 4.9999 3.12445 4.9999 3.25713 C 4.9999 3.38981 5.05261 3.51706 5.14643 3.61088 C 5.24025 3.7047 5.3675 3.75741 5.50018 3.75741 C 5.63286 3.75741 5.76011 3.7047 5.85393 3.61088 L 7.73268 1.73588 C 8.20323 1.27566 8.83629 1.01957 9.49448 1.0232 C 10.1527 1.02682 10.7829 1.28987 11.2483 1.75524 C 11.7138 2.22061 11.9769 2.85077 11.9807 3.50895 C 11.9844 4.16714 11.7284 4.80024 11.2683 5.27088 L 9.38893 7.14963 C 9.29511 7.24337 9.24237 7.37053 9.24231 7.50316 C 9.24225 7.63578 9.29488 7.76299 9.38862 7.85682 C 9.48235 7.95064 9.60952 8.00338 9.74214 8.00344 C 9.87477 8.00349 10.002 7.95087 10.0958 7.85713 L 11.9752 5.97525 C 12.3002 5.65024 12.5581 5.26439 12.734 4.83973 C 12.9099 4.41506 13.0004 3.95991 13.0004 3.50025 C 13.0004 3.0406 12.9099 2.58544 12.734 2.16078 C 12.5581 1.73612 12.3002 1.35026 11.9752 1.02525 Z M 7.14643 9.389 L 5.26768 11.2678 C 5.03648 11.5041 4.76068 11.6923 4.45625 11.8214 C 4.15182 11.9505 3.82482 12.0179 3.49416 12.0197 C 3.16351 12.0215 2.83578 11.9577 2.52995 11.832 C 2.22412 11.7063 1.94626 11.5212 1.71247 11.2873 C 1.47868 11.0535 1.2936 10.7756 1.16794 10.4698 C 1.04229 10.1639 0.978555 9.83616 0.980434 9.50551 C 0.982314 9.17486 1.04977 8.84786 1.17889 8.54346 C 1.30802 8.23905 1.49625 7.96329 1.73268 7.73213 L 3.6108 5.854 C 3.70462 5.76018 3.75733 5.63293 3.75733 5.50025 C 3.75733 5.36757 3.70462 5.24032 3.6108 5.1465 C 3.51698 5.05268 3.38974 4.99997 3.25705 4.99997 C 3.12437 4.99997 2.99712 5.05268 2.9033 5.1465 L 1.02518 7.02525 C 0.368768 7.68166 0 8.57195 0 9.50025 C 0 10.4286 0.368768 11.3188 1.02518 11.9753 C 1.68159 12.6317 2.57187 13.0004 3.50018 13.0004 C 4.42848 13.0004 5.31877 12.6317 5.97518 11.9753 L 7.85393 10.0959 C 7.94767 10.0021 8.00029 9.87484 8.00024 9.74222 C 8.00018 9.6096 7.94744 9.48243 7.85362 9.38869 C 7.7598 9.29495 7.63258 9.24232 7.49996 9.24238 C 7.36733 9.24244 7.24017 9.29518 7.14643 9.389 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:171",
+                "name": "Icon=None, State=Hover",
+                "x": 20,
+                "y": 81,
+                "w": 100,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "10:172",
+                    "name": "Visit the Forge",
+                    "w": 100,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7607843279838562,
+                          "g": 0.10588235408067703,
+                          "b": 0.26274511218070984
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 22
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 22
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 23
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 1,
+                    "chars": "Visit the Forge",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtDc": "UNDERLINE",
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:183",
+                "name": "Icon=Leading, State=Hover",
+                "x": 163,
+                "y": 81,
+                "w": 126,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 3,
+                    "id": "10:184",
+                    "name": "Icon",
+                    "y": 1,
+                    "w": 16,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 20
+                      },
+                      "h": {
+                        "_varRef": 20
+                      }
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "cPropR": {},
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "_isInstance": true,
+                    "_insRef": 0,
+                    "cAxSz": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I10:184;10:157",
+                        "name": "Vector",
+                        "x": 1.4998213052749634,
+                        "y": 1.499747633934021,
+                        "w": 13.000431060791016,
+                        "h": 13.000431060791016,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.7607843279838562,
+                              "g": 0.10588235408067703,
+                              "b": 0.26274511218070984
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 24
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0.125,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 24
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "fillG": [
+                          {
+                            "data": "M 8.85393 4.1465 C 8.90042 4.19294 8.9373 4.24808 8.96246 4.30878 C 8.98762 4.36948 9.00057 4.43455 9.00057 4.50025 C 9.00057 4.56596 8.98762 4.63102 8.96246 4.69172 C 8.9373 4.75242 8.90042 4.80757 8.85393 4.854 L 4.85393 8.854 C 4.80747 8.90046 4.75232 8.93731 4.69163 8.96245 C 4.63093 8.98759 4.56588 9.00053 4.50018 9.00053 C 4.43448 9.00053 4.36943 8.98759 4.30873 8.96245 C 4.24803 8.93731 4.19288 8.90046 4.14643 8.854 C 4.09997 8.80755 4.06312 8.7524 4.03798 8.6917 C 4.01284 8.631 3.9999 8.56595 3.9999 8.50025 C 3.9999 8.43456 4.01284 8.3695 4.03798 8.3088 C 4.06312 8.24811 4.09997 8.19296 4.14643 8.1465 L 8.14643 4.1465 C 8.19286 4.10001 8.24801 4.06313 8.30871 4.03797 C 8.36941 4.01281 8.43447 3.99986 8.50018 3.99986 C 8.56589 3.99986 8.63095 4.01281 8.69165 4.03797 C 8.75235 4.06313 8.80749 4.10001 8.85393 4.1465 Z M 11.9752 1.02525 C 11.6502 0.70021 11.2643 0.44237 10.8397 0.266456 C 10.415 0.090542 9.95984 0 9.50018 0 C 9.04052 0 8.58537 0.090542 8.1607 0.266456 C 7.73604 0.44237 7.35019 0.70021 7.02518 1.02525 L 5.14643 2.90338 C 5.05261 2.9972 4.9999 3.12445 4.9999 3.25713 C 4.9999 3.38981 5.05261 3.51706 5.14643 3.61088 C 5.24025 3.7047 5.3675 3.75741 5.50018 3.75741 C 5.63286 3.75741 5.76011 3.7047 5.85393 3.61088 L 7.73268 1.73588 C 8.20323 1.27566 8.83629 1.01957 9.49448 1.0232 C 10.1527 1.02682 10.7829 1.28987 11.2483 1.75524 C 11.7138 2.22061 11.9769 2.85077 11.9807 3.50895 C 11.9844 4.16714 11.7284 4.80024 11.2683 5.27088 L 9.38893 7.14963 C 9.29511 7.24337 9.24237 7.37053 9.24231 7.50316 C 9.24225 7.63578 9.29488 7.76299 9.38862 7.85682 C 9.48235 7.95064 9.60952 8.00338 9.74214 8.00344 C 9.87477 8.00349 10.002 7.95087 10.0958 7.85713 L 11.9752 5.97525 C 12.3002 5.65024 12.5581 5.26439 12.734 4.83973 C 12.9099 4.41506 13.0004 3.95991 13.0004 3.50025 C 13.0004 3.0406 12.9099 2.58544 12.734 2.16078 C 12.5581 1.73612 12.3002 1.35026 11.9752 1.02525 Z M 7.14643 9.389 L 5.26768 11.2678 C 5.03648 11.5041 4.76068 11.6923 4.45625 11.8214 C 4.15182 11.9505 3.82482 12.0179 3.49416 12.0197 C 3.16351 12.0215 2.83578 11.9577 2.52995 11.832 C 2.22412 11.7063 1.94626 11.5212 1.71247 11.2873 C 1.47868 11.0535 1.2936 10.7756 1.16794 10.4698 C 1.04229 10.1639 0.978555 9.83616 0.980434 9.50551 C 0.982314 9.17486 1.04977 8.84786 1.17889 8.54346 C 1.30802 8.23905 1.49625 7.96329 1.73268 7.73213 L 3.6108 5.854 C 3.70462 5.76018 3.75733 5.63293 3.75733 5.50025 C 3.75733 5.36757 3.70462 5.24032 3.6108 5.1465 C 3.51698 5.05268 3.38974 4.99997 3.25705 4.99997 C 3.12437 4.99997 2.99712 5.05268 2.9033 5.1465 L 1.02518 7.02525 C 0.368768 7.68166 0 8.57195 0 9.50025 C 0 10.4286 0.368768 11.3188 1.02518 11.9753 C 1.68159 12.6317 2.57187 13.0004 3.50018 13.0004 C 4.42848 13.0004 5.31877 12.6317 5.97518 11.9753 L 7.85393 10.0959 C 7.94767 10.0021 8.00029 9.87484 8.00024 9.74222 C 8.00018 9.6096 7.94744 9.48243 7.85362 9.38869 C 7.7598 9.29495 7.63258 9.24232 7.49996 9.24238 C 7.36733 9.24244 7.24017 9.29518 7.14643 9.389 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 2,
+                    "id": "10:185",
+                    "name": "Goblin Archives",
+                    "x": 20,
+                    "w": 106,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7607843279838562,
+                          "g": 0.10588235408067703,
+                          "b": 0.26274511218070984
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 22
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 22
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 23
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 1,
+                    "chars": "Goblin Archives",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtDc": "UNDERLINE",
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "1:34",
+                "name": "Icon=Trailing, State=Hover",
+                "x": 332,
+                "y": 81,
+                "w": 102,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "1:35",
+                    "name": "Rune Codex",
+                    "w": 82,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.7607843279838562,
+                          "g": 0.10588235408067703,
+                          "b": 0.26274511218070984
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 22
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 22
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 23
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 1,
+                    "chars": "Rune Codex",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtDc": "UNDERLINE",
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  },
+                  {
+                    "type": 3,
+                    "id": "10:161",
+                    "name": "Icon",
+                    "x": 86,
+                    "y": 1,
+                    "w": 16,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 20
+                      },
+                      "h": {
+                        "_varRef": 20
+                      }
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "cPropR": {},
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "_isInstance": true,
+                    "_insRef": 0,
+                    "cAxSz": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I10:161;10:157",
+                        "name": "Vector",
+                        "x": 1.4998213052749634,
+                        "y": 1.499747633934021,
+                        "w": 13.000431060791016,
+                        "h": 13.000431060791016,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.7607843279838562,
+                              "g": 0.10588235408067703,
+                              "b": 0.26274511218070984
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 24
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0.125,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 24
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "fillG": [
+                          {
+                            "data": "M 8.85393 4.1465 C 8.90042 4.19294 8.9373 4.24808 8.96246 4.30878 C 8.98762 4.36948 9.00057 4.43455 9.00057 4.50025 C 9.00057 4.56596 8.98762 4.63102 8.96246 4.69172 C 8.9373 4.75242 8.90042 4.80757 8.85393 4.854 L 4.85393 8.854 C 4.80747 8.90046 4.75232 8.93731 4.69163 8.96245 C 4.63093 8.98759 4.56588 9.00053 4.50018 9.00053 C 4.43448 9.00053 4.36943 8.98759 4.30873 8.96245 C 4.24803 8.93731 4.19288 8.90046 4.14643 8.854 C 4.09997 8.80755 4.06312 8.7524 4.03798 8.6917 C 4.01284 8.631 3.9999 8.56595 3.9999 8.50025 C 3.9999 8.43456 4.01284 8.3695 4.03798 8.3088 C 4.06312 8.24811 4.09997 8.19296 4.14643 8.1465 L 8.14643 4.1465 C 8.19286 4.10001 8.24801 4.06313 8.30871 4.03797 C 8.36941 4.01281 8.43447 3.99986 8.50018 3.99986 C 8.56589 3.99986 8.63095 4.01281 8.69165 4.03797 C 8.75235 4.06313 8.80749 4.10001 8.85393 4.1465 Z M 11.9752 1.02525 C 11.6502 0.70021 11.2643 0.44237 10.8397 0.266456 C 10.415 0.090542 9.95984 0 9.50018 0 C 9.04052 0 8.58537 0.090542 8.1607 0.266456 C 7.73604 0.44237 7.35019 0.70021 7.02518 1.02525 L 5.14643 2.90338 C 5.05261 2.9972 4.9999 3.12445 4.9999 3.25713 C 4.9999 3.38981 5.05261 3.51706 5.14643 3.61088 C 5.24025 3.7047 5.3675 3.75741 5.50018 3.75741 C 5.63286 3.75741 5.76011 3.7047 5.85393 3.61088 L 7.73268 1.73588 C 8.20323 1.27566 8.83629 1.01957 9.49448 1.0232 C 10.1527 1.02682 10.7829 1.28987 11.2483 1.75524 C 11.7138 2.22061 11.9769 2.85077 11.9807 3.50895 C 11.9844 4.16714 11.7284 4.80024 11.2683 5.27088 L 9.38893 7.14963 C 9.29511 7.24337 9.24237 7.37053 9.24231 7.50316 C 9.24225 7.63578 9.29488 7.76299 9.38862 7.85682 C 9.48235 7.95064 9.60952 8.00338 9.74214 8.00344 C 9.87477 8.00349 10.002 7.95087 10.0958 7.85713 L 11.9752 5.97525 C 12.3002 5.65024 12.5581 5.26439 12.734 4.83973 C 12.9099 4.41506 13.0004 3.95991 13.0004 3.50025 C 13.0004 3.0406 12.9099 2.58544 12.734 2.16078 C 12.5581 1.73612 12.3002 1.35026 11.9752 1.02525 Z M 7.14643 9.389 L 5.26768 11.2678 C 5.03648 11.5041 4.76068 11.6923 4.45625 11.8214 C 4.15182 11.9505 3.82482 12.0179 3.49416 12.0197 C 3.16351 12.0215 2.83578 11.9577 2.52995 11.832 C 2.22412 11.7063 1.94626 11.5212 1.71247 11.2873 C 1.47868 11.0535 1.2936 10.7756 1.16794 10.4698 C 1.04229 10.1639 0.978555 9.83616 0.980434 9.50551 C 0.982314 9.17486 1.04977 8.84786 1.17889 8.54346 C 1.30802 8.23905 1.49625 7.96329 1.73268 7.73213 L 3.6108 5.854 C 3.70462 5.76018 3.75733 5.63293 3.75733 5.50025 C 3.75733 5.36757 3.70462 5.24032 3.6108 5.1465 C 3.51698 5.05268 3.38974 4.99997 3.25705 4.99997 C 3.12437 4.99997 2.99712 5.05268 2.9033 5.1465 L 1.02518 7.02525 C 0.368768 7.68166 0 8.57195 0 9.50025 C 0 10.4286 0.368768 11.3188 1.02518 11.9753 C 1.68159 12.6317 2.57187 13.0004 3.50018 13.0004 C 4.42848 13.0004 5.31877 12.6317 5.97518 11.9753 L 7.85393 10.0959 C 7.94767 10.0021 8.00029 9.87484 8.00024 9.74222 C 8.00018 9.6096 7.94744 9.48243 7.85362 9.38869 C 7.7598 9.29495 7.63258 9.24232 7.49996 9.24238 C 7.36733 9.24244 7.24017 9.29518 7.14643 9.389 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:181",
+                "name": "Icon=None, State=Visited",
+                "x": 20,
+                "y": 142,
+                "w": 100,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "10:182",
+                    "name": "Visit the Forge",
+                    "w": 100,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.3686274588108063,
+                          "g": 0.0117647061124444,
+                          "b": 0.07058823853731155
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 27
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 27
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 28
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 2,
+                    "chars": "Visit the Forge",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:173",
+                "name": "Icon=Leading, State=Visited",
+                "x": 163,
+                "y": 142,
+                "w": 126,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 3,
+                    "id": "10:174",
+                    "name": "Icon",
+                    "y": 1,
+                    "w": 16,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 20
+                      },
+                      "h": {
+                        "_varRef": 20
+                      }
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "cPropR": {},
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "_isInstance": true,
+                    "_insRef": 0,
+                    "cAxSz": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I10:174;10:157",
+                        "name": "Vector",
+                        "x": 1.4998213052749634,
+                        "y": 1.499747633934021,
+                        "w": 13.000431060791016,
+                        "h": 13.000431060791016,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.3686274588108063,
+                              "g": 0.0117647061124444,
+                              "b": 0.07058823853731155
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 29
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0.125,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 29
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "fillG": [
+                          {
+                            "data": "M 8.85393 4.1465 C 8.90042 4.19294 8.9373 4.24808 8.96246 4.30878 C 8.98762 4.36948 9.00057 4.43455 9.00057 4.50025 C 9.00057 4.56596 8.98762 4.63102 8.96246 4.69172 C 8.9373 4.75242 8.90042 4.80757 8.85393 4.854 L 4.85393 8.854 C 4.80747 8.90046 4.75232 8.93731 4.69163 8.96245 C 4.63093 8.98759 4.56588 9.00053 4.50018 9.00053 C 4.43448 9.00053 4.36943 8.98759 4.30873 8.96245 C 4.24803 8.93731 4.19288 8.90046 4.14643 8.854 C 4.09997 8.80755 4.06312 8.7524 4.03798 8.6917 C 4.01284 8.631 3.9999 8.56595 3.9999 8.50025 C 3.9999 8.43456 4.01284 8.3695 4.03798 8.3088 C 4.06312 8.24811 4.09997 8.19296 4.14643 8.1465 L 8.14643 4.1465 C 8.19286 4.10001 8.24801 4.06313 8.30871 4.03797 C 8.36941 4.01281 8.43447 3.99986 8.50018 3.99986 C 8.56589 3.99986 8.63095 4.01281 8.69165 4.03797 C 8.75235 4.06313 8.80749 4.10001 8.85393 4.1465 Z M 11.9752 1.02525 C 11.6502 0.70021 11.2643 0.44237 10.8397 0.266456 C 10.415 0.090542 9.95984 0 9.50018 0 C 9.04052 0 8.58537 0.090542 8.1607 0.266456 C 7.73604 0.44237 7.35019 0.70021 7.02518 1.02525 L 5.14643 2.90338 C 5.05261 2.9972 4.9999 3.12445 4.9999 3.25713 C 4.9999 3.38981 5.05261 3.51706 5.14643 3.61088 C 5.24025 3.7047 5.3675 3.75741 5.50018 3.75741 C 5.63286 3.75741 5.76011 3.7047 5.85393 3.61088 L 7.73268 1.73588 C 8.20323 1.27566 8.83629 1.01957 9.49448 1.0232 C 10.1527 1.02682 10.7829 1.28987 11.2483 1.75524 C 11.7138 2.22061 11.9769 2.85077 11.9807 3.50895 C 11.9844 4.16714 11.7284 4.80024 11.2683 5.27088 L 9.38893 7.14963 C 9.29511 7.24337 9.24237 7.37053 9.24231 7.50316 C 9.24225 7.63578 9.29488 7.76299 9.38862 7.85682 C 9.48235 7.95064 9.60952 8.00338 9.74214 8.00344 C 9.87477 8.00349 10.002 7.95087 10.0958 7.85713 L 11.9752 5.97525 C 12.3002 5.65024 12.5581 5.26439 12.734 4.83973 C 12.9099 4.41506 13.0004 3.95991 13.0004 3.50025 C 13.0004 3.0406 12.9099 2.58544 12.734 2.16078 C 12.5581 1.73612 12.3002 1.35026 11.9752 1.02525 Z M 7.14643 9.389 L 5.26768 11.2678 C 5.03648 11.5041 4.76068 11.6923 4.45625 11.8214 C 4.15182 11.9505 3.82482 12.0179 3.49416 12.0197 C 3.16351 12.0215 2.83578 11.9577 2.52995 11.832 C 2.22412 11.7063 1.94626 11.5212 1.71247 11.2873 C 1.47868 11.0535 1.2936 10.7756 1.16794 10.4698 C 1.04229 10.1639 0.978555 9.83616 0.980434 9.50551 C 0.982314 9.17486 1.04977 8.84786 1.17889 8.54346 C 1.30802 8.23905 1.49625 7.96329 1.73268 7.73213 L 3.6108 5.854 C 3.70462 5.76018 3.75733 5.63293 3.75733 5.50025 C 3.75733 5.36757 3.70462 5.24032 3.6108 5.1465 C 3.51698 5.05268 3.38974 4.99997 3.25705 4.99997 C 3.12437 4.99997 2.99712 5.05268 2.9033 5.1465 L 1.02518 7.02525 C 0.368768 7.68166 0 8.57195 0 9.50025 C 0 10.4286 0.368768 11.3188 1.02518 11.9753 C 1.68159 12.6317 2.57187 13.0004 3.50018 13.0004 C 4.42848 13.0004 5.31877 12.6317 5.97518 11.9753 L 7.85393 10.0959 C 7.94767 10.0021 8.00029 9.87484 8.00024 9.74222 C 8.00018 9.6096 7.94744 9.48243 7.85362 9.38869 C 7.7598 9.29495 7.63258 9.24232 7.49996 9.24238 C 7.36733 9.24244 7.24017 9.29518 7.14643 9.389 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 2,
+                    "id": "10:175",
+                    "name": "Goblin Archives",
+                    "x": 20,
+                    "w": 106,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.3686274588108063,
+                          "g": 0.0117647061124444,
+                          "b": 0.07058823853731155
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 27
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 27
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 28
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 2,
+                    "chars": "Goblin Archives",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:186",
+                "name": "Icon=Trailing, State=Visited",
+                "x": 332,
+                "y": 142,
+                "w": 102,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "10:187",
+                    "name": "Rune Codex",
+                    "w": 82,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.3686274588108063,
+                          "g": 0.0117647061124444,
+                          "b": 0.07058823853731155
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 27
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 27
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 28
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 2,
+                    "chars": "Rune Codex",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  },
+                  {
+                    "type": 3,
+                    "id": "10:188",
+                    "name": "Icon",
+                    "x": 86,
+                    "y": 1,
+                    "w": 16,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 20
+                      },
+                      "h": {
+                        "_varRef": 20
+                      }
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "cPropR": {},
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "_isInstance": true,
+                    "_insRef": 0,
+                    "cAxSz": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I10:188;10:157",
+                        "name": "Vector",
+                        "x": 1.4998213052749634,
+                        "y": 1.499747633934021,
+                        "w": 13.000431060791016,
+                        "h": 13.000431060791016,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.3686274588108063,
+                              "g": 0.0117647061124444,
+                              "b": 0.07058823853731155
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 29
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0.125,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 29
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "fillG": [
+                          {
+                            "data": "M 8.85393 4.1465 C 8.90042 4.19294 8.9373 4.24808 8.96246 4.30878 C 8.98762 4.36948 9.00057 4.43455 9.00057 4.50025 C 9.00057 4.56596 8.98762 4.63102 8.96246 4.69172 C 8.9373 4.75242 8.90042 4.80757 8.85393 4.854 L 4.85393 8.854 C 4.80747 8.90046 4.75232 8.93731 4.69163 8.96245 C 4.63093 8.98759 4.56588 9.00053 4.50018 9.00053 C 4.43448 9.00053 4.36943 8.98759 4.30873 8.96245 C 4.24803 8.93731 4.19288 8.90046 4.14643 8.854 C 4.09997 8.80755 4.06312 8.7524 4.03798 8.6917 C 4.01284 8.631 3.9999 8.56595 3.9999 8.50025 C 3.9999 8.43456 4.01284 8.3695 4.03798 8.3088 C 4.06312 8.24811 4.09997 8.19296 4.14643 8.1465 L 8.14643 4.1465 C 8.19286 4.10001 8.24801 4.06313 8.30871 4.03797 C 8.36941 4.01281 8.43447 3.99986 8.50018 3.99986 C 8.56589 3.99986 8.63095 4.01281 8.69165 4.03797 C 8.75235 4.06313 8.80749 4.10001 8.85393 4.1465 Z M 11.9752 1.02525 C 11.6502 0.70021 11.2643 0.44237 10.8397 0.266456 C 10.415 0.090542 9.95984 0 9.50018 0 C 9.04052 0 8.58537 0.090542 8.1607 0.266456 C 7.73604 0.44237 7.35019 0.70021 7.02518 1.02525 L 5.14643 2.90338 C 5.05261 2.9972 4.9999 3.12445 4.9999 3.25713 C 4.9999 3.38981 5.05261 3.51706 5.14643 3.61088 C 5.24025 3.7047 5.3675 3.75741 5.50018 3.75741 C 5.63286 3.75741 5.76011 3.7047 5.85393 3.61088 L 7.73268 1.73588 C 8.20323 1.27566 8.83629 1.01957 9.49448 1.0232 C 10.1527 1.02682 10.7829 1.28987 11.2483 1.75524 C 11.7138 2.22061 11.9769 2.85077 11.9807 3.50895 C 11.9844 4.16714 11.7284 4.80024 11.2683 5.27088 L 9.38893 7.14963 C 9.29511 7.24337 9.24237 7.37053 9.24231 7.50316 C 9.24225 7.63578 9.29488 7.76299 9.38862 7.85682 C 9.48235 7.95064 9.60952 8.00338 9.74214 8.00344 C 9.87477 8.00349 10.002 7.95087 10.0958 7.85713 L 11.9752 5.97525 C 12.3002 5.65024 12.5581 5.26439 12.734 4.83973 C 12.9099 4.41506 13.0004 3.95991 13.0004 3.50025 C 13.0004 3.0406 12.9099 2.58544 12.734 2.16078 C 12.5581 1.73612 12.3002 1.35026 11.9752 1.02525 Z M 7.14643 9.389 L 5.26768 11.2678 C 5.03648 11.5041 4.76068 11.6923 4.45625 11.8214 C 4.15182 11.9505 3.82482 12.0179 3.49416 12.0197 C 3.16351 12.0215 2.83578 11.9577 2.52995 11.832 C 2.22412 11.7063 1.94626 11.5212 1.71247 11.2873 C 1.47868 11.0535 1.2936 10.7756 1.16794 10.4698 C 1.04229 10.1639 0.978555 9.83616 0.980434 9.50551 C 0.982314 9.17486 1.04977 8.84786 1.17889 8.54346 C 1.30802 8.23905 1.49625 7.96329 1.73268 7.73213 L 3.6108 5.854 C 3.70462 5.76018 3.75733 5.63293 3.75733 5.50025 C 3.75733 5.36757 3.70462 5.24032 3.6108 5.1465 C 3.51698 5.05268 3.38974 4.99997 3.25705 4.99997 C 3.12437 4.99997 2.99712 5.05268 2.9033 5.1465 L 1.02518 7.02525 C 0.368768 7.68166 0 8.57195 0 9.50025 C 0 10.4286 0.368768 11.3188 1.02518 11.9753 C 1.68159 12.6317 2.57187 13.0004 3.50018 13.0004 C 4.42848 13.0004 5.31877 12.6317 5.97518 11.9753 L 7.85393 10.0959 C 7.94767 10.0021 8.00029 9.87484 8.00024 9.74222 C 8.00018 9.6096 7.94744 9.48243 7.85362 9.38869 C 7.7598 9.29495 7.63258 9.24232 7.49996 9.24238 C 7.36733 9.24244 7.24017 9.29518 7.14643 9.389 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:191",
+                "name": "Icon=None, State=Visited Hover",
+                "x": 20,
+                "y": 203,
+                "w": 100,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "10:192",
+                    "name": "Visit the Forge",
+                    "w": 100,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.2980392277240753,
+                          "g": 0.003921568859368563,
+                          "b": 0.05098039284348488
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 33
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 33
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 28
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 3,
+                    "chars": "Visit the Forge",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtDc": "UNDERLINE",
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:193",
+                "name": "Icon=Leading, State=Visited Hover",
+                "x": 163,
+                "y": 203,
+                "w": 126,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 3,
+                    "id": "10:194",
+                    "name": "Icon",
+                    "y": 1,
+                    "w": 16,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 20
+                      },
+                      "h": {
+                        "_varRef": 20
+                      }
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "cPropR": {},
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "_isInstance": true,
+                    "_insRef": 0,
+                    "cAxSz": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I10:194;10:157",
+                        "name": "Vector",
+                        "x": 1.4998213052749634,
+                        "y": 1.499747633934021,
+                        "w": 13.000431060791016,
+                        "h": 13.000431060791016,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.2980392277240753,
+                              "g": 0.003921568859368563,
+                              "b": 0.05098039284348488
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 34
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0.125,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 34
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "fillG": [
+                          {
+                            "data": "M 8.85393 4.1465 C 8.90042 4.19294 8.9373 4.24808 8.96246 4.30878 C 8.98762 4.36948 9.00057 4.43455 9.00057 4.50025 C 9.00057 4.56596 8.98762 4.63102 8.96246 4.69172 C 8.9373 4.75242 8.90042 4.80757 8.85393 4.854 L 4.85393 8.854 C 4.80747 8.90046 4.75232 8.93731 4.69163 8.96245 C 4.63093 8.98759 4.56588 9.00053 4.50018 9.00053 C 4.43448 9.00053 4.36943 8.98759 4.30873 8.96245 C 4.24803 8.93731 4.19288 8.90046 4.14643 8.854 C 4.09997 8.80755 4.06312 8.7524 4.03798 8.6917 C 4.01284 8.631 3.9999 8.56595 3.9999 8.50025 C 3.9999 8.43456 4.01284 8.3695 4.03798 8.3088 C 4.06312 8.24811 4.09997 8.19296 4.14643 8.1465 L 8.14643 4.1465 C 8.19286 4.10001 8.24801 4.06313 8.30871 4.03797 C 8.36941 4.01281 8.43447 3.99986 8.50018 3.99986 C 8.56589 3.99986 8.63095 4.01281 8.69165 4.03797 C 8.75235 4.06313 8.80749 4.10001 8.85393 4.1465 Z M 11.9752 1.02525 C 11.6502 0.70021 11.2643 0.44237 10.8397 0.266456 C 10.415 0.090542 9.95984 0 9.50018 0 C 9.04052 0 8.58537 0.090542 8.1607 0.266456 C 7.73604 0.44237 7.35019 0.70021 7.02518 1.02525 L 5.14643 2.90338 C 5.05261 2.9972 4.9999 3.12445 4.9999 3.25713 C 4.9999 3.38981 5.05261 3.51706 5.14643 3.61088 C 5.24025 3.7047 5.3675 3.75741 5.50018 3.75741 C 5.63286 3.75741 5.76011 3.7047 5.85393 3.61088 L 7.73268 1.73588 C 8.20323 1.27566 8.83629 1.01957 9.49448 1.0232 C 10.1527 1.02682 10.7829 1.28987 11.2483 1.75524 C 11.7138 2.22061 11.9769 2.85077 11.9807 3.50895 C 11.9844 4.16714 11.7284 4.80024 11.2683 5.27088 L 9.38893 7.14963 C 9.29511 7.24337 9.24237 7.37053 9.24231 7.50316 C 9.24225 7.63578 9.29488 7.76299 9.38862 7.85682 C 9.48235 7.95064 9.60952 8.00338 9.74214 8.00344 C 9.87477 8.00349 10.002 7.95087 10.0958 7.85713 L 11.9752 5.97525 C 12.3002 5.65024 12.5581 5.26439 12.734 4.83973 C 12.9099 4.41506 13.0004 3.95991 13.0004 3.50025 C 13.0004 3.0406 12.9099 2.58544 12.734 2.16078 C 12.5581 1.73612 12.3002 1.35026 11.9752 1.02525 Z M 7.14643 9.389 L 5.26768 11.2678 C 5.03648 11.5041 4.76068 11.6923 4.45625 11.8214 C 4.15182 11.9505 3.82482 12.0179 3.49416 12.0197 C 3.16351 12.0215 2.83578 11.9577 2.52995 11.832 C 2.22412 11.7063 1.94626 11.5212 1.71247 11.2873 C 1.47868 11.0535 1.2936 10.7756 1.16794 10.4698 C 1.04229 10.1639 0.978555 9.83616 0.980434 9.50551 C 0.982314 9.17486 1.04977 8.84786 1.17889 8.54346 C 1.30802 8.23905 1.49625 7.96329 1.73268 7.73213 L 3.6108 5.854 C 3.70462 5.76018 3.75733 5.63293 3.75733 5.50025 C 3.75733 5.36757 3.70462 5.24032 3.6108 5.1465 C 3.51698 5.05268 3.38974 4.99997 3.25705 4.99997 C 3.12437 4.99997 2.99712 5.05268 2.9033 5.1465 L 1.02518 7.02525 C 0.368768 7.68166 0 8.57195 0 9.50025 C 0 10.4286 0.368768 11.3188 1.02518 11.9753 C 1.68159 12.6317 2.57187 13.0004 3.50018 13.0004 C 4.42848 13.0004 5.31877 12.6317 5.97518 11.9753 L 7.85393 10.0959 C 7.94767 10.0021 8.00029 9.87484 8.00024 9.74222 C 8.00018 9.6096 7.94744 9.48243 7.85362 9.38869 C 7.7598 9.29495 7.63258 9.24232 7.49996 9.24238 C 7.36733 9.24244 7.24017 9.29518 7.14643 9.389 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": 2,
+                    "id": "10:195",
+                    "name": "Goblin Archives",
+                    "x": 20,
+                    "w": 106,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.2980392277240753,
+                          "g": 0.003921568859368563,
+                          "b": 0.05098039284348488
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 33
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 33
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 28
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 3,
+                    "chars": "Goblin Archives",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtDc": "UNDERLINE",
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "type": 4,
+                "id": "10:196",
+                "name": "Icon=Trailing, State=Visited Hover",
+                "x": 332,
+                "y": 203,
+                "w": 102,
+                "h": 18,
+                "stkAl": "INSIDE",
+                "bndVar": {
+                  "itmSp": {
+                    "_varRef": 2
+                  }
+                },
+                "cPropR": {},
+                "laySzH": "HUG",
+                "laySzV": "HUG",
+                "layMd": "HORIZONTAL",
+                "pAxSz": "FIXED",
+                "cAxAl": "CENTER",
+                "itmSp": 4,
+                "child": [
+                  {
+                    "type": 2,
+                    "id": "10:197",
+                    "name": "Rune Codex",
+                    "w": 82,
+                    "h": 18,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": true,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 0.2980392277240753,
+                          "g": 0.003921568859368563,
+                          "b": 0.05098039284348488
+                        },
+                        "bndVar": {
+                          "color": {
+                            "_varRef": 33
+                          }
+                        }
+                      }
+                    ],
+                    "stkAl": "OUTSIDE",
+                    "bndVar": {
+                      "fills": [
+                        {
+                          "_varRef": 33
+                        }
+                      ],
+                      "letSp": [
+                        {
+                          "_varRef": 13
+                        }
+                      ],
+                      "fontS": [
+                        {
+                          "_varRef": 15
+                        }
+                      ],
+                      "fontW": [
+                        {
+                          "_varRef": 28
+                        }
+                      ]
+                    },
+                    "cPropR": {},
+                    "laySzH": "HUG",
+                    "laySzV": "HUG",
+                    "_stlRef": 3,
+                    "chars": "Rune Codex",
+                    "fontN": {
+                      "family": "Lexend",
+                      "style": "Regular"
+                    },
+                    "fontS": 14,
+                    "txtDc": "UNDERLINE",
+                    "txtAr": "WIDTH_AND_HEIGHT"
+                  },
+                  {
+                    "type": 3,
+                    "id": "10:198",
+                    "name": "Icon",
+                    "x": 86,
+                    "y": 1,
+                    "w": 16,
+                    "h": 16,
+                    "fills": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "stkAl": "INSIDE",
+                    "bndVar": {
+                      "w": {
+                        "_varRef": 20
+                      },
+                      "h": {
+                        "_varRef": 20
+                      }
+                    },
+                    "backgrounds": [
+                      {
+                        "type": 15,
+                        "visbl": false,
+                        "opcty": 1,
+                        "blnMd": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "bndVar": {}
+                      }
+                    ],
+                    "cPropR": {},
+                    "laySzH": "FIXED",
+                    "laySzV": "FIXED",
+                    "_isInstance": true,
+                    "_insRef": 0,
+                    "cAxSz": "FIXED",
+                    "child": [
+                      {
+                        "type": 5,
+                        "id": "I10:198;10:157",
+                        "name": "Vector",
+                        "x": 1.4998213052749634,
+                        "y": 1.499747633934021,
+                        "w": 13.000431060791016,
+                        "h": 13.000431060791016,
+                        "cnsHr": "SCALE",
+                        "cnsVr": "SCALE",
+                        "fills": [
+                          {
+                            "type": 15,
+                            "visbl": true,
+                            "opcty": 1,
+                            "blnMd": "NORMAL",
+                            "color": {
+                              "r": 0.2980392277240753,
+                              "g": 0.003921568859368563,
+                              "b": 0.05098039284348488
+                            },
+                            "bndVar": {
+                              "color": {
+                                "_varRef": 34
+                              }
+                            }
+                          }
+                        ],
+                        "stkWt": 0.125,
+                        "stkAl": "INSIDE",
+                        "bndVar": {
+                          "fills": [
+                            {
+                              "_varRef": 34
+                            }
+                          ]
+                        },
+                        "cPropR": {},
+                        "laySzH": "FIXED",
+                        "laySzV": "FIXED",
+                        "fillG": [
+                          {
+                            "data": "M 8.85393 4.1465 C 8.90042 4.19294 8.9373 4.24808 8.96246 4.30878 C 8.98762 4.36948 9.00057 4.43455 9.00057 4.50025 C 9.00057 4.56596 8.98762 4.63102 8.96246 4.69172 C 8.9373 4.75242 8.90042 4.80757 8.85393 4.854 L 4.85393 8.854 C 4.80747 8.90046 4.75232 8.93731 4.69163 8.96245 C 4.63093 8.98759 4.56588 9.00053 4.50018 9.00053 C 4.43448 9.00053 4.36943 8.98759 4.30873 8.96245 C 4.24803 8.93731 4.19288 8.90046 4.14643 8.854 C 4.09997 8.80755 4.06312 8.7524 4.03798 8.6917 C 4.01284 8.631 3.9999 8.56595 3.9999 8.50025 C 3.9999 8.43456 4.01284 8.3695 4.03798 8.3088 C 4.06312 8.24811 4.09997 8.19296 4.14643 8.1465 L 8.14643 4.1465 C 8.19286 4.10001 8.24801 4.06313 8.30871 4.03797 C 8.36941 4.01281 8.43447 3.99986 8.50018 3.99986 C 8.56589 3.99986 8.63095 4.01281 8.69165 4.03797 C 8.75235 4.06313 8.80749 4.10001 8.85393 4.1465 Z M 11.9752 1.02525 C 11.6502 0.70021 11.2643 0.44237 10.8397 0.266456 C 10.415 0.090542 9.95984 0 9.50018 0 C 9.04052 0 8.58537 0.090542 8.1607 0.266456 C 7.73604 0.44237 7.35019 0.70021 7.02518 1.02525 L 5.14643 2.90338 C 5.05261 2.9972 4.9999 3.12445 4.9999 3.25713 C 4.9999 3.38981 5.05261 3.51706 5.14643 3.61088 C 5.24025 3.7047 5.3675 3.75741 5.50018 3.75741 C 5.63286 3.75741 5.76011 3.7047 5.85393 3.61088 L 7.73268 1.73588 C 8.20323 1.27566 8.83629 1.01957 9.49448 1.0232 C 10.1527 1.02682 10.7829 1.28987 11.2483 1.75524 C 11.7138 2.22061 11.9769 2.85077 11.9807 3.50895 C 11.9844 4.16714 11.7284 4.80024 11.2683 5.27088 L 9.38893 7.14963 C 9.29511 7.24337 9.24237 7.37053 9.24231 7.50316 C 9.24225 7.63578 9.29488 7.76299 9.38862 7.85682 C 9.48235 7.95064 9.60952 8.00338 9.74214 8.00344 C 9.87477 8.00349 10.002 7.95087 10.0958 7.85713 L 11.9752 5.97525 C 12.3002 5.65024 12.5581 5.26439 12.734 4.83973 C 12.9099 4.41506 13.0004 3.95991 13.0004 3.50025 C 13.0004 3.0406 12.9099 2.58544 12.734 2.16078 C 12.5581 1.73612 12.3002 1.35026 11.9752 1.02525 Z M 7.14643 9.389 L 5.26768 11.2678 C 5.03648 11.5041 4.76068 11.6923 4.45625 11.8214 C 4.15182 11.9505 3.82482 12.0179 3.49416 12.0197 C 3.16351 12.0215 2.83578 11.9577 2.52995 11.832 C 2.22412 11.7063 1.94626 11.5212 1.71247 11.2873 C 1.47868 11.0535 1.2936 10.7756 1.16794 10.4698 C 1.04229 10.1639 0.978555 9.83616 0.980434 9.50551 C 0.982314 9.17486 1.04977 8.84786 1.17889 8.54346 C 1.30802 8.23905 1.49625 7.96329 1.73268 7.73213 L 3.6108 5.854 C 3.70462 5.76018 3.75733 5.63293 3.75733 5.50025 C 3.75733 5.36757 3.70462 5.24032 3.6108 5.1465 C 3.51698 5.05268 3.38974 4.99997 3.25705 4.99997 C 3.12437 4.99997 2.99712 5.05268 2.9033 5.1465 L 1.02518 7.02525 C 0.368768 7.68166 0 8.57195 0 9.50025 C 0 10.4286 0.368768 11.3188 1.02518 11.9753 C 1.68159 12.6317 2.57187 13.0004 3.50018 13.0004 C 4.42848 13.0004 5.31877 12.6317 5.97518 11.9753 L 7.85393 10.0959 C 7.94767 10.0021 8.00029 9.87484 8.00024 9.74222 C 8.00018 9.6096 7.94744 9.48243 7.85362 9.38869 C 7.7598 9.29495 7.63258 9.24232 7.49996 9.24238 C 7.36733 9.24244 7.24017 9.29518 7.14643 9.389 Z",
+                            "windRule": "NONZERO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "SECTION",
+        "id": "1:7",
+        "name": "Icons",
+        "x": 792,
+        "w": 68,
+        "h": 88,
+        "fills": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 1,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "bndVar": {}
+          }
+        ],
+        "strks": [
+          {
+            "type": 15,
+            "visbl": true,
+            "opcty": 0.10000000149011612,
+            "blnMd": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "bndVar": {}
+          }
+        ],
+        "stkAl": "INSIDE",
+        "corR": 2,
+        "child": [
+          {
+            "type": 4,
+            "id": "10:160",
+            "name": "Icon",
+            "x": 22,
+            "y": 32,
+            "w": 24,
+            "h": 24,
+            "fills": [
+              {
+                "type": 15,
+                "visbl": false,
+                "opcty": 1,
+                "blnMd": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "bndVar": {}
+              }
+            ],
+            "stkAl": "INSIDE",
+            "backgrounds": [
+              {
+                "type": 15,
+                "visbl": false,
+                "opcty": 1,
+                "blnMd": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "bndVar": {}
+              }
+            ],
+            "cPropR": {},
+            "laySzH": "FIXED",
+            "laySzV": "FIXED",
+            "cPropD": {},
+            "cAxSz": "FIXED",
+            "child": [
+              {
+                "type": 5,
+                "id": "10:157",
+                "name": "Vector",
+                "x": 2.24973201751709,
+                "y": 2.2496213912963867,
+                "w": 19.500646591186523,
+                "h": 19.500646591186523,
+                "cnsHr": "SCALE",
+                "cnsVr": "SCALE",
+                "_fillStyleRef": 4,
+                "fills": [
+                  {
+                    "type": 15,
+                    "visbl": true,
+                    "opcty": 1,
+                    "blnMd": "NORMAL",
+                    "color": {
+                      "r": 0.20392157137393951,
+                      "g": 0.20000000298023224,
+                      "b": 0.1882352977991104
+                    },
+                    "bndVar": {}
+                  }
+                ],
+                "stkWt": 0.125,
+                "stkAl": "INSIDE",
+                "cPropR": {},
+                "laySzH": "FIXED",
+                "laySzV": "FIXED",
+                "fillG": [
+                  {
+                    "data": "M 13.2809 6.21975 C 13.3506 6.28941 13.4059 6.37213 13.4437 6.46317 C 13.4814 6.55422 13.5009 6.65182 13.5009 6.75038 C 13.5009 6.84894 13.4814 6.94654 13.4437 7.03758 C 13.4059 7.12863 13.3506 7.21135 13.2809 7.281 L 7.28089 13.281 C 7.21121 13.3507 7.12848 13.406 7.03744 13.4437 C 6.94639 13.4814 6.84881 13.5008 6.75027 13.5008 C 6.65172 13.5008 6.55414 13.4814 6.4631 13.4437 C 6.37205 13.406 6.28932 13.3507 6.21964 13.281 C 6.14996 13.2113 6.09469 13.1286 6.05697 13.0376 C 6.01926 12.9465 5.99985 12.8489 5.99985 12.7504 C 5.99985 12.6518 6.01926 12.5543 6.05697 12.4632 C 6.09469 12.3722 6.14996 12.2894 6.21964 12.2198 L 12.2196 6.21975 C 12.2893 6.15002 12.372 6.0947 12.4631 6.05696 C 12.5541 6.01922 12.6517 5.99979 12.7503 5.99979 C 12.8488 5.99979 12.9464 6.01922 13.0375 6.05696 C 13.1285 6.0947 13.2112 6.15002 13.2809 6.21975 Z M 17.9628 1.53788 C 17.4753 1.05031 16.8965 0.663554 16.2595 0.399684 C 15.6225 0.135813 14.9398 0 14.2503 0 C 13.5608 0 12.878 0.135813 12.2411 0.399684 C 11.6041 0.663554 11.0253 1.05031 10.5378 1.53788 L 7.71964 4.35507 C 7.57891 4.4958 7.49985 4.68667 7.49985 4.88569 C 7.49985 5.08471 7.57891 5.27559 7.71964 5.41632 C 7.86037 5.55705 8.05124 5.63611 8.25027 5.63611 C 8.44929 5.63611 8.64016 5.55705 8.78089 5.41632 L 11.599 2.60382 C 12.3048 1.91349 13.2544 1.52936 14.2417 1.5348 C 15.229 1.54024 16.1743 1.9348 16.8725 2.63286 C 17.5707 3.33092 17.9654 4.27615 17.971 5.26343 C 17.9766 6.25071 17.5927 7.20037 16.9025 7.90632 L 14.0834 10.7244 C 13.9427 10.865 13.8636 11.0558 13.8635 11.2547 C 13.8634 11.4537 13.9423 11.6445 14.0829 11.7852 C 14.2235 11.926 14.4143 12.0051 14.6132 12.0052 C 14.8122 12.0052 15.003 11.9263 15.1437 11.7857 L 17.9628 8.96288 C 18.4503 8.47536 18.8371 7.89659 19.101 7.25959 C 19.3648 6.6226 19.5006 5.93986 19.5006 5.25038 C 19.5006 4.56089 19.3648 3.87816 19.101 3.24117 C 18.8371 2.60417 18.4503 2.02539 17.9628 1.53788 Z M 10.7196 14.0835 L 7.90152 16.9016 C 7.55472 17.2562 7.14102 17.5385 6.68438 17.7321 C 6.22774 17.9257 5.73722 18.0268 5.24124 18.0295 C 4.74526 18.0323 4.25367 17.9366 3.79492 17.748 C 3.33617 17.5594 2.91939 17.2817 2.56871 16.931 C 2.21802 16.5802 1.9404 16.1634 1.75192 15.7046 C 1.56343 15.2459 1.46783 14.7542 1.47065 14.2583 C 1.47347 13.7623 1.57465 13.2718 1.76834 12.8152 C 1.96203 12.3586 2.24437 11.9449 2.59902 11.5982 L 5.4162 8.781 C 5.55694 8.64027 5.636 8.4494 5.636 8.25038 C 5.636 8.05136 5.55694 7.86048 5.4162 7.71975 C 5.27547 7.57902 5.0846 7.49996 4.88558 7.49996 C 4.68656 7.49996 4.49569 7.57902 4.35496 7.71975 L 1.53777 10.5379 C 0.553152 11.5225 0 12.8579 0 14.2504 C 0 15.6428 0.553152 16.9783 1.53777 17.9629 C 2.52238 18.9475 3.85781 19.5006 5.25027 19.5006 C 6.64273 19.5006 7.97815 18.9475 8.96277 17.9629 L 11.7809 15.1438 C 11.9215 15.0031 12.0004 14.8123 12.0004 14.6133 C 12.0003 14.4144 11.9212 14.2236 11.7804 14.083 C 11.6397 13.9424 11.4489 13.8635 11.2499 13.8636 C 11.051 13.8637 10.8602 13.9428 10.7196 14.0835 Z",
+                    "windRule": "NONZERO"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
